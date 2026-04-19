@@ -1,26 +1,24 @@
 # Graph Report - ./raw  (2026-04-19)
 
 ## Corpus Check
-- 27 files · ~20,000 words
+- 28 files · ~23,000 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 187 nodes · 254 edges · 16 communities detected
-- Extraction: 74% EXTRACTED · 24% INFERRED · 2% AMBIGUOUS · INFERRED: 61 edges (avg confidence: 0.76)
-- Token cost: 5,200 input · 7,600 output
+- 213 nodes · 356 edges · 14 communities detected
+- Extraction: 79% EXTRACTED · 20% INFERRED · 1% AMBIGUOUS · INFERRED: 70 edges (avg confidence: 0.77)
+- Token cost: 4,800 input · 7,200 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Representation Geometry + Catalog Backbone|Representation Geometry + Catalog Backbone]]
-- [[_COMMUNITY_Two-Timescale Bridge (device↔slowfast math)|Two-Timescale Bridge (device↔slow/fast math)]]
-- [[_COMMUNITY_Bit-Plane & Binarized Computation|Bit-Plane & Binarized Computation]]
-- [[_COMMUNITY_Local  Non-Backprop Learning|Local / Non-Backprop Learning]]
-- [[_COMMUNITY_EGGROLL + Symbolic Regression|EGGROLL + Symbolic Regression]]
-- [[_COMMUNITY_Interaction Field & State-Region Formalism|Interaction Field & State-Region Formalism]]
+- [[_COMMUNITY_ES + Symbolic Regression + Catalog Core|ES + Symbolic Regression + Catalog Core]]
+- [[_COMMUNITY_Bit-Level Physics & Reinterpretation + Encoder|Bit-Level Physics & Reinterpretation + Encoder]]
+- [[_COMMUNITY_Two-Timescale Bridge + Pulse-Density Encoder|Two-Timescale Bridge + Pulse-Density Encoder]]
+- [[_COMMUNITY_Canonical Forward Pass + State-Region Nonlinearity|Canonical Forward Pass + State-Region Nonlinearity]]
+- [[_COMMUNITY_LocalNon-Backprop Learning + Stage-2 Options|Local/Non-Backprop Learning + Stage-2 Options]]
+- [[_COMMUNITY_Linear Combiner W + In-Memory Attention|Linear Combiner W + In-Memory Attention]]
 - [[_COMMUNITY_EML Operator Foundations|EML Operator Foundations]]
-- [[_COMMUNITY_NS-RAM & Neuromorphic Hardware|NS-RAM & Neuromorphic Hardware]]
-- [[_COMMUNITY_Learnable Physical Parameter (VQC↔KAN bridge)|Learnable Physical Parameter (VQC↔KAN bridge)]]
-- [[_COMMUNITY_Analog Continuum → Low-Rank Bridge|Analog Continuum → Low-Rank Bridge]]
-- [[_COMMUNITY_In-Memory Attention + Crossbar-Logit Bridge|In-Memory Attention + Crossbar-Logit Bridge]]
+- [[_COMMUNITY_Interaction Field & State-Region Formalism|Interaction Field & State-Region Formalism]]
+- [[_COMMUNITY_Learnable Physical Parameter (VQC↔KAN)|Learnable Physical Parameter (VQC↔KAN)]]
 - [[_COMMUNITY_Convergence Theory & NTK|Convergence Theory & NTK]]
 - [[_COMMUNITY_KV-Cache Quantization Family|KV-Cache Quantization Family]]
 - [[_COMMUNITY_Matrix Gaussian ES|Matrix Gaussian ES]]
@@ -28,16 +26,16 @@
 - [[_COMMUNITY_Test-Time Discovery & World Models|Test-Time Discovery & World Models]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `EGGROLL Algorithm` - 15 edges
-2. `Device-Math Correspondence Catalog` - 13 edges
+1. `EGGROLL Algorithm` - 16 edges
+2. `Device-Math Correspondence Catalog` - 16 edges
 3. `EML Operator eml(x,y)=exp(x)-ln(y)` - 12 edges
-4. `NNs as State-Region Dictionaries (overview)` - 10 edges
-5. `NS-RAM Cell (Neuro-Synaptic RAM)` - 9 edges
-6. `Pair 7: Kink Effect ↔ ReLU Polytope Boundary` - 9 edges
-7. `Bit-Level Operator Framework for ReLU MLPs (overview)` - 8 edges
-8. `Fast Activation x(t) / Slow Weight w(t) Time-Scale Separation` - 8 edges
-9. `Pair 2: Charge-Trapping ↔ Consolidation/Slow-Weight` - 8 edges
-10. `Pair 6: Single-Cell Two-Timescale ↔ Fast/Slow LR` - 8 edges
+4. `NNs as State-Region Dictionaries (overview)` - 12 edges
+5. `Pair 7: Kink Effect ↔ ReLU Polytope Boundary` - 12 edges
+6. `Component E — Encoder (bits → analog, linear injection)` - 12 edges
+7. `CMOS MOSFET (Bulk-Silicon)` - 11 edges
+8. `Bit-Level Operator Framework for ReLU MLPs (overview)` - 11 edges
+9. `Bit-Analog Formulation v1 (E,W,N,D Quadruple)` - 11 edges
+10. `Component N — Selective-passing nonlinearity (transistor I-V)` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Operation-First: Transition Speed = Compute Throughput` --semantically_similar_to--> `In-Memory Attention Compute (analog crossbars for KV)`  [INFERRED] [semantically similar]
@@ -52,73 +50,65 @@
   raw/Semi-Passive Physical Neural Devices.md → raw/Analog in-memory computing attention mechanism for fast and energy-efficient large language models.pdf
 
 ## Hyperedges (group relationships)
-- **Two-Timescale Physics → Slow/Fast Math** —  [EXTRACTED 1.00]
-- **Analog Continuum → Low-Rank Math** —  [EXTRACTED 1.00]
-- **Piecewise Physics → Piecewise-Linear Math** —  [EXTRACTED 1.00]
+- **Bit-Analog Forward-Pass Quadruple (E,W,N,D + formulation)** —  [EXTRACTED 1.00]
+- **Canonical Minimal Model (E=A bit-plane, W=crossbar, N=α kink, D=comparator)** —  [EXTRACTED 1.00]
+- **Same-Transistor Dual-Read (N analog-read + D binary-read of one MOSFET at kink)** —  [INFERRED 0.90]
 
 ## Communities
 
-### Community 0 - "Representation Geometry + Catalog Backbone"
+### Community 0 - "ES + Symbolic Regression + Catalog Core"
+Cohesion: 0.06
+Nodes (36): Adam Optimizer, EML Master Formula (Parameterized Tree), PyTorch (Paszke et al. 2019), Rationale: Interpretability via Snap to Closed-form, Symbolic Regression via EML Trees, Identity: shared low-pass filter τ_fast⁻¹≈T_fast⁻¹, Pair 1: Punch-Through ↔ ES Fast-Weight Momentum, Test: 2-transistor EGGROLL vs FP logistic regression (+28 more)
+
+### Community 1 - "Bit-Level Physics & Reinterpretation + Encoder"
+Cohesion: 0.11
+Nodes (29): Adjoint Credit Field (backprop reinterpreted), Bit-Plane Overlap Model for Multiplication, Physical Reinterpretation of Deep Learning (overview), Scattering-Kernel Interaction Model, Signal-Particle-Energy Mapping of NN Elements, Binarized Neural Networks, XNOR + Popcount MAC Kernel, Composition Identity — (E_bitplane,W,N_kink,D) = ReLU MLP / carry-save tree (+21 more)
+
+### Community 2 - "Two-Timescale Bridge + Pulse-Density Encoder"
+Cohesion: 0.11
+Nodes (27): Encoder Option B — Pulse-density (unary, Hamming weight), Hybrid CMOS + Organic Neuromorphic Device Stack, Pair 2: Charge-Trapping ↔ Consolidation/Slow-Weight, Predicted identity: η_slow = ∫ P(τ)/τ dτ, Rationale: trap-depth heterogeneity ↔ multi-timescale EMA, Pair 5: Floating-Bulk Drift ↔ Running-Stats Norm, Predicted identity: α = Δt/(C_B·R_leak), Rationale: normalization is free in silicon via V_B (+19 more)
+
+### Community 3 - "Canonical Forward Pass + State-Region Nonlinearity"
+Cohesion: 0.2
+Nodes (22): Geometric Explanation of Likelihood OOD Detection Paradox, Manifold Geometry / Jacobian Explanation of OOD, Canonical Minimal Model (E_bitplane, crossbar W, N_kink, D_comparator), Component D — Decoder (comparator array), Component N — Selective-passing nonlinearity (transistor I-V), Nonlinearity Option α — Two-piece kink / ReLU polytope (canonical), Nonlinearity Option β — Subthreshold exponential (weak inversion), Nonlinearity Option γ — Saturation square-law (≈ squared-ReLU/GELU) (+14 more)
+
+### Community 4 - "Local/Non-Backprop Learning + Stage-2 Options"
+Cohesion: 0.13
+Nodes (21): Neuromorphic Processor with On-Chip Learning, On-Chip Local Learning Rule for Beyond-CMOS Devices, Event-Driven Sparse Interaction Model, Open Problem — Stage 2 Learning Rule (D is discontinuous), Stage 2 Option — Layer-local learning (no gradient crosses D), Stage 2 Option — Score-function / ES gradient (black-box perturbation), Stage 2 Option — Surrogate / straight-through gradient (enrichment target), FPGA/ASIC Systolic Target (+13 more)
+
+### Community 5 - "Linear Combiner W + In-Memory Attention"
+Cohesion: 0.19
+Nodes (21): In-Memory Attention Compute (analog crossbars for KV), Analog In-Memory Computing Attention, Catalog Absorption — 8-pair mapping ⇒ 4-slot schema + pending learning rule, Component W — Linear Combiner (Kirchhoff crossbar MVM), Constraint — G must be updated locally per crossbar cell, Lookup-Based Conditional Memory as New Sparsity Axis, Conditional Memory via Scalable Lookup, Grouping B: Analog continuum → low-rank math (+13 more)
+
+### Community 6 - "EML Operator Foundations"
 Cohesion: 0.12
-Nodes (24): Geometric Explanation of Likelihood OOD Detection Paradox, Manifold Geometry / Jacobian Explanation of OOD, Grouping B: Analog continuum → low-rank math, Grouping C: Piecewise physics → piecewise-linear math, Grouping A: Two-timescale physics → slow/fast math, Device-Math Correspondence Catalog, Identity: shared low-pass filter τ_fast⁻¹≈T_fast⁻¹, Pair 1: Punch-Through ↔ ES Fast-Weight Momentum (+16 more)
+Nodes (16): Binary Tree Grammar S->1|eml(S,S), EDL Operator edl(x,y)=exp(x)/ln(y), EML Operator eml(x,y)=exp(x)-ln(y), Euler's Formula e^(i*phi)=cos+i*sin, Exp-Log Representation (Liouville 1835), KAN Kolmogorov-Arnold Networks (Liu et al.), Lean 4 Theorem Prover, NAND Gate (Sheffer Stroke) (+8 more)
 
-### Community 1 - "Two-Timescale Bridge (device↔slow/fast math)"
-Cohesion: 0.13
-Nodes (24): Pair 2: Charge-Trapping ↔ Consolidation/Slow-Weight, Predicted identity: η_slow = ∫ P(τ)/τ dτ, Rationale: trap-depth heterogeneity ↔ multi-timescale EMA, Pair 5: Floating-Bulk Drift ↔ Running-Stats Norm, Predicted identity: α = Δt/(C_B·R_leak), Rationale: normalization is free in silicon via V_B, Predicted identity: η_fast/η_slow = τ_slow/τ_fast, Rationale: makes existing hyperedge quantitative (+16 more)
-
-### Community 2 - "Bit-Plane & Binarized Computation"
-Cohesion: 0.11
-Nodes (20): Adjoint Credit Field (backprop reinterpreted), Bit-Plane Overlap Model for Multiplication, Event-Driven Sparse Interaction Model, Physical Reinterpretation of Deep Learning (overview), Scattering-Kernel Interaction Model, Signal-Particle-Energy Mapping of NN Elements, Binarized Neural Networks, XNOR + Popcount MAC Kernel (+12 more)
-
-### Community 3 - "Local / Non-Backprop Learning"
-Cohesion: 0.13
-Nodes (20): Neuromorphic Processor with On-Chip Learning, On-Chip Local Learning Rule for Beyond-CMOS Devices, FPGA/ASIC Systolic Target, Hybrid CMOS + Organic Neuromorphic Device Stack, CMOS-Integrated Organic Neuromorphic Imagers, Local Hebbian Rule Modulated by Global Direction Signal, Hebbian Learning with Global Direction, Layer-Local Training Without End-to-End Backprop (+12 more)
-
-### Community 4 - "EGGROLL + Symbolic Regression"
-Cohesion: 0.11
-Nodes (18): Adam Optimizer, EML Master Formula (Parameterized Tree), PyTorch (Paszke et al. 2019), Rationale: Interpretability via Snap to Closed-form, Symbolic Regression via EML Trees, EGGROLL (Korean Translation), Evolution Strategies (ES), LoRA (Low-Rank Adaptation) (+10 more)
-
-### Community 5 - "Interaction Field & State-Region Formalism"
+### Community 7 - "Interaction Field & State-Region Formalism"
 Cohesion: 0.14
 Nodes (16): 10-Axiom Formalization of Stateful NN, Interaction-State Layer (multi-channel node, edge-state), Shared-Basis Low-Rank Edge Interaction, Stateful Interaction Field Formalism, Mixture of Transition Autoencoders, Piecewise Linear Region Atlas, Rank-1 Operator Primitive (v_i u_i^T), Residual Transition Autoencoder Block (+8 more)
 
-### Community 6 - "EML Operator Foundations"
-Cohesion: 0.15
-Nodes (13): EDL Operator edl(x,y)=exp(x)/ln(y), EML Operator eml(x,y)=exp(x)-ln(y), Euler's Formula e^(i*phi)=cos+i*sin, Exp-Log Representation (Liouville 1835), KAN Kolmogorov-Arnold Networks (Liu et al.), Lean 4 Theorem Prover, NAND Gate (Sheffer Stroke), Rationale: Complex Domain Required Internally (+5 more)
+### Community 8 - "Learnable Physical Parameter (VQC↔KAN)"
+Cohesion: 0.22
+Nodes (13): NN as Structured Reactive Medium, Learnable Edge Activation Functions (KAN), Practitioner's Guide to Kolmogorov-Arnold Networks, Primer on Quantum Machine Learning, Variational Quantum Circuits as Learnable Physical Systems, Identity: VQC angle = KAN periodic edge activation, Rationale: physics-unitarity ↔ constraint-unitarity duality, Pair 8: VQC Angle θ ↔ KAN Learnable Rotation (+5 more)
 
-### Community 7 - "NS-RAM & Neuromorphic Hardware"
-Cohesion: 0.18
-Nodes (12): EGG (Evolved Generative GRU, int8 RNN), Rationale: Nonlinear RNN Choice for EGG, Artificial Neural Network (ANN), Intel Loihi 2 (Orchard et al. 2021), Electronic Neuron (Leaky-Integrate-and-Fire), IBM NorthPole (Cassidy et al. 2024), NS-RAM Cell (Neuro-Synaptic RAM), Rationale: CMOS Compatibility/No Alien Materials (+4 more)
-
-### Community 8 - "Learnable Physical Parameter (VQC↔KAN bridge)"
-Cohesion: 0.27
-Nodes (11): NN as Structured Reactive Medium, Learnable Edge Activation Functions (KAN), Practitioner's Guide to Kolmogorov-Arnold Networks, Primer on Quantum Machine Learning, Variational Quantum Circuits as Learnable Physical Systems, Identity: VQC angle = KAN periodic edge activation, Rationale: physics-unitarity ↔ constraint-unitarity duality, Pair 8: VQC Angle θ ↔ KAN Learnable Rotation (+3 more)
-
-### Community 9 - "Analog Continuum → Low-Rank Bridge"
-Cohesion: 0.27
-Nodes (10): Binary Tree Grammar S->1|eml(S,S), Identity: usable rank r bounded by cell resolution b, Pair 3: Memristor/PCM Levels ↔ Low-Rank Rank r, Test: b=4 vs b=8 memristor EGGROLL convergence knee, Low-Rank Perturbation E=AB^T/sqrt(r), Rationale: Arithmetic Intensity Improvement, Rank-r Perturbation Structure, Rationale: Low-rank Structure for High Arithmetic Intensity (+2 more)
-
-### Community 10 - "In-Memory Attention + Crossbar-Logit Bridge"
-Cohesion: 0.33
-Nodes (7): In-Memory Attention Compute (analog crossbars for KV), Analog In-Memory Computing Attention, Lookup-Based Conditional Memory as New Sparsity Axis, Conditional Memory via Scalable Lookup, Pair 4: Analog Crossbar MVM ↔ Pre-Softmax Logits, Identity: one crossbar MVM cycle = QK^T/√d_k, Implication: softmax must be off-chip or approximated
-
-### Community 11 - "Convergence Theory & NTK"
+### Community 9 - "Convergence Theory & NTK"
 Cohesion: 0.67
 Nodes (3): Convergence to Linearity Theorem, Gaussian Annulus Theorem, Neural Tangent Kernel (Jacot et al. 2018)
 
-### Community 12 - "KV-Cache Quantization Family"
+### Community 10 - "KV-Cache Quantization Family"
 Cohesion: 1.0
 Nodes (3): PolarQuant: Quantizing KV Caches via Polar Transform, QJL: JL-based KV Cache Quantization, TurboQuant
 
-### Community 13 - "Matrix Gaussian ES"
+### Community 11 - "Matrix Gaussian ES"
 Cohesion: 1.0
 Nodes (2): Gaussian ES, Matrix Gaussian Distribution
 
-### Community 14 - "Rank Convergence Proofs"
+### Community 12 - "Rank Convergence Proofs"
 Cohesion: 1.0
 Nodes (2): Edgeworth Expansion (Bhattacharya & Ranga Rao), EGGROLL Rank Convergence O(r^-1)
 
-### Community 15 - "Test-Time Discovery & World Models"
+### Community 13 - "Test-Time Discovery & World Models"
 Cohesion: 1.0
 Nodes (2): Learning to Discover at Test Time, LeWorldModel (paper)
 
@@ -133,7 +123,7 @@ Nodes (2): Learning to Discover at Test Time, LeWorldModel (paper)
   raw/Learning with Exact Invariances in Polynomial Time.pdf · relation: semantically_similar_to
 
 ## Knowledge Gaps
-- **86 isolated node(s):** `LoRA (Low-Rank Adaptation)`, `Gaussian ES`, `Matrix Gaussian Distribution`, `Score Function Gradient Estimation`, `Rationale: Arithmetic Intensity Improvement` (+81 more)
+- **81 isolated node(s):** `LoRA (Low-Rank Adaptation)`, `Gaussian ES`, `Matrix Gaussian Distribution`, `Score Function Gradient Estimation`, `Rationale: Arithmetic Intensity Improvement` (+76 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Matrix Gaussian ES`** (2 nodes): `Gaussian ES`, `Matrix Gaussian Distribution`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -153,9 +143,9 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: semantically_similar_to) - confidence is low._
 - **What is the exact relationship between `Learnable Edge Activation Functions (KAN)` and `Learning with Exact Invariances in Polynomial Time`?**
   _Edge tagged AMBIGUOUS (relation: semantically_similar_to) - confidence is low._
-- **Why does `Device-Math Correspondence Catalog` connect `Representation Geometry + Catalog Backbone` to `Two-Timescale Bridge (device↔slow/fast math)`, `NS-RAM & Neuromorphic Hardware`, `Learnable Physical Parameter (VQC↔KAN bridge)`, `Analog Continuum → Low-Rank Bridge`, `In-Memory Attention + Crossbar-Logit Bridge`?**
-  _High betweenness centrality (0.333) - this node is a cross-community bridge._
-- **Why does `NNs as State-Region Dictionaries (overview)` connect `Representation Geometry + Catalog Backbone` to `In-Memory Attention + Crossbar-Logit Bridge`, `Interaction Field & State-Region Formalism`?**
-  _High betweenness centrality (0.148) - this node is a cross-community bridge._
-- **Why does `EGGROLL Algorithm` connect `EGGROLL + Symbolic Regression` to `Representation Geometry + Catalog Backbone`, `Analog Continuum → Low-Rank Bridge`, `NS-RAM & Neuromorphic Hardware`?**
-  _High betweenness centrality (0.148) - this node is a cross-community bridge._
+- **Why does `Device-Math Correspondence Catalog` connect `Linear Combiner W + In-Memory Attention` to `ES + Symbolic Regression + Catalog Core`, `Bit-Level Physics & Reinterpretation + Encoder`, `Two-Timescale Bridge + Pulse-Density Encoder`, `Canonical Forward Pass + State-Region Nonlinearity`, `Learnable Physical Parameter (VQC↔KAN)`?**
+  _High betweenness centrality (0.269) - this node is a cross-community bridge._
+- **Why does `EGGROLL Algorithm` connect `ES + Symbolic Regression + Catalog Core` to `Local/Non-Backprop Learning + Stage-2 Options`, `EML Operator Foundations`?**
+  _High betweenness centrality (0.139) - this node is a cross-community bridge._
+- **Why does `CMOS MOSFET (Bulk-Silicon)` connect `Canonical Forward Pass + State-Region Nonlinearity` to `ES + Symbolic Regression + Catalog Core`, `Linear Combiner W + In-Memory Attention`, `EML Operator Foundations`?**
+  _High betweenness centrality (0.118) - this node is a cross-community bridge._
