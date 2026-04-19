@@ -4,92 +4,81 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "eml_universality_pattern",
-        "label": "EML Universality / Sheffer-Type Reduction Pattern",
-        "nodes": [
-          "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
-          "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
-          "all_elementary_functions_from_a_single_operator_pdf_ternary_operator",
-          "all_elementary_functions_from_a_single_operator_pdf_nand_gate"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.85,
-        "source_file": "raw/All elementary functions from a single operator.pdf"
-      },
-      {
-        "id": "eggroll_low_rank_decomposition_flow",
-        "label": "EGGROLL Low-Rank Decomposition Pipeline",
-        "nodes": [
-          "evolution_strategies_at_the_hyperscale_pdf_evolution_strategies",
-          "evolution_strategies_at_the_hyperscale_pdf_lora",
-          "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
-          "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+        "id": "device_math_mapping_hyperedge_two_timescale_physics",
+        "label": "Two-Timescale Physics \u2192 Slow/Fast Math",
+        "members": [
+          "device_math_mapping_pair_1_punchthrough_es_momentum",
+          "device_math_mapping_pair_2_charge_trap_consolidation",
+          "device_math_mapping_pair_5_floatingbulk_runstats",
+          "device_math_mapping_pair_6_single_cell_two_timescale",
+          "device_math_mapping_grouping_two_timescale",
+          "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+          "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+          "synaptic_and_neural_behaviours_pdf_floating_bulk",
+          "semi_passive_physical_neural_devices_single_cell_two_timescales",
+          "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
           "evolution_strategies_at_the_hyperscale_pdf_eggroll"
         ],
-        "relation": "participate_in",
+        "relation": "structural_grouping",
         "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "raw/Evolution Strategies at the Hyperscale.pdf"
+        "confidence_score": 1.0,
+        "source_file": "raw/device_math_mapping.md",
+        "source_location": "## Cross-Pair Structure",
+        "weight": 1.0,
+        "captured_at": "2026-04-19",
+        "author": "ws",
+        "contributor": "ws"
       },
       {
-        "id": "ns_ram_neuro_synaptic_pattern",
-        "label": "NS-RAM Neuro-Synaptic Dual-Use Pattern",
-        "nodes": [
-          "synaptic_and_neural_behaviours_pdf_mosfet",
+        "id": "device_math_mapping_hyperedge_analog_continuum_lowrank",
+        "label": "Analog Continuum \u2192 Low-Rank Math",
+        "members": [
+          "device_math_mapping_pair_3_memristor_lowrank",
+          "device_math_mapping_pair_4_crossbar_attention_logits",
+          "device_math_mapping_pair_8_vqc_kan_rotation",
+          "device_math_mapping_grouping_analog_lowrank",
+          "synaptic_and_neural_behaviours_pdf_memristor",
+          "synaptic_and_neural_behaviours_pdf_phase_change_memory",
+          "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+          "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
+          "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+          "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+          "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions"
+        ],
+        "relation": "structural_grouping",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "raw/device_math_mapping.md",
+        "source_location": "## Cross-Pair Structure",
+        "weight": 1.0,
+        "captured_at": "2026-04-19",
+        "author": "ws",
+        "contributor": "ws"
+      },
+      {
+        "id": "device_math_mapping_hyperedge_piecewise_physics_piecewise_math",
+        "label": "Piecewise Physics \u2192 Piecewise-Linear Math",
+        "members": [
+          "device_math_mapping_pair_7_kink_relu_polytope",
+          "device_math_mapping_grouping_piecewise",
+          "device_math_mapping_pair_1_punchthrough_es_momentum",
+          "device_math_mapping_pair_3_memristor_lowrank",
+          "synaptic_and_neural_behaviours_pdf_kink_effect",
           "synaptic_and_neural_behaviours_pdf_punch_through",
-          "synaptic_and_neural_behaviours_pdf_floating_bulk",
-          "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
-          "synaptic_and_neural_behaviours_pdf_ns_ram_cell"
+          "synaptic_and_neural_behaviours_pdf_mosfet",
+          "neural_networks_as_state_region_dictionaries_main",
+          "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow",
+          "neural_networks_as_state_region_dictionaries_jacobian_conditioning"
         ],
-        "relation": "form",
+        "relation": "structural_grouping",
         "confidence": "EXTRACTED",
-        "confidence_score": 0.9,
-        "source_file": "raw/Synaptic and neural behaviours.pdf"
-      },
-      {
-        "id": "fast_slow_two_timescale_learning_substrate",
-        "label": "Fast/Slow Two-Timescale Learning Substrate (cross-paper motif)",
-        "nodes": [
-          "semi_passive_physical_neural_devices_memorable_operational_split",
-          "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
-          "semi_passive_physical_neural_devices_flash_slow_parameter",
-          "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "raw/Semi-Passive Physical Neural Devices.md"
-      },
-      {
-        "id": "local_learning_without_backprop_cluster",
-        "label": "Local Learning Without Full Backprop",
-        "nodes": [
-          "semi_passive_physical_neural_devices_three_factor_learning",
-          "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training",
-          "hebbian_learning_with_global_direction_local_rule_global_signal",
-          "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning",
-          "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "multiple"
-      },
-      {
-        "id": "bit_level_partial_product_pipeline",
-        "label": "Bit-Level Partial-Product / Carry-Save Compute Pipeline",
-        "nodes": [
-          "bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold",
-          "bit_level_operator_framework_for_relu_mlps_packed_bitslice",
-          "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
-          "binarized_neural_networks_xnor_popcount_mac",
-          "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
-        ],
-        "relation": "implement",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "multiple"
+        "confidence_score": 1.0,
+        "source_file": "raw/device_math_mapping.md",
+        "source_location": "## Cross-Pair Structure",
+        "weight": 1.0,
+        "captured_at": "2026-04-19",
+        "author": "ws",
+        "contributor": "ws"
       }
     ]
   },
@@ -103,9 +92,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_md_eggroll",
-      "community": 7,
-      "norm_label": "eggroll (korean translation)"
+      "community": 4,
+      "norm_label": "eggroll (korean translation)",
+      "id": "evolution_strategies_at_the_hyperscale_md_eggroll"
     },
     {
       "label": "Evolution Strategies (ES)",
@@ -116,9 +105,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_md_evolution_strategies",
-      "community": 7,
-      "norm_label": "evolution strategies (es)"
+      "community": 4,
+      "norm_label": "evolution strategies (es)",
+      "id": "evolution_strategies_at_the_hyperscale_md_evolution_strategies"
     },
     {
       "label": "LoRA (Low-Rank Adaptation)",
@@ -129,9 +118,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_md_lora",
-      "community": 7,
-      "norm_label": "lora (low-rank adaptation)"
+      "community": 4,
+      "norm_label": "lora (low-rank adaptation)",
+      "id": "evolution_strategies_at_the_hyperscale_md_lora"
     },
     {
       "label": "Gaussian ES",
@@ -142,9 +131,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_md_gaussian_es",
-      "community": 11,
-      "norm_label": "gaussian es"
+      "community": 13,
+      "norm_label": "gaussian es",
+      "id": "evolution_strategies_at_the_hyperscale_md_gaussian_es"
     },
     {
       "label": "Matrix Gaussian Distribution",
@@ -155,9 +144,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_md_matrix_gaussian_distribution",
-      "community": 11,
-      "norm_label": "matrix gaussian distribution"
+      "community": 13,
+      "norm_label": "matrix gaussian distribution",
+      "id": "evolution_strategies_at_the_hyperscale_md_matrix_gaussian_distribution"
     },
     {
       "label": "Score Function Gradient Estimation",
@@ -168,9 +157,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_md_score_function_gradient",
-      "community": 7,
-      "norm_label": "score function gradient estimation"
+      "community": 4,
+      "norm_label": "score function gradient estimation",
+      "id": "evolution_strategies_at_the_hyperscale_md_score_function_gradient"
     },
     {
       "label": "Low-Rank Perturbation E=AB^T/sqrt(r)",
@@ -181,9 +170,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
-      "community": 7,
-      "norm_label": "low-rank perturbation e=ab^t/sqrt(r)"
+      "community": 9,
+      "norm_label": "low-rank perturbation e=ab^t/sqrt(r)",
+      "id": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation"
     },
     {
       "label": "Rationale: Arithmetic Intensity Improvement",
@@ -194,9 +183,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity",
-      "community": 7,
-      "norm_label": "rationale: arithmetic intensity improvement"
+      "community": 9,
+      "norm_label": "rationale: arithmetic intensity improvement",
+      "id": "evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity"
     },
     {
       "label": "EML Operator eml(x,y)=exp(x)-ln(y)",
@@ -207,9 +196,9 @@
       "captured_at": null,
       "author": "Andrzej Odrzywolek",
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
-      "community": 1,
-      "norm_label": "eml operator eml(x,y)=exp(x)-ln(y)"
+      "community": 6,
+      "norm_label": "eml operator eml(x,y)=exp(x)-ln(y)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_eml_operator"
     },
     {
       "label": "NAND Gate (Sheffer Stroke)",
@@ -220,9 +209,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_nand_gate",
-      "community": 1,
-      "norm_label": "nand gate (sheffer stroke)"
+      "community": 6,
+      "norm_label": "nand gate (sheffer stroke)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_nand_gate"
     },
     {
       "label": "EDL Operator edl(x,y)=exp(x)/ln(y)",
@@ -233,9 +222,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
-      "community": 1,
-      "norm_label": "edl operator edl(x,y)=exp(x)/ln(y)"
+      "community": 6,
+      "norm_label": "edl operator edl(x,y)=exp(x)/ln(y)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_edl_operator"
     },
     {
       "label": "Ternary Operator T(x,y,z)",
@@ -246,9 +235,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_ternary_operator",
-      "community": 1,
-      "norm_label": "ternary operator t(x,y,z)"
+      "community": 6,
+      "norm_label": "ternary operator t(x,y,z)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_ternary_operator"
     },
     {
       "label": "Euler's Formula e^(i*phi)=cos+i*sin",
@@ -259,9 +248,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_eulers_formula",
-      "community": 1,
-      "norm_label": "euler's formula e^(i*phi)=cos+i*sin"
+      "community": 6,
+      "norm_label": "euler's formula e^(i*phi)=cos+i*sin",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_eulers_formula"
     },
     {
       "label": "Exp-Log Representation (Liouville 1835)",
@@ -272,9 +261,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
-      "community": 1,
-      "norm_label": "exp-log representation (liouville 1835)"
+      "community": 6,
+      "norm_label": "exp-log representation (liouville 1835)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair"
     },
     {
       "label": "Binary Tree Grammar S->1|eml(S,S)",
@@ -285,9 +274,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar",
-      "community": 1,
-      "norm_label": "binary tree grammar s->1|eml(s,s)"
+      "community": 9,
+      "norm_label": "binary tree grammar s->1|eml(s,s)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar"
     },
     {
       "label": "Symbolic Regression via EML Trees",
@@ -298,9 +287,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
       "community": 4,
-      "norm_label": "symbolic regression via eml trees"
+      "norm_label": "symbolic regression via eml trees",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_symbolic_regression"
     },
     {
       "label": "Adam Optimizer",
@@ -311,9 +300,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_adam_optimizer",
       "community": 4,
-      "norm_label": "adam optimizer"
+      "norm_label": "adam optimizer",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_adam_optimizer"
     },
     {
       "label": "EML Master Formula (Parameterized Tree)",
@@ -324,9 +313,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_master_formula",
       "community": 4,
-      "norm_label": "eml master formula (parameterized tree)"
+      "norm_label": "eml master formula (parameterized tree)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_master_formula"
     },
     {
       "label": "VerifyBaseSet (Bootstrapping Search)",
@@ -337,9 +326,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_verify_base_set",
-      "community": 1,
-      "norm_label": "verifybaseset (bootstrapping search)"
+      "community": 6,
+      "norm_label": "verifybaseset (bootstrapping search)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_verify_base_set"
     },
     {
       "label": "Schanuel's Conjecture (Sieve Justification)",
@@ -350,9 +339,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture",
-      "community": 1,
-      "norm_label": "schanuel's conjecture (sieve justification)"
+      "community": 6,
+      "norm_label": "schanuel's conjecture (sieve justification)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture"
     },
     {
       "label": "KAN Kolmogorov-Arnold Networks (Liu et al.)",
@@ -363,9 +352,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_kan",
-      "community": 1,
-      "norm_label": "kan kolmogorov-arnold networks (liu et al.)"
+      "community": 6,
+      "norm_label": "kan kolmogorov-arnold networks (liu et al.)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_kan"
     },
     {
       "label": "ReLU Activation (Nair & Hinton 2010)",
@@ -376,9 +365,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_relu",
-      "community": 1,
-      "norm_label": "relu activation (nair & hinton 2010)"
+      "community": 6,
+      "norm_label": "relu activation (nair & hinton 2010)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_relu"
     },
     {
       "label": "Rationale: Single Primitive Aesthetic/Pedagogy Value",
@@ -389,9 +378,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive",
-      "community": 1,
-      "norm_label": "rationale: single primitive aesthetic/pedagogy value"
+      "community": 6,
+      "norm_label": "rationale: single primitive aesthetic/pedagogy value",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive"
     },
     {
       "label": "Rationale: Complex Domain Required Internally",
@@ -402,9 +391,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally",
-      "community": 1,
-      "norm_label": "rationale: complex domain required internally"
+      "community": 6,
+      "norm_label": "rationale: complex domain required internally",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally"
     },
     {
       "label": "Rationale: Interpretability via Snap to Closed-form",
@@ -415,9 +404,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability",
       "community": 4,
-      "norm_label": "rationale: interpretability via snap to closed-form"
+      "norm_label": "rationale: interpretability via snap to closed-form",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability"
     },
     {
       "label": "PyTorch (Paszke et al. 2019)",
@@ -428,9 +417,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_pytorch",
       "community": 4,
-      "norm_label": "pytorch (paszke et al. 2019)"
+      "norm_label": "pytorch (paszke et al. 2019)",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_pytorch"
     },
     {
       "label": "Lean 4 Theorem Prover",
@@ -441,9 +430,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "all_elementary_functions_from_a_single_operator_pdf_lean4",
-      "community": 1,
-      "norm_label": "lean 4 theorem prover"
+      "community": 6,
+      "norm_label": "lean 4 theorem prover",
+      "id": "all_elementary_functions_from_a_single_operator_pdf_lean4"
     },
     {
       "label": "EGGROLL Algorithm",
@@ -454,9 +443,9 @@
       "captured_at": null,
       "author": "Sarkar, Fellows, Duque et al. (Oxford FLAIR/WhiRL, MILA, NVIDIA)",
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
       "community": 4,
-      "norm_label": "eggroll algorithm"
+      "norm_label": "eggroll algorithm",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_eggroll"
     },
     {
       "label": "Evolution Strategies (ES)",
@@ -467,9 +456,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_evolution_strategies",
       "community": 4,
-      "norm_label": "evolution strategies (es)"
+      "norm_label": "evolution strategies (es)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_evolution_strategies"
     },
     {
       "label": "LoRA (Hu et al. 2022)",
@@ -480,9 +469,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_lora",
       "community": 4,
-      "norm_label": "lora (hu et al. 2022)"
+      "norm_label": "lora (hu et al. 2022)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_lora"
     },
     {
       "label": "Gaussian Approximate Score Function",
@@ -493,9 +482,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
-      "community": 4,
-      "norm_label": "gaussian approximate score function"
+      "community": 0,
+      "norm_label": "gaussian approximate score function",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation"
     },
     {
       "label": "Central Limit Theorem (justification)",
@@ -506,9 +495,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_central_limit_theorem",
-      "community": 4,
-      "norm_label": "central limit theorem (justification)"
+      "community": 0,
+      "norm_label": "central limit theorem (justification)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_central_limit_theorem"
     },
     {
       "label": "Neural Tangent Kernel (Jacot et al. 2018)",
@@ -519,9 +508,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_ntk",
-      "community": 9,
-      "norm_label": "neural tangent kernel (jacot et al. 2018)"
+      "community": 11,
+      "norm_label": "neural tangent kernel (jacot et al. 2018)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_ntk"
     },
     {
       "label": "Edgeworth Expansion (Bhattacharya & Ranga Rao)",
@@ -532,9 +521,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion",
-      "community": 12,
-      "norm_label": "edgeworth expansion (bhattacharya & ranga rao)"
+      "community": 14,
+      "norm_label": "edgeworth expansion (bhattacharya & ranga rao)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion"
     },
     {
       "label": "Gaussian Annulus Theorem",
@@ -545,9 +534,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem",
-      "community": 9,
-      "norm_label": "gaussian annulus theorem"
+      "community": 11,
+      "norm_label": "gaussian annulus theorem",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem"
     },
     {
       "label": "OpenES (Salimans et al. 2017)",
@@ -558,9 +547,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_openes",
       "community": 4,
-      "norm_label": "openes (salimans et al. 2017)"
+      "norm_label": "openes (salimans et al. 2017)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_openes"
     },
     {
       "label": "GRPO (Shao et al. 2024)",
@@ -571,9 +560,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_grpo",
       "community": 4,
-      "norm_label": "grpo (shao et al. 2024)"
+      "norm_label": "grpo (shao et al. 2024)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_grpo"
     },
     {
       "label": "RWKV-7 (Peng et al. 2025)",
@@ -584,9 +573,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_rwkv7",
       "community": 4,
-      "norm_label": "rwkv-7 (peng et al. 2025)"
+      "norm_label": "rwkv-7 (peng et al. 2025)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_rwkv7"
     },
     {
       "label": "MeZO (Malladi et al. 2023)",
@@ -597,9 +586,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_mezo",
       "community": 4,
-      "norm_label": "mezo (malladi et al. 2023)"
+      "norm_label": "mezo (malladi et al. 2023)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_mezo"
     },
     {
       "label": "vLLM (Kwon et al. 2023)",
@@ -610,9 +599,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_vllm",
       "community": 4,
-      "norm_label": "vllm (kwon et al. 2023)"
+      "norm_label": "vllm (kwon et al. 2023)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_vllm"
     },
     {
       "label": "EGG (Evolved Generative GRU, int8 RNN)",
@@ -623,9 +612,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
-      "community": 2,
-      "norm_label": "egg (evolved generative gru, int8 rnn)"
+      "community": 7,
+      "norm_label": "egg (evolved generative gru, int8 rnn)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_egg_model"
     },
     {
       "label": "Rank-r Perturbation Structure",
@@ -636,9 +625,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
-      "community": 1,
-      "norm_label": "rank-r perturbation structure"
+      "community": 9,
+      "norm_label": "rank-r perturbation structure",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation"
     },
     {
       "label": "Convergence to Linearity Theorem",
@@ -649,9 +638,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
-      "community": 9,
-      "norm_label": "convergence to linearity theorem"
+      "community": 11,
+      "norm_label": "convergence to linearity theorem",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem"
     },
     {
       "label": "EGGROLL Rank Convergence O(r^-1)",
@@ -662,9 +651,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
-      "community": 12,
-      "norm_label": "eggroll rank convergence o(r^-1)"
+      "community": 14,
+      "norm_label": "eggroll rank convergence o(r^-1)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem"
     },
     {
       "label": "Rationale: Low-rank Structure for High Arithmetic Intensity",
@@ -675,9 +664,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity",
-      "community": 1,
-      "norm_label": "rationale: low-rank structure for high arithmetic intensity"
+      "community": 9,
+      "norm_label": "rationale: low-rank structure for high arithmetic intensity",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity"
     },
     {
       "label": "Rationale: Gaussian Score Choice via CLT",
@@ -688,9 +677,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice",
-      "community": 4,
-      "norm_label": "rationale: gaussian score choice via clt"
+      "community": 0,
+      "norm_label": "rationale: gaussian score choice via clt",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice"
     },
     {
       "label": "Rationale: Nonlinear RNN Choice for EGG",
@@ -701,9 +690,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es",
-      "community": 2,
-      "norm_label": "rationale: nonlinear rnn choice for egg"
+      "community": 7,
+      "norm_label": "rationale: nonlinear rnn choice for egg",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es"
     },
     {
       "label": "Counter-Based Deterministic RNG (Salmon 2011)",
@@ -714,9 +703,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "evolution_strategies_at_the_hyperscale_pdf_counter_based_rng",
       "community": 4,
-      "norm_label": "counter-based deterministic rng (salmon 2011)"
+      "norm_label": "counter-based deterministic rng (salmon 2011)",
+      "id": "evolution_strategies_at_the_hyperscale_pdf_counter_based_rng"
     },
     {
       "label": "NS-RAM Cell (Neuro-Synaptic RAM)",
@@ -727,9 +716,9 @@
       "captured_at": "2025-03-26",
       "author": "Pazos, Zhu, Villena, Alharbi, Zheng, Shen, Yuan, Ping, Lanza",
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
-      "community": 2,
-      "norm_label": "ns-ram cell (neuro-synaptic ram)"
+      "community": 7,
+      "norm_label": "ns-ram cell (neuro-synaptic ram)",
+      "id": "synaptic_and_neural_behaviours_pdf_ns_ram_cell"
     },
     {
       "label": "CMOS MOSFET (Bulk-Silicon)",
@@ -740,9 +729,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_mosfet",
-      "community": 1,
-      "norm_label": "cmos mosfet (bulk-silicon)"
+      "community": 0,
+      "norm_label": "cmos mosfet (bulk-silicon)",
+      "id": "synaptic_and_neural_behaviours_pdf_mosfet"
     },
     {
       "label": "Punch-Through Impact Ionization",
@@ -753,9 +742,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_punch_through",
-      "community": 1,
-      "norm_label": "punch-through impact ionization"
+      "community": 0,
+      "norm_label": "punch-through impact ionization",
+      "id": "synaptic_and_neural_behaviours_pdf_punch_through"
     },
     {
       "label": "Floating-Bulk Configuration",
@@ -766,9 +755,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_floating_bulk",
       "community": 1,
-      "norm_label": "floating-bulk configuration"
+      "norm_label": "floating-bulk configuration",
+      "id": "synaptic_and_neural_behaviours_pdf_floating_bulk"
     },
     {
       "label": "Artificial Neural Network (ANN)",
@@ -779,9 +768,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_ann",
-      "community": 2,
-      "norm_label": "artificial neural network (ann)"
+      "community": 7,
+      "norm_label": "artificial neural network (ann)",
+      "id": "synaptic_and_neural_behaviours_pdf_ann"
     },
     {
       "label": "Electronic Neuron (Leaky-Integrate-and-Fire)",
@@ -792,9 +781,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_neuron",
-      "community": 2,
-      "norm_label": "electronic neuron (leaky-integrate-and-fire)"
+      "community": 7,
+      "norm_label": "electronic neuron (leaky-integrate-and-fire)",
+      "id": "synaptic_and_neural_behaviours_pdf_neuron"
     },
     {
       "label": "Electronic Synapse (Plasticity)",
@@ -805,9 +794,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_synapse",
-      "community": 2,
-      "norm_label": "electronic synapse (plasticity)"
+      "community": 7,
+      "norm_label": "electronic synapse (plasticity)",
+      "id": "synaptic_and_neural_behaviours_pdf_synapse"
     },
     {
       "label": "Memristor (Alternative Platform)",
@@ -818,9 +807,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_memristor",
-      "community": 2,
-      "norm_label": "memristor (alternative platform)"
+      "community": 9,
+      "norm_label": "memristor (alternative platform)",
+      "id": "synaptic_and_neural_behaviours_pdf_memristor"
     },
     {
       "label": "Intel Loihi 2 (Orchard et al. 2021)",
@@ -831,9 +820,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_loihi2",
-      "community": 2,
-      "norm_label": "intel loihi 2 (orchard et al. 2021)"
+      "community": 7,
+      "norm_label": "intel loihi 2 (orchard et al. 2021)",
+      "id": "synaptic_and_neural_behaviours_pdf_loihi2"
     },
     {
       "label": "IBM NorthPole (Cassidy et al. 2024)",
@@ -844,9 +833,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_northpole",
-      "community": 2,
-      "norm_label": "ibm northpole (cassidy et al. 2024)"
+      "community": 7,
+      "norm_label": "ibm northpole (cassidy et al. 2024)",
+      "id": "synaptic_and_neural_behaviours_pdf_northpole"
     },
     {
       "label": "Bulk Bias Control Transistor (2-Transistor Cell)",
@@ -857,9 +846,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
-      "community": 2,
-      "norm_label": "bulk bias control transistor (2-transistor cell)"
+      "community": 1,
+      "norm_label": "bulk bias control transistor (2-transistor cell)",
+      "id": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor"
     },
     {
       "label": "Short-Term Plasticity (Zucker & Regehr 2002)",
@@ -870,9 +859,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
-      "community": 2,
-      "norm_label": "short-term plasticity (zucker & regehr 2002)"
+      "community": 7,
+      "norm_label": "short-term plasticity (zucker & regehr 2002)",
+      "id": "synaptic_and_neural_behaviours_pdf_short_term_plasticity"
     },
     {
       "label": "Long-Term Plasticity (Charge-Trapping)",
@@ -883,9 +872,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
-      "community": 2,
-      "norm_label": "long-term plasticity (charge-trapping)"
+      "community": 1,
+      "norm_label": "long-term plasticity (charge-trapping)",
+      "id": "synaptic_and_neural_behaviours_pdf_long_term_plasticity"
     },
     {
       "label": "TCAD Simulation (Sentaurus Synopsys)",
@@ -896,9 +885,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_tcad_simulation",
-      "community": 2,
-      "norm_label": "tcad simulation (sentaurus synopsys)"
+      "community": 7,
+      "norm_label": "tcad simulation (sentaurus synopsys)",
+      "id": "synaptic_and_neural_behaviours_pdf_tcad_simulation"
     },
     {
       "label": "Hot-Carrier (Electron/Hole) Injection",
@@ -909,9 +898,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_hot_carrier_injection",
-      "community": 2,
-      "norm_label": "hot-carrier (electron/hole) injection"
+      "community": 1,
+      "norm_label": "hot-carrier (electron/hole) injection",
+      "id": "synaptic_and_neural_behaviours_pdf_hot_carrier_injection"
     },
     {
       "label": "Embedded Flash Memory (Reference)",
@@ -922,9 +911,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_flash_memory",
-      "community": 2,
-      "norm_label": "embedded flash memory (reference)"
+      "community": 1,
+      "norm_label": "embedded flash memory (reference)",
+      "id": "synaptic_and_neural_behaviours_pdf_flash_memory"
     },
     {
       "label": "Kink Effect (Boudou & Doyle 1987)",
@@ -935,9 +924,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_kink_effect",
-      "community": 1,
-      "norm_label": "kink effect (boudou & doyle 1987)"
+      "community": 0,
+      "norm_label": "kink effect (boudou & doyle 1987)",
+      "id": "synaptic_and_neural_behaviours_pdf_kink_effect"
     },
     {
       "label": "Tonotopic Mapping (Milozzi et al. 2024)",
@@ -948,9 +937,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_tonotopic_mapping",
-      "community": 2,
-      "norm_label": "tonotopic mapping (milozzi et al. 2024)"
+      "community": 7,
+      "norm_label": "tonotopic mapping (milozzi et al. 2024)",
+      "id": "synaptic_and_neural_behaviours_pdf_tonotopic_mapping"
     },
     {
       "label": "Rationale: CMOS Compatibility/No Alien Materials",
@@ -961,9 +950,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility",
-      "community": 2,
-      "norm_label": "rationale: cmos compatibility/no alien materials"
+      "community": 7,
+      "norm_label": "rationale: cmos compatibility/no alien materials",
+      "id": "synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility"
     },
     {
       "label": "Rationale: 2-Transistor for Tunability and Repeatability",
@@ -974,9 +963,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability",
-      "community": 2,
-      "norm_label": "rationale: 2-transistor for tunability and repeatability"
+      "community": 1,
+      "norm_label": "rationale: 2-transistor for tunability and repeatability",
+      "id": "synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability"
     },
     {
       "label": "Rationale: Charge-Trapping Explains Long-Term Retention",
@@ -987,9 +976,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
-      "community": 2,
-      "norm_label": "rationale: charge-trapping explains long-term retention"
+      "community": 1,
+      "norm_label": "rationale: charge-trapping explains long-term retention",
+      "id": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention"
     },
     {
       "label": "Phase-Change Memory (PCM)",
@@ -1000,9 +989,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synaptic_and_neural_behaviours_pdf_phase_change_memory",
-      "community": 2,
-      "norm_label": "phase-change memory (pcm)"
+      "community": 9,
+      "norm_label": "phase-change memory (pcm)",
+      "id": "synaptic_and_neural_behaviours_pdf_phase_change_memory"
     },
     {
       "label": "Semi-Passive Physical Neural Devices (overview)",
@@ -1013,9 +1002,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_main",
-      "community": 5,
-      "norm_label": "semi-passive physical neural devices (overview)"
+      "community": 3,
+      "norm_label": "semi-passive physical neural devices (overview)",
+      "id": "semi_passive_physical_neural_devices_main"
     },
     {
       "label": "Transistor-Neuron Thresholded Transport Analogy",
@@ -1026,9 +1015,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_transistor_neuron_analogy",
-      "community": 5,
-      "norm_label": "transistor-neuron thresholded transport analogy"
+      "community": 3,
+      "norm_label": "transistor-neuron thresholded transport analogy",
+      "id": "semi_passive_physical_neural_devices_transistor_neuron_analogy"
     },
     {
       "label": "Analog VLSI / Neuromorphic Engineering Lineage",
@@ -1039,9 +1028,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_analog_vlsi_lineage",
-      "community": 5,
-      "norm_label": "analog vlsi / neuromorphic engineering lineage"
+      "community": 3,
+      "norm_label": "analog vlsi / neuromorphic engineering lineage",
+      "id": "semi_passive_physical_neural_devices_analog_vlsi_lineage"
     },
     {
       "label": "Learnable Physical Medium (not a programmed computer)",
@@ -1052,9 +1041,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_learnable_physical_medium",
-      "community": 6,
-      "norm_label": "learnable physical medium (not a programmed computer)"
+      "community": 8,
+      "norm_label": "learnable physical medium (not a programmed computer)",
+      "id": "semi_passive_physical_neural_devices_learnable_physical_medium"
     },
     {
       "label": "Memorable Part / Operational Part Split",
@@ -1065,9 +1054,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_memorable_operational_split",
-      "community": 6,
-      "norm_label": "memorable part / operational part split"
+      "community": 1,
+      "norm_label": "memorable part / operational part split",
+      "id": "semi_passive_physical_neural_devices_memorable_operational_split"
     },
     {
       "label": "RAM-like Fast State",
@@ -1078,9 +1067,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_ram_fast_state",
-      "community": 6,
-      "norm_label": "ram-like fast state"
+      "community": 1,
+      "norm_label": "ram-like fast state",
+      "id": "semi_passive_physical_neural_devices_ram_fast_state"
     },
     {
       "label": "Flash-like Slow Parameter Memory",
@@ -1091,9 +1080,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_flash_slow_parameter",
-      "community": 6,
-      "norm_label": "flash-like slow parameter memory"
+      "community": 1,
+      "norm_label": "flash-like slow parameter memory",
+      "id": "semi_passive_physical_neural_devices_flash_slow_parameter"
     },
     {
       "label": "3-Factor Learning Rule (local eligibility * global reward)",
@@ -1104,9 +1093,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_three_factor_learning",
-      "community": 5,
-      "norm_label": "3-factor learning rule (local eligibility * global reward)"
+      "community": 3,
+      "norm_label": "3-factor learning rule (local eligibility * global reward)",
+      "id": "semi_passive_physical_neural_devices_three_factor_learning"
     },
     {
       "label": "EGGROLL Connection (perturbation-response-fitness)",
@@ -1117,9 +1106,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_eggroll_connection",
-      "community": 5,
-      "norm_label": "eggroll connection (perturbation-response-fitness)"
+      "community": 3,
+      "norm_label": "eggroll connection (perturbation-response-fitness)",
+      "id": "semi_passive_physical_neural_devices_eggroll_connection"
     },
     {
       "label": "Threshold-Shift Slow Update (trapped charge)",
@@ -1130,9 +1119,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_threshold_shift_update",
-      "community": 6,
-      "norm_label": "threshold-shift slow update (trapped charge)"
+      "community": 3,
+      "norm_label": "threshold-shift slow update (trapped charge)",
+      "id": "semi_passive_physical_neural_devices_threshold_shift_update"
     },
     {
       "label": "Single Adaptive Cell with Two Timescales",
@@ -1143,9 +1132,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_single_cell_two_timescales",
-      "community": 13,
-      "norm_label": "single adaptive cell with two timescales"
+      "community": 1,
+      "norm_label": "single adaptive cell with two timescales",
+      "id": "semi_passive_physical_neural_devices_single_cell_two_timescales"
     },
     {
       "label": "Operation-First: Transition Speed = Compute Throughput",
@@ -1156,9 +1145,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_operation_transition_speed",
-      "community": 8,
-      "norm_label": "operation-first: transition speed = compute throughput"
+      "community": 3,
+      "norm_label": "operation-first: transition speed = compute throughput",
+      "id": "semi_passive_physical_neural_devices_operation_transition_speed"
     },
     {
       "label": "Rationale: Fabrication simplicity demands single-cell two-timescale physics",
@@ -1169,9 +1158,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semi_passive_physical_neural_devices_rationale_single_cell",
-      "community": 13,
-      "norm_label": "rationale: fabrication simplicity demands single-cell two-timescale physics"
+      "community": 1,
+      "norm_label": "rationale: fabrication simplicity demands single-cell two-timescale physics",
+      "id": "semi_passive_physical_neural_devices_rationale_single_cell"
     },
     {
       "label": "Bit-Level Operator Framework for ReLU MLPs (overview)",
@@ -1182,9 +1171,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_main",
-      "community": 3,
-      "norm_label": "bit-level operator framework for relu mlps (overview)"
+      "community": 2,
+      "norm_label": "bit-level operator framework for relu mlps (overview)",
+      "id": "bit_level_operator_framework_for_relu_mlps_main"
     },
     {
       "label": "Bit-Plane Profile Representation",
@@ -1195,9 +1184,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
-      "community": 3,
-      "norm_label": "bit-plane profile representation"
+      "community": 2,
+      "norm_label": "bit-plane profile representation",
+      "id": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile"
     },
     {
       "label": "Encode / Decode / Profile Jacobian",
@@ -1208,9 +1197,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_encode_decode",
-      "community": 3,
-      "norm_label": "encode / decode / profile jacobian"
+      "community": 2,
+      "norm_label": "encode / decode / profile jacobian",
+      "id": "bit_level_operator_framework_for_relu_mlps_encode_decode"
     },
     {
       "label": "OuterMul / DimSum / Fold Primitives",
@@ -1221,9 +1210,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold",
-      "community": 3,
-      "norm_label": "outermul / dimsum / fold primitives"
+      "community": 2,
+      "norm_label": "outermul / dimsum / fold primitives",
+      "id": "bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold"
     },
     {
       "label": "ReLU as Sign-Test + Mask/MUX",
@@ -1234,9 +1223,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_relu_gate",
-      "community": 3,
-      "norm_label": "relu as sign-test + mask/mux"
+      "community": 2,
+      "norm_label": "relu as sign-test + mask/mux",
+      "id": "bit_level_operator_framework_for_relu_mlps_relu_gate"
     },
     {
       "label": "LiftGrad / Contract / Pullback (backward primitives)",
@@ -1247,9 +1236,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_liftgrad_pullback",
-      "community": 3,
-      "norm_label": "liftgrad / contract / pullback (backward primitives)"
+      "community": 2,
+      "norm_label": "liftgrad / contract / pullback (backward primitives)",
+      "id": "bit_level_operator_framework_for_relu_mlps_liftgrad_pullback"
     },
     {
       "label": "3-Layer Formalization: Boolean / Profile / Layer Operators",
@@ -1260,9 +1249,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_three_layer_formalization",
-      "community": 3,
-      "norm_label": "3-layer formalization: boolean / profile / layer operators"
+      "community": 2,
+      "norm_label": "3-layer formalization: boolean / profile / layer operators",
+      "id": "bit_level_operator_framework_for_relu_mlps_three_layer_formalization"
     },
     {
       "label": "Packed Bitslice + POPCNT + Delayed Carry",
@@ -1273,9 +1262,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_packed_bitslice",
-      "community": 3,
-      "norm_label": "packed bitslice + popcnt + delayed carry"
+      "community": 2,
+      "norm_label": "packed bitslice + popcnt + delayed carry",
+      "id": "bit_level_operator_framework_for_relu_mlps_packed_bitslice"
     },
     {
       "label": "Carry-Save / Compressor Tree Reduction",
@@ -1286,9 +1275,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
-      "community": 3,
-      "norm_label": "carry-save / compressor tree reduction"
+      "community": 2,
+      "norm_label": "carry-save / compressor tree reduction",
+      "id": "bit_level_operator_framework_for_relu_mlps_carry_save_tree"
     },
     {
       "label": "Bit-Parallel vs Bit-Serial Trade-off",
@@ -1299,9 +1288,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_bit_parallel_vs_serial",
-      "community": 3,
-      "norm_label": "bit-parallel vs bit-serial trade-off"
+      "community": 2,
+      "norm_label": "bit-parallel vs bit-serial trade-off",
+      "id": "bit_level_operator_framework_for_relu_mlps_bit_parallel_vs_serial"
     },
     {
       "label": "Rationale: Carry Propagation is the Real Bottleneck",
@@ -1312,9 +1301,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_rationale_carry_bottleneck",
-      "community": 3,
-      "norm_label": "rationale: carry propagation is the real bottleneck"
+      "community": 2,
+      "norm_label": "rationale: carry propagation is the real bottleneck",
+      "id": "bit_level_operator_framework_for_relu_mlps_rationale_carry_bottleneck"
     },
     {
       "label": "Fixed-Point Backward + Packed-Bit MAC",
@@ -1325,9 +1314,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_fixed_point_backward",
-      "community": 3,
-      "norm_label": "fixed-point backward + packed-bit mac"
+      "community": 2,
+      "norm_label": "fixed-point backward + packed-bit mac",
+      "id": "bit_level_operator_framework_for_relu_mlps_fixed_point_backward"
     },
     {
       "label": "FPGA/ASIC Systolic Target",
@@ -1338,9 +1327,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bit_level_operator_framework_for_relu_mlps_fpga_asic_target",
-      "community": 5,
-      "norm_label": "fpga/asic systolic target"
+      "community": 3,
+      "norm_label": "fpga/asic systolic target",
+      "id": "bit_level_operator_framework_for_relu_mlps_fpga_asic_target"
     },
     {
       "label": "NNs as State-Region Dictionaries (overview)",
@@ -1351,9 +1340,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_main",
       "community": 0,
-      "norm_label": "nns as state-region dictionaries (overview)"
+      "norm_label": "nns as state-region dictionaries (overview)",
+      "id": "neural_networks_as_state_region_dictionaries_main"
     },
     {
       "label": "Rank-1 Operator Primitive (v_i u_i^T)",
@@ -1364,9 +1353,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_rank1_operator_primitive",
-      "community": 0,
-      "norm_label": "rank-1 operator primitive (v_i u_i^t)"
+      "community": 5,
+      "norm_label": "rank-1 operator primitive (v_i u_i^t)",
+      "id": "neural_networks_as_state_region_dictionaries_rank1_operator_primitive"
     },
     {
       "label": "Piecewise Linear Region Atlas",
@@ -1377,9 +1366,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas",
-      "community": 0,
-      "norm_label": "piecewise linear region atlas"
+      "community": 5,
+      "norm_label": "piecewise linear region atlas",
+      "id": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas"
     },
     {
       "label": "Random Operator Reservoir + Selection/Alignment",
@@ -1390,9 +1379,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_random_operator_reservoir",
       "community": 0,
-      "norm_label": "random operator reservoir + selection/alignment"
+      "norm_label": "random operator reservoir + selection/alignment",
+      "id": "neural_networks_as_state_region_dictionaries_random_operator_reservoir"
     },
     {
       "label": "Jacobian Conditioning / Quasi-Isometric Regime",
@@ -1403,9 +1392,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_jacobian_conditioning",
       "community": 0,
-      "norm_label": "jacobian conditioning / quasi-isometric regime"
+      "norm_label": "jacobian conditioning / quasi-isometric regime",
+      "id": "neural_networks_as_state_region_dictionaries_jacobian_conditioning"
     },
     {
       "label": "Multiplicative Random Process is Not Gaussian",
@@ -1416,9 +1405,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_multiplicative_non_gaussian",
       "community": 0,
-      "norm_label": "multiplicative random process is not gaussian"
+      "norm_label": "multiplicative random process is not gaussian",
+      "id": "neural_networks_as_state_region_dictionaries_multiplicative_non_gaussian"
     },
     {
       "label": "Residual Transition Autoencoder Block",
@@ -1429,9 +1418,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_residual_transition_autoencoder",
-      "community": 0,
-      "norm_label": "residual transition autoencoder block"
+      "community": 5,
+      "norm_label": "residual transition autoencoder block",
+      "id": "neural_networks_as_state_region_dictionaries_residual_transition_autoencoder"
     },
     {
       "label": "Mixture of Transition Autoencoders",
@@ -1442,9 +1431,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_mixture_of_autoencoders",
-      "community": 0,
-      "norm_label": "mixture of transition autoencoders"
+      "community": 5,
+      "norm_label": "mixture of transition autoencoders",
+      "id": "neural_networks_as_state_region_dictionaries_mixture_of_autoencoders"
     },
     {
       "label": "Depth as Iterative Operator Flow",
@@ -1455,9 +1444,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow",
       "community": 0,
-      "norm_label": "depth as iterative operator flow"
+      "norm_label": "depth as iterative operator flow",
+      "id": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow"
     },
     {
       "label": "Rationale: MSE/logistic meaning comes from output likelihood, not input isotropy",
@@ -1468,9 +1457,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neural_networks_as_state_region_dictionaries_rationale_mse_loss_meaning",
       "community": 0,
-      "norm_label": "rationale: mse/logistic meaning comes from output likelihood, not input isotropy"
+      "norm_label": "rationale: mse/logistic meaning comes from output likelihood, not input isotropy",
+      "id": "neural_networks_as_state_region_dictionaries_rationale_mse_loss_meaning"
     },
     {
       "label": "Primitive Geometry of Neural Representation (overview)",
@@ -1481,9 +1470,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "primitive_geometry_of_neural_representation_main",
-      "community": 0,
-      "norm_label": "primitive geometry of neural representation (overview)"
+      "community": 5,
+      "norm_label": "primitive geometry of neural representation (overview)",
+      "id": "primitive_geometry_of_neural_representation_main"
     },
     {
       "label": "Four Geometry Layers (parameter/representation/function/computation)",
@@ -1494,9 +1483,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "primitive_geometry_of_neural_representation_four_geometries",
-      "community": 0,
-      "norm_label": "four geometry layers (parameter/representation/function/computation)"
+      "community": 5,
+      "norm_label": "four geometry layers (parameter/representation/function/computation)",
+      "id": "primitive_geometry_of_neural_representation_four_geometries"
     },
     {
       "label": "Hyperplane Partition Primitive",
@@ -1507,9 +1496,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "primitive_geometry_of_neural_representation_hyperplane_partition",
-      "community": 0,
-      "norm_label": "hyperplane partition primitive"
+      "community": 5,
+      "norm_label": "hyperplane partition primitive",
+      "id": "primitive_geometry_of_neural_representation_hyperplane_partition"
     },
     {
       "label": "Activation Pattern / Cell Complex",
@@ -1520,9 +1509,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "primitive_geometry_of_neural_representation_activation_code",
-      "community": 0,
-      "norm_label": "activation pattern / cell complex"
+      "community": 5,
+      "norm_label": "activation pattern / cell complex",
+      "id": "primitive_geometry_of_neural_representation_activation_code"
     },
     {
       "label": "Interaction Geometry (state-transition)",
@@ -1533,9 +1522,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "primitive_geometry_of_neural_representation_interaction_geometry",
-      "community": 0,
-      "norm_label": "interaction geometry (state-transition)"
+      "community": 5,
+      "norm_label": "interaction geometry (state-transition)",
+      "id": "primitive_geometry_of_neural_representation_interaction_geometry"
     },
     {
       "label": "Code/State Encoding Below Real Numbers",
@@ -1546,9 +1535,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "primitive_geometry_of_neural_representation_code_state_encoding",
-      "community": 0,
-      "norm_label": "code/state encoding below real numbers"
+      "community": 5,
+      "norm_label": "code/state encoding below real numbers",
+      "id": "primitive_geometry_of_neural_representation_code_state_encoding"
     },
     {
       "label": "Encoding/Interaction/Constraint/Dynamics Layer Framework",
@@ -1559,9 +1548,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "primitive_geometry_of_neural_representation_four_layer_framework",
-      "community": 0,
-      "norm_label": "encoding/interaction/constraint/dynamics layer framework"
+      "community": 5,
+      "norm_label": "encoding/interaction/constraint/dynamics layer framework",
+      "id": "primitive_geometry_of_neural_representation_four_layer_framework"
     },
     {
       "label": "Integration: vector geometry as macroscopic limit of coded interaction",
@@ -1572,9 +1561,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "primitive_geometry_of_neural_representation_integration_claim",
-      "community": 0,
-      "norm_label": "integration: vector geometry as macroscopic limit of coded interaction"
+      "community": 5,
+      "norm_label": "integration: vector geometry as macroscopic limit of coded interaction",
+      "id": "primitive_geometry_of_neural_representation_integration_claim"
     },
     {
       "label": "Self-Organizing CMOS-Memory Architecture (overview)",
@@ -1585,9 +1574,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_main",
-      "community": 6,
-      "norm_label": "self-organizing cmos-memory architecture (overview)"
+      "community": 1,
+      "norm_label": "self-organizing cmos-memory architecture (overview)",
+      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_main"
     },
     {
       "label": "Trainable Analog Circuit with Gate-Bias Parameters",
@@ -1598,9 +1587,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit",
-      "community": 5,
-      "norm_label": "trainable analog circuit with gate-bias parameters"
+      "community": 3,
+      "norm_label": "trainable analog circuit with gate-bias parameters",
+      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit"
     },
     {
       "label": "Fast Activation x(t) / Slow Weight w(t) Time-Scale Separation",
@@ -1611,9 +1600,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
-      "community": 6,
-      "norm_label": "fast activation x(t) / slow weight w(t) time-scale separation"
+      "community": 1,
+      "norm_label": "fast activation x(t) / slow weight w(t) time-scale separation",
+      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
     },
     {
       "label": "Feeding Protocol as Part of Learning Law",
@@ -1624,9 +1613,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning",
-      "community": 5,
-      "norm_label": "feeding protocol as part of learning law"
+      "community": 3,
+      "norm_label": "feeding protocol as part of learning law",
+      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning"
     },
     {
       "label": "Consolidation / Metaplasticity Mechanism",
@@ -1637,9 +1626,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
-      "community": 6,
-      "norm_label": "consolidation / metaplasticity mechanism"
+      "community": 1,
+      "norm_label": "consolidation / metaplasticity mechanism",
+      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism"
     },
     {
       "label": "Self-Organizing Representation Space Goal",
@@ -1650,9 +1639,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning",
-      "community": 6,
-      "norm_label": "self-organizing representation space goal"
+      "community": 8,
+      "norm_label": "self-organizing representation space goal",
+      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning"
     },
     {
       "label": "CMOS-Centered + RAM-like Memory Hybrid Architecture",
@@ -1663,9 +1652,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid",
-      "community": 6,
-      "norm_label": "cmos-centered + ram-like memory hybrid architecture"
+      "community": 3,
+      "norm_label": "cmos-centered + ram-like memory hybrid architecture",
+      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid"
     },
     {
       "label": "Rationale: disambiguating 'device' between memory device and transistor primitive",
@@ -1676,9 +1665,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split",
-      "community": 6,
-      "norm_label": "rationale: disambiguating 'device' between memory device and transistor primitive"
+      "community": 3,
+      "norm_label": "rationale: disambiguating 'device' between memory device and transistor primitive",
+      "id": "self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split"
     },
     {
       "label": "Physical Reinterpretation of Deep Learning (overview)",
@@ -1689,9 +1678,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_main",
-      "community": 3,
-      "norm_label": "physical reinterpretation of deep learning (overview)"
+      "community": 2,
+      "norm_label": "physical reinterpretation of deep learning (overview)",
+      "id": "a_physical_reinterpretation_of_deep_learning_main"
     },
     {
       "label": "Signal-Particle-Energy Mapping of NN Elements",
@@ -1702,9 +1691,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_signal_particle_energy_mapping",
-      "community": 3,
-      "norm_label": "signal-particle-energy mapping of nn elements"
+      "community": 2,
+      "norm_label": "signal-particle-energy mapping of nn elements",
+      "id": "a_physical_reinterpretation_of_deep_learning_signal_particle_energy_mapping"
     },
     {
       "label": "Bit-Plane Overlap Model for Multiplication",
@@ -1715,9 +1704,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
-      "community": 3,
-      "norm_label": "bit-plane overlap model for multiplication"
+      "community": 2,
+      "norm_label": "bit-plane overlap model for multiplication",
+      "id": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
     },
     {
       "label": "Scattering-Kernel Interaction Model",
@@ -1728,9 +1717,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_scattering_kernel_model",
-      "community": 3,
-      "norm_label": "scattering-kernel interaction model"
+      "community": 2,
+      "norm_label": "scattering-kernel interaction model",
+      "id": "a_physical_reinterpretation_of_deep_learning_scattering_kernel_model"
     },
     {
       "label": "Event-Driven Sparse Interaction Model",
@@ -1741,9 +1730,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_event_driven_interaction",
-      "community": 3,
-      "norm_label": "event-driven sparse interaction model"
+      "community": 2,
+      "norm_label": "event-driven sparse interaction model",
+      "id": "a_physical_reinterpretation_of_deep_learning_event_driven_interaction"
     },
     {
       "label": "NN as Structured Reactive Medium",
@@ -1754,9 +1743,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_reactive_medium",
-      "community": 6,
-      "norm_label": "nn as structured reactive medium"
+      "community": 8,
+      "norm_label": "nn as structured reactive medium",
+      "id": "a_physical_reinterpretation_of_deep_learning_reactive_medium"
     },
     {
       "label": "Stateful Interaction Field Formalism",
@@ -1767,9 +1756,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_stateful_interaction_field",
-      "community": 0,
-      "norm_label": "stateful interaction field formalism"
+      "community": 5,
+      "norm_label": "stateful interaction field formalism",
+      "id": "a_physical_reinterpretation_of_deep_learning_stateful_interaction_field"
     },
     {
       "label": "Interaction-State Layer (multi-channel node, edge-state)",
@@ -1780,9 +1769,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_interaction_state_layer",
-      "community": 0,
-      "norm_label": "interaction-state layer (multi-channel node, edge-state)"
+      "community": 5,
+      "norm_label": "interaction-state layer (multi-channel node, edge-state)",
+      "id": "a_physical_reinterpretation_of_deep_learning_interaction_state_layer"
     },
     {
       "label": "Shared-Basis Low-Rank Edge Interaction",
@@ -1793,9 +1782,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_shared_basis_interaction",
-      "community": 0,
-      "norm_label": "shared-basis low-rank edge interaction"
+      "community": 5,
+      "norm_label": "shared-basis low-rank edge interaction",
+      "id": "a_physical_reinterpretation_of_deep_learning_shared_basis_interaction"
     },
     {
       "label": "Adjoint Credit Field (backprop reinterpreted)",
@@ -1806,9 +1795,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_adjoint_credit_field",
-      "community": 3,
-      "norm_label": "adjoint credit field (backprop reinterpreted)"
+      "community": 2,
+      "norm_label": "adjoint credit field (backprop reinterpreted)",
+      "id": "a_physical_reinterpretation_of_deep_learning_adjoint_credit_field"
     },
     {
       "label": "10-Axiom Formalization of Stateful NN",
@@ -1819,9 +1808,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_physical_reinterpretation_of_deep_learning_axiomatization",
-      "community": 0,
-      "norm_label": "10-axiom formalization of stateful nn"
+      "community": 5,
+      "norm_label": "10-axiom formalization of stateful nn",
+      "id": "a_physical_reinterpretation_of_deep_learning_axiomatization"
     },
     {
       "label": "NoProp: Training NNs Without Full Back/Forward-Propagation",
@@ -1832,9 +1821,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_main",
-      "community": 5,
-      "norm_label": "noprop: training nns without full back/forward-propagation"
+      "community": 3,
+      "norm_label": "noprop: training nns without full back/forward-propagation",
+      "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_main"
     },
     {
       "label": "Layer-Local Training Without End-to-End Backprop",
@@ -1845,9 +1834,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training",
-      "community": 5,
-      "norm_label": "layer-local training without end-to-end backprop"
+      "community": 3,
+      "norm_label": "layer-local training without end-to-end backprop",
+      "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training"
     },
     {
       "label": "Hebbian Learning with Global Direction",
@@ -1858,9 +1847,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hebbian_learning_with_global_direction_main",
-      "community": 5,
-      "norm_label": "hebbian learning with global direction"
+      "community": 3,
+      "norm_label": "hebbian learning with global direction",
+      "id": "hebbian_learning_with_global_direction_main"
     },
     {
       "label": "Local Hebbian Rule Modulated by Global Direction Signal",
@@ -1871,9 +1860,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hebbian_learning_with_global_direction_local_rule_global_signal",
-      "community": 5,
-      "norm_label": "local hebbian rule modulated by global direction signal"
+      "community": 3,
+      "norm_label": "local hebbian rule modulated by global direction signal",
+      "id": "hebbian_learning_with_global_direction_local_rule_global_signal"
     },
     {
       "label": "Binarized Neural Networks",
@@ -1884,9 +1873,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "binarized_neural_networks_main",
-      "community": 3,
-      "norm_label": "binarized neural networks"
+      "community": 2,
+      "norm_label": "binarized neural networks",
+      "id": "binarized_neural_networks_main"
     },
     {
       "label": "XNOR + Popcount MAC Kernel",
@@ -1897,9 +1886,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "binarized_neural_networks_xnor_popcount_mac",
-      "community": 3,
-      "norm_label": "xnor + popcount mac kernel"
+      "community": 2,
+      "norm_label": "xnor + popcount mac kernel",
+      "id": "binarized_neural_networks_xnor_popcount_mac"
     },
     {
       "label": "LeWorldModel (paper)",
@@ -1910,9 +1899,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "leworldmodel_main",
-      "community": 14,
-      "norm_label": "leworldmodel (paper)"
+      "community": 15,
+      "norm_label": "leworldmodel (paper)",
+      "id": "leworldmodel_main"
     },
     {
       "label": "Conditional Memory via Scalable Lookup",
@@ -1923,9 +1912,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_main",
-      "community": 8,
-      "norm_label": "conditional memory via scalable lookup"
+      "community": 10,
+      "norm_label": "conditional memory via scalable lookup",
+      "id": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_main"
     },
     {
       "label": "Lookup-Based Conditional Memory as New Sparsity Axis",
@@ -1936,9 +1925,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_lookup_sparsity_axis",
-      "community": 8,
-      "norm_label": "lookup-based conditional memory as new sparsity axis"
+      "community": 10,
+      "norm_label": "lookup-based conditional memory as new sparsity axis",
+      "id": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_lookup_sparsity_axis"
     },
     {
       "label": "Practitioner's Guide to Kolmogorov-Arnold Networks",
@@ -1949,9 +1938,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_main",
-      "community": 0,
-      "norm_label": "practitioner's guide to kolmogorov-arnold networks"
+      "community": 8,
+      "norm_label": "practitioner's guide to kolmogorov-arnold networks",
+      "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_main"
     },
     {
       "label": "Learnable Edge Activation Functions (KAN)",
@@ -1962,9 +1951,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
-      "community": 0,
-      "norm_label": "learnable edge activation functions (kan)"
+      "community": 8,
+      "norm_label": "learnable edge activation functions (kan)",
+      "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions"
     },
     {
       "label": "PolarQuant: Quantizing KV Caches via Polar Transform",
@@ -1975,9 +1964,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "polarquant_quantizing_kv_caches_with_polar_transformation_main",
-      "community": 10,
-      "norm_label": "polarquant: quantizing kv caches via polar transform"
+      "community": 12,
+      "norm_label": "polarquant: quantizing kv caches via polar transform",
+      "id": "polarquant_quantizing_kv_caches_with_polar_transformation_main"
     },
     {
       "label": "Learning with Exact Invariances in Polynomial Time",
@@ -1988,9 +1977,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "learning_with_exact_invariances_in_polynomial_time_main",
-      "community": 0,
-      "norm_label": "learning with exact invariances in polynomial time"
+      "community": 8,
+      "norm_label": "learning with exact invariances in polynomial time",
+      "id": "learning_with_exact_invariances_in_polynomial_time_main"
     },
     {
       "label": "Learning to Discover at Test Time",
@@ -2001,9 +1990,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "learning_to_discover_at_test_time_main",
-      "community": 14,
-      "norm_label": "learning to discover at test time"
+      "community": 15,
+      "norm_label": "learning to discover at test time",
+      "id": "learning_to_discover_at_test_time_main"
     },
     {
       "label": "Geometric Explanation of Likelihood OOD Detection Paradox",
@@ -2014,9 +2003,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_main",
       "community": 0,
-      "norm_label": "geometric explanation of likelihood ood detection paradox"
+      "norm_label": "geometric explanation of likelihood ood detection paradox",
+      "id": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_main"
     },
     {
       "label": "Manifold Geometry / Jacobian Explanation of OOD",
@@ -2027,9 +2016,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_manifold_geometry",
       "community": 0,
-      "norm_label": "manifold geometry / jacobian explanation of ood"
+      "norm_label": "manifold geometry / jacobian explanation of ood",
+      "id": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_manifold_geometry"
     },
     {
       "label": "QJL: JL-based KV Cache Quantization",
@@ -2040,9 +2029,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "qjl_main",
-      "community": 10,
-      "norm_label": "qjl: jl-based kv cache quantization"
+      "community": 12,
+      "norm_label": "qjl: jl-based kv cache quantization",
+      "id": "qjl_main"
     },
     {
       "label": "Primer on Quantum Machine Learning",
@@ -2053,9 +2042,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_primer_on_quantum_machine_learning_main",
-      "community": 6,
-      "norm_label": "primer on quantum machine learning"
+      "community": 8,
+      "norm_label": "primer on quantum machine learning",
+      "id": "a_primer_on_quantum_machine_learning_main"
     },
     {
       "label": "Variational Quantum Circuits as Learnable Physical Systems",
@@ -2066,9 +2055,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
-      "community": 6,
-      "norm_label": "variational quantum circuits as learnable physical systems"
+      "community": 8,
+      "norm_label": "variational quantum circuits as learnable physical systems",
+      "id": "a_primer_on_quantum_machine_learning_variational_quantum_circuit"
     },
     {
       "label": "TurboQuant",
@@ -2079,9 +2068,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "turboquant_main",
-      "community": 10,
-      "norm_label": "turboquant"
+      "community": 12,
+      "norm_label": "turboquant",
+      "id": "turboquant_main"
     },
     {
       "label": "Analog In-Memory Computing Attention",
@@ -2092,9 +2081,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
-      "community": 8,
-      "norm_label": "analog in-memory computing attention"
+      "community": 10,
+      "norm_label": "analog in-memory computing attention",
+      "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main"
     },
     {
       "label": "In-Memory Attention Compute (analog crossbars for KV)",
@@ -2105,9 +2094,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
-      "community": 8,
-      "norm_label": "in-memory attention compute (analog crossbars for kv)"
+      "community": 10,
+      "norm_label": "in-memory attention compute (analog crossbars for kv)",
+      "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv"
     },
     {
       "label": "CMOS-Integrated Organic Neuromorphic Imagers",
@@ -2118,9 +2107,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_main",
-      "community": 5,
-      "norm_label": "cmos-integrated organic neuromorphic imagers"
+      "community": 3,
+      "norm_label": "cmos-integrated organic neuromorphic imagers",
+      "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_main"
     },
     {
       "label": "Hybrid CMOS + Organic Neuromorphic Device Stack",
@@ -2131,9 +2120,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_hybrid_cmos_organic",
-      "community": 6,
-      "norm_label": "hybrid cmos + organic neuromorphic device stack"
+      "community": 3,
+      "norm_label": "hybrid cmos + organic neuromorphic device stack",
+      "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_hybrid_cmos_organic"
     },
     {
       "label": "Neuromorphic Processor with On-Chip Learning",
@@ -2144,9 +2133,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_main",
-      "community": 5,
-      "norm_label": "neuromorphic processor with on-chip learning"
+      "community": 3,
+      "norm_label": "neuromorphic processor with on-chip learning",
+      "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_main"
     },
     {
       "label": "On-Chip Local Learning Rule for Beyond-CMOS Devices",
@@ -2157,9 +2146,373 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning",
-      "community": 5,
-      "norm_label": "on-chip local learning rule for beyond-cmos devices"
+      "community": 3,
+      "norm_label": "on-chip local learning rule for beyond-cmos devices",
+      "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning"
+    },
+    {
+      "label": "Device-Math Correspondence Catalog",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "# Device \u2194 Math Correspondence Catalog",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "device-math correspondence catalog",
+      "id": "device_math_mapping_main"
+    },
+    {
+      "label": "Pair 1: Punch-Through \u2194 ES Fast-Weight Momentum",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "pair 1: punch-through \u2194 es fast-weight momentum",
+      "id": "device_math_mapping_pair_1_punchthrough_es_momentum"
+    },
+    {
+      "label": "Identity: shared low-pass filter \u03c4_fast\u207b\u00b9\u2248T_fast\u207b\u00b9",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "identity: shared low-pass filter \u03c4_fast\u22121\u2248t_fast\u22121",
+      "id": "device_math_mapping_pair_1_identity_lowpass_filter"
+    },
+    {
+      "label": "Test: 2-transistor EGGROLL vs FP logistic regression",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "test: 2-transistor eggroll vs fp logistic regression",
+      "id": "device_math_mapping_pair_1_test_two_transistor_eggroll"
+    },
+    {
+      "label": "Pair 2: Charge-Trapping \u2194 Consolidation/Slow-Weight",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "pair 2: charge-trapping \u2194 consolidation/slow-weight",
+      "id": "device_math_mapping_pair_2_charge_trap_consolidation"
+    },
+    {
+      "label": "Predicted identity: \u03b7_slow = \u222b P(\u03c4)/\u03c4 d\u03c4",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "predicted identity: \u03b7_slow = \u222b p(\u03c4)/\u03c4 d\u03c4",
+      "id": "device_math_mapping_pair_2_identity_trap_kernel_ema"
+    },
+    {
+      "label": "Rationale: trap-depth heterogeneity \u2194 multi-timescale EMA",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "rationale: trap-depth heterogeneity \u2194 multi-timescale ema",
+      "id": "device_math_mapping_pair_2_rationale_trap_heterogeneity"
+    },
+    {
+      "label": "Pair 3: Memristor/PCM Levels \u2194 Low-Rank Rank r",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 9,
+      "norm_label": "pair 3: memristor/pcm levels \u2194 low-rank rank r",
+      "id": "device_math_mapping_pair_3_memristor_lowrank"
+    },
+    {
+      "label": "Identity: usable rank r bounded by cell resolution b",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 9,
+      "norm_label": "identity: usable rank r bounded by cell resolution b",
+      "id": "device_math_mapping_pair_3_identity_bits_bound_rank"
+    },
+    {
+      "label": "Test: b=4 vs b=8 memristor EGGROLL convergence knee",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 9,
+      "norm_label": "test: b=4 vs b=8 memristor eggroll convergence knee",
+      "id": "device_math_mapping_pair_3_test_b4_vs_b8"
+    },
+    {
+      "label": "Pair 4: Analog Crossbar MVM \u2194 Pre-Softmax Logits",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 10,
+      "norm_label": "pair 4: analog crossbar mvm \u2194 pre-softmax logits",
+      "id": "device_math_mapping_pair_4_crossbar_attention_logits"
+    },
+    {
+      "label": "Identity: one crossbar MVM cycle = QK^T/\u221ad_k",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 10,
+      "norm_label": "identity: one crossbar mvm cycle = qk^t/\u221ad_k",
+      "id": "device_math_mapping_pair_4_identity_crossbar_equals_qkt"
+    },
+    {
+      "label": "Implication: softmax must be off-chip or approximated",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 10,
+      "norm_label": "implication: softmax must be off-chip or approximated",
+      "id": "device_math_mapping_pair_4_implication_offchip_softmax"
+    },
+    {
+      "label": "Pair 5: Floating-Bulk Drift \u2194 Running-Stats Norm",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "pair 5: floating-bulk drift \u2194 running-stats norm",
+      "id": "device_math_mapping_pair_5_floatingbulk_runstats"
+    },
+    {
+      "label": "Predicted identity: \u03b1 = \u0394t/(C_B\u00b7R_leak)",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "predicted identity: \u03b1 = \u03b4t/(c_b\u00b7r_leak)",
+      "id": "device_math_mapping_pair_5_identity_alpha_rc"
+    },
+    {
+      "label": "Rationale: normalization is free in silicon via V_B",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "rationale: normalization is free in silicon via v_b",
+      "id": "device_math_mapping_pair_5_rationale_free_normalization"
+    },
+    {
+      "label": "Pair 6: Single-Cell Two-Timescale \u2194 Fast/Slow LR",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "pair 6: single-cell two-timescale \u2194 fast/slow lr",
+      "id": "device_math_mapping_pair_6_single_cell_two_timescale"
+    },
+    {
+      "label": "Predicted identity: \u03b7_fast/\u03b7_slow = \u03c4_slow/\u03c4_fast",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "predicted identity: \u03b7_fast/\u03b7_slow = \u03c4_slow/\u03c4_fast",
+      "id": "device_math_mapping_pair_6_identity_eta_tau_ratio"
+    },
+    {
+      "label": "Rationale: makes existing hyperedge quantitative",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 1,
+      "norm_label": "rationale: makes existing hyperedge quantitative",
+      "id": "device_math_mapping_pair_6_rationale_quantitative_gap"
+    },
+    {
+      "label": "Pair 7: Kink Effect \u2194 ReLU Polytope Boundary",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "pair 7: kink effect \u2194 relu polytope boundary",
+      "id": "device_math_mapping_pair_7_kink_relu_polytope"
+    },
+    {
+      "label": "Identity: transistor = 1-unit state-region dictionary",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "identity: transistor = 1-unit state-region dictionary",
+      "id": "device_math_mapping_pair_7_identity_transistor_as_state_region"
+    },
+    {
+      "label": "Test: piecewise-affine fit of stacked-transistor I-O",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "test: piecewise-affine fit of stacked-transistor i-o",
+      "id": "device_math_mapping_pair_7_test_piecewise_affine_fit"
+    },
+    {
+      "label": "Pair 8: VQC Angle \u03b8 \u2194 KAN Learnable Rotation",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 8,
+      "norm_label": "pair 8: vqc angle \u03b8 \u2194 kan learnable rotation",
+      "id": "device_math_mapping_pair_8_vqc_kan_rotation"
+    },
+    {
+      "label": "Identity: VQC angle = KAN periodic edge activation",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 8,
+      "norm_label": "identity: vqc angle = kan periodic edge activation",
+      "id": "device_math_mapping_pair_8_identity_angle_equals_edge_fn"
+    },
+    {
+      "label": "Rationale: physics-unitarity \u2194 constraint-unitarity duality",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 8,
+      "norm_label": "rationale: physics-unitarity \u2194 constraint-unitarity duality",
+      "id": "device_math_mapping_pair_8_rationale_unitarity_duality"
+    },
+    {
+      "label": "Grouping A: Two-timescale physics \u2192 slow/fast math",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "grouping a: two-timescale physics \u2192 slow/fast math",
+      "id": "device_math_mapping_grouping_two_timescale"
+    },
+    {
+      "label": "Grouping B: Analog continuum \u2192 low-rank math",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "grouping b: analog continuum \u2192 low-rank math",
+      "id": "device_math_mapping_grouping_analog_lowrank"
+    },
+    {
+      "label": "Grouping C: Piecewise physics \u2192 piecewise-linear math",
+      "file_type": "document",
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "source_url": null,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws",
+      "community": 0,
+      "norm_label": "grouping c: piecewise physics \u2192 piecewise-linear math",
+      "id": "device_math_mapping_grouping_piecewise"
     }
   ],
   "links": [
@@ -2242,10 +2595,46 @@
       "source_file": "raw/Evolution Strategies at the Hyperscale.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity",
-      "_tgt": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity",
       "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
       "target": "evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "device_math_mapping_pair_3_memristor_lowrank",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "device_math_mapping_pair_3_memristor_lowrank"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 0.7,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "synaptic_and_neural_behaviours_pdf_memristor",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "synaptic_and_neural_behaviours_pdf_memristor"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "weight": 0.7,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "device_math_mapping_pair_4_crossbar_attention_logits"
     },
     {
       "relation": "conceptually_related_to",
@@ -2302,8 +2691,8 @@
       "source_file": "raw/All elementary functions from a single operator.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
-      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
       "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
       "target": "all_elementary_functions_from_a_single_operator_pdf_edl_operator"
     },
@@ -2314,8 +2703,8 @@
       "source_file": "raw/All elementary functions from a single operator.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "all_elementary_functions_from_a_single_operator_pdf_ternary_operator",
-      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_ternary_operator",
       "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
       "target": "all_elementary_functions_from_a_single_operator_pdf_ternary_operator"
     },
@@ -2326,8 +2715,8 @@
       "source_file": "raw/All elementary functions from a single operator.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "all_elementary_functions_from_a_single_operator_pdf_verify_base_set",
-      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_verify_base_set",
       "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
       "target": "all_elementary_functions_from_a_single_operator_pdf_verify_base_set"
     },
@@ -2374,8 +2763,8 @@
       "source_file": "raw/All elementary functions from a single operator.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive",
-      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive",
       "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
       "target": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive"
     },
@@ -2386,8 +2775,8 @@
       "source_file": "raw/All elementary functions from a single operator.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally",
-      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally",
       "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
       "target": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally"
     },
@@ -2458,8 +2847,8 @@
       "source_file": "raw/All elementary functions from a single operator.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability",
-      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
+      "_tgt": "all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability",
       "source": "all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
       "target": "all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability"
     },
@@ -2602,8 +2991,8 @@
       "source_file": "raw/Evolution Strategies at the Hyperscale.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
-      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
       "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
       "target": "evolution_strategies_at_the_hyperscale_pdf_egg_model"
     },
@@ -2618,6 +3007,30 @@
       "_tgt": "evolution_strategies_at_the_hyperscale_pdf_counter_based_rng",
       "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
       "target": "evolution_strategies_at_the_hyperscale_pdf_counter_based_rng"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_tgt": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "target": "device_math_mapping_pair_1_punchthrough_es_momentum"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 0.8,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_tgt": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "target": "synaptic_and_neural_behaviours_pdf_short_term_plasticity"
     },
     {
       "relation": "conceptually_related_to",
@@ -2638,10 +3051,34 @@
       "source_file": "raw/Evolution Strategies at the Hyperscale.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice",
-      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice",
       "source": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
       "target": "evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "_tgt": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "target": "device_math_mapping_pair_1_punchthrough_es_momentum"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 0.7,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "_tgt": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "target": "synaptic_and_neural_behaviours_pdf_punch_through"
     },
     {
       "relation": "references",
@@ -2650,8 +3087,8 @@
       "source_file": "raw/Evolution Strategies at the Hyperscale.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
-      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_ntk",
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_ntk",
+      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
       "source": "evolution_strategies_at_the_hyperscale_pdf_ntk",
       "target": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem"
     },
@@ -2662,8 +3099,8 @@
       "source_file": "raw/Evolution Strategies at the Hyperscale.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
-      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion",
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion",
+      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
       "source": "evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion",
       "target": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem"
     },
@@ -2674,8 +3111,8 @@
       "source_file": "raw/Evolution Strategies at the Hyperscale.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
-      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem",
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem",
+      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
       "source": "evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem",
       "target": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem"
     },
@@ -2686,8 +3123,8 @@
       "source_file": "raw/Evolution Strategies at the Hyperscale.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es",
-      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es",
       "source": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
       "target": "evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es"
     },
@@ -2698,8 +3135,8 @@
       "source_file": "raw/Synaptic and neural behaviours.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
-      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "_tgt": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
       "source": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
       "target": "synaptic_and_neural_behaviours_pdf_ns_ram_cell"
     },
@@ -2710,10 +3147,34 @@
       "source_file": "raw/Evolution Strategies at the Hyperscale.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity",
-      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity",
       "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
       "target": "evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "device_math_mapping_pair_3_memristor_lowrank",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "device_math_mapping_pair_3_memristor_lowrank"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 0.7,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "synaptic_and_neural_behaviours_pdf_phase_change_memory"
     },
     {
       "relation": "conceptually_related_to",
@@ -2794,10 +3255,22 @@
       "source_file": "raw/Synaptic and neural behaviours.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility",
-      "_tgt": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "_src": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "_tgt": "synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility",
       "source": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
       "target": "synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-References to Existing Graph Nodes",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "_tgt": "device_math_mapping_main",
+      "source": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "target": "device_math_mapping_main"
     },
     {
       "relation": "conceptually_related_to",
@@ -2810,6 +3283,30 @@
       "_tgt": "synaptic_and_neural_behaviours_pdf_punch_through",
       "source": "synaptic_and_neural_behaviours_pdf_mosfet",
       "target": "synaptic_and_neural_behaviours_pdf_punch_through"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 0.8,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "device_math_mapping_pair_7_kink_relu_polytope",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "device_math_mapping_pair_7_kink_relu_polytope"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-References to Existing Graph Nodes",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "device_math_mapping_main",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "device_math_mapping_main"
     },
     {
       "relation": "conceptually_related_to",
@@ -2834,6 +3331,66 @@
       "_tgt": "synaptic_and_neural_behaviours_pdf_kink_effect",
       "source": "synaptic_and_neural_behaviours_pdf_punch_through",
       "target": "synaptic_and_neural_behaviours_pdf_kink_effect"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "_tgt": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "source": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "target": "device_math_mapping_pair_1_punchthrough_es_momentum"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "_tgt": "device_math_mapping_pair_7_kink_relu_polytope",
+      "source": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "target": "device_math_mapping_pair_7_kink_relu_polytope"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.3,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 0.3,
+      "_src": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "_tgt": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow",
+      "source": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "target": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "_tgt": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "source": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "target": "device_math_mapping_pair_5_floatingbulk_runstats"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 0.7,
+      "_src": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "source": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "target": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
     },
     {
       "relation": "conceptually_related_to",
@@ -2932,16 +3489,64 @@
       "target": "synaptic_and_neural_behaviours_pdf_phase_change_memory"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_memristor",
+      "_tgt": "device_math_mapping_pair_3_memristor_lowrank",
+      "source": "synaptic_and_neural_behaviours_pdf_memristor",
+      "target": "device_math_mapping_pair_3_memristor_lowrank"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "raw/Synaptic and neural behaviours.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability",
-      "_tgt": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "_src": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "_tgt": "synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability",
       "source": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
       "target": "synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "_tgt": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "source": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "target": "device_math_mapping_pair_5_floatingbulk_runstats"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 0.7,
+      "_src": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "source": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "target": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "_tgt": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "source": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "target": "device_math_mapping_pair_1_punchthrough_es_momentum"
     },
     {
       "relation": "conceptually_related_to",
@@ -2974,10 +3579,106 @@
       "source_file": "raw/Synaptic and neural behaviours.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
-      "_tgt": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_src": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_tgt": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
       "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
       "target": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_tgt": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "target": "device_math_mapping_pair_2_charge_trap_consolidation"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 0.8,
+      "_src": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "target": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_hot_carrier_injection",
+      "_tgt": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "source": "synaptic_and_neural_behaviours_pdf_hot_carrier_injection",
+      "target": "device_math_mapping_pair_2_charge_trap_consolidation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "_tgt": "device_math_mapping_pair_7_kink_relu_polytope",
+      "source": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "target": "device_math_mapping_pair_7_kink_relu_polytope"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.3,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 0.3,
+      "_src": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "_tgt": "neural_networks_as_state_region_dictionaries_main",
+      "source": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "target": "neural_networks_as_state_region_dictionaries_main"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "_tgt": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "source": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "target": "device_math_mapping_pair_2_charge_trap_consolidation"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 0.7,
+      "_src": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "source": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "target": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "_tgt": "device_math_mapping_pair_3_memristor_lowrank",
+      "source": "synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "target": "device_math_mapping_pair_3_memristor_lowrank"
     },
     {
       "relation": "conceptually_related_to",
@@ -3058,8 +3759,8 @@
       "source_file": "raw/Self-Organizing CMOS-Memory Architecture for Representation Learning.md",
       "source_location": "\u00a71-\u00a72",
       "weight": 1.0,
-      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit",
-      "_tgt": "semi_passive_physical_neural_devices_transistor_neuron_analogy",
+      "_src": "semi_passive_physical_neural_devices_transistor_neuron_analogy",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit",
       "source": "semi_passive_physical_neural_devices_transistor_neuron_analogy",
       "target": "self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit"
     },
@@ -3106,8 +3807,8 @@
       "source_file": "raw/A Physical Reinterpretation of Deep Learning.md",
       "source_location": "\u00a75",
       "weight": 1.0,
-      "_src": "a_physical_reinterpretation_of_deep_learning_reactive_medium",
-      "_tgt": "semi_passive_physical_neural_devices_learnable_physical_medium",
+      "_src": "semi_passive_physical_neural_devices_learnable_physical_medium",
+      "_tgt": "a_physical_reinterpretation_of_deep_learning_reactive_medium",
       "source": "semi_passive_physical_neural_devices_learnable_physical_medium",
       "target": "a_physical_reinterpretation_of_deep_learning_reactive_medium"
     },
@@ -3118,8 +3819,8 @@
       "source_file": "raw/Analog in-memory computing attention mechanism for fast and energy-efficient large language models.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
-      "_tgt": "semi_passive_physical_neural_devices_learnable_physical_medium",
+      "_src": "semi_passive_physical_neural_devices_learnable_physical_medium",
+      "_tgt": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
       "source": "semi_passive_physical_neural_devices_learnable_physical_medium",
       "target": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv"
     },
@@ -3130,8 +3831,8 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
-      "_tgt": "semi_passive_physical_neural_devices_learnable_physical_medium",
+      "_src": "semi_passive_physical_neural_devices_learnable_physical_medium",
+      "_tgt": "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
       "source": "semi_passive_physical_neural_devices_learnable_physical_medium",
       "target": "a_primer_on_quantum_machine_learning_variational_quantum_circuit"
     },
@@ -3166,8 +3867,8 @@
       "source_file": "raw/Self-Organizing CMOS-Memory Architecture for Representation Learning.md",
       "source_location": "\u00a73",
       "weight": 1.0,
-      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
-      "_tgt": "semi_passive_physical_neural_devices_memorable_operational_split",
+      "_src": "semi_passive_physical_neural_devices_memorable_operational_split",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
       "source": "semi_passive_physical_neural_devices_memorable_operational_split",
       "target": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
     },
@@ -3190,10 +3891,22 @@
       "source_file": "raw/Self-Organizing CMOS-Memory Architecture for Representation Learning.md",
       "source_location": "\u00a75",
       "weight": 1.0,
-      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
-      "_tgt": "semi_passive_physical_neural_devices_flash_slow_parameter",
+      "_src": "semi_passive_physical_neural_devices_flash_slow_parameter",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
       "source": "semi_passive_physical_neural_devices_flash_slow_parameter",
       "target": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 1.0,
+      "_src": "semi_passive_physical_neural_devices_flash_slow_parameter",
+      "_tgt": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "source": "semi_passive_physical_neural_devices_flash_slow_parameter",
+      "target": "device_math_mapping_pair_6_single_cell_two_timescale"
     },
     {
       "relation": "semantically_similar_to",
@@ -3226,8 +3939,8 @@
       "source_file": "raw/Self-Organizing CMOS-Memory Architecture for Representation Learning.md",
       "source_location": "\u00a74",
       "weight": 1.0,
-      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning",
-      "_tgt": "semi_passive_physical_neural_devices_three_factor_learning",
+      "_src": "semi_passive_physical_neural_devices_three_factor_learning",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning",
       "source": "semi_passive_physical_neural_devices_three_factor_learning",
       "target": "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning"
     },
@@ -3262,10 +3975,34 @@
       "source_file": "raw/Semi-Passive Physical Neural Devices.md",
       "source_location": "\u00a710.4",
       "weight": 1.0,
-      "_src": "semi_passive_physical_neural_devices_rationale_single_cell",
-      "_tgt": "semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "_src": "semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "_tgt": "semi_passive_physical_neural_devices_rationale_single_cell",
       "source": "semi_passive_physical_neural_devices_single_cell_two_timescales",
       "target": "semi_passive_physical_neural_devices_rationale_single_cell"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 1.0,
+      "_src": "semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "_tgt": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "source": "semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "target": "device_math_mapping_pair_6_single_cell_two_timescale"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 0.9,
+      "_src": "semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "source": "semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "target": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
     },
     {
       "relation": "semantically_similar_to",
@@ -3278,6 +4015,18 @@
       "_tgt": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
       "source": "semi_passive_physical_neural_devices_operation_transition_speed",
       "target": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 1.0,
+      "_src": "semi_passive_physical_neural_devices_rationale_single_cell",
+      "_tgt": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "source": "semi_passive_physical_neural_devices_rationale_single_cell",
+      "target": "device_math_mapping_pair_6_single_cell_two_timescale"
     },
     {
       "relation": "conceptually_related_to",
@@ -3406,8 +4155,8 @@
       "source_file": "raw/A Physical Reinterpretation of Deep Learning.md",
       "source_location": "\u00a73.1",
       "weight": 1.0,
-      "_src": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
-      "_tgt": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "_src": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "_tgt": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
       "source": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
       "target": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
     },
@@ -3418,8 +4167,8 @@
       "source_file": "raw/Primitive Geometry of Neural Representation.md",
       "source_location": "\u00a77",
       "weight": 1.0,
-      "_src": "primitive_geometry_of_neural_representation_code_state_encoding",
-      "_tgt": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "_src": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "_tgt": "primitive_geometry_of_neural_representation_code_state_encoding",
       "source": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
       "target": "primitive_geometry_of_neural_representation_code_state_encoding"
     },
@@ -3454,8 +4203,8 @@
       "source_file": "raw/Bit-Level Operator Framework for ReLU MLPs.md",
       "source_location": "\u00a79.2",
       "weight": 1.0,
-      "_src": "bit_level_operator_framework_for_relu_mlps_rationale_carry_bottleneck",
-      "_tgt": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
+      "_src": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
+      "_tgt": "bit_level_operator_framework_for_relu_mlps_rationale_carry_bottleneck",
       "source": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
       "target": "bit_level_operator_framework_for_relu_mlps_rationale_carry_bottleneck"
     },
@@ -3466,8 +4215,8 @@
       "source_file": "raw/Binarized Neural Networks.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "binarized_neural_networks_xnor_popcount_mac",
-      "_tgt": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
+      "_src": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
+      "_tgt": "binarized_neural_networks_xnor_popcount_mac",
       "source": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
       "target": "binarized_neural_networks_xnor_popcount_mac"
     },
@@ -3568,6 +4317,30 @@
       "target": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "weight": 0.7,
+      "_src": "neural_networks_as_state_region_dictionaries_main",
+      "_tgt": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "source": "neural_networks_as_state_region_dictionaries_main",
+      "target": "device_math_mapping_pair_4_crossbar_attention_logits"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 1.0,
+      "_src": "neural_networks_as_state_region_dictionaries_main",
+      "_tgt": "device_math_mapping_pair_7_kink_relu_polytope",
+      "source": "neural_networks_as_state_region_dictionaries_main",
+      "target": "device_math_mapping_pair_7_kink_relu_polytope"
+    },
+    {
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.75,
@@ -3586,8 +4359,8 @@
       "source_file": "raw/Primitive Geometry of Neural Representation.md",
       "source_location": "\u00a73",
       "weight": 1.0,
-      "_src": "primitive_geometry_of_neural_representation_hyperplane_partition",
-      "_tgt": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas",
+      "_src": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas",
+      "_tgt": "primitive_geometry_of_neural_representation_hyperplane_partition",
       "source": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas",
       "target": "primitive_geometry_of_neural_representation_hyperplane_partition"
     },
@@ -3598,8 +4371,8 @@
       "source_file": "raw/Primitive Geometry of Neural Representation.md",
       "source_location": "\u00a74",
       "weight": 1.0,
-      "_src": "primitive_geometry_of_neural_representation_activation_code",
-      "_tgt": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas",
+      "_src": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas",
+      "_tgt": "primitive_geometry_of_neural_representation_activation_code",
       "source": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas",
       "target": "primitive_geometry_of_neural_representation_activation_code"
     },
@@ -3610,8 +4383,8 @@
       "source_file": "raw/Neural Networks as State-Region Dictionaries and Transition Autoencoder Mixtures.md",
       "source_location": "\u00a76",
       "weight": 1.0,
-      "_src": "neural_networks_as_state_region_dictionaries_rationale_mse_loss_meaning",
-      "_tgt": "neural_networks_as_state_region_dictionaries_jacobian_conditioning",
+      "_src": "neural_networks_as_state_region_dictionaries_jacobian_conditioning",
+      "_tgt": "neural_networks_as_state_region_dictionaries_rationale_mse_loss_meaning",
       "source": "neural_networks_as_state_region_dictionaries_jacobian_conditioning",
       "target": "neural_networks_as_state_region_dictionaries_rationale_mse_loss_meaning"
     },
@@ -3626,6 +4399,18 @@
       "_tgt": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_manifold_geometry",
       "source": "neural_networks_as_state_region_dictionaries_jacobian_conditioning",
       "target": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_manifold_geometry"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 1.0,
+      "_src": "neural_networks_as_state_region_dictionaries_jacobian_conditioning",
+      "_tgt": "device_math_mapping_pair_7_kink_relu_polytope",
+      "source": "neural_networks_as_state_region_dictionaries_jacobian_conditioning",
+      "target": "device_math_mapping_pair_7_kink_relu_polytope"
     },
     {
       "relation": "conceptually_related_to",
@@ -3646,8 +4431,8 @@
       "source_file": "raw/A Physical Reinterpretation of Deep Learning.md",
       "source_location": "\u00a710",
       "weight": 1.0,
-      "_src": "a_physical_reinterpretation_of_deep_learning_interaction_state_layer",
-      "_tgt": "neural_networks_as_state_region_dictionaries_residual_transition_autoencoder",
+      "_src": "neural_networks_as_state_region_dictionaries_residual_transition_autoencoder",
+      "_tgt": "a_physical_reinterpretation_of_deep_learning_interaction_state_layer",
       "source": "neural_networks_as_state_region_dictionaries_residual_transition_autoencoder",
       "target": "a_physical_reinterpretation_of_deep_learning_interaction_state_layer"
     },
@@ -3662,6 +4447,18 @@
       "_tgt": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
       "source": "neural_networks_as_state_region_dictionaries_mixture_of_autoencoders",
       "target": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 1.0,
+      "_src": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow",
+      "_tgt": "device_math_mapping_pair_7_kink_relu_polytope",
+      "source": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow",
+      "target": "device_math_mapping_pair_7_kink_relu_polytope"
     },
     {
       "relation": "conceptually_related_to",
@@ -3766,8 +4563,8 @@
       "source_file": "raw/A Physical Reinterpretation of Deep Learning.md",
       "source_location": "\u00a712",
       "weight": 1.0,
-      "_src": "a_physical_reinterpretation_of_deep_learning_axiomatization",
-      "_tgt": "primitive_geometry_of_neural_representation_four_layer_framework",
+      "_src": "primitive_geometry_of_neural_representation_four_layer_framework",
+      "_tgt": "a_physical_reinterpretation_of_deep_learning_axiomatization",
       "source": "primitive_geometry_of_neural_representation_four_layer_framework",
       "target": "a_physical_reinterpretation_of_deep_learning_axiomatization"
     },
@@ -3844,6 +4641,42 @@
       "target": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 1.0,
+      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "_tgt": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "source": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "target": "device_math_mapping_pair_2_charge_trap_consolidation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 0.8,
+      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "_tgt": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "source": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "target": "device_math_mapping_pair_5_floatingbulk_runstats"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 1.0,
+      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "_tgt": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "source": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "target": "device_math_mapping_pair_6_single_cell_two_timescale"
+    },
+    {
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.7,
@@ -3856,14 +4689,50 @@
       "target": "hebbian_learning_with_global_direction_local_rule_global_signal"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 1.0,
+      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "_tgt": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "source": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "target": "device_math_mapping_pair_2_charge_trap_consolidation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 0.7,
+      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "_tgt": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "source": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "target": "device_math_mapping_pair_5_floatingbulk_runstats"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 1.0,
+      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "_tgt": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "source": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "target": "device_math_mapping_pair_6_single_cell_two_timescale"
+    },
+    {
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "raw/A Physical Reinterpretation of Deep Learning.md",
       "source_location": "\u00a75",
       "weight": 1.0,
-      "_src": "a_physical_reinterpretation_of_deep_learning_reactive_medium",
-      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning",
+      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning",
+      "_tgt": "a_physical_reinterpretation_of_deep_learning_reactive_medium",
       "source": "self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning",
       "target": "a_physical_reinterpretation_of_deep_learning_reactive_medium"
     },
@@ -3874,8 +4743,8 @@
       "source_file": "raw/Self-Organizing CMOS-Memory Architecture for Representation Learning.md",
       "source_location": "\u00a77",
       "weight": 1.0,
-      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split",
-      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid",
+      "_src": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid",
+      "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split",
       "source": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid",
       "target": "self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split"
     },
@@ -4006,8 +4875,8 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
-      "_tgt": "a_physical_reinterpretation_of_deep_learning_reactive_medium",
+      "_src": "a_physical_reinterpretation_of_deep_learning_reactive_medium",
+      "_tgt": "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
       "source": "a_physical_reinterpretation_of_deep_learning_reactive_medium",
       "target": "a_primer_on_quantum_machine_learning_variational_quantum_circuit"
     },
@@ -4126,8 +4995,8 @@
       "source_file": "raw/Learning to Discover at Test Time.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "learning_to_discover_at_test_time_main",
-      "_tgt": "leworldmodel_main",
+      "_src": "leworldmodel_main",
+      "_tgt": "learning_to_discover_at_test_time_main",
       "source": "leworldmodel_main",
       "target": "learning_to_discover_at_test_time_main"
     },
@@ -4150,8 +5019,8 @@
       "source_file": "raw/Analog in-memory computing attention mechanism for fast and energy-efficient large language models.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
-      "_tgt": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_lookup_sparsity_axis",
+      "_src": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_lookup_sparsity_axis",
+      "_tgt": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
       "source": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_lookup_sparsity_axis",
       "target": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv"
     },
@@ -4174,10 +5043,34 @@
       "source_file": "raw/Learning with Exact Invariances in Polynomial Time.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "learning_with_exact_invariances_in_polynomial_time_main",
-      "_tgt": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "_src": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "_tgt": "learning_with_exact_invariances_in_polynomial_time_main",
       "source": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
       "target": "learning_with_exact_invariances_in_polynomial_time_main"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 1.0,
+      "_src": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "_tgt": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "source": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "target": "device_math_mapping_pair_8_vqc_kan_rotation"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 0.7,
+      "_src": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "_tgt": "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
+      "source": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "target": "a_primer_on_quantum_machine_learning_variational_quantum_circuit"
     },
     {
       "relation": "semantically_similar_to",
@@ -4186,8 +5079,8 @@
       "source_file": "raw/QJL.pdf",
       "source_location": null,
       "weight": 1.0,
-      "_src": "qjl_main",
-      "_tgt": "polarquant_quantizing_kv_caches_with_polar_transformation_main",
+      "_src": "polarquant_quantizing_kv_caches_with_polar_transformation_main",
+      "_tgt": "qjl_main",
       "source": "polarquant_quantizing_kv_caches_with_polar_transformation_main",
       "target": "qjl_main"
     },
@@ -4202,6 +5095,30 @@
       "_tgt": "turboquant_main",
       "source": "polarquant_quantizing_kv_caches_with_polar_transformation_main",
       "target": "turboquant_main"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 1.0,
+      "_src": "learning_with_exact_invariances_in_polynomial_time_main",
+      "_tgt": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "source": "learning_with_exact_invariances_in_polynomial_time_main",
+      "target": "device_math_mapping_pair_8_vqc_kan_rotation"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 0.7,
+      "_src": "learning_with_exact_invariances_in_polynomial_time_main",
+      "_tgt": "a_primer_on_quantum_machine_learning_main",
+      "source": "learning_with_exact_invariances_in_polynomial_time_main",
+      "target": "a_primer_on_quantum_machine_learning_main"
     },
     {
       "relation": "conceptually_related_to",
@@ -4243,6 +5160,30 @@
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 1.0,
+      "_src": "a_primer_on_quantum_machine_learning_main",
+      "_tgt": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "source": "a_primer_on_quantum_machine_learning_main",
+      "target": "device_math_mapping_pair_8_vqc_kan_rotation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 1.0,
+      "_src": "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
+      "_tgt": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "source": "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
+      "target": "device_math_mapping_pair_8_vqc_kan_rotation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "raw/Analog in-memory computing attention mechanism for fast and energy-efficient large language models.pdf",
       "source_location": null,
       "weight": 1.0,
@@ -4250,6 +5191,30 @@
       "_tgt": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
       "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
       "target": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "weight": 1.0,
+      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
+      "_tgt": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
+      "target": "device_math_mapping_pair_4_crossbar_attention_logits"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "weight": 1.0,
+      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "_tgt": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "target": "device_math_mapping_pair_4_crossbar_attention_logits"
     },
     {
       "relation": "conceptually_related_to",
@@ -4274,96 +5239,409 @@
       "_tgt": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning",
       "source": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_main",
       "target": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_pair_1_punchthrough_es_momentum"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_pair_2_charge_trap_consolidation"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_pair_3_memristor_lowrank",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_pair_3_memristor_lowrank"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_pair_4_crossbar_attention_logits"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_pair_5_floatingbulk_runstats"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_pair_6_single_cell_two_timescale"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_pair_7_kink_relu_polytope",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_pair_7_kink_relu_polytope"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_pair_8_vqc_kan_rotation"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_grouping_two_timescale",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_grouping_two_timescale"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_grouping_analog_lowrank",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_grouping_analog_lowrank"
+    },
+    {
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "device_math_mapping_grouping_piecewise",
+      "source": "device_math_mapping_main",
+      "target": "device_math_mapping_grouping_piecewise"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "_tgt": "device_math_mapping_pair_1_identity_lowpass_filter",
+      "source": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "target": "device_math_mapping_pair_1_identity_lowpass_filter"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 1",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "_tgt": "device_math_mapping_pair_1_test_two_transistor_eggroll",
+      "source": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "target": "device_math_mapping_pair_1_test_two_transistor_eggroll"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "_tgt": "device_math_mapping_pair_2_identity_trap_kernel_ema",
+      "source": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "target": "device_math_mapping_pair_2_identity_trap_kernel_ema"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 2",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "_tgt": "device_math_mapping_pair_2_rationale_trap_heterogeneity",
+      "source": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "target": "device_math_mapping_pair_2_rationale_trap_heterogeneity"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_3_memristor_lowrank",
+      "_tgt": "device_math_mapping_pair_3_identity_bits_bound_rank",
+      "source": "device_math_mapping_pair_3_memristor_lowrank",
+      "target": "device_math_mapping_pair_3_identity_bits_bound_rank"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 3",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_3_memristor_lowrank",
+      "_tgt": "device_math_mapping_pair_3_test_b4_vs_b8",
+      "source": "device_math_mapping_pair_3_memristor_lowrank",
+      "target": "device_math_mapping_pair_3_test_b4_vs_b8"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "_tgt": "device_math_mapping_pair_4_identity_crossbar_equals_qkt",
+      "source": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "target": "device_math_mapping_pair_4_identity_crossbar_equals_qkt"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 4",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "_tgt": "device_math_mapping_pair_4_implication_offchip_softmax",
+      "source": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "target": "device_math_mapping_pair_4_implication_offchip_softmax"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "_tgt": "device_math_mapping_pair_5_identity_alpha_rc",
+      "source": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "target": "device_math_mapping_pair_5_identity_alpha_rc"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 5",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "_tgt": "device_math_mapping_pair_5_rationale_free_normalization",
+      "source": "device_math_mapping_pair_5_floatingbulk_runstats",
+      "target": "device_math_mapping_pair_5_rationale_free_normalization"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "_tgt": "device_math_mapping_pair_6_identity_eta_tau_ratio",
+      "source": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "target": "device_math_mapping_pair_6_identity_eta_tau_ratio"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 6",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "_tgt": "device_math_mapping_pair_6_rationale_quantitative_gap",
+      "source": "device_math_mapping_pair_6_single_cell_two_timescale",
+      "target": "device_math_mapping_pair_6_rationale_quantitative_gap"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_7_kink_relu_polytope",
+      "_tgt": "device_math_mapping_pair_7_identity_transistor_as_state_region",
+      "source": "device_math_mapping_pair_7_kink_relu_polytope",
+      "target": "device_math_mapping_pair_7_identity_transistor_as_state_region"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 7",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_7_kink_relu_polytope",
+      "_tgt": "device_math_mapping_pair_7_test_piecewise_affine_fit",
+      "source": "device_math_mapping_pair_7_kink_relu_polytope",
+      "target": "device_math_mapping_pair_7_test_piecewise_affine_fit"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "_tgt": "device_math_mapping_pair_8_identity_angle_equals_edge_fn",
+      "source": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "target": "device_math_mapping_pair_8_identity_angle_equals_edge_fn"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Pair 8",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "_tgt": "device_math_mapping_pair_8_rationale_unitarity_duality",
+      "source": "device_math_mapping_pair_8_vqc_kan_rotation",
+      "target": "device_math_mapping_pair_8_rationale_unitarity_duality"
     }
   ],
   "hyperedges": [
     {
-      "id": "eml_universality_pattern",
-      "label": "EML Universality / Sheffer-Type Reduction Pattern",
-      "nodes": [
-        "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
-        "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
-        "all_elementary_functions_from_a_single_operator_pdf_ternary_operator",
-        "all_elementary_functions_from_a_single_operator_pdf_nand_gate"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.85,
-      "source_file": "raw/All elementary functions from a single operator.pdf"
-    },
-    {
-      "id": "eggroll_low_rank_decomposition_flow",
-      "label": "EGGROLL Low-Rank Decomposition Pipeline",
-      "nodes": [
-        "evolution_strategies_at_the_hyperscale_pdf_evolution_strategies",
-        "evolution_strategies_at_the_hyperscale_pdf_lora",
-        "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
-        "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "id": "device_math_mapping_hyperedge_two_timescale_physics",
+      "label": "Two-Timescale Physics \u2192 Slow/Fast Math",
+      "members": [
+        "device_math_mapping_pair_1_punchthrough_es_momentum",
+        "device_math_mapping_pair_2_charge_trap_consolidation",
+        "device_math_mapping_pair_5_floatingbulk_runstats",
+        "device_math_mapping_pair_6_single_cell_two_timescale",
+        "device_math_mapping_grouping_two_timescale",
+        "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+        "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+        "synaptic_and_neural_behaviours_pdf_floating_bulk",
+        "semi_passive_physical_neural_devices_single_cell_two_timescales",
+        "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
         "evolution_strategies_at_the_hyperscale_pdf_eggroll"
       ],
-      "relation": "participate_in",
+      "relation": "structural_grouping",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "raw/Evolution Strategies at the Hyperscale.pdf"
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "weight": 1.0,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws"
     },
     {
-      "id": "ns_ram_neuro_synaptic_pattern",
-      "label": "NS-RAM Neuro-Synaptic Dual-Use Pattern",
-      "nodes": [
-        "synaptic_and_neural_behaviours_pdf_mosfet",
+      "id": "device_math_mapping_hyperedge_analog_continuum_lowrank",
+      "label": "Analog Continuum \u2192 Low-Rank Math",
+      "members": [
+        "device_math_mapping_pair_3_memristor_lowrank",
+        "device_math_mapping_pair_4_crossbar_attention_logits",
+        "device_math_mapping_pair_8_vqc_kan_rotation",
+        "device_math_mapping_grouping_analog_lowrank",
+        "synaptic_and_neural_behaviours_pdf_memristor",
+        "synaptic_and_neural_behaviours_pdf_phase_change_memory",
+        "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+        "a_primer_on_quantum_machine_learning_variational_quantum_circuit",
+        "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+        "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+        "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions"
+      ],
+      "relation": "structural_grouping",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "weight": 1.0,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws"
+    },
+    {
+      "id": "device_math_mapping_hyperedge_piecewise_physics_piecewise_math",
+      "label": "Piecewise Physics \u2192 Piecewise-Linear Math",
+      "members": [
+        "device_math_mapping_pair_7_kink_relu_polytope",
+        "device_math_mapping_grouping_piecewise",
+        "device_math_mapping_pair_1_punchthrough_es_momentum",
+        "device_math_mapping_pair_3_memristor_lowrank",
+        "synaptic_and_neural_behaviours_pdf_kink_effect",
         "synaptic_and_neural_behaviours_pdf_punch_through",
-        "synaptic_and_neural_behaviours_pdf_floating_bulk",
-        "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
-        "synaptic_and_neural_behaviours_pdf_ns_ram_cell"
+        "synaptic_and_neural_behaviours_pdf_mosfet",
+        "neural_networks_as_state_region_dictionaries_main",
+        "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow",
+        "neural_networks_as_state_region_dictionaries_jacobian_conditioning"
       ],
-      "relation": "form",
+      "relation": "structural_grouping",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "raw/Synaptic and neural behaviours.pdf"
-    },
-    {
-      "id": "fast_slow_two_timescale_learning_substrate",
-      "label": "Fast/Slow Two-Timescale Learning Substrate (cross-paper motif)",
-      "nodes": [
-        "semi_passive_physical_neural_devices_memorable_operational_split",
-        "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
-        "semi_passive_physical_neural_devices_flash_slow_parameter",
-        "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "raw/Semi-Passive Physical Neural Devices.md"
-    },
-    {
-      "id": "local_learning_without_backprop_cluster",
-      "label": "Local Learning Without Full Backprop",
-      "nodes": [
-        "semi_passive_physical_neural_devices_three_factor_learning",
-        "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training",
-        "hebbian_learning_with_global_direction_local_rule_global_signal",
-        "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning",
-        "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "multiple"
-    },
-    {
-      "id": "bit_level_partial_product_pipeline",
-      "label": "Bit-Level Partial-Product / Carry-Save Compute Pipeline",
-      "nodes": [
-        "bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold",
-        "bit_level_operator_framework_for_relu_mlps_packed_bitslice",
-        "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
-        "binarized_neural_networks_xnor_popcount_mac",
-        "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
-      ],
-      "relation": "implement",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "multiple"
+      "confidence_score": 1.0,
+      "source_file": "raw/device_math_mapping.md",
+      "source_location": "## Cross-Pair Structure",
+      "weight": 1.0,
+      "captured_at": "2026-04-19",
+      "author": "ws",
+      "contributor": "ws"
     }
   ]
 }
