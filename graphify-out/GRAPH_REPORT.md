@@ -1,24 +1,23 @@
-# Graph Report - ./raw  (2026-04-19)
+# Graph Report - ./raw  (2026-04-20)
 
 ## Corpus Check
-- 28 files · ~23,000 words
+- 29 files · ~26,000 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 213 nodes · 356 edges · 14 communities detected
-- Extraction: 79% EXTRACTED · 20% INFERRED · 1% AMBIGUOUS · INFERRED: 70 edges (avg confidence: 0.77)
-- Token cost: 4,800 input · 7,200 output
+- 235 nodes · 440 edges · 13 communities detected
+- Extraction: 75% EXTRACTED · 24% INFERRED · 1% AMBIGUOUS · INFERRED: 104 edges (avg confidence: 0.8)
+- Token cost: 4,200 input · 6,400 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_ES + Symbolic Regression + Catalog Core|ES + Symbolic Regression + Catalog Core]]
+- [[_COMMUNITY_ES + Symbolic Regression + Gaussian-Score Device Realization|ES + Symbolic Regression + Gaussian-Score Device Realization]]
+- [[_COMMUNITY_Analog Multiplication Family (crossbar + Gilbert + log-domain)|Analog Multiplication Family (crossbar + Gilbert + log-domain)]]
+- [[_COMMUNITY_Interaction Field & Learnable Physical Substrate|Interaction Field & Learnable Physical Substrate]]
 - [[_COMMUNITY_Bit-Level Physics & Reinterpretation + Encoder|Bit-Level Physics & Reinterpretation + Encoder]]
-- [[_COMMUNITY_Two-Timescale Bridge + Pulse-Density Encoder|Two-Timescale Bridge + Pulse-Density Encoder]]
-- [[_COMMUNITY_Canonical Forward Pass + State-Region Nonlinearity|Canonical Forward Pass + State-Region Nonlinearity]]
+- [[_COMMUNITY_Subthreshold Nonlinearity + State-Region Bridge|Subthreshold Nonlinearity + State-Region Bridge]]
 - [[_COMMUNITY_LocalNon-Backprop Learning + Stage-2 Options|Local/Non-Backprop Learning + Stage-2 Options]]
-- [[_COMMUNITY_Linear Combiner W + In-Memory Attention|Linear Combiner W + In-Memory Attention]]
-- [[_COMMUNITY_EML Operator Foundations|EML Operator Foundations]]
-- [[_COMMUNITY_Interaction Field & State-Region Formalism|Interaction Field & State-Region Formalism]]
-- [[_COMMUNITY_Learnable Physical Parameter (VQC↔KAN)|Learnable Physical Parameter (VQC↔KAN)]]
+- [[_COMMUNITY_Two-Timescale Bridge + Pulse-Density Encoder|Two-Timescale Bridge + Pulse-Density Encoder]]
+- [[_COMMUNITY_EML Operator + Symbolic Foundations (log-domain algebra)|EML Operator + Symbolic Foundations (log-domain algebra)]]
 - [[_COMMUNITY_Convergence Theory & NTK|Convergence Theory & NTK]]
 - [[_COMMUNITY_KV-Cache Quantization Family|KV-Cache Quantization Family]]
 - [[_COMMUNITY_Matrix Gaussian ES|Matrix Gaussian ES]]
@@ -26,89 +25,85 @@
 - [[_COMMUNITY_Test-Time Discovery & World Models|Test-Time Discovery & World Models]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `EGGROLL Algorithm` - 16 edges
-2. `Device-Math Correspondence Catalog` - 16 edges
-3. `EML Operator eml(x,y)=exp(x)-ln(y)` - 12 edges
-4. `NNs as State-Region Dictionaries (overview)` - 12 edges
-5. `Pair 7: Kink Effect ↔ ReLU Polytope Boundary` - 12 edges
-6. `Component E — Encoder (bits → analog, linear injection)` - 12 edges
-7. `CMOS MOSFET (Bulk-Silicon)` - 11 edges
-8. `Bit-Level Operator Framework for ReLU MLPs (overview)` - 11 edges
-9. `Bit-Analog Formulation v1 (E,W,N,D Quadruple)` - 11 edges
-10. `Component N — Selective-passing nonlinearity (transistor I-V)` - 11 edges
+1. `Subthreshold Exponential Regime (primitive)` - 21 edges
+2. `EGGROLL Algorithm` - 18 edges
+3. `Log-Domain / Translinear Computation (primitive)` - 18 edges
+4. `EML Operator eml(x,y)=exp(x)-ln(y)` - 17 edges
+5. `CMOS MOSFET (Bulk-Silicon)` - 16 edges
+6. `Device-Math Correspondence Catalog` - 16 edges
+7. `Pair 7: Kink Effect ↔ ReLU Polytope Boundary` - 14 edges
+8. `Component N — Selective-passing nonlinearity (transistor I-V)` - 14 edges
+9. `Gilbert Cell Four-Quadrant Multiplier (primitive)` - 14 edges
+10. `Component E — Encoder (bits → analog, linear injection)` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Operation-First: Transition Speed = Compute Throughput` --semantically_similar_to--> `In-Memory Attention Compute (analog crossbars for KV)`  [INFERRED] [semantically similar]
   raw/Semi-Passive Physical Neural Devices.md → raw/Analog in-memory computing attention mechanism for fast and energy-efficient large language models.pdf
-- `Mixture of Transition Autoencoders` --semantically_similar_to--> `Learnable Edge Activation Functions (KAN)`  [INFERRED] [semantically similar]
-  raw/Neural Networks as State-Region Dictionaries and Transition Autoencoder Mixtures.md → raw/A Practitioner's Guide to Kolmogorov–Arnold Networks.pdf
+- `EML Operator eml(x,y)=exp(x)-ln(y)` --semantically_similar_to--> `Subthreshold Exponential Regime (primitive)`  [INFERRED] [semantically similar]
+  raw/All elementary functions from a single operator.pdf → raw/analog_primitive_gaps.md
+- `EML Operator eml(x,y)=exp(x)-ln(y)` --semantically_similar_to--> `Gaussian-score-native: exp(−r²/2σ²) realized by one subthreshold transistor with biased V_GS`  [INFERRED] [semantically similar]
+  raw/All elementary functions from a single operator.pdf → raw/analog_primitive_gaps.md
+- `Exp-Log Representation (Liouville 1835)` --semantically_similar_to--> `Subthreshold Exponential Regime (primitive)`  [INFERRED] [semantically similar]
+  raw/All elementary functions from a single operator.pdf → raw/analog_primitive_gaps.md
 - `Punch-Through Impact Ionization` --semantically_similar_to--> `Depth as Iterative Operator Flow`  [AMBIGUOUS] [semantically similar]
   raw/Synaptic and neural behaviours.pdf → raw/Neural Networks as State-Region Dictionaries and Transition Autoencoder Mixtures.md
-- `Kink Effect (Boudou & Doyle 1987)` --semantically_similar_to--> `NNs as State-Region Dictionaries (overview)`  [AMBIGUOUS] [semantically similar]
-  raw/Synaptic and neural behaviours.pdf → raw/Neural Networks as State-Region Dictionaries and Transition Autoencoder Mixtures.md
-- `Learnable Physical Medium (not a programmed computer)` --semantically_similar_to--> `In-Memory Attention Compute (analog crossbars for KV)`  [INFERRED] [semantically similar]
-  raw/Semi-Passive Physical Neural Devices.md → raw/Analog in-memory computing attention mechanism for fast and energy-efficient large language models.pdf
 
 ## Hyperedges (group relationships)
-- **Bit-Analog Forward-Pass Quadruple (E,W,N,D + formulation)** —  [EXTRACTED 1.00]
-- **Canonical Minimal Model (E=A bit-plane, W=crossbar, N=α kink, D=comparator)** —  [EXTRACTED 1.00]
-- **Same-Transistor Dual-Read (N analog-read + D binary-read of one MOSFET at kink)** —  [INFERRED 0.90]
+- **Analog multiplication family: log-domain, Gilbert cell, crossbar MVM, bit-plane overlap as four implementations of one primitive** —  [INFERRED 0.85]
+- **MOSFET three-regime N-option family: one device instantiates N_α (kink), N_β (subthreshold exp), N_γ (saturation) depending on bias** —  [EXTRACTED 1.00]
+- **Exponential-law family: exp() is the unifying physics across log-domain, subthreshold, EML, Gaussian score, exp/log pair** —  [INFERRED 0.90]
 
 ## Communities
 
-### Community 0 - "ES + Symbolic Regression + Catalog Core"
+### Community 0 - "ES + Symbolic Regression + Gaussian-Score Device Realization"
 Cohesion: 0.06
-Nodes (36): Adam Optimizer, EML Master Formula (Parameterized Tree), PyTorch (Paszke et al. 2019), Rationale: Interpretability via Snap to Closed-form, Symbolic Regression via EML Trees, Identity: shared low-pass filter τ_fast⁻¹≈T_fast⁻¹, Pair 1: Punch-Through ↔ ES Fast-Weight Momentum, Test: 2-transistor EGGROLL vs FP logistic regression (+28 more)
+Nodes (39): Adam Optimizer, EML Master Formula (Parameterized Tree), PyTorch (Paszke et al. 2019), Rationale: Interpretability via Snap to Closed-form, Symbolic Regression via EML Trees, Gaussian-score-native: exp(−r²/2σ²) realized by one subthreshold transistor with biased V_GS, LIF neuron leakage is subthreshold-native; Gaussian score computation is subthreshold-natural, Sigmoid-native: I_D/(I_D+I_ref) = 1/(1+exp(−V_GS/n·V_T)) with only a current mirror (+31 more)
 
-### Community 1 - "Bit-Level Physics & Reinterpretation + Encoder"
+### Community 1 - "Analog Multiplication Family (crossbar + Gilbert + log-domain)"
+Cohesion: 0.12
+Nodes (31): Binary Tree Grammar S->1|eml(S,S), In-Memory Attention Compute (analog crossbars for KV), Analog In-Memory Computing Attention, Topology: two cross-coupled differential pairs sharing a common tail-current source, Four-quadrant signed multiplication: I_out = (I_tail/V_T^2)·V_x·V_y for small signals, Gilbert Cell Four-Quadrant Multiplier (primitive), Strip of max(m,n) Gilbert cells evaluates outer product a_i·b_j one row/column at a time, Precision regime complements crossbar: higher dynamic range, lower parallelism, signed-native (+23 more)
+
+### Community 2 - "Interaction Field & Learnable Physical Substrate"
+Cohesion: 0.09
+Nodes (29): 10-Axiom Formalization of Stateful NN, Interaction-State Layer (multi-channel node, edge-state), NN as Structured Reactive Medium, Shared-Basis Low-Rank Edge Interaction, Stateful Interaction Field Formalism, Learnable Edge Activation Functions (KAN), Practitioner's Guide to Kolmogorov-Arnold Networks, Primer on Quantum Machine Learning (+21 more)
+
+### Community 3 - "Bit-Level Physics & Reinterpretation + Encoder"
 Cohesion: 0.11
 Nodes (29): Adjoint Credit Field (backprop reinterpreted), Bit-Plane Overlap Model for Multiplication, Physical Reinterpretation of Deep Learning (overview), Scattering-Kernel Interaction Model, Signal-Particle-Energy Mapping of NN Elements, Binarized Neural Networks, XNOR + Popcount MAC Kernel, Composition Identity — (E_bitplane,W,N_kink,D) = ReLU MLP / carry-save tree (+21 more)
 
-### Community 2 - "Two-Timescale Bridge + Pulse-Density Encoder"
+### Community 4 - "Subthreshold Nonlinearity + State-Region Bridge"
+Cohesion: 0.18
+Nodes (28): Geometric Explanation of Likelihood OOD Detection Paradox, Manifold Geometry / Jacobian Explanation of OOD, Fills N_β placeholder from formulation v1: subthreshold regime of the same MOSFET realizing N_α, Softmax-native: K subthreshold transistors at a normalizing node yield exp(V_k)/Σexp(V_j), Subthreshold Exponential Regime (primitive), Subthreshold I–V: I_D = I_0·exp(V_GS/n·V_T)·(1−exp(−V_DS/V_T)), n≈1.3–1.5, One MOSFET, three regimes: V_GS<V_T→N_β subthreshold; V_T<V_GS low V_DS→N_γ saturation; V_GS>V_T high V_DS→N_α kink/punch-through, Canonical Minimal Model (E_bitplane, crossbar W, N_kink, D_comparator) (+20 more)
+
+### Community 5 - "Local/Non-Backprop Learning + Stage-2 Options"
 Cohesion: 0.11
-Nodes (27): Encoder Option B — Pulse-density (unary, Hamming weight), Hybrid CMOS + Organic Neuromorphic Device Stack, Pair 2: Charge-Trapping ↔ Consolidation/Slow-Weight, Predicted identity: η_slow = ∫ P(τ)/τ dτ, Rationale: trap-depth heterogeneity ↔ multi-timescale EMA, Pair 5: Floating-Bulk Drift ↔ Running-Stats Norm, Predicted identity: α = Δt/(C_B·R_leak), Rationale: normalization is free in silicon via V_B (+19 more)
+Nodes (26): Neuromorphic Processor with On-Chip Learning, On-Chip Local Learning Rule for Beyond-CMOS Devices, Event-Driven Sparse Interaction Model, Open Problem — Stage 2 Learning Rule (D is discontinuous), Stage 2 Option — Layer-local learning (no gradient crosses D), Stage 2 Option — Score-function / ES gradient (black-box perturbation), Stage 2 Option — Surrogate / straight-through gradient (enrichment target), FPGA/ASIC Systolic Target (+18 more)
 
-### Community 3 - "Canonical Forward Pass + State-Region Nonlinearity"
-Cohesion: 0.2
-Nodes (22): Geometric Explanation of Likelihood OOD Detection Paradox, Manifold Geometry / Jacobian Explanation of OOD, Canonical Minimal Model (E_bitplane, crossbar W, N_kink, D_comparator), Component D — Decoder (comparator array), Component N — Selective-passing nonlinearity (transistor I-V), Nonlinearity Option α — Two-piece kink / ReLU polytope (canonical), Nonlinearity Option β — Subthreshold exponential (weak inversion), Nonlinearity Option γ — Saturation square-law (≈ squared-ReLU/GELU) (+14 more)
+### Community 6 - "Two-Timescale Bridge + Pulse-Density Encoder"
+Cohesion: 0.15
+Nodes (21): Encoder Option B — Pulse-density (unary, Hamming weight), Pair 2: Charge-Trapping ↔ Consolidation/Slow-Weight, Predicted identity: η_slow = ∫ P(τ)/τ dτ, Rationale: trap-depth heterogeneity ↔ multi-timescale EMA, Pair 5: Floating-Bulk Drift ↔ Running-Stats Norm, Predicted identity: α = Δt/(C_B·R_leak), Rationale: normalization is free in silicon via V_B, Predicted identity: η_fast/η_slow = τ_slow/τ_fast (+13 more)
 
-### Community 4 - "Local/Non-Backprop Learning + Stage-2 Options"
-Cohesion: 0.13
-Nodes (21): Neuromorphic Processor with On-Chip Learning, On-Chip Local Learning Rule for Beyond-CMOS Devices, Event-Driven Sparse Interaction Model, Open Problem — Stage 2 Learning Rule (D is discontinuous), Stage 2 Option — Layer-local learning (no gradient crosses D), Stage 2 Option — Score-function / ES gradient (black-box perturbation), Stage 2 Option — Surrogate / straight-through gradient (enrichment target), FPGA/ASIC Systolic Target (+13 more)
+### Community 7 - "EML Operator + Symbolic Foundations (log-domain algebra)"
+Cohesion: 0.15
+Nodes (20): EDL Operator edl(x,y)=exp(x)/ln(y), EML Operator eml(x,y)=exp(x)-ln(y), Euler's Formula e^(i*phi)=cos+i*sin, Exp-Log Representation (Liouville 1835), KAN Kolmogorov-Arnold Networks (Liu et al.), Lean 4 Theorem Prover, NAND Gate (Sheffer Stroke), Rationale: Complex Domain Required Internally (+12 more)
 
-### Community 5 - "Linear Combiner W + In-Memory Attention"
-Cohesion: 0.19
-Nodes (21): In-Memory Attention Compute (analog crossbars for KV), Analog In-Memory Computing Attention, Catalog Absorption — 8-pair mapping ⇒ 4-slot schema + pending learning rule, Component W — Linear Combiner (Kirchhoff crossbar MVM), Constraint — G must be updated locally per crossbar cell, Lookup-Based Conditional Memory as New Sparsity Axis, Conditional Memory via Scalable Lookup, Grouping B: Analog continuum → low-rank math (+13 more)
-
-### Community 6 - "EML Operator Foundations"
-Cohesion: 0.12
-Nodes (16): Binary Tree Grammar S->1|eml(S,S), EDL Operator edl(x,y)=exp(x)/ln(y), EML Operator eml(x,y)=exp(x)-ln(y), Euler's Formula e^(i*phi)=cos+i*sin, Exp-Log Representation (Liouville 1835), KAN Kolmogorov-Arnold Networks (Liu et al.), Lean 4 Theorem Prover, NAND Gate (Sheffer Stroke) (+8 more)
-
-### Community 7 - "Interaction Field & State-Region Formalism"
-Cohesion: 0.14
-Nodes (16): 10-Axiom Formalization of Stateful NN, Interaction-State Layer (multi-channel node, edge-state), Shared-Basis Low-Rank Edge Interaction, Stateful Interaction Field Formalism, Mixture of Transition Autoencoders, Piecewise Linear Region Atlas, Rank-1 Operator Primitive (v_i u_i^T), Residual Transition Autoencoder Block (+8 more)
-
-### Community 8 - "Learnable Physical Parameter (VQC↔KAN)"
-Cohesion: 0.22
-Nodes (13): NN as Structured Reactive Medium, Learnable Edge Activation Functions (KAN), Practitioner's Guide to Kolmogorov-Arnold Networks, Primer on Quantum Machine Learning, Variational Quantum Circuits as Learnable Physical Systems, Identity: VQC angle = KAN periodic edge activation, Rationale: physics-unitarity ↔ constraint-unitarity duality, Pair 8: VQC Angle θ ↔ KAN Learnable Rotation (+5 more)
-
-### Community 9 - "Convergence Theory & NTK"
+### Community 8 - "Convergence Theory & NTK"
 Cohesion: 0.67
 Nodes (3): Convergence to Linearity Theorem, Gaussian Annulus Theorem, Neural Tangent Kernel (Jacot et al. 2018)
 
-### Community 10 - "KV-Cache Quantization Family"
+### Community 9 - "KV-Cache Quantization Family"
 Cohesion: 1.0
 Nodes (3): PolarQuant: Quantizing KV Caches via Polar Transform, QJL: JL-based KV Cache Quantization, TurboQuant
 
-### Community 11 - "Matrix Gaussian ES"
+### Community 10 - "Matrix Gaussian ES"
 Cohesion: 1.0
 Nodes (2): Gaussian ES, Matrix Gaussian Distribution
 
-### Community 12 - "Rank Convergence Proofs"
+### Community 11 - "Rank Convergence Proofs"
 Cohesion: 1.0
 Nodes (2): Edgeworth Expansion (Bhattacharya & Ranga Rao), EGGROLL Rank Convergence O(r^-1)
 
-### Community 13 - "Test-Time Discovery & World Models"
+### Community 12 - "Test-Time Discovery & World Models"
 Cohesion: 1.0
 Nodes (2): Learning to Discover at Test Time, LeWorldModel (paper)
 
@@ -123,7 +118,7 @@ Nodes (2): Learning to Discover at Test Time, LeWorldModel (paper)
   raw/Learning with Exact Invariances in Polynomial Time.pdf · relation: semantically_similar_to
 
 ## Knowledge Gaps
-- **81 isolated node(s):** `LoRA (Low-Rank Adaptation)`, `Gaussian ES`, `Matrix Gaussian Distribution`, `Score Function Gradient Estimation`, `Rationale: Arithmetic Intensity Improvement` (+76 more)
+- **82 isolated node(s):** `LoRA (Low-Rank Adaptation)`, `Gaussian ES`, `Matrix Gaussian Distribution`, `Score Function Gradient Estimation`, `Rationale: Arithmetic Intensity Improvement` (+77 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Matrix Gaussian ES`** (2 nodes): `Gaussian ES`, `Matrix Gaussian Distribution`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -143,9 +138,9 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: semantically_similar_to) - confidence is low._
 - **What is the exact relationship between `Learnable Edge Activation Functions (KAN)` and `Learning with Exact Invariances in Polynomial Time`?**
   _Edge tagged AMBIGUOUS (relation: semantically_similar_to) - confidence is low._
-- **Why does `Device-Math Correspondence Catalog` connect `Linear Combiner W + In-Memory Attention` to `ES + Symbolic Regression + Catalog Core`, `Bit-Level Physics & Reinterpretation + Encoder`, `Two-Timescale Bridge + Pulse-Density Encoder`, `Canonical Forward Pass + State-Region Nonlinearity`, `Learnable Physical Parameter (VQC↔KAN)`?**
-  _High betweenness centrality (0.269) - this node is a cross-community bridge._
-- **Why does `EGGROLL Algorithm` connect `ES + Symbolic Regression + Catalog Core` to `Local/Non-Backprop Learning + Stage-2 Options`, `EML Operator Foundations`?**
-  _High betweenness centrality (0.139) - this node is a cross-community bridge._
-- **Why does `CMOS MOSFET (Bulk-Silicon)` connect `Canonical Forward Pass + State-Region Nonlinearity` to `ES + Symbolic Regression + Catalog Core`, `Linear Combiner W + In-Memory Attention`, `EML Operator Foundations`?**
-  _High betweenness centrality (0.118) - this node is a cross-community bridge._
+- **Why does `Device-Math Correspondence Catalog` connect `Analog Multiplication Family (crossbar + Gilbert + log-domain)` to `ES + Symbolic Regression + Gaussian-Score Device Realization`, `Interaction Field & Learnable Physical Substrate`, `Bit-Level Physics & Reinterpretation + Encoder`, `Subthreshold Nonlinearity + State-Region Bridge`, `Two-Timescale Bridge + Pulse-Density Encoder`?**
+  _High betweenness centrality (0.179) - this node is a cross-community bridge._
+- **Why does `Subthreshold Exponential Regime (primitive)` connect `Subthreshold Nonlinearity + State-Region Bridge` to `ES + Symbolic Regression + Gaussian-Score Device Realization`, `EML Operator + Symbolic Foundations (log-domain algebra)`?**
+  _High betweenness centrality (0.158) - this node is a cross-community bridge._
+- **Why does `EGGROLL Algorithm` connect `ES + Symbolic Regression + Gaussian-Score Device Realization` to `Analog Multiplication Family (crossbar + Gilbert + log-domain)`, `Subthreshold Nonlinearity + State-Region Bridge`, `Local/Non-Backprop Learning + Stage-2 Options`?**
+  _High betweenness centrality (0.143) - this node is a cross-community bridge._

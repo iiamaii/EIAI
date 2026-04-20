@@ -4,53 +4,55 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "bit_analog_forward_pass_quadruple",
-        "label": "Bit-Analog Forward-Pass Quadruple (E,W,N,D + formulation)",
+        "id": "analog_multiplication_family",
+        "label": "Analog multiplication family: log-domain, Gilbert cell, crossbar MVM, bit-plane overlap as four implementations of one primitive",
         "members": [
-          "bit_analog_formulation_v1_main",
-          "bit_analog_formulation_v1_encoder_e",
-          "bit_analog_formulation_v1_linear_combiner_w",
-          "bit_analog_formulation_v1_nonlinearity_n",
-          "bit_analog_formulation_v1_decoder_d"
+          "analog_primitive_gaps_log_domain_translinear",
+          "analog_primitive_gaps_gilbert_cell",
+          "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+          "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
         ],
-        "relation": "forward_pass_quadruple",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "raw/bit_analog_formulation_v1.md",
-        "source_location": "## The Quadruple",
-        "weight": 1.0
+        "relation": "generalizes",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "raw/analog_primitive_gaps.md",
+        "source_location": "### Connection to existing multiplication nodes; Structural Gaps #5",
+        "weight": 0.85
       },
       {
-        "id": "canonical_minimal_model_e_a_n_alpha",
-        "label": "Canonical Minimal Model (E=A bit-plane, W=crossbar, N=\u03b1 kink, D=comparator)",
+        "id": "mosfet_three_regime_n_options",
+        "label": "MOSFET three-regime N-option family: one device instantiates N_\u03b1 (kink), N_\u03b2 (subthreshold exp), N_\u03b3 (saturation) depending on bias",
         "members": [
-          "bit_analog_formulation_v1_encoder_option_a_bitplane",
-          "bit_analog_formulation_v1_linear_combiner_w",
           "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
-          "bit_analog_formulation_v1_decoder_d"
+          "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+          "bit_analog_formulation_v1_nonlinearity_option_gamma_saturation",
+          "synaptic_and_neural_behaviours_pdf_mosfet",
+          "synaptic_and_neural_behaviours_pdf_kink_effect",
+          "synaptic_and_neural_behaviours_pdf_punch_through",
+          "analog_primitive_gaps_subthreshold_exp"
         ],
-        "relation": "canonical_instantiation",
+        "relation": "generalizes",
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
-        "source_file": "raw/bit_analog_formulation_v1.md",
-        "source_location": "## Canonical Minimal Model",
+        "source_file": "raw/analog_primitive_gaps.md",
+        "source_location": "### The three-regime unification",
         "weight": 1.0
       },
       {
-        "id": "same_transistor_dual_read",
-        "label": "Same-Transistor Dual-Read (N analog-read + D binary-read of one MOSFET at kink)",
+        "id": "exponential_law_family",
+        "label": "Exponential-law family: exp() is the unifying physics across log-domain, subthreshold, EML, Gaussian score, exp/log pair",
         "members": [
-          "bit_analog_formulation_v1_nonlinearity_n",
-          "bit_analog_formulation_v1_decoder_d",
-          "bit_analog_formulation_v1_shared_silicon_claim",
-          "synaptic_and_neural_behaviours_pdf_kink_effect",
-          "synaptic_and_neural_behaviours_pdf_mosfet"
+          "analog_primitive_gaps_log_domain_translinear",
+          "analog_primitive_gaps_subthreshold_exp",
+          "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+          "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+          "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair"
         ],
-        "relation": "single_device_dual_read",
+        "relation": "generalizes",
         "confidence": "INFERRED",
         "confidence_score": 0.9,
-        "source_file": "raw/bit_analog_formulation_v1.md",
-        "source_location": "## Component 4 \u2014 Decoder D, shared-silicon with N",
+        "source_file": "raw/analog_primitive_gaps.md",
+        "source_location": "## Triangular Structure; Structural Gaps",
         "weight": 0.9
       }
     ]
@@ -104,7 +106,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "norm_label": "gaussian es",
       "id": "evolution_strategies_at_the_hyperscale_md_gaussian_es"
     },
@@ -117,7 +119,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "norm_label": "matrix gaussian distribution",
       "id": "evolution_strategies_at_the_hyperscale_md_matrix_gaussian_distribution"
     },
@@ -143,7 +145,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 1,
       "norm_label": "low-rank perturbation e=ab^t/sqrt(r)",
       "id": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation"
     },
@@ -156,7 +158,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 1,
       "norm_label": "rationale: arithmetic intensity improvement",
       "id": "evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity"
     },
@@ -169,7 +171,7 @@
       "captured_at": null,
       "author": "Andrzej Odrzywolek",
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "eml operator eml(x,y)=exp(x)-ln(y)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_eml_operator"
     },
@@ -182,7 +184,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "nand gate (sheffer stroke)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_nand_gate"
     },
@@ -195,7 +197,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "edl operator edl(x,y)=exp(x)/ln(y)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_edl_operator"
     },
@@ -208,7 +210,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "ternary operator t(x,y,z)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_ternary_operator"
     },
@@ -221,7 +223,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "euler's formula e^(i*phi)=cos+i*sin",
       "id": "all_elementary_functions_from_a_single_operator_pdf_eulers_formula"
     },
@@ -234,7 +236,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "exp-log representation (liouville 1835)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair"
     },
@@ -247,7 +249,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 1,
       "norm_label": "binary tree grammar s->1|eml(s,s)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar"
     },
@@ -299,7 +301,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "verifybaseset (bootstrapping search)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_verify_base_set"
     },
@@ -312,7 +314,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "schanuel's conjecture (sieve justification)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture"
     },
@@ -325,7 +327,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "kan kolmogorov-arnold networks (liu et al.)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_kan"
     },
@@ -338,7 +340,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "relu activation (nair & hinton 2010)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_relu"
     },
@@ -351,7 +353,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "rationale: single primitive aesthetic/pedagogy value",
       "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive"
     },
@@ -364,7 +366,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "rationale: complex domain required internally",
       "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally"
     },
@@ -403,7 +405,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "lean 4 theorem prover",
       "id": "all_elementary_functions_from_a_single_operator_pdf_lean4"
     },
@@ -481,7 +483,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "norm_label": "neural tangent kernel (jacot et al. 2018)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_ntk"
     },
@@ -494,7 +496,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 11,
       "norm_label": "edgeworth expansion (bhattacharya & ranga rao)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion"
     },
@@ -507,7 +509,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "norm_label": "gaussian annulus theorem",
       "id": "evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem"
     },
@@ -598,7 +600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 1,
       "norm_label": "rank-r perturbation structure",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation"
     },
@@ -611,7 +613,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "norm_label": "convergence to linearity theorem",
       "id": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem"
     },
@@ -624,7 +626,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 11,
       "norm_label": "eggroll rank convergence o(r^-1)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem"
     },
@@ -637,7 +639,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 1,
       "norm_label": "rationale: low-rank structure for high arithmetic intensity",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity"
     },
@@ -702,7 +704,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "cmos mosfet (bulk-silicon)",
       "id": "synaptic_and_neural_behaviours_pdf_mosfet"
     },
@@ -715,7 +717,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "punch-through impact ionization",
       "id": "synaptic_and_neural_behaviours_pdf_punch_through"
     },
@@ -728,7 +730,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 4,
       "norm_label": "floating-bulk configuration",
       "id": "synaptic_and_neural_behaviours_pdf_floating_bulk"
     },
@@ -780,7 +782,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 1,
       "norm_label": "memristor (alternative platform)",
       "id": "synaptic_and_neural_behaviours_pdf_memristor"
     },
@@ -819,7 +821,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "bulk bias control transistor (2-transistor cell)",
       "id": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor"
     },
@@ -845,7 +847,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "long-term plasticity (charge-trapping)",
       "id": "synaptic_and_neural_behaviours_pdf_long_term_plasticity"
     },
@@ -871,7 +873,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "hot-carrier (electron/hole) injection",
       "id": "synaptic_and_neural_behaviours_pdf_hot_carrier_injection"
     },
@@ -884,7 +886,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "embedded flash memory (reference)",
       "id": "synaptic_and_neural_behaviours_pdf_flash_memory"
     },
@@ -897,7 +899,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "kink effect (boudou & doyle 1987)",
       "id": "synaptic_and_neural_behaviours_pdf_kink_effect"
     },
@@ -936,7 +938,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "rationale: 2-transistor for tunability and repeatability",
       "id": "synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability"
     },
@@ -949,7 +951,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "rationale: charge-trapping explains long-term retention",
       "id": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention"
     },
@@ -962,7 +964,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 1,
       "norm_label": "phase-change memory (pcm)",
       "id": "synaptic_and_neural_behaviours_pdf_phase_change_memory"
     },
@@ -975,7 +977,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "semi-passive physical neural devices (overview)",
       "id": "semi_passive_physical_neural_devices_main"
     },
@@ -988,7 +990,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "transistor-neuron thresholded transport analogy",
       "id": "semi_passive_physical_neural_devices_transistor_neuron_analogy"
     },
@@ -1001,7 +1003,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "analog vlsi / neuromorphic engineering lineage",
       "id": "semi_passive_physical_neural_devices_analog_vlsi_lineage"
     },
@@ -1014,7 +1016,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "learnable physical medium (not a programmed computer)",
       "id": "semi_passive_physical_neural_devices_learnable_physical_medium"
     },
@@ -1027,7 +1029,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "memorable part / operational part split",
       "id": "semi_passive_physical_neural_devices_memorable_operational_split"
     },
@@ -1040,7 +1042,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "ram-like fast state",
       "id": "semi_passive_physical_neural_devices_ram_fast_state"
     },
@@ -1053,7 +1055,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "flash-like slow parameter memory",
       "id": "semi_passive_physical_neural_devices_flash_slow_parameter"
     },
@@ -1066,7 +1068,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "3-factor learning rule (local eligibility * global reward)",
       "id": "semi_passive_physical_neural_devices_three_factor_learning"
     },
@@ -1079,7 +1081,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "eggroll connection (perturbation-response-fitness)",
       "id": "semi_passive_physical_neural_devices_eggroll_connection"
     },
@@ -1092,7 +1094,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "threshold-shift slow update (trapped charge)",
       "id": "semi_passive_physical_neural_devices_threshold_shift_update"
     },
@@ -1105,7 +1107,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "single adaptive cell with two timescales",
       "id": "semi_passive_physical_neural_devices_single_cell_two_timescales"
     },
@@ -1118,7 +1120,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "operation-first: transition speed = compute throughput",
       "id": "semi_passive_physical_neural_devices_operation_transition_speed"
     },
@@ -1131,7 +1133,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "rationale: fabrication simplicity demands single-cell two-timescale physics",
       "id": "semi_passive_physical_neural_devices_rationale_single_cell"
     },
@@ -1144,7 +1146,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "bit-level operator framework for relu mlps (overview)",
       "id": "bit_level_operator_framework_for_relu_mlps_main"
     },
@@ -1157,7 +1159,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "bit-plane profile representation",
       "id": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile"
     },
@@ -1170,7 +1172,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "encode / decode / profile jacobian",
       "id": "bit_level_operator_framework_for_relu_mlps_encode_decode"
     },
@@ -1183,7 +1185,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "outermul / dimsum / fold primitives",
       "id": "bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold"
     },
@@ -1196,7 +1198,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "relu as sign-test + mask/mux",
       "id": "bit_level_operator_framework_for_relu_mlps_relu_gate"
     },
@@ -1209,7 +1211,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "liftgrad / contract / pullback (backward primitives)",
       "id": "bit_level_operator_framework_for_relu_mlps_liftgrad_pullback"
     },
@@ -1222,7 +1224,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "3-layer formalization: boolean / profile / layer operators",
       "id": "bit_level_operator_framework_for_relu_mlps_three_layer_formalization"
     },
@@ -1235,7 +1237,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "packed bitslice + popcnt + delayed carry",
       "id": "bit_level_operator_framework_for_relu_mlps_packed_bitslice"
     },
@@ -1248,7 +1250,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "carry-save / compressor tree reduction",
       "id": "bit_level_operator_framework_for_relu_mlps_carry_save_tree"
     },
@@ -1261,7 +1263,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "bit-parallel vs bit-serial trade-off",
       "id": "bit_level_operator_framework_for_relu_mlps_bit_parallel_vs_serial"
     },
@@ -1274,7 +1276,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "rationale: carry propagation is the real bottleneck",
       "id": "bit_level_operator_framework_for_relu_mlps_rationale_carry_bottleneck"
     },
@@ -1287,7 +1289,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "fixed-point backward + packed-bit mac",
       "id": "bit_level_operator_framework_for_relu_mlps_fixed_point_backward"
     },
@@ -1300,7 +1302,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "fpga/asic systolic target",
       "id": "bit_level_operator_framework_for_relu_mlps_fpga_asic_target"
     },
@@ -1313,7 +1315,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "nns as state-region dictionaries (overview)",
       "id": "neural_networks_as_state_region_dictionaries_main"
     },
@@ -1326,7 +1328,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "rank-1 operator primitive (v_i u_i^t)",
       "id": "neural_networks_as_state_region_dictionaries_rank1_operator_primitive"
     },
@@ -1339,7 +1341,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "piecewise linear region atlas",
       "id": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas"
     },
@@ -1352,7 +1354,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "random operator reservoir + selection/alignment",
       "id": "neural_networks_as_state_region_dictionaries_random_operator_reservoir"
     },
@@ -1365,7 +1367,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "jacobian conditioning / quasi-isometric regime",
       "id": "neural_networks_as_state_region_dictionaries_jacobian_conditioning"
     },
@@ -1378,7 +1380,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "multiplicative random process is not gaussian",
       "id": "neural_networks_as_state_region_dictionaries_multiplicative_non_gaussian"
     },
@@ -1391,7 +1393,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "residual transition autoencoder block",
       "id": "neural_networks_as_state_region_dictionaries_residual_transition_autoencoder"
     },
@@ -1404,7 +1406,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "mixture of transition autoencoders",
       "id": "neural_networks_as_state_region_dictionaries_mixture_of_autoencoders"
     },
@@ -1417,7 +1419,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "depth as iterative operator flow",
       "id": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow"
     },
@@ -1430,7 +1432,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "rationale: mse/logistic meaning comes from output likelihood, not input isotropy",
       "id": "neural_networks_as_state_region_dictionaries_rationale_mse_loss_meaning"
     },
@@ -1443,7 +1445,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "primitive geometry of neural representation (overview)",
       "id": "primitive_geometry_of_neural_representation_main"
     },
@@ -1456,7 +1458,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "four geometry layers (parameter/representation/function/computation)",
       "id": "primitive_geometry_of_neural_representation_four_geometries"
     },
@@ -1469,7 +1471,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "hyperplane partition primitive",
       "id": "primitive_geometry_of_neural_representation_hyperplane_partition"
     },
@@ -1482,7 +1484,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "activation pattern / cell complex",
       "id": "primitive_geometry_of_neural_representation_activation_code"
     },
@@ -1495,7 +1497,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "interaction geometry (state-transition)",
       "id": "primitive_geometry_of_neural_representation_interaction_geometry"
     },
@@ -1508,7 +1510,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "code/state encoding below real numbers",
       "id": "primitive_geometry_of_neural_representation_code_state_encoding"
     },
@@ -1521,7 +1523,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "encoding/interaction/constraint/dynamics layer framework",
       "id": "primitive_geometry_of_neural_representation_four_layer_framework"
     },
@@ -1534,7 +1536,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "integration: vector geometry as macroscopic limit of coded interaction",
       "id": "primitive_geometry_of_neural_representation_integration_claim"
     },
@@ -1547,7 +1549,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "self-organizing cmos-memory architecture (overview)",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_main"
     },
@@ -1560,7 +1562,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "trainable analog circuit with gate-bias parameters",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit"
     },
@@ -1573,7 +1575,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "fast activation x(t) / slow weight w(t) time-scale separation",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
     },
@@ -1586,7 +1588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "feeding protocol as part of learning law",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning"
     },
@@ -1599,7 +1601,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "consolidation / metaplasticity mechanism",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism"
     },
@@ -1612,7 +1614,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "self-organizing representation space goal",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning"
     },
@@ -1625,7 +1627,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "cmos-centered + ram-like memory hybrid architecture",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid"
     },
@@ -1638,7 +1640,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "rationale: disambiguating 'device' between memory device and transistor primitive",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split"
     },
@@ -1651,7 +1653,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "physical reinterpretation of deep learning (overview)",
       "id": "a_physical_reinterpretation_of_deep_learning_main"
     },
@@ -1664,7 +1666,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "signal-particle-energy mapping of nn elements",
       "id": "a_physical_reinterpretation_of_deep_learning_signal_particle_energy_mapping"
     },
@@ -1677,7 +1679,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "bit-plane overlap model for multiplication",
       "id": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
     },
@@ -1690,7 +1692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "scattering-kernel interaction model",
       "id": "a_physical_reinterpretation_of_deep_learning_scattering_kernel_model"
     },
@@ -1703,7 +1705,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "event-driven sparse interaction model",
       "id": "a_physical_reinterpretation_of_deep_learning_event_driven_interaction"
     },
@@ -1716,7 +1718,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "nn as structured reactive medium",
       "id": "a_physical_reinterpretation_of_deep_learning_reactive_medium"
     },
@@ -1729,7 +1731,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "stateful interaction field formalism",
       "id": "a_physical_reinterpretation_of_deep_learning_stateful_interaction_field"
     },
@@ -1742,7 +1744,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "interaction-state layer (multi-channel node, edge-state)",
       "id": "a_physical_reinterpretation_of_deep_learning_interaction_state_layer"
     },
@@ -1755,7 +1757,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "shared-basis low-rank edge interaction",
       "id": "a_physical_reinterpretation_of_deep_learning_shared_basis_interaction"
     },
@@ -1768,7 +1770,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "adjoint credit field (backprop reinterpreted)",
       "id": "a_physical_reinterpretation_of_deep_learning_adjoint_credit_field"
     },
@@ -1781,7 +1783,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "10-axiom formalization of stateful nn",
       "id": "a_physical_reinterpretation_of_deep_learning_axiomatization"
     },
@@ -1794,7 +1796,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "noprop: training nns without full back/forward-propagation",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_main"
     },
@@ -1807,7 +1809,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "layer-local training without end-to-end backprop",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training"
     },
@@ -1820,7 +1822,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "hebbian learning with global direction",
       "id": "hebbian_learning_with_global_direction_main"
     },
@@ -1833,7 +1835,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "local hebbian rule modulated by global direction signal",
       "id": "hebbian_learning_with_global_direction_local_rule_global_signal"
     },
@@ -1846,7 +1848,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "binarized neural networks",
       "id": "binarized_neural_networks_main"
     },
@@ -1859,7 +1861,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "xnor + popcount mac kernel",
       "id": "binarized_neural_networks_xnor_popcount_mac"
     },
@@ -1872,7 +1874,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 12,
       "norm_label": "leworldmodel (paper)",
       "id": "leworldmodel_main"
     },
@@ -1885,7 +1887,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 1,
       "norm_label": "conditional memory via scalable lookup",
       "id": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_main"
     },
@@ -1898,7 +1900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 1,
       "norm_label": "lookup-based conditional memory as new sparsity axis",
       "id": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_lookup_sparsity_axis"
     },
@@ -1911,7 +1913,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "practitioner's guide to kolmogorov-arnold networks",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_main"
     },
@@ -1924,7 +1926,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "learnable edge activation functions (kan)",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions"
     },
@@ -1937,7 +1939,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "norm_label": "polarquant: quantizing kv caches via polar transform",
       "id": "polarquant_quantizing_kv_caches_with_polar_transformation_main"
     },
@@ -1950,7 +1952,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "learning with exact invariances in polynomial time",
       "id": "learning_with_exact_invariances_in_polynomial_time_main"
     },
@@ -1963,7 +1965,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 12,
       "norm_label": "learning to discover at test time",
       "id": "learning_to_discover_at_test_time_main"
     },
@@ -1976,7 +1978,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "geometric explanation of likelihood ood detection paradox",
       "id": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_main"
     },
@@ -1989,7 +1991,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "manifold geometry / jacobian explanation of ood",
       "id": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_manifold_geometry"
     },
@@ -2002,7 +2004,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "norm_label": "qjl: jl-based kv cache quantization",
       "id": "qjl_main"
     },
@@ -2015,7 +2017,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "primer on quantum machine learning",
       "id": "a_primer_on_quantum_machine_learning_main"
     },
@@ -2028,7 +2030,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "variational quantum circuits as learnable physical systems",
       "id": "a_primer_on_quantum_machine_learning_variational_quantum_circuit"
     },
@@ -2041,7 +2043,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "norm_label": "turboquant",
       "id": "turboquant_main"
     },
@@ -2054,7 +2056,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 1,
       "norm_label": "analog in-memory computing attention",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main"
     },
@@ -2067,7 +2069,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 1,
       "norm_label": "in-memory attention compute (analog crossbars for kv)",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv"
     },
@@ -2080,7 +2082,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "cmos-integrated organic neuromorphic imagers",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_main"
     },
@@ -2093,7 +2095,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "hybrid cmos + organic neuromorphic device stack",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_hybrid_cmos_organic"
     },
@@ -2106,7 +2108,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "neuromorphic processor with on-chip learning",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_main"
     },
@@ -2119,7 +2121,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "on-chip local learning rule for beyond-cmos devices",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning"
     },
@@ -2132,7 +2134,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "device-math correspondence catalog",
       "id": "device_math_mapping_main"
     },
@@ -2184,7 +2186,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "pair 2: charge-trapping \u2194 consolidation/slow-weight",
       "id": "device_math_mapping_pair_2_charge_trap_consolidation"
     },
@@ -2197,7 +2199,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "predicted identity: \u03b7_slow = \u222b p(\u03c4)/\u03c4 d\u03c4",
       "id": "device_math_mapping_pair_2_identity_trap_kernel_ema"
     },
@@ -2210,7 +2212,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "rationale: trap-depth heterogeneity \u2194 multi-timescale ema",
       "id": "device_math_mapping_pair_2_rationale_trap_heterogeneity"
     },
@@ -2223,7 +2225,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "pair 3: memristor/pcm levels \u2194 low-rank rank r",
       "id": "device_math_mapping_pair_3_memristor_lowrank"
     },
@@ -2236,7 +2238,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "identity: usable rank r bounded by cell resolution b",
       "id": "device_math_mapping_pair_3_identity_bits_bound_rank"
     },
@@ -2249,7 +2251,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "test: b=4 vs b=8 memristor eggroll convergence knee",
       "id": "device_math_mapping_pair_3_test_b4_vs_b8"
     },
@@ -2262,7 +2264,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "pair 4: analog crossbar mvm \u2194 pre-softmax logits",
       "id": "device_math_mapping_pair_4_crossbar_attention_logits"
     },
@@ -2275,7 +2277,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "identity: one crossbar mvm cycle = qk^t/\u221ad_k",
       "id": "device_math_mapping_pair_4_identity_crossbar_equals_qkt"
     },
@@ -2288,7 +2290,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "implication: softmax must be off-chip or approximated",
       "id": "device_math_mapping_pair_4_implication_offchip_softmax"
     },
@@ -2301,7 +2303,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "pair 5: floating-bulk drift \u2194 running-stats norm",
       "id": "device_math_mapping_pair_5_floatingbulk_runstats"
     },
@@ -2314,7 +2316,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "predicted identity: \u03b1 = \u03b4t/(c_b\u00b7r_leak)",
       "id": "device_math_mapping_pair_5_identity_alpha_rc"
     },
@@ -2327,7 +2329,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "rationale: normalization is free in silicon via v_b",
       "id": "device_math_mapping_pair_5_rationale_free_normalization"
     },
@@ -2340,7 +2342,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "pair 6: single-cell two-timescale \u2194 fast/slow lr",
       "id": "device_math_mapping_pair_6_single_cell_two_timescale"
     },
@@ -2353,7 +2355,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "predicted identity: \u03b7_fast/\u03b7_slow = \u03c4_slow/\u03c4_fast",
       "id": "device_math_mapping_pair_6_identity_eta_tau_ratio"
     },
@@ -2366,7 +2368,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 6,
       "norm_label": "rationale: makes existing hyperedge quantitative",
       "id": "device_math_mapping_pair_6_rationale_quantitative_gap"
     },
@@ -2379,7 +2381,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "pair 7: kink effect \u2194 relu polytope boundary",
       "id": "device_math_mapping_pair_7_kink_relu_polytope"
     },
@@ -2392,7 +2394,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "identity: transistor = 1-unit state-region dictionary",
       "id": "device_math_mapping_pair_7_identity_transistor_as_state_region"
     },
@@ -2405,7 +2407,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "test: piecewise-affine fit of stacked-transistor i-o",
       "id": "device_math_mapping_pair_7_test_piecewise_affine_fit"
     },
@@ -2418,7 +2420,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 2,
       "norm_label": "pair 8: vqc angle \u03b8 \u2194 kan learnable rotation",
       "id": "device_math_mapping_pair_8_vqc_kan_rotation"
     },
@@ -2431,7 +2433,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 2,
       "norm_label": "identity: vqc angle = kan periodic edge activation",
       "id": "device_math_mapping_pair_8_identity_angle_equals_edge_fn"
     },
@@ -2444,7 +2446,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 2,
       "norm_label": "rationale: physics-unitarity \u2194 constraint-unitarity duality",
       "id": "device_math_mapping_pair_8_rationale_unitarity_duality"
     },
@@ -2457,7 +2459,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "grouping a: two-timescale physics \u2192 slow/fast math",
       "id": "device_math_mapping_grouping_two_timescale"
     },
@@ -2470,7 +2472,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "grouping b: analog continuum \u2192 low-rank math",
       "id": "device_math_mapping_grouping_analog_lowrank"
     },
@@ -2483,7 +2485,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 1,
       "norm_label": "grouping c: piecewise physics \u2192 piecewise-linear math",
       "id": "device_math_mapping_grouping_piecewise"
     },
@@ -2496,9 +2498,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_main",
-      "community": 1,
-      "norm_label": "bit-analog formulation v1 (e,w,n,d quadruple)"
+      "community": 3,
+      "norm_label": "bit-analog formulation v1 (e,w,n,d quadruple)",
+      "id": "bit_analog_formulation_v1_main"
     },
     {
       "label": "State-Transition Quadruple (E,W,N,D) Schema",
@@ -2509,9 +2511,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_quadruple_schema",
-      "community": 3,
-      "norm_label": "state-transition quadruple (e,w,n,d) schema"
+      "community": 4,
+      "norm_label": "state-transition quadruple (e,w,n,d) schema",
+      "id": "bit_analog_formulation_v1_quadruple_schema"
     },
     {
       "label": "Component E \u2014 Encoder (bits \u2192 analog, linear injection)",
@@ -2522,9 +2524,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_encoder_e",
-      "community": 1,
-      "norm_label": "component e \u2014 encoder (bits \u2192 analog, linear injection)"
+      "community": 3,
+      "norm_label": "component e \u2014 encoder (bits \u2192 analog, linear injection)",
+      "id": "bit_analog_formulation_v1_encoder_e"
     },
     {
       "label": "Encoder Option A \u2014 Bit-plane weighted charge (canonical)",
@@ -2535,9 +2537,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_encoder_option_a_bitplane",
-      "community": 1,
-      "norm_label": "encoder option a \u2014 bit-plane weighted charge (canonical)"
+      "community": 3,
+      "norm_label": "encoder option a \u2014 bit-plane weighted charge (canonical)",
+      "id": "bit_analog_formulation_v1_encoder_option_a_bitplane"
     },
     {
       "label": "Encoder Option B \u2014 Pulse-density (unary, Hamming weight)",
@@ -2548,9 +2550,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_encoder_option_b_pulse_density",
-      "community": 2,
-      "norm_label": "encoder option b \u2014 pulse-density (unary, hamming weight)"
+      "community": 6,
+      "norm_label": "encoder option b \u2014 pulse-density (unary, hamming weight)",
+      "id": "bit_analog_formulation_v1_encoder_option_b_pulse_density"
     },
     {
       "label": "Encoder Option C \u2014 Binarized signed (\u00b11)",
@@ -2561,9 +2563,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_encoder_option_c_binary",
-      "community": 1,
-      "norm_label": "encoder option c \u2014 binarized signed (\u00b11)"
+      "community": 3,
+      "norm_label": "encoder option c \u2014 binarized signed (\u00b11)",
+      "id": "bit_analog_formulation_v1_encoder_option_c_binary"
     },
     {
       "label": "Component W \u2014 Linear Combiner (Kirchhoff crossbar MVM)",
@@ -2574,9 +2576,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_linear_combiner_w",
-      "community": 5,
-      "norm_label": "component w \u2014 linear combiner (kirchhoff crossbar mvm)"
+      "community": 1,
+      "norm_label": "component w \u2014 linear combiner (kirchhoff crossbar mvm)",
+      "id": "bit_analog_formulation_v1_linear_combiner_w"
     },
     {
       "label": "Component N \u2014 Selective-passing nonlinearity (transistor I-V)",
@@ -2587,9 +2589,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_nonlinearity_n",
-      "community": 3,
-      "norm_label": "component n \u2014 selective-passing nonlinearity (transistor i-v)"
+      "community": 4,
+      "norm_label": "component n \u2014 selective-passing nonlinearity (transistor i-v)",
+      "id": "bit_analog_formulation_v1_nonlinearity_n"
     },
     {
       "label": "Nonlinearity Option \u03b1 \u2014 Two-piece kink / ReLU polytope (canonical)",
@@ -2600,9 +2602,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
-      "community": 3,
-      "norm_label": "nonlinearity option \u03b1 \u2014 two-piece kink / relu polytope (canonical)"
+      "community": 4,
+      "norm_label": "nonlinearity option \u03b1 \u2014 two-piece kink / relu polytope (canonical)",
+      "id": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink"
     },
     {
       "label": "Nonlinearity Option \u03b2 \u2014 Subthreshold exponential (weak inversion)",
@@ -2613,9 +2615,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
-      "community": 3,
-      "norm_label": "nonlinearity option \u03b2 \u2014 subthreshold exponential (weak inversion)"
+      "community": 4,
+      "norm_label": "nonlinearity option \u03b2 \u2014 subthreshold exponential (weak inversion)",
+      "id": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp"
     },
     {
       "label": "Nonlinearity Option \u03b3 \u2014 Saturation square-law (\u2248 squared-ReLU/GELU)",
@@ -2626,9 +2628,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_nonlinearity_option_gamma_saturation_square",
-      "community": 3,
-      "norm_label": "nonlinearity option \u03b3 \u2014 saturation square-law (\u2248 squared-relu/gelu)"
+      "community": 4,
+      "norm_label": "nonlinearity option \u03b3 \u2014 saturation square-law (\u2248 squared-relu/gelu)",
+      "id": "bit_analog_formulation_v1_nonlinearity_option_gamma_saturation_square"
     },
     {
       "label": "Component D \u2014 Decoder (comparator array)",
@@ -2639,9 +2641,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_decoder_d",
-      "community": 3,
-      "norm_label": "component d \u2014 decoder (comparator array)"
+      "community": 4,
+      "norm_label": "component d \u2014 decoder (comparator array)",
+      "id": "bit_analog_formulation_v1_decoder_d"
     },
     {
       "label": "Shared-Silicon Dual-Read Claim (one transistor = N + D)",
@@ -2652,9 +2654,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_shared_silicon_claim",
-      "community": 3,
-      "norm_label": "shared-silicon dual-read claim (one transistor = n + d)"
+      "community": 4,
+      "norm_label": "shared-silicon dual-read claim (one transistor = n + d)",
+      "id": "bit_analog_formulation_v1_shared_silicon_claim"
     },
     {
       "label": "Invariant 1 \u2014 E is a linear injection",
@@ -2665,9 +2667,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_invariant_1_e_linear_injection",
-      "community": 1,
-      "norm_label": "invariant 1 \u2014 e is a linear injection"
+      "community": 3,
+      "norm_label": "invariant 1 \u2014 e is a linear injection",
+      "id": "bit_analog_formulation_v1_invariant_1_e_linear_injection"
     },
     {
       "label": "Invariant 2 \u2014 W preserves E's linearity",
@@ -2678,9 +2680,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_invariant_2_w_preserves_linearity",
-      "community": 1,
-      "norm_label": "invariant 2 \u2014 w preserves e's linearity"
+      "community": 3,
+      "norm_label": "invariant 2 \u2014 w preserves e's linearity",
+      "id": "bit_analog_formulation_v1_invariant_2_w_preserves_linearity"
     },
     {
       "label": "Invariant 3 \u2014 N sign-commutes with thresholding (monotone)",
@@ -2691,9 +2693,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_invariant_3_n_sign_commutes",
-      "community": 1,
-      "norm_label": "invariant 3 \u2014 n sign-commutes with thresholding (monotone)"
+      "community": 3,
+      "norm_label": "invariant 3 \u2014 n sign-commutes with thresholding (monotone)",
+      "id": "bit_analog_formulation_v1_invariant_3_n_sign_commutes"
     },
     {
       "label": "Invariant 4 \u2014 D reuses the same transistor as N",
@@ -2704,9 +2706,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_invariant_4_shared_transistor",
-      "community": 1,
-      "norm_label": "invariant 4 \u2014 d reuses the same transistor as n"
+      "community": 3,
+      "norm_label": "invariant 4 \u2014 d reuses the same transistor as n",
+      "id": "bit_analog_formulation_v1_invariant_4_shared_transistor"
     },
     {
       "label": "Composition Theorem \u2014 (E_binary,W,N_kink|Vk=\u221e,D) = XNOR-popcount MAC",
@@ -2717,9 +2719,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_composition_theorem",
-      "community": 1,
-      "norm_label": "composition theorem \u2014 (e_binary,w,n_kink|vk=\u221e,d) = xnor-popcount mac"
+      "community": 3,
+      "norm_label": "composition theorem \u2014 (e_binary,w,n_kink|vk=\u221e,d) = xnor-popcount mac",
+      "id": "bit_analog_formulation_v1_composition_theorem"
     },
     {
       "label": "Composition Identity \u2014 (E_bitplane,W,N_kink,D) = ReLU MLP / carry-save tree",
@@ -2730,9 +2732,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_composition_identity_bitplane_relu_mlp",
-      "community": 1,
-      "norm_label": "composition identity \u2014 (e_bitplane,w,n_kink,d) = relu mlp / carry-save tree"
+      "community": 3,
+      "norm_label": "composition identity \u2014 (e_bitplane,w,n_kink,d) = relu mlp / carry-save tree",
+      "id": "bit_analog_formulation_v1_composition_identity_bitplane_relu_mlp"
     },
     {
       "label": "Canonical Minimal Model (E_bitplane, crossbar W, N_kink, D_comparator)",
@@ -2743,9 +2745,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_canonical_minimal_model",
-      "community": 3,
-      "norm_label": "canonical minimal model (e_bitplane, crossbar w, n_kink, d_comparator)"
+      "community": 4,
+      "norm_label": "canonical minimal model (e_bitplane, crossbar w, n_kink, d_comparator)",
+      "id": "bit_analog_formulation_v1_canonical_minimal_model"
     },
     {
       "label": "Open Problem \u2014 Stage 2 Learning Rule (D is discontinuous)",
@@ -2756,9 +2758,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_open_stage2_learning_problem",
-      "community": 4,
-      "norm_label": "open problem \u2014 stage 2 learning rule (d is discontinuous)"
+      "community": 5,
+      "norm_label": "open problem \u2014 stage 2 learning rule (d is discontinuous)",
+      "id": "bit_analog_formulation_v1_open_stage2_learning_problem"
     },
     {
       "label": "Stage 2 Option \u2014 Layer-local learning (no gradient crosses D)",
@@ -2769,9 +2771,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_stage2_option_layer_local",
-      "community": 4,
-      "norm_label": "stage 2 option \u2014 layer-local learning (no gradient crosses d)"
+      "community": 5,
+      "norm_label": "stage 2 option \u2014 layer-local learning (no gradient crosses d)",
+      "id": "bit_analog_formulation_v1_stage2_option_layer_local"
     },
     {
       "label": "Stage 2 Option \u2014 Score-function / ES gradient (black-box perturbation)",
@@ -2782,9 +2784,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_stage2_option_score_function_es",
-      "community": 4,
-      "norm_label": "stage 2 option \u2014 score-function / es gradient (black-box perturbation)"
+      "community": 5,
+      "norm_label": "stage 2 option \u2014 score-function / es gradient (black-box perturbation)",
+      "id": "bit_analog_formulation_v1_stage2_option_score_function_es"
     },
     {
       "label": "Stage 2 Option \u2014 Surrogate / straight-through gradient (enrichment target)",
@@ -2795,9 +2797,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_stage2_option_surrogate_ste",
-      "community": 4,
-      "norm_label": "stage 2 option \u2014 surrogate / straight-through gradient (enrichment target)"
+      "community": 5,
+      "norm_label": "stage 2 option \u2014 surrogate / straight-through gradient (enrichment target)",
+      "id": "bit_analog_formulation_v1_stage2_option_surrogate_ste"
     },
     {
       "label": "Catalog Absorption \u2014 8-pair mapping \u21d2 4-slot schema + pending learning rule",
@@ -2808,9 +2810,9 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_catalog_absorption",
-      "community": 5,
-      "norm_label": "catalog absorption \u2014 8-pair mapping \u21d2 4-slot schema + pending learning rule"
+      "community": 1,
+      "norm_label": "catalog absorption \u2014 8-pair mapping \u21d2 4-slot schema + pending learning rule",
+      "id": "bit_analog_formulation_v1_catalog_absorption"
     },
     {
       "label": "Constraint \u2014 G must be updated locally per crossbar cell",
@@ -2821,9 +2823,295 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "id": "bit_analog_formulation_v1_local_update_constraint_g",
-      "community": 5,
-      "norm_label": "constraint \u2014 g must be updated locally per crossbar cell"
+      "community": 1,
+      "norm_label": "constraint \u2014 g must be updated locally per crossbar cell",
+      "id": "bit_analog_formulation_v1_local_update_constraint_g"
+    },
+    {
+      "label": "Analog Primitive Gaps \u2014 Log-Domain, Gilbert Cell, Subthreshold Exp (main)",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "# Analog Primitive Gaps",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_main",
+      "community": 7,
+      "norm_label": "analog primitive gaps \u2014 log-domain, gilbert cell, subthreshold exp (main)"
+    },
+    {
+      "label": "Log-Domain / Translinear Computation (primitive)",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Primitive 1 \u2014 Log-Domain / Translinear Computation",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_log_domain_translinear",
+      "community": 7,
+      "norm_label": "log-domain / translinear computation (primitive)"
+    },
+    {
+      "label": "Translinear principle (Gilbert 1975): product of CW currents = product of CCW currents",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 1)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_translinear_principle",
+      "community": 7,
+      "norm_label": "translinear principle (gilbert 1975): product of cw currents = product of ccw currents"
+    },
+    {
+      "label": "Log-domain identity: log(xy)=log(x)+log(y); multiplication becomes voltage addition",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 1)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_log_mul_to_add",
+      "community": 7,
+      "norm_label": "log-domain identity: log(xy)=log(x)+log(y); multiplication becomes voltage addition"
+    },
+    {
+      "label": "EML operator \u2261 log-domain algebra: eml(x,y)=exp(x)\u2212ln(y) is voltage arithmetic on BJT/subthreshold junctions",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence \u2014 EML operator as log-domain algebra",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_eml_algebra_identity",
+      "community": 7,
+      "norm_label": "eml operator \u2261 log-domain algebra: eml(x,y)=exp(x)\u2212ln(y) is voltage arithmetic on bjt/subthreshold junctions"
+    },
+    {
+      "label": "EDL operator \u2261 log-domain mul-div: edl(x,y)=exp(x)/ln(y) on the same junction structure",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence \u2014 EML operator as log-domain algebra",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_edl_algebra_identity",
+      "community": 7,
+      "norm_label": "edl operator \u2261 log-domain mul-div: edl(x,y)=exp(x)/ln(y) on the same junction structure"
+    },
+    {
+      "label": "Role in EGGROLL-PPCA: translinear current multipliers realize S\u00b7a_i\u00b7b_j per transistor-quad",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA (Stage 2)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_log_domain_role_eggroll",
+      "community": 1,
+      "norm_label": "role in eggroll-ppca: translinear current multipliers realize s\u00b7a_i\u00b7b_j per transistor-quad"
+    },
+    {
+      "label": "Gilbert Cell Four-Quadrant Multiplier (primitive)",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Primitive 2 \u2014 Gilbert Cell Four-Quadrant Multiplier",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_gilbert_cell",
+      "community": 1,
+      "norm_label": "gilbert cell four-quadrant multiplier (primitive)"
+    },
+    {
+      "label": "Four-quadrant signed multiplication: I_out = (I_tail/V_T^2)\u00b7V_x\u00b7V_y for small signals",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 2)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_four_quadrant_mul",
+      "community": 1,
+      "norm_label": "four-quadrant signed multiplication: i_out = (i_tail/v_t^2)\u00b7v_x\u00b7v_y for small signals"
+    },
+    {
+      "label": "Topology: two cross-coupled differential pairs sharing a common tail-current source",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 2)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_cross_coupled_diff_pairs",
+      "community": 1,
+      "norm_label": "topology: two cross-coupled differential pairs sharing a common tail-current source"
+    },
+    {
+      "label": "Cleanest signed scalar multiplication z=x\u00b7y; dot-products of small vectors via parallel cells",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 2)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_gilbert_signed_scalar_mul",
+      "community": 1,
+      "norm_label": "cleanest signed scalar multiplication z=x\u00b7y; dot-products of small vectors via parallel cells"
+    },
+    {
+      "label": "Strip of max(m,n) Gilbert cells evaluates outer product a_i\u00b7b_j one row/column at a time",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA (Primitive 2)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_gilbert_outer_product_strip",
+      "community": 1,
+      "norm_label": "strip of max(m,n) gilbert cells evaluates outer product a_i\u00b7b_j one row/column at a time"
+    },
+    {
+      "label": "Precision regime complements crossbar: higher dynamic range, lower parallelism, signed-native",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Relation to corpus (Primitive 2)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_gilbert_precision_regime",
+      "community": 1,
+      "norm_label": "precision regime complements crossbar: higher dynamic range, lower parallelism, signed-native"
+    },
+    {
+      "label": "Subthreshold Exponential Regime (primitive)",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Primitive 3 \u2014 Subthreshold Exponential Regime",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_subthreshold_exp",
+      "community": 4,
+      "norm_label": "subthreshold exponential regime (primitive)"
+    },
+    {
+      "label": "Subthreshold I\u2013V: I_D = I_0\u00b7exp(V_GS/n\u00b7V_T)\u00b7(1\u2212exp(\u2212V_DS/V_T)), n\u22481.3\u20131.5",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 3)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_subthreshold_iv_law",
+      "community": 4,
+      "norm_label": "subthreshold i\u2013v: i_d = i_0\u00b7exp(v_gs/n\u00b7v_t)\u00b7(1\u2212exp(\u2212v_ds/v_t)), n\u22481.3\u20131.5"
+    },
+    {
+      "label": "Sigmoid-native: I_D/(I_D+I_ref) = 1/(1+exp(\u2212V_GS/n\u00b7V_T)) with only a current mirror",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_sigmoid_native",
+      "community": 0,
+      "norm_label": "sigmoid-native: i_d/(i_d+i_ref) = 1/(1+exp(\u2212v_gs/n\u00b7v_t)) with only a current mirror"
+    },
+    {
+      "label": "Softmax-native: K subthreshold transistors at a normalizing node yield exp(V_k)/\u03a3exp(V_j)",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_softmax_native",
+      "community": 4,
+      "norm_label": "softmax-native: k subthreshold transistors at a normalizing node yield exp(v_k)/\u03c3exp(v_j)"
+    },
+    {
+      "label": "Gaussian-score-native: exp(\u2212r\u00b2/2\u03c3\u00b2) realized by one subthreshold transistor with biased V_GS",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_gaussian_score_realization",
+      "community": 0,
+      "norm_label": "gaussian-score-native: exp(\u2212r2/2\u03c32) realized by one subthreshold transistor with biased v_gs"
+    },
+    {
+      "label": "Fills N_\u03b2 placeholder from formulation v1: subthreshold regime of the same MOSFET realizing N_\u03b1",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The missing N_\u03b2 node from formulation v1",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_n_beta_fills_placeholder",
+      "community": 4,
+      "norm_label": "fills n_\u03b2 placeholder from formulation v1: subthreshold regime of the same mosfet realizing n_\u03b1"
+    },
+    {
+      "label": "One MOSFET, three regimes: V_GS<V_T\u2192N_\u03b2 subthreshold; V_T<V_GS low V_DS\u2192N_\u03b3 saturation; V_GS>V_T high V_DS\u2192N_\u03b1 kink/punch-through",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_three_regime_unification",
+      "community": 4,
+      "norm_label": "one mosfet, three regimes: v_gs<v_t\u2192n_\u03b2 subthreshold; v_t<v_gs low v_ds\u2192n_\u03b3 saturation; v_gs>v_t high v_ds\u2192n_\u03b1 kink/punch-through"
+    },
+    {
+      "label": "LIF neuron leakage is subthreshold-native; Gaussian score computation is subthreshold-natural",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to LIF neuron and score-function gradient",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_lif_subthreshold_leakage",
+      "community": 0,
+      "norm_label": "lif neuron leakage is subthreshold-native; gaussian score computation is subthreshold-natural"
+    },
+    {
+      "label": "Triangular structure: log-domain (algebra), Gilbert (topology), subthreshold exp (device regime) are three views of one fact",
+      "file_type": "document",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Triangular Structure of the Three Primitives",
+      "source_url": null,
+      "captured_at": "2026-04-20",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "analog_primitive_gaps_triangular_structure",
+      "community": 7,
+      "norm_label": "triangular structure: log-domain (algebra), gilbert (topology), subthreshold exp (device regime) are three views of one fact"
     }
   ],
   "links": [
@@ -2946,6 +3234,30 @@
       "_tgt": "device_math_mapping_pair_4_crossbar_attention_logits",
       "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
       "target": "device_math_mapping_pair_4_crossbar_attention_logits"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "**Gilbert cell cross-links:**",
+      "weight": 0.8,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "analog_primitive_gaps_gilbert_cell",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "analog_primitive_gaps_gilbert_cell"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA (Primitive 2)",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "analog_primitive_gaps_gilbert_outer_product_strip",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "analog_primitive_gaps_gilbert_outer_product_strip"
     },
     {
       "relation": "conceptually_related_to",
@@ -3094,6 +3406,66 @@
     {
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence \u2014 EML operator as log-domain algebra",
+      "weight": 0.9,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 0.95,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "analog_primitive_gaps_eml_algebra_identity",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "target": "analog_primitive_gaps_eml_algebra_identity"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 0.85,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "weight": 0.8,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "analog_primitive_gaps_gaussian_score_realization",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "target": "analog_primitive_gaps_gaussian_score_realization"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Triangular Structure",
+      "weight": 0.85,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "_tgt": "analog_primitive_gaps_triangular_structure",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "target": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
       "confidence_score": 0.75,
       "source_file": "raw/All elementary functions from a single operator.pdf",
       "source_location": null,
@@ -3102,6 +3474,78 @@
       "_tgt": "synaptic_and_neural_behaviours_pdf_mosfet",
       "source": "all_elementary_functions_from_a_single_operator_pdf_nand_gate",
       "target": "synaptic_and_neural_behaviours_pdf_mosfet"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 0.9,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 0.95,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
+      "_tgt": "analog_primitive_gaps_edl_algebra_identity",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_edl_operator",
+      "target": "analog_primitive_gaps_edl_algebra_identity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 1)",
+      "weight": 0.8,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_eulers_formula",
+      "_tgt": "analog_primitive_gaps_log_mul_to_add",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_eulers_formula",
+      "target": "analog_primitive_gaps_log_mul_to_add"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 0.9,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 1)",
+      "weight": 0.9,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "_tgt": "analog_primitive_gaps_log_mul_to_add",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "target": "analog_primitive_gaps_log_mul_to_add"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 3)",
+      "weight": 0.85,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "target": "analog_primitive_gaps_subthreshold_exp"
     },
     {
       "relation": "semantically_similar_to",
@@ -3186,6 +3630,30 @@
       "_tgt": "all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture",
       "source": "all_elementary_functions_from_a_single_operator_pdf_verify_base_set",
       "target": "all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 0.85,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 0.8,
+      "_src": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally",
+      "_tgt": "analog_primitive_gaps_eml_algebra_identity",
+      "source": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally",
+      "target": "analog_primitive_gaps_eml_algebra_identity"
     },
     {
       "relation": "conceptually_related_to",
@@ -3356,6 +3824,30 @@
       "target": "bit_analog_formulation_v1_stage2_option_score_function_es"
     },
     {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA (Stage 2)",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_tgt": "analog_primitive_gaps_log_domain_role_eggroll",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "target": "analog_primitive_gaps_log_domain_role_eggroll"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "weight": 0.8,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3402,6 +3894,30 @@
       "_tgt": "synaptic_and_neural_behaviours_pdf_punch_through",
       "source": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
       "target": "synaptic_and_neural_behaviours_pdf_punch_through"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "weight": 0.9,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "_tgt": "analog_primitive_gaps_gaussian_score_realization",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "target": "analog_primitive_gaps_gaussian_score_realization"
     },
     {
       "relation": "references",
@@ -3498,6 +4014,42 @@
       "_tgt": "synaptic_and_neural_behaviours_pdf_phase_change_memory",
       "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
       "target": "synaptic_and_neural_behaviours_pdf_phase_change_memory"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA (Primitive 2)",
+      "weight": 0.85,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "analog_primitive_gaps_gilbert_cell",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "analog_primitive_gaps_gilbert_cell"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA (Primitive 2)",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "analog_primitive_gaps_gilbert_outer_product_strip",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "analog_primitive_gaps_gilbert_outer_product_strip"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA (Stage 2)",
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "analog_primitive_gaps_log_domain_role_eggroll",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "analog_primitive_gaps_log_domain_role_eggroll"
     },
     {
       "relation": "conceptually_related_to",
@@ -3707,6 +4259,66 @@
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "**Gilbert cell cross-links:**",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "analog_primitive_gaps_gilbert_cell",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "analog_primitive_gaps_gilbert_cell"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "**Subthreshold exp cross-links:**",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Triangular Structure",
+      "weight": 0.9,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "analog_primitive_gaps_triangular_structure",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The missing N_\u03b2 node",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "analog_primitive_gaps_n_beta_fills_placeholder",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "analog_primitive_gaps_n_beta_fills_placeholder"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "analog_primitive_gaps_three_regime_unification"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "raw/Synaptic and neural behaviours.pdf",
       "source_location": null,
       "weight": 1.0,
@@ -3791,6 +4403,30 @@
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "target": "analog_primitive_gaps_three_regime_unification"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "raw/device_math_mapping.md",
       "source_location": "## Pair 5",
       "weight": 1.0,
@@ -3810,6 +4446,18 @@
       "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
       "source": "synaptic_and_neural_behaviours_pdf_floating_bulk",
       "target": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 3)",
+      "weight": 0.7,
+      "_src": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "target": "analog_primitive_gaps_subthreshold_exp"
     },
     {
       "relation": "conceptually_related_to",
@@ -3870,6 +4518,30 @@
       "_tgt": "synaptic_and_neural_behaviours_pdf_tonotopic_mapping",
       "source": "synaptic_and_neural_behaviours_pdf_neuron",
       "target": "synaptic_and_neural_behaviours_pdf_tonotopic_mapping"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to LIF neuron and score-function gradient",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_neuron",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "synaptic_and_neural_behaviours_pdf_neuron",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to LIF neuron",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_neuron",
+      "_tgt": "analog_primitive_gaps_lif_subthreshold_leakage",
+      "source": "synaptic_and_neural_behaviours_pdf_neuron",
+      "target": "analog_primitive_gaps_lif_subthreshold_leakage"
     },
     {
       "relation": "cites",
@@ -4005,6 +4677,18 @@
     },
     {
       "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "weight": 0.7,
+      "_src": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "_tgt": "analog_primitive_gaps_sigmoid_native",
+      "source": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "target": "analog_primitive_gaps_sigmoid_native"
+    },
+    {
+      "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "raw/Synaptic and neural behaviours.pdf",
@@ -4089,6 +4773,18 @@
     },
     {
       "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to LIF neuron",
+      "weight": 0.7,
+      "_src": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_tgt": "analog_primitive_gaps_lif_subthreshold_leakage",
+      "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "target": "analog_primitive_gaps_lif_subthreshold_leakage"
+    },
+    {
+      "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "raw/device_math_mapping.md",
@@ -4170,6 +4866,30 @@
       "_tgt": "bit_analog_formulation_v1_shared_silicon_claim",
       "source": "synaptic_and_neural_behaviours_pdf_kink_effect",
       "target": "bit_analog_formulation_v1_shared_silicon_claim"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "target": "analog_primitive_gaps_three_regime_unification"
     },
     {
       "relation": "conceptually_related_to",
@@ -4737,6 +5457,18 @@
     },
     {
       "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "5. new INFERRED hyperedge 0.85",
+      "weight": 0.8,
+      "_src": "bit_level_operator_framework_for_relu_mlps_main",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "bit_level_operator_framework_for_relu_mlps_main",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "raw/Bit-Level Operator Framework for ReLU MLPs.md",
@@ -4866,6 +5598,18 @@
       "_tgt": "bit_analog_formulation_v1_composition_identity_bitplane_relu_mlp",
       "source": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
       "target": "bit_analog_formulation_v1_composition_identity_bitplane_relu_mlp"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "5. new INFERRED hyperedge 0.85",
+      "weight": 0.8,
+      "_src": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "bit_level_operator_framework_for_relu_mlps_carry_save_tree",
+      "target": "analog_primitive_gaps_log_domain_translinear"
     },
     {
       "relation": "semantically_similar_to",
@@ -5552,6 +6296,18 @@
       "target": "bit_analog_formulation_v1_encoder_e"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to existing multiplication nodes",
+      "weight": 0.8,
+      "_src": "a_physical_reinterpretation_of_deep_learning_signal_particle_energy_mapping",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "a_physical_reinterpretation_of_deep_learning_signal_particle_energy_mapping",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
@@ -5598,6 +6354,30 @@
       "_tgt": "bit_analog_formulation_v1_composition_identity_bitplane_relu_mlp",
       "source": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
       "target": "bit_analog_formulation_v1_composition_identity_bitplane_relu_mlp"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to existing multiplication nodes",
+      "weight": 1.0,
+      "_src": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Relation to corpus (Primitive 2)",
+      "weight": 0.8,
+      "_src": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
+      "_tgt": "analog_primitive_gaps_gilbert_cell",
+      "source": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
+      "target": "analog_primitive_gaps_gilbert_cell"
     },
     {
       "relation": "semantically_similar_to",
@@ -5888,6 +6668,18 @@
       "target": "bit_analog_formulation_v1_composition_theorem"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "**Log-domain cross-links:**",
+      "weight": 1.0,
+      "_src": "binarized_neural_networks_xnor_popcount_mac",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "binarized_neural_networks_xnor_popcount_mac",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
       "relation": "semantically_similar_to",
       "confidence": "AMBIGUOUS",
       "confidence_score": 0.25,
@@ -6117,6 +6909,18 @@
     },
     {
       "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to existing multiplication nodes",
+      "weight": 0.85,
+      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "raw/device_math_mapping.md",
@@ -6138,6 +6942,30 @@
       "_tgt": "bit_analog_formulation_v1_linear_combiner_w",
       "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
       "target": "bit_analog_formulation_v1_linear_combiner_w"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to existing multiplication nodes",
+      "weight": 1.0,
+      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Relation to corpus (Primitive 2)",
+      "weight": 0.8,
+      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "_tgt": "analog_primitive_gaps_gilbert_cell",
+      "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "target": "analog_primitive_gaps_gilbert_cell"
     },
     {
       "relation": "conceptually_related_to",
@@ -6440,6 +7268,18 @@
       "target": "bit_analog_formulation_v1_stage2_option_score_function_es"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Relation to corpus (Primitive 2)",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_3_memristor_lowrank",
+      "_tgt": "analog_primitive_gaps_gilbert_cell",
+      "source": "device_math_mapping_pair_3_memristor_lowrank",
+      "target": "analog_primitive_gaps_gilbert_cell"
+    },
+    {
       "relation": "absorbs",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6462,6 +7302,18 @@
       "_tgt": "bit_analog_formulation_v1_local_update_constraint_g",
       "source": "device_math_mapping_pair_3_identity_bits_bound_rank",
       "target": "bit_analog_formulation_v1_local_update_constraint_g"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Relation to corpus (Primitive 2)",
+      "weight": 0.85,
+      "_src": "device_math_mapping_pair_3_identity_bits_bound_rank",
+      "_tgt": "analog_primitive_gaps_gilbert_precision_regime",
+      "source": "device_math_mapping_pair_3_identity_bits_bound_rank",
+      "target": "analog_primitive_gaps_gilbert_precision_regime"
     },
     {
       "relation": "rationale_for",
@@ -6659,6 +7511,30 @@
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "**Subthreshold exp cross-links:**",
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_7_kink_relu_polytope",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "device_math_mapping_pair_7_kink_relu_polytope",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 0.85,
+      "_src": "device_math_mapping_pair_7_kink_relu_polytope",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "device_math_mapping_pair_7_kink_relu_polytope",
+      "target": "analog_primitive_gaps_three_regime_unification"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "raw/bit_analog_formulation_v1.md",
       "source_location": "### Option \u03b1 (canonical) \u2014 Two-piece kink (piecewise-linear)",
       "weight": 1.0,
@@ -6678,6 +7554,18 @@
       "_tgt": "bit_analog_formulation_v1_catalog_absorption",
       "source": "device_math_mapping_pair_7_identity_transistor_as_state_region",
       "target": "bit_analog_formulation_v1_catalog_absorption"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 0.9,
+      "_src": "device_math_mapping_pair_7_identity_transistor_as_state_region",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "device_math_mapping_pair_7_identity_transistor_as_state_region",
+      "target": "analog_primitive_gaps_three_regime_unification"
     },
     {
       "relation": "conceptually_related_to",
@@ -6848,6 +7736,18 @@
       "target": "bit_analog_formulation_v1_catalog_absorption"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "builds_on: raw/bit_analog_formulation_v1.md",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_main",
+      "_tgt": "analog_primitive_gaps_main",
+      "source": "bit_analog_formulation_v1_main",
+      "target": "analog_primitive_gaps_main"
+    },
+    {
       "relation": "has_component",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6932,6 +7832,18 @@
       "target": "bit_analog_formulation_v1_encoder_option_c_binary"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "builds_on",
+      "weight": 0.8,
+      "_src": "bit_analog_formulation_v1_encoder_e",
+      "_tgt": "analog_primitive_gaps_main",
+      "source": "bit_analog_formulation_v1_encoder_e",
+      "target": "analog_primitive_gaps_main"
+    },
+    {
       "relation": "fixes",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6966,6 +7878,18 @@
       "_tgt": "bit_analog_formulation_v1_canonical_minimal_model",
       "source": "bit_analog_formulation_v1_linear_combiner_w",
       "target": "bit_analog_formulation_v1_canonical_minimal_model"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "**Gilbert cell cross-links:**",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_linear_combiner_w",
+      "_tgt": "analog_primitive_gaps_gilbert_cell",
+      "source": "bit_analog_formulation_v1_linear_combiner_w",
+      "target": "analog_primitive_gaps_gilbert_cell"
     },
     {
       "relation": "has_option",
@@ -7016,6 +7940,42 @@
       "target": "bit_analog_formulation_v1_invariant_3_n_sign_commutes"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "**Subthreshold exp cross-links:**",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_n",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "bit_analog_formulation_v1_nonlinearity_n",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_n",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "bit_analog_formulation_v1_nonlinearity_n",
+      "target": "analog_primitive_gaps_three_regime_unification"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The missing N_\u03b2 node",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_n",
+      "_tgt": "analog_primitive_gaps_main",
+      "source": "bit_analog_formulation_v1_nonlinearity_n",
+      "target": "analog_primitive_gaps_main"
+    },
+    {
       "relation": "fixes",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7026,6 +7986,54 @@
       "_tgt": "bit_analog_formulation_v1_canonical_minimal_model",
       "source": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
       "target": "bit_analog_formulation_v1_canonical_minimal_model"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "target": "analog_primitive_gaps_three_regime_unification"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The missing N_\u03b2 node from formulation v1",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The missing N_\u03b2 node",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_n_beta_fills_placeholder",
+      "source": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "target": "analog_primitive_gaps_n_beta_fills_placeholder"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "target": "analog_primitive_gaps_three_regime_unification"
     },
     {
       "relation": "rationale_for",
@@ -7098,57 +8106,347 @@
       "_tgt": "bit_analog_formulation_v1_stage2_option_surrogate_ste",
       "source": "bit_analog_formulation_v1_open_stage2_learning_problem",
       "target": "bit_analog_formulation_v1_stage2_option_surrogate_ste"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Primitive 1",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_main",
+      "_tgt": "analog_primitive_gaps_log_domain_translinear",
+      "source": "analog_primitive_gaps_main",
+      "target": "analog_primitive_gaps_log_domain_translinear"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Primitive 2",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_main",
+      "_tgt": "analog_primitive_gaps_gilbert_cell",
+      "source": "analog_primitive_gaps_main",
+      "target": "analog_primitive_gaps_gilbert_cell"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Primitive 3",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_main",
+      "_tgt": "analog_primitive_gaps_subthreshold_exp",
+      "source": "analog_primitive_gaps_main",
+      "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Triangular Structure",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_main",
+      "_tgt": "analog_primitive_gaps_triangular_structure",
+      "source": "analog_primitive_gaps_main",
+      "target": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 1)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_log_domain_translinear",
+      "_tgt": "analog_primitive_gaps_translinear_principle",
+      "source": "analog_primitive_gaps_log_domain_translinear",
+      "target": "analog_primitive_gaps_translinear_principle"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 1)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_log_domain_translinear",
+      "_tgt": "analog_primitive_gaps_log_mul_to_add",
+      "source": "analog_primitive_gaps_log_domain_translinear",
+      "target": "analog_primitive_gaps_log_mul_to_add"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_log_domain_translinear",
+      "_tgt": "analog_primitive_gaps_eml_algebra_identity",
+      "source": "analog_primitive_gaps_log_domain_translinear",
+      "target": "analog_primitive_gaps_eml_algebra_identity"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The exact correspondence",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_log_domain_translinear",
+      "_tgt": "analog_primitive_gaps_edl_algebra_identity",
+      "source": "analog_primitive_gaps_log_domain_translinear",
+      "target": "analog_primitive_gaps_edl_algebra_identity"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_log_domain_translinear",
+      "_tgt": "analog_primitive_gaps_log_domain_role_eggroll",
+      "source": "analog_primitive_gaps_log_domain_translinear",
+      "target": "analog_primitive_gaps_log_domain_role_eggroll"
+    },
+    {
+      "relation": "generalizes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Triangular Structure",
+      "weight": 0.9,
+      "_src": "analog_primitive_gaps_log_domain_translinear",
+      "_tgt": "analog_primitive_gaps_triangular_structure",
+      "source": "analog_primitive_gaps_log_domain_translinear",
+      "target": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 2)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_gilbert_cell",
+      "_tgt": "analog_primitive_gaps_four_quadrant_mul",
+      "source": "analog_primitive_gaps_gilbert_cell",
+      "target": "analog_primitive_gaps_four_quadrant_mul"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 2)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_gilbert_cell",
+      "_tgt": "analog_primitive_gaps_cross_coupled_diff_pairs",
+      "source": "analog_primitive_gaps_gilbert_cell",
+      "target": "analog_primitive_gaps_cross_coupled_diff_pairs"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 2)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_gilbert_cell",
+      "_tgt": "analog_primitive_gaps_gilbert_signed_scalar_mul",
+      "source": "analog_primitive_gaps_gilbert_cell",
+      "target": "analog_primitive_gaps_gilbert_signed_scalar_mul"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Role in EGGROLL-PPCA (Primitive 2)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_gilbert_cell",
+      "_tgt": "analog_primitive_gaps_gilbert_outer_product_strip",
+      "source": "analog_primitive_gaps_gilbert_cell",
+      "target": "analog_primitive_gaps_gilbert_outer_product_strip"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Relation to corpus (Primitive 2)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_gilbert_cell",
+      "_tgt": "analog_primitive_gaps_gilbert_precision_regime",
+      "source": "analog_primitive_gaps_gilbert_cell",
+      "target": "analog_primitive_gaps_gilbert_precision_regime"
+    },
+    {
+      "relation": "generalizes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Triangular Structure",
+      "weight": 0.9,
+      "_src": "analog_primitive_gaps_gilbert_cell",
+      "_tgt": "analog_primitive_gaps_triangular_structure",
+      "source": "analog_primitive_gaps_gilbert_cell",
+      "target": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Device physics (Primitive 3)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_subthreshold_iv_law",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "analog_primitive_gaps_subthreshold_iv_law"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_sigmoid_native",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "analog_primitive_gaps_sigmoid_native"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_softmax_native",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "analog_primitive_gaps_softmax_native"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Mathematical property (Primitive 3)",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_gaussian_score_realization",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "analog_primitive_gaps_gaussian_score_realization"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The missing N_\u03b2 node",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_n_beta_fills_placeholder",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "analog_primitive_gaps_n_beta_fills_placeholder"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_three_regime_unification",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "analog_primitive_gaps_three_regime_unification"
+    },
+    {
+      "relation": "specializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to LIF neuron",
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_lif_subthreshold_leakage",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "analog_primitive_gaps_lif_subthreshold_leakage"
+    },
+    {
+      "relation": "generalizes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Triangular Structure",
+      "weight": 0.9,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "analog_primitive_gaps_triangular_structure",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "analog_primitive_gaps_triangular_structure"
     }
   ],
   "hyperedges": [
     {
-      "id": "bit_analog_forward_pass_quadruple",
-      "label": "Bit-Analog Forward-Pass Quadruple (E,W,N,D + formulation)",
+      "id": "analog_multiplication_family",
+      "label": "Analog multiplication family: log-domain, Gilbert cell, crossbar MVM, bit-plane overlap as four implementations of one primitive",
       "members": [
-        "bit_analog_formulation_v1_main",
-        "bit_analog_formulation_v1_encoder_e",
-        "bit_analog_formulation_v1_linear_combiner_w",
-        "bit_analog_formulation_v1_nonlinearity_n",
-        "bit_analog_formulation_v1_decoder_d"
+        "analog_primitive_gaps_log_domain_translinear",
+        "analog_primitive_gaps_gilbert_cell",
+        "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+        "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
       ],
-      "relation": "forward_pass_quadruple",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/bit_analog_formulation_v1.md",
-      "source_location": "## The Quadruple",
-      "weight": 1.0
+      "relation": "generalizes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### Connection to existing multiplication nodes; Structural Gaps #5",
+      "weight": 0.85
     },
     {
-      "id": "canonical_minimal_model_e_a_n_alpha",
-      "label": "Canonical Minimal Model (E=A bit-plane, W=crossbar, N=\u03b1 kink, D=comparator)",
+      "id": "mosfet_three_regime_n_options",
+      "label": "MOSFET three-regime N-option family: one device instantiates N_\u03b1 (kink), N_\u03b2 (subthreshold exp), N_\u03b3 (saturation) depending on bias",
       "members": [
-        "bit_analog_formulation_v1_encoder_option_a_bitplane",
-        "bit_analog_formulation_v1_linear_combiner_w",
         "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
-        "bit_analog_formulation_v1_decoder_d"
+        "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+        "bit_analog_formulation_v1_nonlinearity_option_gamma_saturation",
+        "synaptic_and_neural_behaviours_pdf_mosfet",
+        "synaptic_and_neural_behaviours_pdf_kink_effect",
+        "synaptic_and_neural_behaviours_pdf_punch_through",
+        "analog_primitive_gaps_subthreshold_exp"
       ],
-      "relation": "canonical_instantiation",
+      "relation": "generalizes",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "raw/bit_analog_formulation_v1.md",
-      "source_location": "## Canonical Minimal Model",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "### The three-regime unification",
       "weight": 1.0
     },
     {
-      "id": "same_transistor_dual_read",
-      "label": "Same-Transistor Dual-Read (N analog-read + D binary-read of one MOSFET at kink)",
+      "id": "exponential_law_family",
+      "label": "Exponential-law family: exp() is the unifying physics across log-domain, subthreshold, EML, Gaussian score, exp/log pair",
       "members": [
-        "bit_analog_formulation_v1_nonlinearity_n",
-        "bit_analog_formulation_v1_decoder_d",
-        "bit_analog_formulation_v1_shared_silicon_claim",
-        "synaptic_and_neural_behaviours_pdf_kink_effect",
-        "synaptic_and_neural_behaviours_pdf_mosfet"
+        "analog_primitive_gaps_log_domain_translinear",
+        "analog_primitive_gaps_subthreshold_exp",
+        "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+        "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+        "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair"
       ],
-      "relation": "single_device_dual_read",
+      "relation": "generalizes",
       "confidence": "INFERRED",
       "confidence_score": 0.9,
-      "source_file": "raw/bit_analog_formulation_v1.md",
-      "source_location": "## Component 4 \u2014 Decoder D, shared-silicon with N",
+      "source_file": "raw/analog_primitive_gaps.md",
+      "source_location": "## Triangular Structure; Structural Gaps",
       "weight": 0.9
     }
   ]
