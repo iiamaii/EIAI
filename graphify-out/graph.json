@@ -4,56 +4,35 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "analog_multiplication_family",
-        "label": "Analog multiplication family: log-domain, Gilbert cell, crossbar MVM, bit-plane overlap as four implementations of one primitive",
+        "id": "stage2_closure_hyperedge",
         "members": [
-          "analog_primitive_gaps_log_domain_translinear",
-          "analog_primitive_gaps_gilbert_cell",
-          "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
-          "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
+          "stage2_eggroll_ppca_main",
+          "bit_analog_formulation_v1_main",
+          "bit_analog_formulation_v1_stage2_option_score_function_es",
+          "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+          "analog_primitive_gaps_main",
+          "device_math_mapping_main"
         ],
-        "relation": "generalizes",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "raw/analog_primitive_gaps.md",
-        "source_location": "### Connection to existing multiplication nodes; Structural Gaps #5",
-        "weight": 0.85
+        "type": "stage2_closure",
+        "provenance": "EXTRACTED",
+        "confidence": 0.95,
+        "summary": "The five prior notes plus EGGROLL close into a single architectural schema: PPCA. Closure hyperedge encodes that formulation v1, analog primitive gaps, device-math mapping, and the ES Stage-2 branch jointly produce the EGGROLL-PPCA architecture."
       },
       {
-        "id": "mosfet_three_regime_n_options",
-        "label": "MOSFET three-regime N-option family: one device instantiates N_\u03b1 (kink), N_\u03b2 (subthreshold exp), N_\u03b3 (saturation) depending on bias",
+        "id": "eggroll_ppca_operational_cycle",
         "members": [
-          "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
-          "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
-          "bit_analog_formulation_v1_nonlinearity_option_gamma_saturation",
-          "synaptic_and_neural_behaviours_pdf_mosfet",
-          "synaptic_and_neural_behaviours_pdf_kink_effect",
-          "synaptic_and_neural_behaviours_pdf_punch_through",
-          "analog_primitive_gaps_subthreshold_exp"
+          "stage2_eggroll_ppca_main",
+          "stage2_eggroll_ppca_phase1_perturbation_draw",
+          "stage2_eggroll_ppca_phase2_combined_forward",
+          "stage2_eggroll_ppca_phase3_nonlinearity",
+          "stage2_eggroll_ppca_phase4_interlayer_analog",
+          "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+          "stage2_eggroll_ppca_phase6_consolidation_gilbert"
         ],
-        "relation": "generalizes",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "raw/analog_primitive_gaps.md",
-        "source_location": "### The three-regime unification",
-        "weight": 1.0
-      },
-      {
-        "id": "exponential_law_family",
-        "label": "Exponential-law family: exp() is the unifying physics across log-domain, subthreshold, EML, Gaussian score, exp/log pair",
-        "members": [
-          "analog_primitive_gaps_log_domain_translinear",
-          "analog_primitive_gaps_subthreshold_exp",
-          "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
-          "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
-          "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair"
-        ],
-        "relation": "generalizes",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "raw/analog_primitive_gaps.md",
-        "source_location": "## Triangular Structure; Structural Gaps",
-        "weight": 0.9
+        "type": "operational_cycle",
+        "provenance": "EXTRACTED",
+        "confidence": 1.0,
+        "summary": "One outer EGGROLL-PPCA step cycles through six phases: perturbation draw \u2192 combined forward \u2192 nonlinearity \u2192 inter-layer analog routing \u2192 fitness scoring \u2192 Gilbert-cell consolidation. Closes back to phase 1 after \u03c4_slow consolidation."
       }
     ]
   },
@@ -67,7 +46,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "eggroll (korean translation)",
       "id": "evolution_strategies_at_the_hyperscale_md_eggroll"
     },
@@ -80,7 +59,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "evolution strategies (es)",
       "id": "evolution_strategies_at_the_hyperscale_md_evolution_strategies"
     },
@@ -93,7 +72,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "lora (low-rank adaptation)",
       "id": "evolution_strategies_at_the_hyperscale_md_lora"
     },
@@ -106,7 +85,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "gaussian es",
       "id": "evolution_strategies_at_the_hyperscale_md_gaussian_es"
     },
@@ -119,7 +98,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "matrix gaussian distribution",
       "id": "evolution_strategies_at_the_hyperscale_md_matrix_gaussian_distribution"
     },
@@ -132,7 +111,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "score function gradient estimation",
       "id": "evolution_strategies_at_the_hyperscale_md_score_function_gradient"
     },
@@ -145,7 +124,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "low-rank perturbation e=ab^t/sqrt(r)",
       "id": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation"
     },
@@ -158,7 +137,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "rationale: arithmetic intensity improvement",
       "id": "evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity"
     },
@@ -171,7 +150,7 @@
       "captured_at": null,
       "author": "Andrzej Odrzywolek",
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "eml operator eml(x,y)=exp(x)-ln(y)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_eml_operator"
     },
@@ -184,7 +163,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "nand gate (sheffer stroke)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_nand_gate"
     },
@@ -197,7 +176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "edl operator edl(x,y)=exp(x)/ln(y)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_edl_operator"
     },
@@ -210,7 +189,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "ternary operator t(x,y,z)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_ternary_operator"
     },
@@ -223,7 +202,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "euler's formula e^(i*phi)=cos+i*sin",
       "id": "all_elementary_functions_from_a_single_operator_pdf_eulers_formula"
     },
@@ -236,7 +215,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "exp-log representation (liouville 1835)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair"
     },
@@ -249,7 +228,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "binary tree grammar s->1|eml(s,s)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar"
     },
@@ -262,7 +241,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "symbolic regression via eml trees",
       "id": "all_elementary_functions_from_a_single_operator_pdf_symbolic_regression"
     },
@@ -275,7 +254,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "adam optimizer",
       "id": "all_elementary_functions_from_a_single_operator_pdf_adam_optimizer"
     },
@@ -288,7 +267,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "eml master formula (parameterized tree)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_master_formula"
     },
@@ -301,7 +280,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "verifybaseset (bootstrapping search)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_verify_base_set"
     },
@@ -314,7 +293,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "schanuel's conjecture (sieve justification)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture"
     },
@@ -327,7 +306,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "kan kolmogorov-arnold networks (liu et al.)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_kan"
     },
@@ -340,7 +319,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "relu activation (nair & hinton 2010)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_relu"
     },
@@ -353,7 +332,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "rationale: single primitive aesthetic/pedagogy value",
       "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive"
     },
@@ -366,7 +345,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "rationale: complex domain required internally",
       "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally"
     },
@@ -379,7 +358,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "rationale: interpretability via snap to closed-form",
       "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability"
     },
@@ -392,7 +371,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "pytorch (paszke et al. 2019)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_pytorch"
     },
@@ -405,7 +384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "lean 4 theorem prover",
       "id": "all_elementary_functions_from_a_single_operator_pdf_lean4"
     },
@@ -418,7 +397,7 @@
       "captured_at": null,
       "author": "Sarkar, Fellows, Duque et al. (Oxford FLAIR/WhiRL, MILA, NVIDIA)",
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "eggroll algorithm",
       "id": "evolution_strategies_at_the_hyperscale_pdf_eggroll"
     },
@@ -431,7 +410,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "evolution strategies (es)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_evolution_strategies"
     },
@@ -444,7 +423,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "lora (hu et al. 2022)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_lora"
     },
@@ -457,7 +436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "gaussian approximate score function",
       "id": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation"
     },
@@ -470,7 +449,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "central limit theorem (justification)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_central_limit_theorem"
     },
@@ -483,7 +462,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "neural tangent kernel (jacot et al. 2018)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_ntk"
     },
@@ -496,7 +475,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 2,
       "norm_label": "edgeworth expansion (bhattacharya & ranga rao)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion"
     },
@@ -509,7 +488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "gaussian annulus theorem",
       "id": "evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem"
     },
@@ -522,7 +501,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "openes (salimans et al. 2017)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_openes"
     },
@@ -535,7 +514,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "grpo (shao et al. 2024)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_grpo"
     },
@@ -548,7 +527,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "rwkv-7 (peng et al. 2025)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rwkv7"
     },
@@ -561,7 +540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "mezo (malladi et al. 2023)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_mezo"
     },
@@ -574,7 +553,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "vllm (kwon et al. 2023)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_vllm"
     },
@@ -587,7 +566,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "egg (evolved generative gru, int8 rnn)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_egg_model"
     },
@@ -600,7 +579,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "rank-r perturbation structure",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation"
     },
@@ -613,7 +592,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "convergence to linearity theorem",
       "id": "evolution_strategies_at_the_hyperscale_pdf_convergence_theorem"
     },
@@ -626,7 +605,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 2,
       "norm_label": "eggroll rank convergence o(r^-1)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem"
     },
@@ -639,7 +618,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "rationale: low-rank structure for high arithmetic intensity",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity"
     },
@@ -652,7 +631,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "rationale: gaussian score choice via clt",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice"
     },
@@ -665,7 +644,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "norm_label": "rationale: nonlinear rnn choice for egg",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es"
     },
@@ -691,7 +670,7 @@
       "captured_at": "2025-03-26",
       "author": "Pazos, Zhu, Villena, Alharbi, Zheng, Shen, Yuan, Ping, Lanza",
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "ns-ram cell (neuro-synaptic ram)",
       "id": "synaptic_and_neural_behaviours_pdf_ns_ram_cell"
     },
@@ -704,7 +683,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "cmos mosfet (bulk-silicon)",
       "id": "synaptic_and_neural_behaviours_pdf_mosfet"
     },
@@ -717,7 +696,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "punch-through impact ionization",
       "id": "synaptic_and_neural_behaviours_pdf_punch_through"
     },
@@ -730,7 +709,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 0,
       "norm_label": "floating-bulk configuration",
       "id": "synaptic_and_neural_behaviours_pdf_floating_bulk"
     },
@@ -743,7 +722,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "artificial neural network (ann)",
       "id": "synaptic_and_neural_behaviours_pdf_ann"
     },
@@ -756,7 +735,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "electronic neuron (leaky-integrate-and-fire)",
       "id": "synaptic_and_neural_behaviours_pdf_neuron"
     },
@@ -769,7 +748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "electronic synapse (plasticity)",
       "id": "synaptic_and_neural_behaviours_pdf_synapse"
     },
@@ -782,7 +761,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "memristor (alternative platform)",
       "id": "synaptic_and_neural_behaviours_pdf_memristor"
     },
@@ -795,7 +774,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "intel loihi 2 (orchard et al. 2021)",
       "id": "synaptic_and_neural_behaviours_pdf_loihi2"
     },
@@ -808,7 +787,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "ibm northpole (cassidy et al. 2024)",
       "id": "synaptic_and_neural_behaviours_pdf_northpole"
     },
@@ -821,7 +800,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "bulk bias control transistor (2-transistor cell)",
       "id": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor"
     },
@@ -834,7 +813,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "short-term plasticity (zucker & regehr 2002)",
       "id": "synaptic_and_neural_behaviours_pdf_short_term_plasticity"
     },
@@ -847,7 +826,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "long-term plasticity (charge-trapping)",
       "id": "synaptic_and_neural_behaviours_pdf_long_term_plasticity"
     },
@@ -860,7 +839,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "tcad simulation (sentaurus synopsys)",
       "id": "synaptic_and_neural_behaviours_pdf_tcad_simulation"
     },
@@ -873,7 +852,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "hot-carrier (electron/hole) injection",
       "id": "synaptic_and_neural_behaviours_pdf_hot_carrier_injection"
     },
@@ -886,7 +865,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "embedded flash memory (reference)",
       "id": "synaptic_and_neural_behaviours_pdf_flash_memory"
     },
@@ -899,7 +878,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "kink effect (boudou & doyle 1987)",
       "id": "synaptic_and_neural_behaviours_pdf_kink_effect"
     },
@@ -912,7 +891,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "tonotopic mapping (milozzi et al. 2024)",
       "id": "synaptic_and_neural_behaviours_pdf_tonotopic_mapping"
     },
@@ -925,7 +904,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "norm_label": "rationale: cmos compatibility/no alien materials",
       "id": "synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility"
     },
@@ -938,7 +917,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "rationale: 2-transistor for tunability and repeatability",
       "id": "synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability"
     },
@@ -951,7 +930,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "rationale: charge-trapping explains long-term retention",
       "id": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention"
     },
@@ -964,7 +943,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "phase-change memory (pcm)",
       "id": "synaptic_and_neural_behaviours_pdf_phase_change_memory"
     },
@@ -977,7 +956,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "semi-passive physical neural devices (overview)",
       "id": "semi_passive_physical_neural_devices_main"
     },
@@ -990,7 +969,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "transistor-neuron thresholded transport analogy",
       "id": "semi_passive_physical_neural_devices_transistor_neuron_analogy"
     },
@@ -1003,7 +982,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "analog vlsi / neuromorphic engineering lineage",
       "id": "semi_passive_physical_neural_devices_analog_vlsi_lineage"
     },
@@ -1055,7 +1034,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "flash-like slow parameter memory",
       "id": "semi_passive_physical_neural_devices_flash_slow_parameter"
     },
@@ -1068,7 +1047,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "3-factor learning rule (local eligibility * global reward)",
       "id": "semi_passive_physical_neural_devices_three_factor_learning"
     },
@@ -1081,7 +1060,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "eggroll connection (perturbation-response-fitness)",
       "id": "semi_passive_physical_neural_devices_eggroll_connection"
     },
@@ -1094,7 +1073,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "threshold-shift slow update (trapped charge)",
       "id": "semi_passive_physical_neural_devices_threshold_shift_update"
     },
@@ -1107,7 +1086,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "single adaptive cell with two timescales",
       "id": "semi_passive_physical_neural_devices_single_cell_two_timescales"
     },
@@ -1120,7 +1099,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "operation-first: transition speed = compute throughput",
       "id": "semi_passive_physical_neural_devices_operation_transition_speed"
     },
@@ -1133,7 +1112,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "rationale: fabrication simplicity demands single-cell two-timescale physics",
       "id": "semi_passive_physical_neural_devices_rationale_single_cell"
     },
@@ -1302,7 +1281,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "fpga/asic systolic target",
       "id": "bit_level_operator_framework_for_relu_mlps_fpga_asic_target"
     },
@@ -1315,7 +1294,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "nns as state-region dictionaries (overview)",
       "id": "neural_networks_as_state_region_dictionaries_main"
     },
@@ -1328,7 +1307,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "rank-1 operator primitive (v_i u_i^t)",
       "id": "neural_networks_as_state_region_dictionaries_rank1_operator_primitive"
     },
@@ -1341,7 +1320,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "piecewise linear region atlas",
       "id": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas"
     },
@@ -1354,7 +1333,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "random operator reservoir + selection/alignment",
       "id": "neural_networks_as_state_region_dictionaries_random_operator_reservoir"
     },
@@ -1367,7 +1346,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "jacobian conditioning / quasi-isometric regime",
       "id": "neural_networks_as_state_region_dictionaries_jacobian_conditioning"
     },
@@ -1380,7 +1359,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "multiplicative random process is not gaussian",
       "id": "neural_networks_as_state_region_dictionaries_multiplicative_non_gaussian"
     },
@@ -1393,7 +1372,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "residual transition autoencoder block",
       "id": "neural_networks_as_state_region_dictionaries_residual_transition_autoencoder"
     },
@@ -1406,7 +1385,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "mixture of transition autoencoders",
       "id": "neural_networks_as_state_region_dictionaries_mixture_of_autoencoders"
     },
@@ -1419,7 +1398,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "depth as iterative operator flow",
       "id": "neural_networks_as_state_region_dictionaries_depth_as_iterative_flow"
     },
@@ -1432,7 +1411,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "rationale: mse/logistic meaning comes from output likelihood, not input isotropy",
       "id": "neural_networks_as_state_region_dictionaries_rationale_mse_loss_meaning"
     },
@@ -1445,7 +1424,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "primitive geometry of neural representation (overview)",
       "id": "primitive_geometry_of_neural_representation_main"
     },
@@ -1458,7 +1437,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "four geometry layers (parameter/representation/function/computation)",
       "id": "primitive_geometry_of_neural_representation_four_geometries"
     },
@@ -1471,7 +1450,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "hyperplane partition primitive",
       "id": "primitive_geometry_of_neural_representation_hyperplane_partition"
     },
@@ -1484,7 +1463,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "activation pattern / cell complex",
       "id": "primitive_geometry_of_neural_representation_activation_code"
     },
@@ -1497,7 +1476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "interaction geometry (state-transition)",
       "id": "primitive_geometry_of_neural_representation_interaction_geometry"
     },
@@ -1510,7 +1489,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "code/state encoding below real numbers",
       "id": "primitive_geometry_of_neural_representation_code_state_encoding"
     },
@@ -1523,7 +1502,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "encoding/interaction/constraint/dynamics layer framework",
       "id": "primitive_geometry_of_neural_representation_four_layer_framework"
     },
@@ -1536,7 +1515,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "integration: vector geometry as macroscopic limit of coded interaction",
       "id": "primitive_geometry_of_neural_representation_integration_claim"
     },
@@ -1549,7 +1528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "self-organizing cmos-memory architecture (overview)",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_main"
     },
@@ -1562,7 +1541,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "trainable analog circuit with gate-bias parameters",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit"
     },
@@ -1575,7 +1554,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "fast activation x(t) / slow weight w(t) time-scale separation",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
     },
@@ -1588,7 +1567,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "feeding protocol as part of learning law",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning"
     },
@@ -1601,7 +1580,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "consolidation / metaplasticity mechanism",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism"
     },
@@ -1614,7 +1593,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "self-organizing representation space goal",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning"
     },
@@ -1627,7 +1606,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "cmos-centered + ram-like memory hybrid architecture",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid"
     },
@@ -1640,7 +1619,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "rationale: disambiguating 'device' between memory device and transistor primitive",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split"
     },
@@ -1705,7 +1684,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "event-driven sparse interaction model",
       "id": "a_physical_reinterpretation_of_deep_learning_event_driven_interaction"
     },
@@ -1718,7 +1697,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "nn as structured reactive medium",
       "id": "a_physical_reinterpretation_of_deep_learning_reactive_medium"
     },
@@ -1731,7 +1710,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "stateful interaction field formalism",
       "id": "a_physical_reinterpretation_of_deep_learning_stateful_interaction_field"
     },
@@ -1744,7 +1723,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "interaction-state layer (multi-channel node, edge-state)",
       "id": "a_physical_reinterpretation_of_deep_learning_interaction_state_layer"
     },
@@ -1757,7 +1736,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "shared-basis low-rank edge interaction",
       "id": "a_physical_reinterpretation_of_deep_learning_shared_basis_interaction"
     },
@@ -1783,7 +1762,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "10-axiom formalization of stateful nn",
       "id": "a_physical_reinterpretation_of_deep_learning_axiomatization"
     },
@@ -1796,7 +1775,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "noprop: training nns without full back/forward-propagation",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_main"
     },
@@ -1809,7 +1788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "layer-local training without end-to-end backprop",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training"
     },
@@ -1822,7 +1801,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "hebbian learning with global direction",
       "id": "hebbian_learning_with_global_direction_main"
     },
@@ -1835,7 +1814,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "local hebbian rule modulated by global direction signal",
       "id": "hebbian_learning_with_global_direction_local_rule_global_signal"
     },
@@ -1887,7 +1866,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "conditional memory via scalable lookup",
       "id": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_main"
     },
@@ -1900,7 +1879,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "lookup-based conditional memory as new sparsity axis",
       "id": "conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_lookup_sparsity_axis"
     },
@@ -1913,7 +1892,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "practitioner's guide to kolmogorov-arnold networks",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_main"
     },
@@ -1926,7 +1905,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "learnable edge activation functions (kan)",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions"
     },
@@ -1939,7 +1918,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 10,
       "norm_label": "polarquant: quantizing kv caches via polar transform",
       "id": "polarquant_quantizing_kv_caches_with_polar_transformation_main"
     },
@@ -1952,7 +1931,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "learning with exact invariances in polynomial time",
       "id": "learning_with_exact_invariances_in_polynomial_time_main"
     },
@@ -1978,7 +1957,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "geometric explanation of likelihood ood detection paradox",
       "id": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_main"
     },
@@ -1991,7 +1970,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "manifold geometry / jacobian explanation of ood",
       "id": "a_geometric_explanation_of_the_likelihood_ood_detection_paradox_manifold_geometry"
     },
@@ -2004,7 +1983,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 10,
       "norm_label": "qjl: jl-based kv cache quantization",
       "id": "qjl_main"
     },
@@ -2017,7 +1996,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "primer on quantum machine learning",
       "id": "a_primer_on_quantum_machine_learning_main"
     },
@@ -2030,7 +2009,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "variational quantum circuits as learnable physical systems",
       "id": "a_primer_on_quantum_machine_learning_variational_quantum_circuit"
     },
@@ -2043,7 +2022,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 10,
       "norm_label": "turboquant",
       "id": "turboquant_main"
     },
@@ -2056,7 +2035,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "analog in-memory computing attention",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main"
     },
@@ -2069,7 +2048,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "in-memory attention compute (analog crossbars for kv)",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv"
     },
@@ -2082,7 +2061,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "cmos-integrated organic neuromorphic imagers",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_main"
     },
@@ -2095,7 +2074,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "hybrid cmos + organic neuromorphic device stack",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_hybrid_cmos_organic"
     },
@@ -2108,7 +2087,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "neuromorphic processor with on-chip learning",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_main"
     },
@@ -2121,7 +2100,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "on-chip local learning rule for beyond-cmos devices",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning"
     },
@@ -2134,7 +2113,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "device-math correspondence catalog",
       "id": "device_math_mapping_main"
     },
@@ -2147,7 +2126,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 0,
+      "community": 8,
       "norm_label": "pair 1: punch-through \u2194 es fast-weight momentum",
       "id": "device_math_mapping_pair_1_punchthrough_es_momentum"
     },
@@ -2160,7 +2139,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 0,
+      "community": 8,
       "norm_label": "identity: shared low-pass filter \u03c4_fast\u22121\u2248t_fast\u22121",
       "id": "device_math_mapping_pair_1_identity_lowpass_filter"
     },
@@ -2173,7 +2152,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 0,
+      "community": 8,
       "norm_label": "test: 2-transistor eggroll vs fp logistic regression",
       "id": "device_math_mapping_pair_1_test_two_transistor_eggroll"
     },
@@ -2186,7 +2165,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "pair 2: charge-trapping \u2194 consolidation/slow-weight",
       "id": "device_math_mapping_pair_2_charge_trap_consolidation"
     },
@@ -2199,7 +2178,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "predicted identity: \u03b7_slow = \u222b p(\u03c4)/\u03c4 d\u03c4",
       "id": "device_math_mapping_pair_2_identity_trap_kernel_ema"
     },
@@ -2212,7 +2191,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "rationale: trap-depth heterogeneity \u2194 multi-timescale ema",
       "id": "device_math_mapping_pair_2_rationale_trap_heterogeneity"
     },
@@ -2225,7 +2204,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "pair 3: memristor/pcm levels \u2194 low-rank rank r",
       "id": "device_math_mapping_pair_3_memristor_lowrank"
     },
@@ -2238,7 +2217,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "identity: usable rank r bounded by cell resolution b",
       "id": "device_math_mapping_pair_3_identity_bits_bound_rank"
     },
@@ -2251,7 +2230,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "test: b=4 vs b=8 memristor eggroll convergence knee",
       "id": "device_math_mapping_pair_3_test_b4_vs_b8"
     },
@@ -2264,7 +2243,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "pair 4: analog crossbar mvm \u2194 pre-softmax logits",
       "id": "device_math_mapping_pair_4_crossbar_attention_logits"
     },
@@ -2277,7 +2256,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "identity: one crossbar mvm cycle = qk^t/\u221ad_k",
       "id": "device_math_mapping_pair_4_identity_crossbar_equals_qkt"
     },
@@ -2290,7 +2269,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "implication: softmax must be off-chip or approximated",
       "id": "device_math_mapping_pair_4_implication_offchip_softmax"
     },
@@ -2303,7 +2282,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "pair 5: floating-bulk drift \u2194 running-stats norm",
       "id": "device_math_mapping_pair_5_floatingbulk_runstats"
     },
@@ -2316,7 +2295,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "predicted identity: \u03b1 = \u03b4t/(c_b\u00b7r_leak)",
       "id": "device_math_mapping_pair_5_identity_alpha_rc"
     },
@@ -2329,7 +2308,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "rationale: normalization is free in silicon via v_b",
       "id": "device_math_mapping_pair_5_rationale_free_normalization"
     },
@@ -2342,7 +2321,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "pair 6: single-cell two-timescale \u2194 fast/slow lr",
       "id": "device_math_mapping_pair_6_single_cell_two_timescale"
     },
@@ -2355,7 +2334,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "predicted identity: \u03b7_fast/\u03b7_slow = \u03c4_slow/\u03c4_fast",
       "id": "device_math_mapping_pair_6_identity_eta_tau_ratio"
     },
@@ -2368,7 +2347,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "rationale: makes existing hyperedge quantitative",
       "id": "device_math_mapping_pair_6_rationale_quantitative_gap"
     },
@@ -2381,7 +2360,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "pair 7: kink effect \u2194 relu polytope boundary",
       "id": "device_math_mapping_pair_7_kink_relu_polytope"
     },
@@ -2394,7 +2373,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "identity: transistor = 1-unit state-region dictionary",
       "id": "device_math_mapping_pair_7_identity_transistor_as_state_region"
     },
@@ -2407,7 +2386,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "test: piecewise-affine fit of stacked-transistor i-o",
       "id": "device_math_mapping_pair_7_test_piecewise_affine_fit"
     },
@@ -2420,7 +2399,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 5,
       "norm_label": "pair 8: vqc angle \u03b8 \u2194 kan learnable rotation",
       "id": "device_math_mapping_pair_8_vqc_kan_rotation"
     },
@@ -2433,7 +2412,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 5,
       "norm_label": "identity: vqc angle = kan periodic edge activation",
       "id": "device_math_mapping_pair_8_identity_angle_equals_edge_fn"
     },
@@ -2446,7 +2425,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 5,
       "norm_label": "rationale: physics-unitarity \u2194 constraint-unitarity duality",
       "id": "device_math_mapping_pair_8_rationale_unitarity_duality"
     },
@@ -2459,7 +2438,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "grouping a: two-timescale physics \u2192 slow/fast math",
       "id": "device_math_mapping_grouping_two_timescale"
     },
@@ -2472,7 +2451,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "grouping b: analog continuum \u2192 low-rank math",
       "id": "device_math_mapping_grouping_analog_lowrank"
     },
@@ -2485,7 +2464,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "grouping c: piecewise physics \u2192 piecewise-linear math",
       "id": "device_math_mapping_grouping_piecewise"
     },
@@ -2511,7 +2490,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 3,
       "norm_label": "state-transition quadruple (e,w,n,d) schema",
       "id": "bit_analog_formulation_v1_quadruple_schema"
     },
@@ -2550,7 +2529,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "encoder option b \u2014 pulse-density (unary, hamming weight)",
       "id": "bit_analog_formulation_v1_encoder_option_b_pulse_density"
     },
@@ -2576,7 +2555,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "component w \u2014 linear combiner (kirchhoff crossbar mvm)",
       "id": "bit_analog_formulation_v1_linear_combiner_w"
     },
@@ -2589,7 +2568,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "component n \u2014 selective-passing nonlinearity (transistor i-v)",
       "id": "bit_analog_formulation_v1_nonlinearity_n"
     },
@@ -2602,7 +2581,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "nonlinearity option \u03b1 \u2014 two-piece kink / relu polytope (canonical)",
       "id": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink"
     },
@@ -2615,7 +2594,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "nonlinearity option \u03b2 \u2014 subthreshold exponential (weak inversion)",
       "id": "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp"
     },
@@ -2628,7 +2607,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "nonlinearity option \u03b3 \u2014 saturation square-law (\u2248 squared-relu/gelu)",
       "id": "bit_analog_formulation_v1_nonlinearity_option_gamma_saturation_square"
     },
@@ -2641,7 +2620,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "component d \u2014 decoder (comparator array)",
       "id": "bit_analog_formulation_v1_decoder_d"
     },
@@ -2654,7 +2633,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 1,
       "norm_label": "shared-silicon dual-read claim (one transistor = n + d)",
       "id": "bit_analog_formulation_v1_shared_silicon_claim"
     },
@@ -2745,7 +2724,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 0,
       "norm_label": "canonical minimal model (e_bitplane, crossbar w, n_kink, d_comparator)",
       "id": "bit_analog_formulation_v1_canonical_minimal_model"
     },
@@ -2758,7 +2737,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 4,
       "norm_label": "open problem \u2014 stage 2 learning rule (d is discontinuous)",
       "id": "bit_analog_formulation_v1_open_stage2_learning_problem"
     },
@@ -2771,7 +2750,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 7,
       "norm_label": "stage 2 option \u2014 layer-local learning (no gradient crosses d)",
       "id": "bit_analog_formulation_v1_stage2_option_layer_local"
     },
@@ -2784,7 +2763,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 4,
       "norm_label": "stage 2 option \u2014 score-function / es gradient (black-box perturbation)",
       "id": "bit_analog_formulation_v1_stage2_option_score_function_es"
     },
@@ -2797,7 +2776,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 4,
       "norm_label": "stage 2 option \u2014 surrogate / straight-through gradient (enrichment target)",
       "id": "bit_analog_formulation_v1_stage2_option_surrogate_ste"
     },
@@ -2810,7 +2789,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "catalog absorption \u2014 8-pair mapping \u21d2 4-slot schema + pending learning rule",
       "id": "bit_analog_formulation_v1_catalog_absorption"
     },
@@ -2823,7 +2802,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 1,
+      "community": 0,
       "norm_label": "constraint \u2014 g must be updated locally per crossbar cell",
       "id": "bit_analog_formulation_v1_local_update_constraint_g"
     },
@@ -2836,9 +2815,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_main",
-      "community": 7,
-      "norm_label": "analog primitive gaps \u2014 log-domain, gilbert cell, subthreshold exp (main)"
+      "community": 6,
+      "norm_label": "analog primitive gaps \u2014 log-domain, gilbert cell, subthreshold exp (main)",
+      "id": "analog_primitive_gaps_main"
     },
     {
       "label": "Log-Domain / Translinear Computation (primitive)",
@@ -2849,9 +2828,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_log_domain_translinear",
-      "community": 7,
-      "norm_label": "log-domain / translinear computation (primitive)"
+      "community": 6,
+      "norm_label": "log-domain / translinear computation (primitive)",
+      "id": "analog_primitive_gaps_log_domain_translinear"
     },
     {
       "label": "Translinear principle (Gilbert 1975): product of CW currents = product of CCW currents",
@@ -2862,9 +2841,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_translinear_principle",
-      "community": 7,
-      "norm_label": "translinear principle (gilbert 1975): product of cw currents = product of ccw currents"
+      "community": 6,
+      "norm_label": "translinear principle (gilbert 1975): product of cw currents = product of ccw currents",
+      "id": "analog_primitive_gaps_translinear_principle"
     },
     {
       "label": "Log-domain identity: log(xy)=log(x)+log(y); multiplication becomes voltage addition",
@@ -2875,9 +2854,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_log_mul_to_add",
-      "community": 7,
-      "norm_label": "log-domain identity: log(xy)=log(x)+log(y); multiplication becomes voltage addition"
+      "community": 6,
+      "norm_label": "log-domain identity: log(xy)=log(x)+log(y); multiplication becomes voltage addition",
+      "id": "analog_primitive_gaps_log_mul_to_add"
     },
     {
       "label": "EML operator \u2261 log-domain algebra: eml(x,y)=exp(x)\u2212ln(y) is voltage arithmetic on BJT/subthreshold junctions",
@@ -2888,9 +2867,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_eml_algebra_identity",
-      "community": 7,
-      "norm_label": "eml operator \u2261 log-domain algebra: eml(x,y)=exp(x)\u2212ln(y) is voltage arithmetic on bjt/subthreshold junctions"
+      "community": 6,
+      "norm_label": "eml operator \u2261 log-domain algebra: eml(x,y)=exp(x)\u2212ln(y) is voltage arithmetic on bjt/subthreshold junctions",
+      "id": "analog_primitive_gaps_eml_algebra_identity"
     },
     {
       "label": "EDL operator \u2261 log-domain mul-div: edl(x,y)=exp(x)/ln(y) on the same junction structure",
@@ -2901,9 +2880,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_edl_algebra_identity",
-      "community": 7,
-      "norm_label": "edl operator \u2261 log-domain mul-div: edl(x,y)=exp(x)/ln(y) on the same junction structure"
+      "community": 6,
+      "norm_label": "edl operator \u2261 log-domain mul-div: edl(x,y)=exp(x)/ln(y) on the same junction structure",
+      "id": "analog_primitive_gaps_edl_algebra_identity"
     },
     {
       "label": "Role in EGGROLL-PPCA: translinear current multipliers realize S\u00b7a_i\u00b7b_j per transistor-quad",
@@ -2914,9 +2893,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_log_domain_role_eggroll",
-      "community": 1,
-      "norm_label": "role in eggroll-ppca: translinear current multipliers realize s\u00b7a_i\u00b7b_j per transistor-quad"
+      "community": 0,
+      "norm_label": "role in eggroll-ppca: translinear current multipliers realize s\u00b7a_i\u00b7b_j per transistor-quad",
+      "id": "analog_primitive_gaps_log_domain_role_eggroll"
     },
     {
       "label": "Gilbert Cell Four-Quadrant Multiplier (primitive)",
@@ -2927,9 +2906,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_gilbert_cell",
-      "community": 1,
-      "norm_label": "gilbert cell four-quadrant multiplier (primitive)"
+      "community": 6,
+      "norm_label": "gilbert cell four-quadrant multiplier (primitive)",
+      "id": "analog_primitive_gaps_gilbert_cell"
     },
     {
       "label": "Four-quadrant signed multiplication: I_out = (I_tail/V_T^2)\u00b7V_x\u00b7V_y for small signals",
@@ -2940,9 +2919,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_four_quadrant_mul",
-      "community": 1,
-      "norm_label": "four-quadrant signed multiplication: i_out = (i_tail/v_t^2)\u00b7v_x\u00b7v_y for small signals"
+      "community": 6,
+      "norm_label": "four-quadrant signed multiplication: i_out = (i_tail/v_t^2)\u00b7v_x\u00b7v_y for small signals",
+      "id": "analog_primitive_gaps_four_quadrant_mul"
     },
     {
       "label": "Topology: two cross-coupled differential pairs sharing a common tail-current source",
@@ -2953,9 +2932,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_cross_coupled_diff_pairs",
-      "community": 1,
-      "norm_label": "topology: two cross-coupled differential pairs sharing a common tail-current source"
+      "community": 6,
+      "norm_label": "topology: two cross-coupled differential pairs sharing a common tail-current source",
+      "id": "analog_primitive_gaps_cross_coupled_diff_pairs"
     },
     {
       "label": "Cleanest signed scalar multiplication z=x\u00b7y; dot-products of small vectors via parallel cells",
@@ -2966,9 +2945,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_gilbert_signed_scalar_mul",
-      "community": 1,
-      "norm_label": "cleanest signed scalar multiplication z=x\u00b7y; dot-products of small vectors via parallel cells"
+      "community": 6,
+      "norm_label": "cleanest signed scalar multiplication z=x\u00b7y; dot-products of small vectors via parallel cells",
+      "id": "analog_primitive_gaps_gilbert_signed_scalar_mul"
     },
     {
       "label": "Strip of max(m,n) Gilbert cells evaluates outer product a_i\u00b7b_j one row/column at a time",
@@ -2979,9 +2958,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_gilbert_outer_product_strip",
-      "community": 1,
-      "norm_label": "strip of max(m,n) gilbert cells evaluates outer product a_i\u00b7b_j one row/column at a time"
+      "community": 0,
+      "norm_label": "strip of max(m,n) gilbert cells evaluates outer product a_i\u00b7b_j one row/column at a time",
+      "id": "analog_primitive_gaps_gilbert_outer_product_strip"
     },
     {
       "label": "Precision regime complements crossbar: higher dynamic range, lower parallelism, signed-native",
@@ -2992,9 +2971,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_gilbert_precision_regime",
-      "community": 1,
-      "norm_label": "precision regime complements crossbar: higher dynamic range, lower parallelism, signed-native"
+      "community": 6,
+      "norm_label": "precision regime complements crossbar: higher dynamic range, lower parallelism, signed-native",
+      "id": "analog_primitive_gaps_gilbert_precision_regime"
     },
     {
       "label": "Subthreshold Exponential Regime (primitive)",
@@ -3005,9 +2984,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_subthreshold_exp",
-      "community": 4,
-      "norm_label": "subthreshold exponential regime (primitive)"
+      "community": 1,
+      "norm_label": "subthreshold exponential regime (primitive)",
+      "id": "analog_primitive_gaps_subthreshold_exp"
     },
     {
       "label": "Subthreshold I\u2013V: I_D = I_0\u00b7exp(V_GS/n\u00b7V_T)\u00b7(1\u2212exp(\u2212V_DS/V_T)), n\u22481.3\u20131.5",
@@ -3018,9 +2997,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_subthreshold_iv_law",
-      "community": 4,
-      "norm_label": "subthreshold i\u2013v: i_d = i_0\u00b7exp(v_gs/n\u00b7v_t)\u00b7(1\u2212exp(\u2212v_ds/v_t)), n\u22481.3\u20131.5"
+      "community": 1,
+      "norm_label": "subthreshold i\u2013v: i_d = i_0\u00b7exp(v_gs/n\u00b7v_t)\u00b7(1\u2212exp(\u2212v_ds/v_t)), n\u22481.3\u20131.5",
+      "id": "analog_primitive_gaps_subthreshold_iv_law"
     },
     {
       "label": "Sigmoid-native: I_D/(I_D+I_ref) = 1/(1+exp(\u2212V_GS/n\u00b7V_T)) with only a current mirror",
@@ -3031,9 +3010,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_sigmoid_native",
-      "community": 0,
-      "norm_label": "sigmoid-native: i_d/(i_d+i_ref) = 1/(1+exp(\u2212v_gs/n\u00b7v_t)) with only a current mirror"
+      "community": 1,
+      "norm_label": "sigmoid-native: i_d/(i_d+i_ref) = 1/(1+exp(\u2212v_gs/n\u00b7v_t)) with only a current mirror",
+      "id": "analog_primitive_gaps_sigmoid_native"
     },
     {
       "label": "Softmax-native: K subthreshold transistors at a normalizing node yield exp(V_k)/\u03a3exp(V_j)",
@@ -3044,9 +3023,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_softmax_native",
-      "community": 4,
-      "norm_label": "softmax-native: k subthreshold transistors at a normalizing node yield exp(v_k)/\u03c3exp(v_j)"
+      "community": 1,
+      "norm_label": "softmax-native: k subthreshold transistors at a normalizing node yield exp(v_k)/\u03c3exp(v_j)",
+      "id": "analog_primitive_gaps_softmax_native"
     },
     {
       "label": "Gaussian-score-native: exp(\u2212r\u00b2/2\u03c3\u00b2) realized by one subthreshold transistor with biased V_GS",
@@ -3057,9 +3036,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_gaussian_score_realization",
-      "community": 0,
-      "norm_label": "gaussian-score-native: exp(\u2212r2/2\u03c32) realized by one subthreshold transistor with biased v_gs"
+      "community": 1,
+      "norm_label": "gaussian-score-native: exp(\u2212r2/2\u03c32) realized by one subthreshold transistor with biased v_gs",
+      "id": "analog_primitive_gaps_gaussian_score_realization"
     },
     {
       "label": "Fills N_\u03b2 placeholder from formulation v1: subthreshold regime of the same MOSFET realizing N_\u03b1",
@@ -3070,9 +3049,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_n_beta_fills_placeholder",
-      "community": 4,
-      "norm_label": "fills n_\u03b2 placeholder from formulation v1: subthreshold regime of the same mosfet realizing n_\u03b1"
+      "community": 1,
+      "norm_label": "fills n_\u03b2 placeholder from formulation v1: subthreshold regime of the same mosfet realizing n_\u03b1",
+      "id": "analog_primitive_gaps_n_beta_fills_placeholder"
     },
     {
       "label": "One MOSFET, three regimes: V_GS<V_T\u2192N_\u03b2 subthreshold; V_T<V_GS low V_DS\u2192N_\u03b3 saturation; V_GS>V_T high V_DS\u2192N_\u03b1 kink/punch-through",
@@ -3083,9 +3062,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_three_regime_unification",
-      "community": 4,
-      "norm_label": "one mosfet, three regimes: v_gs<v_t\u2192n_\u03b2 subthreshold; v_t<v_gs low v_ds\u2192n_\u03b3 saturation; v_gs>v_t high v_ds\u2192n_\u03b1 kink/punch-through"
+      "community": 1,
+      "norm_label": "one mosfet, three regimes: v_gs<v_t\u2192n_\u03b2 subthreshold; v_t<v_gs low v_ds\u2192n_\u03b3 saturation; v_gs>v_t high v_ds\u2192n_\u03b1 kink/punch-through",
+      "id": "analog_primitive_gaps_three_regime_unification"
     },
     {
       "label": "LIF neuron leakage is subthreshold-native; Gaussian score computation is subthreshold-natural",
@@ -3096,9 +3075,9 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_lif_subthreshold_leakage",
-      "community": 0,
-      "norm_label": "lif neuron leakage is subthreshold-native; gaussian score computation is subthreshold-natural"
+      "community": 8,
+      "norm_label": "lif neuron leakage is subthreshold-native; gaussian score computation is subthreshold-natural",
+      "id": "analog_primitive_gaps_lif_subthreshold_leakage"
     },
     {
       "label": "Triangular structure: log-domain (algebra), Gilbert (topology), subthreshold exp (device regime) are three views of one fact",
@@ -3109,9 +3088,308 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "id": "analog_primitive_gaps_triangular_structure",
+      "community": 6,
+      "norm_label": "triangular structure: log-domain (algebra), gilbert (topology), subthreshold exp (device regime) are three views of one fact",
+      "id": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "type": "architecture",
+      "label": "Stage-2 Architecture \u2014 EGGROLL-PPCA (Perturbation-Pair Crossbar Array)",
+      "summary": "Closes Stage-2 learning-rule question from formulation v1 by committing to score-function/ES (EGGROLL) realized as a dual-crossbar (slow G + fast rank-1 ab^T) analog architecture with Gilbert-cell consolidation and subthreshold fitness. Forward-only, all-analog critical path; natural batch size K_batch = \u03c4_slow/\u03c4_fast falls out of device physics. Structural hub unifying five communities.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_main",
+      "community": 4,
+      "norm_label": "stage-2 architecture \u2014 eggroll-ppca (perturbation-pair crossbar array)"
+    },
+    {
+      "type": "phase",
+      "label": "Phase 1 \u2014 Perturbation Draw (counter-RNG a,b ~ N(0,\u03c3\u00b2))",
+      "summary": "Counter-based deterministic RNG produces reproducible a \u2208 \u211d^m and b \u2208 \u211d^n; written as analog voltages onto the perturbation crossbar rows/columns. Regeneratable at consolidation without storage.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_phase1_perturbation_draw",
+      "community": 0,
+      "norm_label": "phase 1 \u2014 perturbation draw (counter-rng a,b ~ n(0,\u03c32))"
+    },
+    {
+      "type": "phase",
+      "label": "Phase 2 \u2014 Combined Forward Pass (y = Gx + \u03b1\u00b7a\u00b7(b\u00b7x))",
+      "summary": "Input x broadcast to both crossbars. Base crossbar emits Gx via Kirchhoff; perturbation crossbar emits a\u00b7(b\u00b7x) as a rank-1 structured product. Output summed at current node. One crossbar latency + one rank-1 broadcast \u2014 not two MVMs.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_phase2_combined_forward",
+      "community": 0,
+      "norm_label": "phase 2 \u2014 combined forward pass (y = gx + \u03b1\u00b7a\u00b7(b\u00b7x))"
+    },
+    {
+      "type": "phase",
+      "label": "Phase 3 \u2014 Nonlinearity N_\u03b1 via Kink-Biased MOSFETs",
+      "summary": "Column of kink-biased MOSFETs implements piecewise-linear N_kink activation (formulation v1 Option \u03b1). Activation function is fixed by kink/punch-through I\u2013V device physics, not software.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "community": 1,
+      "norm_label": "phase 3 \u2014 nonlinearity n_\u03b1 via kink-biased mosfets"
+    },
+    {
+      "type": "phase",
+      "label": "Phase 4 \u2014 Inter-Layer Analog Routing (no intermediate digitization)",
+      "summary": "Intermediate layer outputs z stay analog and feed the next PPCA layer's x directly. D comparator is only invoked at final output \u2014 minimizes ADC overhead. Relies on shared-silicon claim: final-layer MOSFETs dual-role as N+D, earlier layers only N.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_phase4_interlayer_analog",
+      "community": 1,
+      "norm_label": "phase 4 \u2014 inter-layer analog routing (no intermediate digitization)"
+    },
+    {
+      "type": "phase",
+      "label": "Phase 5 \u2014 Fitness Scoring S = exp(\u2212||z\u2212t||\u00b2/2\u03c3\u00b2) (single subthreshold transistor)",
+      "summary": "Gaussian-approximate EGGROLL score realized in a single subthreshold-exponential transistor; outputs scalar S as a current level on a reference wire.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "community": 1,
+      "norm_label": "phase 5 \u2014 fitness scoring s = exp(\u2212||z\u2212t||2/2\u03c32) (single subthreshold transistor)"
+    },
+    {
+      "type": "phase",
+      "label": "Phase 6 \u2014 Consolidation \u0394G_ij = \u03b7\u00b7S\u00b7a_i\u00b7b_j via Gilbert-Cell Strip",
+      "summary": "Strip of Gilbert cells evaluates four-quadrant S\u00b7a_i\u00b7b_j; currents program charge-trap cells of the base crossbar. Slow (\u03bcs) programming acts as analog low-pass filter over many fast Phase 1\u20135 iterations; no digital accumulator needed.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "community": 2,
+      "norm_label": "phase 6 \u2014 consolidation \u03b4g_ij = \u03b7\u00b7s\u00b7a_i\u00b7b_j via gilbert-cell strip"
+    },
+    {
+      "type": "scalability_lever",
+      "label": "Lever 1 \u2014 Tiling (N\u00d7N \u2192 (N/k)\u00b2 tiles)",
+      "summary": "Logical N\u00d7N crossbar implemented as (N/k)\u00b2 physical tiles (k\u2248256). Independent during Phase 2 (no horizontal dependency in Kirchhoff summation). Tile pipelining. Latency O(log(N/k)), area O(N\u00b2).",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_lever1_tiling",
+      "community": 0,
+      "norm_label": "lever 1 \u2014 tiling (n\u00d7n \u2192 (n/k)2 tiles)"
+    },
+    {
+      "type": "scalability_lever",
+      "label": "Lever 2 \u2014 Rank-r Perturbation with Precision-for-Rank Tradeoff",
+      "summary": "EGGROLL perturbation is rank-r \u226a min(m,n). Write bandwidth O(r(m+n)) not O(mn). Pair-3 identity r \u2264 b\u00b7redundancy links cell bit-depth to usable rank: a hardware design knob, not an algorithmic one.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_lever2_rank_precision",
+      "community": 0,
+      "norm_label": "lever 2 \u2014 rank-r perturbation with precision-for-rank tradeoff"
+    },
+    {
+      "type": "scalability_lever",
+      "label": "Lever 3 \u2014 Two-Timescale Pipelining (\u03c4_slow \u2248 10 \u03bcs, \u03c4_fast \u2248 100 ns)",
+      "summary": "Charge-trap programming \u03c4_slow \u2248 10 \u03bcs; floating-bulk perturbation and forward/fitness \u2248 100 ns. Natural pipelining of fast inner loop against slow consolidation.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_lever3_two_timescale",
+      "community": 2,
+      "norm_label": "lever 3 \u2014 two-timescale pipelining (\u03c4_slow \u2248 10 \u03bcs, \u03c4_fast \u2248 100 ns)"
+    },
+    {
+      "type": "claim",
+      "label": "Timescale Identity K_batch = \u03c4_slow / (\u03c4_fast_perturb + \u03c4_forward + \u03c4_fitness) \u2248 50",
+      "summary": "The natural number of perturbations per consolidation is derived from device timescales, not chosen. \u2248 10 \u03bcs / 200 ns \u2248 50, which matches typical EGGROLL K. Falls out of physics; ties device property to algorithmic hyperparameter.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "community": 2,
+      "norm_label": "timescale identity k_batch = \u03c4_slow / (\u03c4_fast_perturb + \u03c4_forward + \u03c4_fitness) \u2248 50"
+    },
+    {
+      "type": "claim",
+      "label": "Stage-2 Commitment to Score-Function / ES (EGGROLL)",
+      "summary": "Of formulation v1's three Stage-2 options, ES is chosen because its five required operations (perturbation draw, forward pass, fitness, outer-product update, consolidation) all already have device-native realizations in the graph. The other two options add teacher wiring or a backward path.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_stage2_commitment_es",
+      "community": 4,
+      "norm_label": "stage-2 commitment to score-function / es (eggroll)"
+    },
+    {
+      "type": "claim",
+      "label": "Rejection \u2014 Layer-Local (NoProp / Hebbian + Global Signal)",
+      "summary": "Layer-local Stage-2 option rejected: requires per-layer teacher wiring, breaks forward-only purity, adds per-layer area cost. Documented as explicit graph-level incompatibility so future additions do not silently reopen Stage-2.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_rejection_local",
       "community": 7,
-      "norm_label": "triangular structure: log-domain (algebra), gilbert (topology), subthreshold exp (device regime) are three views of one fact"
+      "norm_label": "rejection \u2014 layer-local (noprop / hebbian + global signal)"
+    },
+    {
+      "type": "claim",
+      "label": "Rejection \u2014 Surrogate / Straight-Through Estimator",
+      "summary": "Surrogate-gradient Stage-2 option rejected: requires an explicit backward path and ~2\u00d7 silicon area; violates forward-only all-analog critical-path requirement.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_rejection_surrogate",
+      "community": 4,
+      "norm_label": "rejection \u2014 surrogate / straight-through estimator"
+    },
+    {
+      "type": "claim",
+      "label": "PPCA Structural Hub \u2014 Five-Community God-Node Candidate",
+      "summary": "The architecture's neighbors span five distinct communities: Analog Multiplication Family (W, Gilbert), Subthreshold Nonlinearity (N, fitness), Two-Timescale Bridge (charge-trap, floating-bulk), Bit-Level Physics (encoder), Local/Non-Backprop Learning (ES). High betweenness by construction.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "community": 4,
+      "norm_label": "ppca structural hub \u2014 five-community god-node candidate"
+    },
+    {
+      "type": "sub_claim",
+      "label": "Dual-Crossbar Topology \u2014 Base G (charge-trap) + Perturbation a\u00b7b^T (floating-bulk)",
+      "summary": "Two co-located crossbars: the slow parameter G uses charge-trap long-term retention; the fast rank-1 perturbation \u03b1\u00b7ab^T uses floating-bulk short-term plasticity. Gilbert-cell strip at bottom consolidates.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_dual_crossbar_topology",
+      "community": 0,
+      "norm_label": "dual-crossbar topology \u2014 base g (charge-trap) + perturbation a\u00b7b^t (floating-bulk)"
+    },
+    {
+      "type": "sub_claim",
+      "label": "Shared-Silicon Dual Role \u2014 Final-Layer MOSFETs Serve N and D",
+      "summary": "The D comparator array reuses the same MOSFET species at different bias. Only the final layer's MOSFETs serve dual-role as N+D; earlier layers' MOSFETs serve only as N. Instantiates formulation v1's shared_silicon_claim.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "community": 1,
+      "norm_label": "shared-silicon dual role \u2014 final-layer mosfets serve n and d"
+    },
+    {
+      "type": "sub_claim",
+      "label": "Forward-Only All-Analog Critical Path",
+      "summary": "No backward pass, no digitization between layers, no digital accumulator for consolidation. The entire critical path from x to \u0394G is analog; only the final D comparator and optional output read are digital.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_forward_only_all_analog_claim",
+      "community": 4,
+      "norm_label": "forward-only all-analog critical path"
+    },
+    {
+      "type": "sub_claim",
+      "label": "Analog Low-Pass Consolidation on Charge-Trap",
+      "summary": "G(t+T_slow) = G(t) + \u03b7\u00b7\u03a3_k S_k \u00b7 a_k \u00b7 b_k^T. The floating-gate trap integrates successive subthreshold programming currents; no explicit digital accumulator. Charge-trap slowness IS the low-pass filter.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "community": 2,
+      "norm_label": "analog low-pass consolidation on charge-trap"
+    },
+    {
+      "type": "open_question",
+      "label": "Stage-3 Hints \u2014 Open Problems Leaving PPCA",
+      "summary": "Three open problems: (1) Gaussian-score learnability under charge-trap noise at O(r\u207b\u00b9); (2) cross-tile perturbation correlation biasing the gradient estimator; (3) multi-task/continual learning hierarchy from the two-timescale math.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_stage3_open_problems",
+      "community": 2,
+      "norm_label": "stage-3 hints \u2014 open problems leaving ppca"
+    },
+    {
+      "type": "sub_claim",
+      "label": "Rank-1 Perturbation Silicon Realization",
+      "summary": "Phase 2's a\u00b7(b\u00b7x) as one column-sum inner product broadcast across a is the silicon realization of EGGROLL's rank-1 perturbation trick \u2014 one crossbar latency plus a broadcast, not two MVMs.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_rank1_realization_silicon",
+      "community": 0,
+      "norm_label": "rank-1 perturbation silicon realization"
+    },
+    {
+      "type": "sub_claim",
+      "label": "Natural Operating Point at Theoretical O(r\u207b\u00b9) Rate",
+      "summary": "If EGGROLL's O(r\u207b\u00b9) rank-convergence theorem holds, the architecture's physics-derived K_batch \u2248 50 already places it at the theoretical rate \u2014 no tuning required.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_convergence_rate_claim",
+      "community": 2,
+      "norm_label": "natural operating point at theoretical o(r\u22121) rate"
+    },
+    {
+      "type": "sub_claim",
+      "label": "Device-Primitive Completeness \u2014 Every Op Has a Graph Node",
+      "summary": "Every row of the Phase\u2192Operation\u2192Primitive\u2192Graph-Node table has a graph-resident primitive. Nothing in the architecture is invented without prior device grounding.",
+      "frontmatter": {
+        "author": "ws",
+        "captured_at": "2026-04-22",
+        "contributor": "ws"
+      },
+      "id": "stage2_eggroll_ppca_device_primitive_completeness_claim",
+      "community": 6,
+      "norm_label": "device-primitive completeness \u2014 every op has a graph node"
     }
   ],
   "links": [
@@ -3258,6 +3536,54 @@
       "_tgt": "analog_primitive_gaps_gilbert_outer_product_strip",
       "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
       "target": "analog_primitive_gaps_gilbert_outer_product_strip"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "stage2_eggroll_ppca_phase1_perturbation_draw",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "stage2_eggroll_ppca_phase1_perturbation_draw"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "stage2_eggroll_ppca_phase2_combined_forward",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "stage2_eggroll_ppca_phase2_combined_forward"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "stage2_eggroll_ppca_lever2_rank_precision",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "stage2_eggroll_ppca_lever2_rank_precision"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "_tgt": "stage2_eggroll_ppca_rank1_realization_silicon",
+      "source": "evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "target": "stage2_eggroll_ppca_rank1_realization_silicon"
     },
     {
       "relation": "conceptually_related_to",
@@ -3848,6 +4174,42 @@
       "target": "analog_primitive_gaps_subthreshold_exp"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 0.9,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_tgt": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "target": "stage2_eggroll_ppca_k_batch_timescale_identity"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "_tgt": "stage2_eggroll_ppca_stage2_commitment_es",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "target": "stage2_eggroll_ppca_stage2_commitment_es"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3920,6 +4282,18 @@
       "target": "analog_primitive_gaps_gaussian_score_realization"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "_tgt": "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "target": "stage2_eggroll_ppca_phase5_fitness_subthreshold"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3978,6 +4352,18 @@
       "_tgt": "synaptic_and_neural_behaviours_pdf_ns_ram_cell",
       "source": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
       "target": "synaptic_and_neural_behaviours_pdf_ns_ram_cell"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "target": "stage2_eggroll_ppca_main"
     },
     {
       "relation": "rationale_for",
@@ -4050,6 +4436,114 @@
       "_tgt": "analog_primitive_gaps_log_domain_role_eggroll",
       "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
       "target": "analog_primitive_gaps_log_domain_role_eggroll"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "stage2_eggroll_ppca_phase1_perturbation_draw",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "stage2_eggroll_ppca_phase1_perturbation_draw"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "stage2_eggroll_ppca_phase2_combined_forward",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "stage2_eggroll_ppca_phase2_combined_forward"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "stage2_eggroll_ppca_lever2_rank_precision",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "stage2_eggroll_ppca_lever2_rank_precision"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "stage2_eggroll_ppca_rank1_realization_silicon",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "stage2_eggroll_ppca_rank1_realization_silicon"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "_tgt": "stage2_eggroll_ppca_stage3_open_problems",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "target": "stage2_eggroll_ppca_stage3_open_problems"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "_tgt": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "target": "stage2_eggroll_ppca_k_batch_timescale_identity"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "_tgt": "stage2_eggroll_ppca_convergence_rate_claim",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "target": "stage2_eggroll_ppca_convergence_rate_claim"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "_tgt": "stage2_eggroll_ppca_stage3_open_problems",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "target": "stage2_eggroll_ppca_stage3_open_problems"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "evolution_strategies_at_the_hyperscale_pdf_counter_based_rng",
+      "_tgt": "stage2_eggroll_ppca_phase1_perturbation_draw",
+      "source": "evolution_strategies_at_the_hyperscale_pdf_counter_based_rng",
+      "target": "stage2_eggroll_ppca_phase1_perturbation_draw"
     },
     {
       "relation": "conceptually_related_to",
@@ -4316,6 +4810,30 @@
       "target": "analog_primitive_gaps_three_regime_unification"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "stage2_eggroll_ppca_phase3_nonlinearity"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "_tgt": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "source": "synaptic_and_neural_behaviours_pdf_mosfet",
+      "target": "stage2_eggroll_ppca_shared_silicon_dual_role"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -4424,6 +4942,30 @@
       "target": "analog_primitive_gaps_three_regime_unification"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "_tgt": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "source": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "target": "stage2_eggroll_ppca_phase3_nonlinearity"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "_tgt": "stage2_eggroll_ppca_lever3_two_timescale",
+      "source": "synaptic_and_neural_behaviours_pdf_punch_through",
+      "target": "stage2_eggroll_ppca_lever3_two_timescale"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -4458,6 +5000,30 @@
       "_tgt": "analog_primitive_gaps_subthreshold_exp",
       "source": "synaptic_and_neural_behaviours_pdf_floating_bulk",
       "target": "analog_primitive_gaps_subthreshold_exp"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "_tgt": "stage2_eggroll_ppca_phase1_perturbation_draw",
+      "source": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "target": "stage2_eggroll_ppca_phase1_perturbation_draw"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "_tgt": "stage2_eggroll_ppca_dual_crossbar_topology",
+      "source": "synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "target": "stage2_eggroll_ppca_dual_crossbar_topology"
     },
     {
       "relation": "conceptually_related_to",
@@ -4628,6 +5194,42 @@
       "target": "bit_analog_formulation_v1_local_update_constraint_g"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_memristor",
+      "_tgt": "stage2_eggroll_ppca_phase2_combined_forward",
+      "source": "synaptic_and_neural_behaviours_pdf_memristor",
+      "target": "stage2_eggroll_ppca_phase2_combined_forward"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_memristor",
+      "_tgt": "stage2_eggroll_ppca_lever1_tiling",
+      "source": "synaptic_and_neural_behaviours_pdf_memristor",
+      "target": "stage2_eggroll_ppca_lever1_tiling"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_memristor",
+      "_tgt": "stage2_eggroll_ppca_dual_crossbar_topology",
+      "source": "synaptic_and_neural_behaviours_pdf_memristor",
+      "target": "stage2_eggroll_ppca_dual_crossbar_topology"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -4686,6 +5288,42 @@
       "_tgt": "analog_primitive_gaps_sigmoid_native",
       "source": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
       "target": "analog_primitive_gaps_sigmoid_native"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "_tgt": "stage2_eggroll_ppca_phase1_perturbation_draw",
+      "source": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "target": "stage2_eggroll_ppca_phase1_perturbation_draw"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "_tgt": "stage2_eggroll_ppca_lever3_two_timescale",
+      "source": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "target": "stage2_eggroll_ppca_lever3_two_timescale"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "_tgt": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "source": "synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "target": "stage2_eggroll_ppca_ppca_structural_hub_claim"
     },
     {
       "relation": "conceptually_related_to",
@@ -4782,6 +5420,54 @@
       "_tgt": "analog_primitive_gaps_lif_subthreshold_leakage",
       "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
       "target": "analog_primitive_gaps_lif_subthreshold_leakage"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_tgt": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "target": "stage2_eggroll_ppca_phase6_consolidation_gilbert"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_tgt": "stage2_eggroll_ppca_lever3_two_timescale",
+      "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "target": "stage2_eggroll_ppca_lever3_two_timescale"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_tgt": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "target": "stage2_eggroll_ppca_ppca_structural_hub_claim"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "_tgt": "stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "source": "synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "target": "stage2_eggroll_ppca_analog_lowpass_consolidation"
     },
     {
       "relation": "conceptually_related_to",
@@ -4892,6 +5578,18 @@
       "target": "analog_primitive_gaps_three_regime_unification"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "_tgt": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "source": "synaptic_and_neural_behaviours_pdf_kink_effect",
+      "target": "stage2_eggroll_ppca_phase3_nonlinearity"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -4914,6 +5612,54 @@
       "_tgt": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
       "source": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
       "target": "self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "_tgt": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "source": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "target": "stage2_eggroll_ppca_phase6_consolidation_gilbert"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "_tgt": "stage2_eggroll_ppca_dual_crossbar_topology",
+      "source": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "target": "stage2_eggroll_ppca_dual_crossbar_topology"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "_tgt": "stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "source": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "target": "stage2_eggroll_ppca_analog_lowpass_consolidation"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "_tgt": "stage2_eggroll_ppca_stage3_open_problems",
+      "source": "synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "target": "stage2_eggroll_ppca_stage3_open_problems"
     },
     {
       "relation": "conceptually_related_to",
@@ -4950,6 +5696,18 @@
       "_tgt": "bit_analog_formulation_v1_local_update_constraint_g",
       "source": "synaptic_and_neural_behaviours_pdf_phase_change_memory",
       "target": "bit_analog_formulation_v1_local_update_constraint_g"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "_tgt": "stage2_eggroll_ppca_dual_crossbar_topology",
+      "source": "synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "target": "stage2_eggroll_ppca_dual_crossbar_topology"
     },
     {
       "relation": "conceptually_related_to",
@@ -6512,6 +7270,18 @@
       "target": "bit_analog_formulation_v1_stage2_option_layer_local"
     },
     {
+      "relation": null,
+      "confidence": 0.85,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training",
+      "_tgt": "stage2_eggroll_ppca_rejection_local",
+      "source": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training",
+      "target": "stage2_eggroll_ppca_rejection_local"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6558,6 +7328,18 @@
       "_tgt": "bit_analog_formulation_v1_stage2_option_layer_local",
       "source": "hebbian_learning_with_global_direction_local_rule_global_signal",
       "target": "bit_analog_formulation_v1_stage2_option_layer_local"
+    },
+    {
+      "relation": null,
+      "confidence": 0.85,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "hebbian_learning_with_global_direction_local_rule_global_signal",
+      "_tgt": "stage2_eggroll_ppca_rejection_local",
+      "source": "hebbian_learning_with_global_direction_local_rule_global_signal",
+      "target": "stage2_eggroll_ppca_rejection_local"
     },
     {
       "relation": "conceptually_related_to",
@@ -6920,6 +7702,18 @@
       "target": "analog_primitive_gaps_log_domain_translinear"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
+      "_tgt": "stage2_eggroll_ppca_phase2_combined_forward",
+      "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
+      "target": "stage2_eggroll_ppca_phase2_combined_forward"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6966,6 +7760,30 @@
       "_tgt": "analog_primitive_gaps_gilbert_cell",
       "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
       "target": "analog_primitive_gaps_gilbert_cell"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "_tgt": "stage2_eggroll_ppca_phase2_combined_forward",
+      "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "target": "stage2_eggroll_ppca_phase2_combined_forward"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "_tgt": "stage2_eggroll_ppca_lever1_tiling",
+      "source": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "target": "stage2_eggroll_ppca_lever1_tiling"
     },
     {
       "relation": "conceptually_related_to",
@@ -7160,6 +7978,30 @@
       "target": "bit_analog_formulation_v1_linear_combiner_w"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "device_math_mapping_main",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_main",
+      "_tgt": "stage2_eggroll_ppca_device_primitive_completeness_claim",
+      "source": "device_math_mapping_main",
+      "target": "stage2_eggroll_ppca_device_primitive_completeness_claim"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7184,6 +8026,30 @@
       "target": "device_math_mapping_pair_1_test_two_transistor_eggroll"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "_tgt": "stage2_eggroll_ppca_lever3_two_timescale",
+      "source": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "target": "stage2_eggroll_ppca_lever3_two_timescale"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "_tgt": "stage2_eggroll_ppca_dual_crossbar_topology",
+      "source": "device_math_mapping_pair_1_punchthrough_es_momentum",
+      "target": "stage2_eggroll_ppca_dual_crossbar_topology"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7206,6 +8072,42 @@
       "_tgt": "device_math_mapping_pair_2_rationale_trap_heterogeneity",
       "source": "device_math_mapping_pair_2_charge_trap_consolidation",
       "target": "device_math_mapping_pair_2_rationale_trap_heterogeneity"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "_tgt": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "source": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "target": "stage2_eggroll_ppca_phase6_consolidation_gilbert"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "_tgt": "stage2_eggroll_ppca_lever3_two_timescale",
+      "source": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "target": "stage2_eggroll_ppca_lever3_two_timescale"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "_tgt": "stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "source": "device_math_mapping_pair_2_charge_trap_consolidation",
+      "target": "stage2_eggroll_ppca_analog_lowpass_consolidation"
     },
     {
       "relation": "rationale_for",
@@ -7280,6 +8182,18 @@
       "target": "analog_primitive_gaps_gilbert_cell"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_3_memristor_lowrank",
+      "_tgt": "stage2_eggroll_ppca_lever2_rank_precision",
+      "source": "device_math_mapping_pair_3_memristor_lowrank",
+      "target": "stage2_eggroll_ppca_lever2_rank_precision"
+    },
+    {
       "relation": "absorbs",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7314,6 +8228,18 @@
       "_tgt": "analog_primitive_gaps_gilbert_precision_regime",
       "source": "device_math_mapping_pair_3_identity_bits_bound_rank",
       "target": "analog_primitive_gaps_gilbert_precision_regime"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_3_identity_bits_bound_rank",
+      "_tgt": "stage2_eggroll_ppca_lever2_rank_precision",
+      "source": "device_math_mapping_pair_3_identity_bits_bound_rank",
+      "target": "stage2_eggroll_ppca_lever2_rank_precision"
     },
     {
       "relation": "rationale_for",
@@ -7362,6 +8288,18 @@
       "_tgt": "bit_analog_formulation_v1_catalog_absorption",
       "source": "device_math_mapping_pair_4_crossbar_attention_logits",
       "target": "bit_analog_formulation_v1_catalog_absorption"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "_tgt": "stage2_eggroll_ppca_phase2_combined_forward",
+      "source": "device_math_mapping_pair_4_crossbar_attention_logits",
+      "target": "stage2_eggroll_ppca_phase2_combined_forward"
     },
     {
       "relation": "generalizes",
@@ -7448,6 +8386,30 @@
       "target": "device_math_mapping_pair_6_rationale_quantitative_gap"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_6_identity_eta_tau_ratio",
+      "_tgt": "stage2_eggroll_ppca_lever3_two_timescale",
+      "source": "device_math_mapping_pair_6_identity_eta_tau_ratio",
+      "target": "stage2_eggroll_ppca_lever3_two_timescale"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_6_identity_eta_tau_ratio",
+      "_tgt": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "source": "device_math_mapping_pair_6_identity_eta_tau_ratio",
+      "target": "stage2_eggroll_ppca_k_batch_timescale_identity"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7530,6 +8492,18 @@
       "_tgt": "analog_primitive_gaps_three_regime_unification",
       "source": "device_math_mapping_pair_7_kink_relu_polytope",
       "target": "analog_primitive_gaps_three_regime_unification"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "device_math_mapping_pair_7_kink_relu_polytope",
+      "_tgt": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "source": "device_math_mapping_pair_7_kink_relu_polytope",
+      "target": "stage2_eggroll_ppca_phase3_nonlinearity"
     },
     {
       "relation": "conceptually_related_to",
@@ -7748,6 +8722,18 @@
       "target": "analog_primitive_gaps_main"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_main",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_main",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
       "relation": "has_component",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7844,6 +8830,30 @@
       "target": "analog_primitive_gaps_main"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_encoder_e",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_encoder_e",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_encoder_e",
+      "_tgt": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "source": "bit_analog_formulation_v1_encoder_e",
+      "target": "stage2_eggroll_ppca_ppca_structural_hub_claim"
+    },
+    {
       "relation": "fixes",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7890,6 +8900,30 @@
       "_tgt": "analog_primitive_gaps_gilbert_cell",
       "source": "bit_analog_formulation_v1_linear_combiner_w",
       "target": "analog_primitive_gaps_gilbert_cell"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_linear_combiner_w",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_linear_combiner_w",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_linear_combiner_w",
+      "_tgt": "stage2_eggroll_ppca_phase2_combined_forward",
+      "source": "bit_analog_formulation_v1_linear_combiner_w",
+      "target": "stage2_eggroll_ppca_phase2_combined_forward"
     },
     {
       "relation": "has_option",
@@ -7976,6 +9010,42 @@
       "target": "analog_primitive_gaps_main"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_n",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_nonlinearity_n",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_n",
+      "_tgt": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "source": "bit_analog_formulation_v1_nonlinearity_n",
+      "target": "stage2_eggroll_ppca_phase3_nonlinearity"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_n",
+      "_tgt": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "source": "bit_analog_formulation_v1_nonlinearity_n",
+      "target": "stage2_eggroll_ppca_shared_silicon_dual_role"
+    },
+    {
       "relation": "fixes",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7998,6 +9068,18 @@
       "_tgt": "analog_primitive_gaps_three_regime_unification",
       "source": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
       "target": "analog_primitive_gaps_three_regime_unification"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "_tgt": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "source": "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "target": "stage2_eggroll_ppca_phase3_nonlinearity"
     },
     {
       "relation": "implements",
@@ -8060,6 +9142,42 @@
       "target": "bit_analog_formulation_v1_canonical_minimal_model"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_decoder_d",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_decoder_d",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_decoder_d",
+      "_tgt": "stage2_eggroll_ppca_phase4_interlayer_analog",
+      "source": "bit_analog_formulation_v1_decoder_d",
+      "target": "stage2_eggroll_ppca_phase4_interlayer_analog"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_decoder_d",
+      "_tgt": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "source": "bit_analog_formulation_v1_decoder_d",
+      "target": "stage2_eggroll_ppca_shared_silicon_dual_role"
+    },
+    {
       "relation": "specializes",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -8070,6 +9188,42 @@
       "_tgt": "bit_analog_formulation_v1_invariant_4_shared_transistor",
       "source": "bit_analog_formulation_v1_shared_silicon_claim",
       "target": "bit_analog_formulation_v1_invariant_4_shared_transistor"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_shared_silicon_claim",
+      "_tgt": "stage2_eggroll_ppca_phase4_interlayer_analog",
+      "source": "bit_analog_formulation_v1_shared_silicon_claim",
+      "target": "stage2_eggroll_ppca_phase4_interlayer_analog"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_shared_silicon_claim",
+      "_tgt": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "source": "bit_analog_formulation_v1_shared_silicon_claim",
+      "target": "stage2_eggroll_ppca_shared_silicon_dual_role"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_canonical_minimal_model",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_canonical_minimal_model",
+      "target": "stage2_eggroll_ppca_main"
     },
     {
       "relation": "has_option",
@@ -8106,6 +9260,114 @@
       "_tgt": "bit_analog_formulation_v1_stage2_option_surrogate_ste",
       "source": "bit_analog_formulation_v1_open_stage2_learning_problem",
       "target": "bit_analog_formulation_v1_stage2_option_surrogate_ste"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_open_stage2_learning_problem",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_open_stage2_learning_problem",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_open_stage2_learning_problem",
+      "_tgt": "stage2_eggroll_ppca_stage2_commitment_es",
+      "source": "bit_analog_formulation_v1_open_stage2_learning_problem",
+      "target": "stage2_eggroll_ppca_stage2_commitment_es"
+    },
+    {
+      "relation": null,
+      "confidence": 0.85,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_stage2_option_layer_local",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_stage2_option_layer_local",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 0.85,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_stage2_option_layer_local",
+      "_tgt": "stage2_eggroll_ppca_rejection_local",
+      "source": "bit_analog_formulation_v1_stage2_option_layer_local",
+      "target": "stage2_eggroll_ppca_rejection_local"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_stage2_option_score_function_es",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_stage2_option_score_function_es",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_stage2_option_score_function_es",
+      "_tgt": "stage2_eggroll_ppca_stage2_commitment_es",
+      "source": "bit_analog_formulation_v1_stage2_option_score_function_es",
+      "target": "stage2_eggroll_ppca_stage2_commitment_es"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_stage2_option_score_function_es",
+      "_tgt": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "source": "bit_analog_formulation_v1_stage2_option_score_function_es",
+      "target": "stage2_eggroll_ppca_ppca_structural_hub_claim"
+    },
+    {
+      "relation": null,
+      "confidence": 0.85,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_stage2_option_surrogate_ste",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "bit_analog_formulation_v1_stage2_option_surrogate_ste",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 0.85,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "bit_analog_formulation_v1_stage2_option_surrogate_ste",
+      "_tgt": "stage2_eggroll_ppca_rejection_surrogate",
+      "source": "bit_analog_formulation_v1_stage2_option_surrogate_ste",
+      "target": "stage2_eggroll_ppca_rejection_surrogate"
     },
     {
       "relation": "specializes",
@@ -8154,6 +9416,30 @@
       "_tgt": "analog_primitive_gaps_triangular_structure",
       "source": "analog_primitive_gaps_main",
       "target": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_main",
+      "_tgt": "stage2_eggroll_ppca_main",
+      "source": "analog_primitive_gaps_main",
+      "target": "stage2_eggroll_ppca_main"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_main",
+      "_tgt": "stage2_eggroll_ppca_device_primitive_completeness_claim",
+      "source": "analog_primitive_gaps_main",
+      "target": "stage2_eggroll_ppca_device_primitive_completeness_claim"
     },
     {
       "relation": "specializes",
@@ -8228,6 +9514,30 @@
       "target": "analog_primitive_gaps_triangular_structure"
     },
     {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_log_domain_translinear",
+      "_tgt": "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "source": "analog_primitive_gaps_log_domain_translinear",
+      "target": "stage2_eggroll_ppca_phase5_fitness_subthreshold"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_log_domain_translinear",
+      "_tgt": "stage2_eggroll_ppca_device_primitive_completeness_claim",
+      "source": "analog_primitive_gaps_log_domain_translinear",
+      "target": "stage2_eggroll_ppca_device_primitive_completeness_claim"
+    },
+    {
       "relation": "specializes",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -8298,6 +9608,42 @@
       "_tgt": "analog_primitive_gaps_triangular_structure",
       "source": "analog_primitive_gaps_gilbert_cell",
       "target": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_gilbert_cell",
+      "_tgt": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "source": "analog_primitive_gaps_gilbert_cell",
+      "target": "stage2_eggroll_ppca_phase6_consolidation_gilbert"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_gilbert_cell",
+      "_tgt": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "source": "analog_primitive_gaps_gilbert_cell",
+      "target": "stage2_eggroll_ppca_ppca_structural_hub_claim"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_four_quadrant_mul",
+      "_tgt": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "source": "analog_primitive_gaps_four_quadrant_mul",
+      "target": "stage2_eggroll_ppca_phase6_consolidation_gilbert"
     },
     {
       "relation": "specializes",
@@ -8394,60 +9740,347 @@
       "_tgt": "analog_primitive_gaps_triangular_structure",
       "source": "analog_primitive_gaps_subthreshold_exp",
       "target": "analog_primitive_gaps_triangular_structure"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "stage2_eggroll_ppca_phase5_fitness_subthreshold"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_subthreshold_exp",
+      "_tgt": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "source": "analog_primitive_gaps_subthreshold_exp",
+      "target": "stage2_eggroll_ppca_ppca_structural_hub_claim"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_gaussian_score_realization",
+      "_tgt": "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "source": "analog_primitive_gaps_gaussian_score_realization",
+      "target": "stage2_eggroll_ppca_phase5_fitness_subthreshold"
+    },
+    {
+      "relation": null,
+      "confidence": 1.0,
+      "confidence_score": 0.7,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "analog_primitive_gaps_n_beta_fills_placeholder",
+      "_tgt": "stage2_eggroll_ppca_device_primitive_completeness_claim",
+      "source": "analog_primitive_gaps_n_beta_fills_placeholder",
+      "target": "stage2_eggroll_ppca_device_primitive_completeness_claim"
+    },
+    {
+      "type": "has_phase",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_phase1_perturbation_draw",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_phase1_perturbation_draw",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_phase",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_phase2_combined_forward",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_phase2_combined_forward",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_phase",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_phase3_nonlinearity",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_phase",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_phase4_interlayer_analog",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_phase4_interlayer_analog",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_phase",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_phase",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_scalability_lever",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_lever1_tiling",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_lever1_tiling",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_scalability_lever",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_lever2_rank_precision",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_lever2_rank_precision",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_scalability_lever",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_lever3_two_timescale",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_lever3_two_timescale",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_stage2_commitment_es",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_stage2_commitment_es",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_rejection_local",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_rejection_local",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_rejection_surrogate",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_rejection_surrogate",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_dual_crossbar_topology",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_dual_crossbar_topology",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_forward_only_all_analog_claim",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_forward_only_all_analog_claim",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "leads_to",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_stage3_open_problems",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_stage3_open_problems",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_rank1_realization_silicon",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_rank1_realization_silicon",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_convergence_rate_claim",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_convergence_rate_claim",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "has_structural_claim",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "stage2_eggroll_ppca_device_primitive_completeness_claim",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "stage2_eggroll_ppca_device_primitive_completeness_claim",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "rationale_for",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_phase4_interlayer_analog",
+      "_tgt": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "source": "stage2_eggroll_ppca_phase4_interlayer_analog",
+      "target": "stage2_eggroll_ppca_shared_silicon_dual_role",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "rationale_for",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "_tgt": "stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "source": "stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "target": "stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "derives",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_lever3_two_timescale",
+      "_tgt": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "source": "stage2_eggroll_ppca_lever3_two_timescale",
+      "target": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "rationale_for",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "_src": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "_tgt": "stage2_eggroll_ppca_convergence_rate_claim",
+      "source": "stage2_eggroll_ppca_k_batch_timescale_identity",
+      "target": "stage2_eggroll_ppca_convergence_rate_claim",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [
     {
-      "id": "analog_multiplication_family",
-      "label": "Analog multiplication family: log-domain, Gilbert cell, crossbar MVM, bit-plane overlap as four implementations of one primitive",
+      "id": "stage2_closure_hyperedge",
       "members": [
-        "analog_primitive_gaps_log_domain_translinear",
-        "analog_primitive_gaps_gilbert_cell",
-        "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
-        "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
+        "stage2_eggroll_ppca_main",
+        "bit_analog_formulation_v1_main",
+        "bit_analog_formulation_v1_stage2_option_score_function_es",
+        "evolution_strategies_at_the_hyperscale_pdf_eggroll",
+        "analog_primitive_gaps_main",
+        "device_math_mapping_main"
       ],
-      "relation": "generalizes",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "raw/analog_primitive_gaps.md",
-      "source_location": "### Connection to existing multiplication nodes; Structural Gaps #5",
-      "weight": 0.85
+      "type": "stage2_closure",
+      "provenance": "EXTRACTED",
+      "confidence": 0.95,
+      "summary": "The five prior notes plus EGGROLL close into a single architectural schema: PPCA. Closure hyperedge encodes that formulation v1, analog primitive gaps, device-math mapping, and the ES Stage-2 branch jointly produce the EGGROLL-PPCA architecture."
     },
     {
-      "id": "mosfet_three_regime_n_options",
-      "label": "MOSFET three-regime N-option family: one device instantiates N_\u03b1 (kink), N_\u03b2 (subthreshold exp), N_\u03b3 (saturation) depending on bias",
+      "id": "eggroll_ppca_operational_cycle",
       "members": [
-        "bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
-        "bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
-        "bit_analog_formulation_v1_nonlinearity_option_gamma_saturation",
-        "synaptic_and_neural_behaviours_pdf_mosfet",
-        "synaptic_and_neural_behaviours_pdf_kink_effect",
-        "synaptic_and_neural_behaviours_pdf_punch_through",
-        "analog_primitive_gaps_subthreshold_exp"
+        "stage2_eggroll_ppca_main",
+        "stage2_eggroll_ppca_phase1_perturbation_draw",
+        "stage2_eggroll_ppca_phase2_combined_forward",
+        "stage2_eggroll_ppca_phase3_nonlinearity",
+        "stage2_eggroll_ppca_phase4_interlayer_analog",
+        "stage2_eggroll_ppca_phase5_fitness_subthreshold",
+        "stage2_eggroll_ppca_phase6_consolidation_gilbert"
       ],
-      "relation": "generalizes",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/analog_primitive_gaps.md",
-      "source_location": "### The three-regime unification",
-      "weight": 1.0
-    },
-    {
-      "id": "exponential_law_family",
-      "label": "Exponential-law family: exp() is the unifying physics across log-domain, subthreshold, EML, Gaussian score, exp/log pair",
-      "members": [
-        "analog_primitive_gaps_log_domain_translinear",
-        "analog_primitive_gaps_subthreshold_exp",
-        "all_elementary_functions_from_a_single_operator_pdf_eml_operator",
-        "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
-        "all_elementary_functions_from_a_single_operator_pdf_exp_log_pair"
-      ],
-      "relation": "generalizes",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "raw/analog_primitive_gaps.md",
-      "source_location": "## Triangular Structure; Structural Gaps",
-      "weight": 0.9
+      "type": "operational_cycle",
+      "provenance": "EXTRACTED",
+      "confidence": 1.0,
+      "summary": "One outer EGGROLL-PPCA step cycles through six phases: perturbation draw \u2192 combined forward \u2192 nonlinearity \u2192 inter-layer analog routing \u2192 fitness scoring \u2192 Gilbert-cell consolidation. Closes back to phase 1 after \u03c4_slow consolidation."
     }
   ]
 }
