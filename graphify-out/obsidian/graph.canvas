@@ -1,0 +1,4363 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Substrate + Consolidation + Reactive Medium",
+      "x": 0,
+      "y": 0,
+      "width": 1540,
+      "height": 1520,
+      "color": "1"
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_three_factor_learning",
+      "type": "file",
+      "file": "graphify/obsidian/3-Factor Learning Rule (local eligibility  global reward).md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "type": "file",
+      "file": "graphify/obsidian/Analog Low-Pass Consolidation on Charge-Trap.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_analog_vlsi_lineage",
+      "type": "file",
+      "file": "graphify/obsidian/Analog VLSI  Neuromorphic Engineering Lineage.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid",
+      "type": "file",
+      "file": "graphify/obsidian/CMOS-Centered + RAM-like Memory Hybrid Architecture.md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "type": "file",
+      "file": "graphify/obsidian/Consolidation  Metaplasticity Mechanism.md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_eggroll_connection",
+      "type": "file",
+      "file": "graphify/obsidian/EGGROLL Connection (perturbation-response-fitness).md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "type": "file",
+      "file": "graphify/obsidian/EGGROLL Rank Convergence O(r-1).md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion",
+      "type": "file",
+      "file": "graphify/obsidian/Edgeworth Expansion (Bhattacharya & Ranga Rao).md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_flash_memory",
+      "type": "file",
+      "file": "graphify/obsidian/Embedded Flash Memory (Reference).md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_encoder_option_b_pulse_density",
+      "type": "file",
+      "file": "graphify/obsidian/Encoder Option B \u2014 Pulse-density (unary, Hamming weight).md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "type": "file",
+      "file": "graphify/obsidian/Fast Activation x(t)  Slow Weight w(t) Time-Scale Separation.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning",
+      "type": "file",
+      "file": "graphify/obsidian/Feeding Protocol as Part of Learning Law.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_flash_slow_parameter",
+      "type": "file",
+      "file": "graphify/obsidian/Flash-like Slow Parameter Memory.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_hot_carrier_injection",
+      "type": "file",
+      "file": "graphify/obsidian/Hot-Carrier (ElectronHole) Injection.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_learnable_physical_medium",
+      "type": "file",
+      "file": "graphify/obsidian/Learnable Physical Medium (not a programmed computer).md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_lever3_two_timescale",
+      "type": "file",
+      "file": "graphify/obsidian/Lever 3 \u2014 Two-Timescale Pipelining (\u03c4_slow \u2248 10 \u03bcs, \u03c4_fast \u2248 100 ns).md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "type": "file",
+      "file": "graphify/obsidian/Long-Term Plasticity (Charge-Trapping).md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_memorable_operational_split",
+      "type": "file",
+      "file": "graphify/obsidian/Memorable Part  Operational Part Split.md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_reactive_medium",
+      "type": "file",
+      "file": "graphify/obsidian/NN as Structured Reactive Medium.md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_convergence_rate_claim",
+      "type": "file",
+      "file": "graphify/obsidian/Natural Operating Point at Theoretical O(r\u207b\u00b9) Rate.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_operation_transition_speed",
+      "type": "file",
+      "file": "graphify/obsidian/Operation-First Transition Speed = Compute Throughput.md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_2_charge_trap_consolidation",
+      "type": "file",
+      "file": "graphify/obsidian/Pair 2 Charge-Trapping \u2194 ConsolidationSlow-Weight.md",
+      "x": 20,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_6_single_cell_two_timescale",
+      "type": "file",
+      "file": "graphify/obsidian/Pair 6 Single-Cell Two-Timescale \u2194 FastSlow LR.md",
+      "x": 220,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "type": "file",
+      "file": "graphify/obsidian/Phase 6 \u2014 Consolidation \u0394G_ij = \u03b7\u00b7S\u00b7a_i\u00b7b_j via Gilbert-Cell Strip.md",
+      "x": 420,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_6_identity_eta_tau_ratio",
+      "type": "file",
+      "file": "graphify/obsidian/Predicted identity \u03b7_fast\u03b7_slow = \u03c4_slow\u03c4_fast.md",
+      "x": 20,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_2_identity_trap_kernel_ema",
+      "type": "file",
+      "file": "graphify/obsidian/Predicted identity \u03b7_slow = \u222b P(\u03c4)\u03c4 d\u03c4.md",
+      "x": 220,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_ram_fast_state",
+      "type": "file",
+      "file": "graphify/obsidian/RAM-like Fast State.md",
+      "x": 420,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Charge-Trapping Explains Long-Term Retention.md",
+      "x": 20,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_rationale_single_cell",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Fabrication simplicity demands single-cell two-timescale physics.md",
+      "x": 220,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale disambiguating 'device' between memory device and transistor primitive.md",
+      "x": 420,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_6_rationale_quantitative_gap",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale makes existing hyperedge quantitative.md",
+      "x": 20,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_2_rationale_trap_heterogeneity",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale trap-depth heterogeneity \u2194 multi-timescale EMA.md",
+      "x": 220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_self_organizing_cmos_memory_architecture_for_representation_learning_main",
+      "type": "file",
+      "file": "graphify/obsidian/Self-Organizing CMOS-Memory Architecture (overview).md",
+      "x": 420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning",
+      "type": "file",
+      "file": "graphify/obsidian/Self-Organizing Representation Space Goal.md",
+      "x": 20,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_main",
+      "type": "file",
+      "file": "graphify/obsidian/Semi-Passive Physical Neural Devices (overview).md",
+      "x": 220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "type": "file",
+      "file": "graphify/obsidian/Single Adaptive Cell with Two Timescales.md",
+      "x": 420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_stage3_open_problems",
+      "type": "file",
+      "file": "graphify/obsidian/Stage-3 Hints \u2014 Open Problems Leaving PPCA.md",
+      "x": 20,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_threshold_shift_update",
+      "type": "file",
+      "file": "graphify/obsidian/Threshold-Shift Slow Update (trapped charge).md",
+      "x": 220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_k_batch_timescale_identity",
+      "type": "file",
+      "file": "graphify/obsidian/Timescale Identity K_batch = \u03c4_slow  (\u03c4_fast_perturb + \u03c4_forward + \u03c4_fitness) \u2248 50.md",
+      "x": 420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit",
+      "type": "file",
+      "file": "graphify/obsidian/Trainable Analog Circuit with Gate-Bias Parameters.md",
+      "x": 20,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_semi_passive_physical_neural_devices_transistor_neuron_analogy",
+      "type": "file",
+      "file": "graphify/obsidian/Transistor-Neuron Thresholded Transport Analogy.md",
+      "x": 220,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Analog In-Memory Attention (body-extracted)",
+      "x": 1620,
+      "y": 0,
+      "width": 1320,
+      "height": 1220,
+      "color": "2"
+    },
+    {
+      "id": "n_analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main",
+      "type": "file",
+      "file": "graphify/obsidian/Analog in-memory computing attention mechanism for fast and energy-efficient LLMs.md",
+      "x": 1640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_polarquant_quantizing_kv_caches_with_polar_transformation_angle_codebook",
+      "type": "file",
+      "file": "graphify/obsidian/Analytic angle-distribution codebook quantize angles with optimal small-bitwidth codebook, no stored scalezero-point.md",
+      "x": 1840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_gain_cell",
+      "type": "file",
+      "file": "graphify/obsidian/Charge-based gain cell capacitor C1 holds weight; push-pull transistor emits current \u221d input \u00d7 Vstore (analog MAC).md",
+      "x": 2040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_charge_to_pulse_hardsigmoid",
+      "type": "file",
+      "file": "graphify/obsidian/Charge-to-pulse circuit implements HardSigmoid activation, avoiding power-hungry ADCs and enabling sigmoid-attention.md",
+      "x": 1640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_polarquant_quantizing_kv_caches_with_polar_transformation_angle_distribution_sind_1",
+      "type": "file",
+      "file": "graphify/obsidian/Concentrated angle distribution f\u0398(\u03b8) \u221d sin{d-1}(2\u03b8) after preconditioning; Var(\u0398)=O(1sqrt d).md",
+      "x": 1840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_main",
+      "type": "file",
+      "file": "graphify/obsidian/Conditional Memory via Scalable Lookup A New Axis of Sparsity for LLMs (Engram).md",
+      "x": 2040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_lookup_sparsity_axis",
+      "type": "file",
+      "file": "graphify/obsidian/Conditional memory = new sparsity axis complementary to MoE (conditional computation).md",
+      "x": 1640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_context_gating",
+      "type": "file",
+      "file": "graphify/obsidian/Context-aware gating hidden state is Query, retrieved memory is KV; sigmoid gate \u03b1 suppresses collision noise.md",
+      "x": 1840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_turboquant_online_data_oblivious",
+      "type": "file",
+      "file": "graphify/obsidian/Data-oblivious, online, accelerator-friendly no calibration; 3.5 bpc neutrality, 2.5 bpc minor drop for KV cache.md",
+      "x": 2040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_host_prefetch",
+      "type": "file",
+      "file": "graphify/obsidian/Deterministic addressing enables host-memory prefetching; 100B Engram table offloaded with 3% overhead.md",
+      "x": 1640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_engram_ngram_hash",
+      "type": "file",
+      "file": "graphify/obsidian/Engram O(1) hashed N-gram embedding lookup with multi-head multiplicative-XOR hash and shared table E_{n,k}.md",
+      "x": 1840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv",
+      "type": "file",
+      "file": "graphify/obsidian/Gain-cell crossbar arrays store KV cache AND perform dot products in-memory (fuse storage + MVM).md",
+      "x": 2040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_adaptation_algorithm",
+      "type": "file",
+      "file": "graphify/obsidian/Initialization algorithm adapts pre-trained GPT-2 to non-ideal gain-cell multiplication via per-layer statistics rescaling.md",
+      "x": 1640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_mechanistic_depth",
+      "type": "file",
+      "file": "graphify/obsidian/Mechanistic effect Engram off-loads early-layer static reconstruction, freeing attention for global long-context (NIAH 84.2\u219297.0).md",
+      "x": 1840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_turboquant_lloyd_max_mse_quantizer",
+      "type": "file",
+      "file": "graphify/obsidian/Per-coordinate Lloyd-Max  continuous k-means quantizer tuned to Beta marginal; optimal MSE Dmse \u2264 sqrt(3\u03c0)2 \u00b7 4{-b}.md",
+      "x": 2040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_polarquant_quantizing_kv_caches_with_polar_transformation_4_2x_compression",
+      "type": "file",
+      "file": "graphify/obsidian/PolarQuant achieves 4.2x KV-cache compression with SOTA long-context quality.md",
+      "x": 1640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_polarquant_quantizing_kv_caches_with_polar_transformation_random_preconditioning",
+      "type": "file",
+      "file": "graphify/obsidian/PolarQuant random preconditioning random Gaussian rotation preserves inner products, randomizes angle distribution.md",
+      "x": 1840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_polarquant_quantizing_kv_caches_with_polar_transformation_main",
+      "type": "file",
+      "file": "graphify/obsidian/PolarQuant Quantizing KV Caches with Polar Transformation.md",
+      "x": 2040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_qjl_cuda_kernel_3bit_result",
+      "type": "file",
+      "file": "graphify/obsidian/QJL CUDA kernel; 3-bit KV cache reaches 5x memory reduction at no accuracy drop on LongBenchLlama-2.md",
+      "x": 1640,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_qjl_asymmetric_estimator",
+      "type": "file",
+      "file": "graphify/obsidian/QJL asymmetric estimator sign(S k) on keys, full S q on queries; unbiased q,k.md",
+      "x": 1840,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_qjl_outlier_channels",
+      "type": "file",
+      "file": "graphify/obsidian/QJL outlier-channel handling two independent quantizers for outlier vs inlier key channels in deeper layers.md",
+      "x": 2040,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_qjl_sign_bit_cosine_estimator",
+      "type": "file",
+      "file": "graphify/obsidian/QJL sign-bit cosine 1-bit quantization of JL projection preserves inner products up to O(sqrt(kxym)).md",
+      "x": 1640,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_qjl_zero_overhead_data_oblivious",
+      "type": "file",
+      "file": "graphify/obsidian/QJL zero-overhead, data-oblivious no stored zero-pointscale, unbiased inner-product estimator.md",
+      "x": 1840,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_qjl_main",
+      "type": "file",
+      "file": "graphify/obsidian/QJL 1-Bit Quantized JL Transform for KV Cache Quantization with Zero Overhead.md",
+      "x": 2040,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_qjl_johnson_lindenstrauss_transform",
+      "type": "file",
+      "file": "graphify/obsidian/QJL JL transform followed by sign-bit quantization.md",
+      "x": 1640,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_turboquant_random_rotation_beta_distribution",
+      "type": "file",
+      "file": "graphify/obsidian/Random rotation induces Beta-distributed coordinates; high-d near-independence enables per-coordinate scalar quantizer.md",
+      "x": 1840,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_polarquant_quantizing_kv_caches_with_polar_transformation_recursive_polar_transform",
+      "type": "file",
+      "file": "graphify/obsidian/Recursive polar transformation pair coordinates, produce d-1 angles + 1 radius in log2(d) levels (Definition 1).md",
+      "x": 2040,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_turboquant_shannon_lower_bound_match",
+      "type": "file",
+      "file": "graphify/obsidian/ShannonYao lower bound Dmse \u2265 4{-b}; TurboQuant within ~2.7\u00d7 (\u22481.45\u00d7 at b=1) of optimal.md",
+      "x": 1640,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_sliding_window_attention",
+      "type": "file",
+      "file": "graphify/obsidian/Sliding-window causal attention keeps fixed M KV entries, bounding array size; layer stacking recovers global receptive field.md",
+      "x": 1840,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_turboquant_main",
+      "type": "file",
+      "file": "graphify/obsidian/TurboQuant Online Vector Quantization with Near-optimal Distortion Rate.md",
+      "x": 2040,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_turboquant_two_stage_mse_then_qjl_residual",
+      "type": "file",
+      "file": "graphify/obsidian/Two-stage inner-product quantizer MSE-optimal Qmse + 1-bit QJL on residual \u2192 unbiased inner-product estimate.md",
+      "x": 1640,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_conditional_memory_via_scalable_lookup_a_new_axis_of_sparsity_for_large_language_models_u_shaped_scaling",
+      "type": "file",
+      "file": "graphify/obsidian/U-shaped Sparsity Allocation optimal hybrid MoE+Engram ratio beats pure MoE at iso-FLOPs.md",
+      "x": 1840,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_energy_latency_gains",
+      "type": "file",
+      "file": "graphify/obsidian/Up to \u00d7102 latency and \u00d7104 energy reduction vs GPU for attention.md",
+      "x": 2040,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Analog Multiplication Family (Gilbert + log-domain + crossbar)",
+      "x": 3020,
+      "y": 0,
+      "width": 1320,
+      "height": 1220,
+      "color": "3"
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar",
+      "type": "file",
+      "file": "graphify/obsidian/Binary Tree Grammar S-1eml(S,S).md",
+      "x": 3040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_catalog_absorption",
+      "type": "file",
+      "file": "graphify/obsidian/Catalog Absorption \u2014 8-pair mapping \u21d2 4-slot schema + pending learning rule.md",
+      "x": 3240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_gilbert_signed_scalar_mul",
+      "type": "file",
+      "file": "graphify/obsidian/Cleanest signed scalar multiplication z=x\u00b7y; dot-products of small vectors via parallel cells.md",
+      "x": 3440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_linear_combiner_w",
+      "type": "file",
+      "file": "graphify/obsidian/Component W \u2014 Linear Combiner (Kirchhoff crossbar MVM).md",
+      "x": 3040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_local_update_constraint_g",
+      "type": "file",
+      "file": "graphify/obsidian/Constraint \u2014 G must be updated locally per crossbar cell.md",
+      "x": 3240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_main",
+      "type": "file",
+      "file": "graphify/obsidian/Device-Math Correspondence Catalog.md",
+      "x": 3440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_dual_crossbar_topology",
+      "type": "file",
+      "file": "graphify/obsidian/Dual-Crossbar Topology \u2014 Base G (charge-trap) + Perturbation a\u00b7bT (floating-bulk).md",
+      "x": 3040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_four_quadrant_mul",
+      "type": "file",
+      "file": "graphify/obsidian/Four-quadrant signed multiplication I_out = (I_tailV_T2)\u00b7V_x\u00b7V_y for small signals.md",
+      "x": 3240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_gilbert_cell",
+      "type": "file",
+      "file": "graphify/obsidian/Gilbert Cell Four-Quadrant Multiplier (primitive).md",
+      "x": 3440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_grouping_two_timescale",
+      "type": "file",
+      "file": "graphify/obsidian/Grouping A Two-timescale physics \u2192 slowfast math.md",
+      "x": 3040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_grouping_analog_lowrank",
+      "type": "file",
+      "file": "graphify/obsidian/Grouping B Analog continuum \u2192 low-rank math.md",
+      "x": 3240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_grouping_piecewise",
+      "type": "file",
+      "file": "graphify/obsidian/Grouping C Piecewise physics \u2192 piecewise-linear math.md",
+      "x": 3440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_4_identity_crossbar_equals_qkt",
+      "type": "file",
+      "file": "graphify/obsidian/Identity one crossbar MVM cycle = QKT\u221ad_k.md",
+      "x": 3040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_3_identity_bits_bound_rank",
+      "type": "file",
+      "file": "graphify/obsidian/Identity usable rank r bounded by cell resolution b.md",
+      "x": 3240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_4_implication_offchip_softmax",
+      "type": "file",
+      "file": "graphify/obsidian/Implication softmax must be off-chip or approximated.md",
+      "x": 3440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_lever1_tiling",
+      "type": "file",
+      "file": "graphify/obsidian/Lever 1 \u2014 Tiling (N\u00d7N \u2192 (Nk)\u00b2 tiles).md",
+      "x": 3040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_lever2_rank_precision",
+      "type": "file",
+      "file": "graphify/obsidian/Lever 2 \u2014 Rank-r Perturbation with Precision-for-Rank Tradeoff.md",
+      "x": 3240,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "type": "file",
+      "file": "graphify/obsidian/Low-Rank Perturbation E=ABTsqrt(r).md",
+      "x": 3440,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "type": "file",
+      "file": "graphify/obsidian/Memristor (Alternative Platform).md",
+      "x": 3040,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_3_memristor_lowrank",
+      "type": "file",
+      "file": "graphify/obsidian/Pair 3 MemristorPCM Levels \u2194 Low-Rank Rank r.md",
+      "x": 3240,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_4_crossbar_attention_logits",
+      "type": "file",
+      "file": "graphify/obsidian/Pair 4 Analog Crossbar MVM \u2194 Pre-Softmax Logits.md",
+      "x": 3440,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_phase2_combined_forward",
+      "type": "file",
+      "file": "graphify/obsidian/Phase 2 \u2014 Combined Forward Pass (y = Gx + \u03b1\u00b7a\u00b7(b\u00b7x)).md",
+      "x": 3040,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "type": "file",
+      "file": "graphify/obsidian/Phase-Change Memory (PCM).md",
+      "x": 3240,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_gilbert_precision_regime",
+      "type": "file",
+      "file": "graphify/obsidian/Precision regime complements crossbar higher dynamic range, lower parallelism, signed-native.md",
+      "x": 3440,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_rank1_realization_silicon",
+      "type": "file",
+      "file": "graphify/obsidian/Rank-1 Perturbation Silicon Realization.md",
+      "x": 3040,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "type": "file",
+      "file": "graphify/obsidian/Rank-r Perturbation Structure.md",
+      "x": 3240,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Arithmetic Intensity Improvement.md",
+      "x": 3440,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Low-rank Structure for High Arithmetic Intensity.md",
+      "x": 3040,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_log_domain_role_eggroll",
+      "type": "file",
+      "file": "graphify/obsidian/Role in EGGROLL-PPCA translinear current multipliers realize S\u00b7a_i\u00b7b_j per transistor-quad.md",
+      "x": 3240,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_gilbert_outer_product_strip",
+      "type": "file",
+      "file": "graphify/obsidian/Strip of max(m,n) Gilbert cells evaluates outer product a_i\u00b7b_j one rowcolumn at a time.md",
+      "x": 3440,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_3_test_b4_vs_b8",
+      "type": "file",
+      "file": "graphify/obsidian/Test b=4 vs b=8 memristor EGGROLL convergence knee.md",
+      "x": 3040,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_cross_coupled_diff_pairs",
+      "type": "file",
+      "file": "graphify/obsidian/Topology two cross-coupled differential pairs sharing a common tail-current source.md",
+      "x": 3240,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Subthreshold Score + Nonlinearity Realization",
+      "x": 4420,
+      "y": 0,
+      "width": 1320,
+      "height": 1120,
+      "color": "4"
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "type": "file",
+      "file": "graphify/obsidian/CMOS MOSFET (Bulk-Silicon).md",
+      "x": 4440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_central_limit_theorem",
+      "type": "file",
+      "file": "graphify/obsidian/Central Limit Theorem (justification).md",
+      "x": 4640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_nonlinearity_n",
+      "type": "file",
+      "file": "graphify/obsidian/Component N \u2014 Selective-passing nonlinearity (transistor I-V).md",
+      "x": 4840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_depth_as_iterative_flow",
+      "type": "file",
+      "file": "graphify/obsidian/Depth as Iterative Operator Flow.md",
+      "x": 4440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_n_beta_fills_placeholder",
+      "type": "file",
+      "file": "graphify/obsidian/Fills N_\u03b2 placeholder from formulation v1 subthreshold regime of the same MOSFET realizing N_\u03b1.md",
+      "x": 4640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "type": "file",
+      "file": "graphify/obsidian/Floating-Bulk Configuration.md",
+      "x": 4840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "type": "file",
+      "file": "graphify/obsidian/Gaussian Approximate Score Function.md",
+      "x": 4440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_gaussian_score_realization",
+      "type": "file",
+      "file": "graphify/obsidian/Gaussian-score-native exp(\u2212r\u00b22\u03c3\u00b2) realized by one subthreshold transistor with biased V_GS.md",
+      "x": 4640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_7_identity_transistor_as_state_region",
+      "type": "file",
+      "file": "graphify/obsidian/Identity transistor = 1-unit state-region dictionary.md",
+      "x": 4840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_jacobian_conditioning",
+      "type": "file",
+      "file": "graphify/obsidian/Jacobian Conditioning  Quasi-Isometric Regime.md",
+      "x": 4440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "type": "file",
+      "file": "graphify/obsidian/Kink Effect (Boudou & Doyle 1987).md",
+      "x": 4640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_multiplicative_non_gaussian",
+      "type": "file",
+      "file": "graphify/obsidian/Multiplicative Random Process is Not Gaussian.md",
+      "x": 4840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_main",
+      "type": "file",
+      "file": "graphify/obsidian/NNs as State-Region Dictionaries (overview).md",
+      "x": 4440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "type": "file",
+      "file": "graphify/obsidian/Nonlinearity Option \u03b1 \u2014 Two-piece kink  ReLU polytope (canonical).md",
+      "x": 4640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "type": "file",
+      "file": "graphify/obsidian/Nonlinearity Option \u03b2 \u2014 Subthreshold exponential (weak inversion).md",
+      "x": 4840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_nonlinearity_option_gamma_saturation_square",
+      "type": "file",
+      "file": "graphify/obsidian/Nonlinearity Option \u03b3 \u2014 Saturation square-law (\u2248 squared-ReLUGELU).md",
+      "x": 4440,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_three_regime_unification",
+      "type": "file",
+      "file": "graphify/obsidian/One MOSFET, three regimes V_GSV_T\u2192N_\u03b2 subthreshold; V_TV_GS low V_DS\u2192N_\u03b3 saturation; V_GSV_T high V_DS\u2192N_\u03b1 kinkpunch-through.md",
+      "x": 4640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_7_kink_relu_polytope",
+      "type": "file",
+      "file": "graphify/obsidian/Pair 7 Kink Effect \u2194 ReLU Polytope Boundary.md",
+      "x": 4840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_phase3_nonlinearity",
+      "type": "file",
+      "file": "graphify/obsidian/Phase 3 \u2014 Nonlinearity N_\u03b1 via Kink-Biased MOSFETs.md",
+      "x": 4440,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "type": "file",
+      "file": "graphify/obsidian/Phase 5 \u2014 Fitness Scoring S = exp(\u2212z\u2212t\u00b22\u03c3\u00b2) (single subthreshold transistor).md",
+      "x": 4640,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "type": "file",
+      "file": "graphify/obsidian/Punch-Through Impact Ionization.md",
+      "x": 4840,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_random_operator_reservoir",
+      "type": "file",
+      "file": "graphify/obsidian/Random Operator Reservoir + SelectionAlignment.md",
+      "x": 4440,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Gaussian Score Choice via CLT.md",
+      "x": 4640,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_rationale_mse_loss_meaning",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale MSElogistic meaning comes from output likelihood, not input isotropy.md",
+      "x": 4840,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_sigmoid_native",
+      "type": "file",
+      "file": "graphify/obsidian/Sigmoid-native I_D(I_D+I_ref) = 1(1+exp(\u2212V_GSn\u00b7V_T)) with only a current mirror.md",
+      "x": 4440,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_softmax_native",
+      "type": "file",
+      "file": "graphify/obsidian/Softmax-native K subthreshold transistors at a normalizing node yield exp(V_k)\u03a3exp(V_j).md",
+      "x": 4640,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_subthreshold_exp",
+      "type": "file",
+      "file": "graphify/obsidian/Subthreshold Exponential Regime (primitive).md",
+      "x": 4840,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_subthreshold_iv_law",
+      "type": "file",
+      "file": "graphify/obsidian/Subthreshold I\u2013V I_D = I_0\u00b7exp(V_GSn\u00b7V_T)\u00b7(1\u2212exp(\u2212V_DSV_T)), n\u22481.3\u20131.5.md",
+      "x": 4440,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_7_test_piecewise_affine_fit",
+      "type": "file",
+      "file": "graphify/obsidian/Test piecewise-affine fit of stacked-transistor I-O.md",
+      "x": 4640,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "KAN + Kolmogorov-Arnold Theorem (body-extracted)",
+      "x": 0,
+      "y": 1600,
+      "width": 1100,
+      "height": 1020,
+      "color": "5"
+    },
+    {
+      "id": "n_a_practitioner_s_guide_to_kolmogorov_arnold_networks_main",
+      "type": "file",
+      "file": "graphify/obsidian/A Practitioner's Guide to Kolmogorov-Arnold Networks.md",
+      "x": 20,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_primer_on_quantum_machine_learning_main",
+      "type": "file",
+      "file": "graphify/obsidian/A Primer on Quantum Machine Learning.md",
+      "x": 220,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_primer_on_quantum_machine_learning_angle_rotation_encoding",
+      "type": "file",
+      "file": "graphify/obsidian/Angle-rotation data encoding and theta of rotation gates.md",
+      "x": 420,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_practitioner_s_guide_to_kolmogorov_arnold_networks_bspline_basis",
+      "type": "file",
+      "file": "graphify/obsidian/B-spline basis parameterization per edge.md",
+      "x": 20,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_primer_on_quantum_machine_learning_barren_plateaus",
+      "type": "file",
+      "file": "graphify/obsidian/Barren plateaus and NP-hard VQC training.md",
+      "x": 220,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_practitioner_s_guide_to_kolmogorov_arnold_networks_claimed_advantages",
+      "type": "file",
+      "file": "graphify/obsidian/Claimed advantages interpretability, parameter efficiency, sampleconvergence gains.md",
+      "x": 420,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_with_exact_invariances_in_polynomial_time_geometric_oracle",
+      "type": "file",
+      "file": "graphify/obsidian/Eigenfunction evaluation and shifted inner-product oracles.md",
+      "x": 20,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_with_exact_invariances_in_polynomial_time_finite_group_g_action",
+      "type": "file",
+      "file": "graphify/obsidian/Finite group G acting smoothly and isometrically on manifold M.md",
+      "x": 220,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_with_exact_invariances_in_polynomial_time_group_averaging_baseline",
+      "type": "file",
+      "file": "graphify/obsidian/Group averaging baseline is intractable for large G.md",
+      "x": 420,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_primer_on_quantum_machine_learning_hybrid_training_loop",
+      "type": "file",
+      "file": "graphify/obsidian/Hybrid classical-quantum training loop.md",
+      "x": 20,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_8_identity_angle_equals_edge_fn",
+      "type": "file",
+      "file": "graphify/obsidian/Identity VQC angle = KAN periodic edge activation.md",
+      "x": 220,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_kan",
+      "type": "file",
+      "file": "graphify/obsidian/KAN Kolmogorov-Arnold Networks (Liu et al.).md",
+      "x": 420,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_practitioner_s_guide_to_kolmogorov_arnold_networks_kat_theorem",
+      "type": "file",
+      "file": "graphify/obsidian/Kolmogorov-Arnold representation theorem (KAT).md",
+      "x": 20,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_with_exact_invariances_in_polynomial_time_laplace_beltrami_spectral_reformulation",
+      "type": "file",
+      "file": "graphify/obsidian/Laplace-Beltrami eigenbasis reformulation.md",
+      "x": 220,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "type": "file",
+      "file": "graphify/obsidian/Learnable univariate activations on edges (vs fixed MLP node activations).md",
+      "x": 420,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_with_exact_invariances_in_polynomial_time_main",
+      "type": "file",
+      "file": "graphify/obsidian/Learning with Exact Invariances in Polynomial Time.md",
+      "x": 20,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_8_vqc_kan_rotation",
+      "type": "file",
+      "file": "graphify/obsidian/Pair 8 VQC Angle \u03b8 \u2194 KAN Learnable Rotation.md",
+      "x": 220,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_primer_on_quantum_machine_learning_parameter_shift_rule",
+      "type": "file",
+      "file": "graphify/obsidian/Parameter-shift rule for VQC gradients.md",
+      "x": 420,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_with_exact_invariances_in_polynomial_time_complexity_class",
+      "type": "file",
+      "file": "graphify/obsidian/Polynomial-time  polylogarithmic-in-G complexity regime.md",
+      "x": 20,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_primer_on_quantum_machine_learning_quantum_advantage_claims",
+      "type": "file",
+      "file": "graphify/obsidian/Quantum advantage provable separations vs dequantized heuristics.md",
+      "x": 220,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_8_rationale_unitarity_duality",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale physics-unitarity \u2194 constraint-unitarity duality.md",
+      "x": 420,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_with_exact_invariances_in_polynomial_time_theorem_1",
+      "type": "file",
+      "file": "graphify/obsidian/Theorem 1 poly(n, d, logG) algorithm with minimax-optimal risk.md",
+      "x": 20,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_practitioner_s_guide_to_kolmogorov_arnold_networks_trainable_via_smooth_bases",
+      "type": "file",
+      "file": "graphify/obsidian/Trainability via smooth differentiable basis (modernizes pathological KAT).md",
+      "x": 220,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_primer_on_quantum_machine_learning_variational_quantum_circuit",
+      "type": "file",
+      "file": "graphify/obsidian/Variational quantum circuit (PQC  QNN).md",
+      "x": 420,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chunk_b1_invariances_vs_kan_disjoint_rationale",
+      "type": "file",
+      "file": "graphify/obsidian/Why KAN edge-functions and exact invariances are disjoint topics.md",
+      "x": 20,
+      "y": 2320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Symbolic Regression + EML Master Formula + Adam",
+      "x": 1620,
+      "y": 1600,
+      "width": 1100,
+      "height": 920,
+      "color": "6"
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_adam_optimizer",
+      "type": "file",
+      "file": "graphify/obsidian/Adam Optimizer.md",
+      "x": 1640,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_counter_based_rng",
+      "type": "file",
+      "file": "graphify/obsidian/Counter-Based Deterministic RNG (Salmon 2011).md",
+      "x": 1840,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_md_eggroll",
+      "type": "file",
+      "file": "graphify/obsidian/EGGROLL (Korean Translation).md",
+      "x": 2040,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "type": "file",
+      "file": "graphify/obsidian/EGGROLL Algorithm.md",
+      "x": 1640,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_master_formula",
+      "type": "file",
+      "file": "graphify/obsidian/EML Master Formula (Parameterized Tree).md",
+      "x": 1840,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_md_evolution_strategies",
+      "type": "file",
+      "file": "graphify/obsidian/Evolution Strategies (ES).md",
+      "x": 2040,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_evolution_strategies",
+      "type": "file",
+      "file": "graphify/obsidian/Evolution Strategies (ES)_1.md",
+      "x": 1640,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_grpo",
+      "type": "file",
+      "file": "graphify/obsidian/GRPO (Shao et al. 2024).md",
+      "x": 1840,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_1_identity_lowpass_filter",
+      "type": "file",
+      "file": "graphify/obsidian/Identity shared low-pass filter \u03c4_fast\u207b\u00b9\u2248T_fast\u207b\u00b9.md",
+      "x": 2040,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_lora",
+      "type": "file",
+      "file": "graphify/obsidian/LoRA (Hu et al. 2022).md",
+      "x": 1640,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_md_lora",
+      "type": "file",
+      "file": "graphify/obsidian/LoRA (Low-Rank Adaptation).md",
+      "x": 1840,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_mezo",
+      "type": "file",
+      "file": "graphify/obsidian/MeZO (Malladi et al. 2023).md",
+      "x": 2040,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_openes",
+      "type": "file",
+      "file": "graphify/obsidian/OpenES (Salimans et al. 2017).md",
+      "x": 1640,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "type": "file",
+      "file": "graphify/obsidian/PPCA Structural Hub \u2014 Five-Community God-Node Candidate.md",
+      "x": 1840,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "type": "file",
+      "file": "graphify/obsidian/Pair 1 Punch-Through \u2194 ES Fast-Weight Momentum.md",
+      "x": 2040,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "type": "file",
+      "file": "graphify/obsidian/Phase 1 \u2014 Perturbation Draw (counter-RNG a,b ~ N(0,\u03c3\u00b2)).md",
+      "x": 1640,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_pytorch",
+      "type": "file",
+      "file": "graphify/obsidian/PyTorch (Paszke et al. 2019).md",
+      "x": 1840,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_rwkv7",
+      "type": "file",
+      "file": "graphify/obsidian/RWKV-7 (Peng et al. 2025).md",
+      "x": 2040,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Interpretability via Snap to Closed-form.md",
+      "x": 1640,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_md_score_function_gradient",
+      "type": "file",
+      "file": "graphify/obsidian/Score Function Gradient Estimation.md",
+      "x": 1840,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "type": "file",
+      "file": "graphify/obsidian/Short-Term Plasticity (Zucker & Regehr 2002).md",
+      "x": 2040,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
+      "type": "file",
+      "file": "graphify/obsidian/Symbolic Regression via EML Trees.md",
+      "x": 1640,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_1_test_two_transistor_eggroll",
+      "type": "file",
+      "file": "graphify/obsidian/Test 2-transistor EGGROLL vs FP logistic regression.md",
+      "x": 1840,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_vllm",
+      "type": "file",
+      "file": "graphify/obsidian/vLLM (Kwon et al. 2023).md",
+      "x": 2040,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "Beyond-CMOS Neuromorphic Processor (body-extracted)",
+      "x": 3020,
+      "y": 1600,
+      "width": 1100,
+      "height": 920,
+      "color": "1"
+    },
+    {
+      "id": "n_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_beol_memristive_interface",
+      "type": "file",
+      "file": "graphify/obsidian/BEOL differential interface for two- and three-terminal memristors.md",
+      "x": 3040,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning",
+      "type": "file",
+      "file": "graphify/obsidian/BiCaLL on-chip local learning rule (STDP + HebbianSRDP).md",
+      "x": 3240,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hebbian_learning_with_global_direction_biological_plausibility",
+      "type": "file",
+      "file": "graphify/obsidian/Biological-plausibility claim dopaminenoradrenalineacetylcholine modulate (flip polarity of) local plasticity \u2014 abstracted as sign(m).md",
+      "x": 3440,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_bistable_synapse",
+      "type": "file",
+      "file": "graphify/obsidian/Bistable binary plastic synapse with analog internal weight.md",
+      "x": 3040,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_parallelizable",
+      "type": "file",
+      "file": "graphify/obsidian/Blocks trained in parallel (per sampled t) \u2014 no sequential forwardbackward dependency; comparable to full BP on MNISTCIFAR-10100.md",
+      "x": 3240,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_photocrosslinking_patterning",
+      "type": "file",
+      "file": "graphify/obsidian/CMOS-compatible photocrosslinking patterning for organic BHJs.md",
+      "x": 3440,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_main",
+      "type": "file",
+      "file": "graphify/obsidian/CMOS-integrated Organic Neuromorphic Imagers for Dual-Modal Imaging.md",
+      "x": 3040,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_charge_recombination_trapping",
+      "type": "file",
+      "file": "graphify/obsidian/Charge recombination-trapping dynamics as tunable memory mechanism.md",
+      "x": 3240,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hebbian_learning_with_global_direction_signsgd_distinction",
+      "type": "file",
+      "file": "graphify/obsidian/Differs from SignSGD GHL uses local Hebbian term for magnitude, sign only for direction; no precise gradient storage.md",
+      "x": 3440,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_diffusion_denoise_target",
+      "type": "file",
+      "file": "graphify/obsidian/Diffusionflow-matching training signal block t learns to denoise z_{t-1} toward class embedding u_y (fixed noised target).md",
+      "x": 3040,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_dual_modal_operation",
+      "type": "file",
+      "file": "graphify/obsidian/Dual-modal operation static frame + dynamic synaptic.md",
+      "x": 3240,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training",
+      "type": "file",
+      "file": "graphify/obsidian/Each block trained independently with only local backprop \u2014 no global forward or backward pass across blocks.md",
+      "x": 3440,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_flow_matching_variant",
+      "type": "file",
+      "file": "graphify/obsidian/Flow-matching variant learn vector field v_\u03b8(z_t,x,t) \u2248 z1-z0 between noise and label embedding.md",
+      "x": 3040,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hebbian_learning_with_global_direction_local_rule_global_signal",
+      "type": "file",
+      "file": "graphify/obsidian/GHL update \u0394w_ik = \u03b7 \u00b7 sign(\u2202L\u2202w_ik) \u00b7 u_k \u00b7 (x_i \u2212 y_k w_ik) \u2014 local Oja+SWTA magnitude \u00d7 global gradient-sign direction.md",
+      "x": 3240,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hebbian_learning_with_global_direction_main",
+      "type": "file",
+      "file": "graphify/obsidian/Hebbian Learning with Global Direction (GHL).md",
+      "x": 3440,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_hybrid_cmos_organic",
+      "type": "file",
+      "file": "graphify/obsidian/Hybrid CMOS + organic BHJ device stack.md",
+      "x": 3040,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_broadcast_input_label",
+      "type": "file",
+      "file": "graphify/obsidian/Input x AND label y broadcast to every block; no hierarchical feature assembly \u2014 non-hierarchical representation claim.md",
+      "x": 3240,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hebbian_learning_with_global_direction_oja_swta_local",
+      "type": "file",
+      "file": "graphify/obsidian/Local rule Oja (\u0394w = \u03b7 y(x \u2212 y w)) + Soft Winner-Take-All competition via softmax(y\u03c4).md",
+      "x": 3440,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_elbo_objective",
+      "type": "file",
+      "file": "graphify/obsidian/NoProp loss = ELBO of variational diffusion cross-entropy at final block + KL + \u03a3_t SNR-weighted L2 denoise loss.md",
+      "x": 3040,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_main",
+      "type": "file",
+      "file": "graphify/obsidian/NoProp Training neural networks without full back-propagation or full forward-propagation.md",
+      "x": 3240,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hebbian_learning_with_global_direction_resnet50_imagenet_scaling",
+      "type": "file",
+      "file": "graphify/obsidian/Scales to ResNet-50 on ImageNet (within 4% of BP); also scales to ResNet-1202 depth.md",
+      "x": 3440,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_subthreshold_event_driven",
+      "type": "file",
+      "file": "graphify/obsidian/Subthreshold analog + event-driven asynchronous architecture.md",
+      "x": 3040,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_main",
+      "type": "file",
+      "file": "graphify/obsidian/TEXEL Mixed-Signal Neuromorphic Processor for Beyond-CMOS Integration.md",
+      "x": 3240,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hebbian_learning_with_global_direction_three_factor_rule",
+      "type": "file",
+      "file": "graphify/obsidian/Three-factor rule \u0394w = \u03b7 \u00b7 G(m) \u00b7 H(pre,post); neuromodulator analogue G(m) = sign(m).md",
+      "x": 3440,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Physical Reinterpretation of DL",
+      "x": 4420,
+      "y": 1600,
+      "width": 1100,
+      "height": 920,
+      "color": "2"
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_three_layer_formalization",
+      "type": "file",
+      "file": "graphify/obsidian/3-Layer Formalization Boolean  Profile  Layer Operators.md",
+      "x": 4440,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_adjoint_credit_field",
+      "type": "file",
+      "file": "graphify/obsidian/Adjoint Credit Field (backprop reinterpreted).md",
+      "x": 4640,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "type": "file",
+      "file": "graphify/obsidian/Bit-Level Operator Framework for ReLU MLPs (overview).md",
+      "x": 4840,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_bit_parallel_vs_serial",
+      "type": "file",
+      "file": "graphify/obsidian/Bit-Parallel vs Bit-Serial Trade-off.md",
+      "x": 4440,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
+      "type": "file",
+      "file": "graphify/obsidian/Bit-Plane Overlap Model for Multiplication.md",
+      "x": 4640,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "type": "file",
+      "file": "graphify/obsidian/Bit-Plane Profile Representation.md",
+      "x": 4840,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_carry_save_tree",
+      "type": "file",
+      "file": "graphify/obsidian/Carry-Save  Compressor Tree Reduction.md",
+      "x": 4440,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_encoder_e",
+      "type": "file",
+      "file": "graphify/obsidian/Component E \u2014 Encoder (bits \u2192 analog, linear injection).md",
+      "x": 4640,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_encode_decode",
+      "type": "file",
+      "file": "graphify/obsidian/Encode  Decode  Profile Jacobian.md",
+      "x": 4840,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_encoder_option_a_bitplane",
+      "type": "file",
+      "file": "graphify/obsidian/Encoder Option A \u2014 Bit-plane weighted charge (canonical).md",
+      "x": 4440,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_encoder_option_c_binary",
+      "type": "file",
+      "file": "graphify/obsidian/Encoder Option C \u2014 Binarized signed (\u00b11).md",
+      "x": 4640,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_event_driven_interaction",
+      "type": "file",
+      "file": "graphify/obsidian/Event-Driven Sparse Interaction Model.md",
+      "x": 4840,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_fpga_asic_target",
+      "type": "file",
+      "file": "graphify/obsidian/FPGAASIC Systolic Target.md",
+      "x": 4440,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_fixed_point_backward",
+      "type": "file",
+      "file": "graphify/obsidian/Fixed-Point Backward + Packed-Bit MAC.md",
+      "x": 4640,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_liftgrad_pullback",
+      "type": "file",
+      "file": "graphify/obsidian/LiftGrad  Contract  Pullback (backward primitives).md",
+      "x": 4840,
+      "y": 2000,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold",
+      "type": "file",
+      "file": "graphify/obsidian/OuterMul  DimSum  Fold Primitives.md",
+      "x": 4440,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_packed_bitslice",
+      "type": "file",
+      "file": "graphify/obsidian/Packed Bitslice + POPCNT + Delayed Carry.md",
+      "x": 4640,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_main",
+      "type": "file",
+      "file": "graphify/obsidian/Physical Reinterpretation of Deep Learning (overview).md",
+      "x": 4840,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_rationale_carry_bottleneck",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Carry Propagation is the Real Bottleneck.md",
+      "x": 4440,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_level_operator_framework_for_relu_mlps_relu_gate",
+      "type": "file",
+      "file": "graphify/obsidian/ReLU as Sign-Test + MaskMUX.md",
+      "x": 4640,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_scattering_kernel_model",
+      "type": "file",
+      "file": "graphify/obsidian/Scattering-Kernel Interaction Model.md",
+      "x": 4840,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_signal_particle_energy_mapping",
+      "type": "file",
+      "file": "graphify/obsidian/Signal-Particle-Energy Mapping of NN Elements.md",
+      "x": 4440,
+      "y": 2240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "Formulation v1 Canonical + Composition Theorem",
+      "x": 0,
+      "y": 2700,
+      "width": 1100,
+      "height": 920,
+      "color": "3"
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_main",
+      "type": "file",
+      "file": "graphify/obsidian/Bit-Analog Formulation v1 (E,W,N,D Quadruple).md",
+      "x": 20,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_canonical_minimal_model",
+      "type": "file",
+      "file": "graphify/obsidian/Canonical Minimal Model (E_bitplane, crossbar W, N_kink, D_comparator).md",
+      "x": 220,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_decoder_d",
+      "type": "file",
+      "file": "graphify/obsidian/Component D \u2014 Decoder (comparator array).md",
+      "x": 420,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_composition_identity_bitplane_relu_mlp",
+      "type": "file",
+      "file": "graphify/obsidian/Composition Identity \u2014 (E_bitplane,W,N_kink,D) = ReLU MLP  carry-save tree.md",
+      "x": 20,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_composition_theorem",
+      "type": "file",
+      "file": "graphify/obsidian/Composition Theorem \u2014 (E_binary,W,N_kinkVk=\u221e,D) = XNOR-popcount MAC.md",
+      "x": 220,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_forward_only_all_analog_claim",
+      "type": "file",
+      "file": "graphify/obsidian/Forward-Only All-Analog Critical Path.md",
+      "x": 420,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_invariant_1_e_linear_injection",
+      "type": "file",
+      "file": "graphify/obsidian/Invariant 1 \u2014 E is a linear injection.md",
+      "x": 20,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_invariant_2_w_preserves_linearity",
+      "type": "file",
+      "file": "graphify/obsidian/Invariant 2 \u2014 W preserves E's linearity.md",
+      "x": 220,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_invariant_3_n_sign_commutes",
+      "type": "file",
+      "file": "graphify/obsidian/Invariant 3 \u2014 N sign-commutes with thresholding (monotone).md",
+      "x": 420,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_invariant_4_shared_transistor",
+      "type": "file",
+      "file": "graphify/obsidian/Invariant 4 \u2014 D reuses the same transistor as N.md",
+      "x": 20,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_open_stage2_learning_problem",
+      "type": "file",
+      "file": "graphify/obsidian/Open Problem \u2014 Stage 2 Learning Rule (D is discontinuous).md",
+      "x": 220,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_phase4_interlayer_analog",
+      "type": "file",
+      "file": "graphify/obsidian/Phase 4 \u2014 Inter-Layer Analog Routing (no intermediate digitization).md",
+      "x": 420,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_rejection_local",
+      "type": "file",
+      "file": "graphify/obsidian/Rejection \u2014 Layer-Local (NoProp  Hebbian + Global Signal).md",
+      "x": 20,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_rejection_surrogate",
+      "type": "file",
+      "file": "graphify/obsidian/Rejection \u2014 Surrogate  Straight-Through Estimator.md",
+      "x": 220,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_shared_silicon_dual_role",
+      "type": "file",
+      "file": "graphify/obsidian/Shared-Silicon Dual Role \u2014 Final-Layer MOSFETs Serve N and D.md",
+      "x": 420,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_shared_silicon_claim",
+      "type": "file",
+      "file": "graphify/obsidian/Shared-Silicon Dual-Read Claim (one transistor = N + D).md",
+      "x": 20,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_stage2_option_layer_local",
+      "type": "file",
+      "file": "graphify/obsidian/Stage 2 Option \u2014 Layer-local learning (no gradient crosses D).md",
+      "x": 220,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_stage2_option_score_function_es",
+      "type": "file",
+      "file": "graphify/obsidian/Stage 2 Option \u2014 Score-function  ES gradient (black-box perturbation).md",
+      "x": 420,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_stage2_option_surrogate_ste",
+      "type": "file",
+      "file": "graphify/obsidian/Stage 2 Option \u2014 Surrogate  straight-through gradient (enrichment target).md",
+      "x": 20,
+      "y": 3260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_main",
+      "type": "file",
+      "file": "graphify/obsidian/Stage-2 Architecture \u2014 EGGROLL-PPCA (Perturbation-Pair Crossbar Array).md",
+      "x": 220,
+      "y": 3260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_stage2_commitment_es",
+      "type": "file",
+      "file": "graphify/obsidian/Stage-2 Commitment to Score-Function  ES (EGGROLL).md",
+      "x": 420,
+      "y": 3260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_bit_analog_formulation_v1_quadruple_schema",
+      "type": "file",
+      "file": "graphify/obsidian/State-Transition Quadruple (E,W,N,D) Schema.md",
+      "x": 20,
+      "y": 3340,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "EML + Log-Domain Algebra",
+      "x": 1620,
+      "y": 2700,
+      "width": 1100,
+      "height": 820,
+      "color": "4"
+    },
+    {
+      "id": "n_analog_primitive_gaps_main",
+      "type": "file",
+      "file": "graphify/obsidian/Analog Primitive Gaps \u2014 Log-Domain, Gilbert Cell, Subthreshold Exp (main).md",
+      "x": 1640,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage2_eggroll_ppca_device_primitive_completeness_claim",
+      "type": "file",
+      "file": "graphify/obsidian/Device-Primitive Completeness \u2014 Every Op Has a Graph Node.md",
+      "x": 1840,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_edl_operator",
+      "type": "file",
+      "file": "graphify/obsidian/EDL Operator edl(x,y)=exp(x)ln(y).md",
+      "x": 2040,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_edl_algebra_identity",
+      "type": "file",
+      "file": "graphify/obsidian/EDL operator \u2261 log-domain mul-div edl(x,y)=exp(x)ln(y) on the same junction structure.md",
+      "x": 1640,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "type": "file",
+      "file": "graphify/obsidian/EML Operator eml(x,y)=exp(x)-ln(y).md",
+      "x": 1840,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_eml_algebra_identity",
+      "type": "file",
+      "file": "graphify/obsidian/EML operator \u2261 log-domain algebra eml(x,y)=exp(x)\u2212ln(y) is voltage arithmetic on BJTsubthreshold junctions.md",
+      "x": 2040,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_eulers_formula",
+      "type": "file",
+      "file": "graphify/obsidian/Euler's Formula e(iphi)=cos+isin.md",
+      "x": 1640,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "type": "file",
+      "file": "graphify/obsidian/Exp-Log Representation (Liouville 1835).md",
+      "x": 1840,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_lean4",
+      "type": "file",
+      "file": "graphify/obsidian/Lean 4 Theorem Prover.md",
+      "x": 2040,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_log_domain_translinear",
+      "type": "file",
+      "file": "graphify/obsidian/Log-Domain  Translinear Computation (primitive).md",
+      "x": 1640,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_log_mul_to_add",
+      "type": "file",
+      "file": "graphify/obsidian/Log-domain identity log(xy)=log(x)+log(y); multiplication becomes voltage addition.md",
+      "x": 1840,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_nand_gate",
+      "type": "file",
+      "file": "graphify/obsidian/NAND Gate (Sheffer Stroke).md",
+      "x": 2040,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Complex Domain Required Internally.md",
+      "x": 1640,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Single Primitive AestheticPedagogy Value.md",
+      "x": 1840,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_relu",
+      "type": "file",
+      "file": "graphify/obsidian/ReLU Activation (Nair & Hinton 2010).md",
+      "x": 2040,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture",
+      "type": "file",
+      "file": "graphify/obsidian/Schanuel's Conjecture (Sieve Justification).md",
+      "x": 1640,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_ternary_operator",
+      "type": "file",
+      "file": "graphify/obsidian/Ternary Operator T(x,y,z).md",
+      "x": 1840,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_translinear_principle",
+      "type": "file",
+      "file": "graphify/obsidian/Translinear principle (Gilbert 1975) product of CW currents = product of CCW currents.md",
+      "x": 2040,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_triangular_structure",
+      "type": "file",
+      "file": "graphify/obsidian/Triangular structure log-domain (algebra), Gilbert (topology), subthreshold exp (device regime) are three views of one fact.md",
+      "x": 1640,
+      "y": 3260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_all_elementary_functions_from_a_single_operator_pdf_verify_base_set",
+      "type": "file",
+      "file": "graphify/obsidian/VerifyBaseSet (Bootstrapping Search).md",
+      "x": 1840,
+      "y": 3260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "Floating-Bulk RC + LIF Subthreshold + Pair 5",
+      "x": 3020,
+      "y": 2700,
+      "width": 1100,
+      "height": 720,
+      "color": "5"
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_ann",
+      "type": "file",
+      "file": "graphify/obsidian/Artificial Neural Network (ANN).md",
+      "x": 3040,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "type": "file",
+      "file": "graphify/obsidian/Bulk Bias Control Transistor (2-Transistor Cell).md",
+      "x": 3240,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "type": "file",
+      "file": "graphify/obsidian/EGG (Evolved Generative GRU, int8 RNN).md",
+      "x": 3440,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_neuron",
+      "type": "file",
+      "file": "graphify/obsidian/Electronic Neuron (Leaky-Integrate-and-Fire).md",
+      "x": 3040,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_synapse",
+      "type": "file",
+      "file": "graphify/obsidian/Electronic Synapse (Plasticity).md",
+      "x": 3240,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_northpole",
+      "type": "file",
+      "file": "graphify/obsidian/IBM NorthPole (Cassidy et al. 2024).md",
+      "x": 3440,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_loihi2",
+      "type": "file",
+      "file": "graphify/obsidian/Intel Loihi 2 (Orchard et al. 2021).md",
+      "x": 3040,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analog_primitive_gaps_lif_subthreshold_leakage",
+      "type": "file",
+      "file": "graphify/obsidian/LIF neuron leakage is subthreshold-native; Gaussian score computation is subthreshold-natural.md",
+      "x": 3240,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "type": "file",
+      "file": "graphify/obsidian/NS-RAM Cell (Neuro-Synaptic RAM).md",
+      "x": 3440,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_5_floatingbulk_runstats",
+      "type": "file",
+      "file": "graphify/obsidian/Pair 5 Floating-Bulk Drift \u2194 Running-Stats Norm.md",
+      "x": 3040,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_5_identity_alpha_rc",
+      "type": "file",
+      "file": "graphify/obsidian/Predicted identity \u03b1 = \u0394t(C_B\u00b7R_leak).md",
+      "x": 3240,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale 2-Transistor for Tunability and Repeatability.md",
+      "x": 3440,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale CMOS CompatibilityNo Alien Materials.md",
+      "x": 3040,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale Nonlinear RNN Choice for EGG.md",
+      "x": 3240,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_device_math_mapping_pair_5_rationale_free_normalization",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale normalization is free in silicon via V_B.md",
+      "x": 3440,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_tcad_simulation",
+      "type": "file",
+      "file": "graphify/obsidian/TCAD Simulation (Sentaurus Synopsys).md",
+      "x": 3040,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_synaptic_and_neural_behaviours_pdf_tonotopic_mapping",
+      "type": "file",
+      "file": "graphify/obsidian/Tonotopic Mapping (Milozzi et al. 2024).md",
+      "x": 3240,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "Stateful Interaction Field",
+      "x": 4420,
+      "y": 2700,
+      "width": 880,
+      "height": 720,
+      "color": "6"
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_axiomatization",
+      "type": "file",
+      "file": "graphify/obsidian/10-Axiom Formalization of Stateful NN.md",
+      "x": 4440,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_primitive_geometry_of_neural_representation_activation_code",
+      "type": "file",
+      "file": "graphify/obsidian/Activation Pattern  Cell Complex.md",
+      "x": 4640,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_primitive_geometry_of_neural_representation_code_state_encoding",
+      "type": "file",
+      "file": "graphify/obsidian/CodeState Encoding Below Real Numbers.md",
+      "x": 4840,
+      "y": 2780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_primitive_geometry_of_neural_representation_four_layer_framework",
+      "type": "file",
+      "file": "graphify/obsidian/EncodingInteractionConstraintDynamics Layer Framework.md",
+      "x": 4440,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_primitive_geometry_of_neural_representation_four_geometries",
+      "type": "file",
+      "file": "graphify/obsidian/Four Geometry Layers (parameterrepresentationfunctioncomputation).md",
+      "x": 4640,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_primitive_geometry_of_neural_representation_hyperplane_partition",
+      "type": "file",
+      "file": "graphify/obsidian/Hyperplane Partition Primitive.md",
+      "x": 4840,
+      "y": 2860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_primitive_geometry_of_neural_representation_integration_claim",
+      "type": "file",
+      "file": "graphify/obsidian/Integration vector geometry as macroscopic limit of coded interaction.md",
+      "x": 4440,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_primitive_geometry_of_neural_representation_interaction_geometry",
+      "type": "file",
+      "file": "graphify/obsidian/Interaction Geometry (state-transition).md",
+      "x": 4640,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_interaction_state_layer",
+      "type": "file",
+      "file": "graphify/obsidian/Interaction-State Layer (multi-channel node, edge-state).md",
+      "x": 4840,
+      "y": 2940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_mixture_of_autoencoders",
+      "type": "file",
+      "file": "graphify/obsidian/Mixture of Transition Autoencoders.md",
+      "x": 4440,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_piecewise_linear_atlas",
+      "type": "file",
+      "file": "graphify/obsidian/Piecewise Linear Region Atlas.md",
+      "x": 4640,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_primitive_geometry_of_neural_representation_main",
+      "type": "file",
+      "file": "graphify/obsidian/Primitive Geometry of Neural Representation (overview).md",
+      "x": 4840,
+      "y": 3020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_rank1_operator_primitive",
+      "type": "file",
+      "file": "graphify/obsidian/Rank-1 Operator Primitive (v_i u_iT).md",
+      "x": 4440,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_neural_networks_as_state_region_dictionaries_residual_transition_autoencoder",
+      "type": "file",
+      "file": "graphify/obsidian/Residual Transition Autoencoder Block.md",
+      "x": 4640,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_shared_basis_interaction",
+      "type": "file",
+      "file": "graphify/obsidian/Shared-Basis Low-Rank Edge Interaction.md",
+      "x": 4840,
+      "y": 3100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_physical_reinterpretation_of_deep_learning_stateful_interaction_field",
+      "type": "file",
+      "file": "graphify/obsidian/Stateful Interaction Field Formalism.md",
+      "x": 4440,
+      "y": 3180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "Geometric OOD + Manifold LID (body-extracted)",
+      "x": 0,
+      "y": 3700,
+      "width": 880,
+      "height": 720,
+      "color": "1"
+    },
+    {
+      "id": "n_learning_to_discover_at_test_time_domains",
+      "type": "file",
+      "file": "graphify/obsidian/Continuous-reward discovery domains math, GPU kernels, algorithms, biology.md",
+      "x": 20,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_to_discover_at_test_time_discovery_vs_inference",
+      "type": "file",
+      "file": "graphify/obsidian/Discovery vs standard-RL-inference distinction.md",
+      "x": 220,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_geometric_explanation_of_the_likelihood_ood_detection_paradox_likelihood_lid_detector",
+      "type": "file",
+      "file": "graphify/obsidian/Dual-criterion OOD detector high likelihood AND high LID.md",
+      "x": 420,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_leworldmodel_physical_structure_probing",
+      "type": "file",
+      "file": "graphify/obsidian/Emergent physical structure in latent space.md",
+      "x": 20,
+      "y": 3860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_to_discover_at_test_time_entropic_objective",
+      "type": "file",
+      "file": "graphify/obsidian/Entropic objective J_beta favoring max-reward actions.md",
+      "x": 220,
+      "y": 3860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_geometric_explanation_of_the_likelihood_ood_detection_paradox_main",
+      "type": "file",
+      "file": "graphify/obsidian/Geometric Explanation of the Likelihood OOD Detection Paradox.md",
+      "x": 420,
+      "y": 3860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_geometric_explanation_of_the_likelihood_ood_detection_paradox_lid_score_rank",
+      "type": "file",
+      "file": "graphify/obsidian/LID-via-score-rank estimator (Jacobianscore quantity).md",
+      "x": 20,
+      "y": 3940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_leworldmodel_jepa_latent_prediction",
+      "type": "file",
+      "file": "graphify/obsidian/Latent-space next-embedding prediction (JEPA, no pixel reconstruction).md",
+      "x": 220,
+      "y": 3940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_leworldmodel_main",
+      "type": "file",
+      "file": "graphify/obsidian/LeWorldModel Stable End-to-End JEPA from Pixels.md",
+      "x": 420,
+      "y": 3940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_to_discover_at_test_time_main",
+      "type": "file",
+      "file": "graphify/obsidian/Learning to Discover at Test Time (TTT-Discover).md",
+      "x": 20,
+      "y": 4020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_a_geometric_explanation_of_the_likelihood_ood_detection_paradox_manifold_geometry",
+      "type": "file",
+      "file": "graphify/obsidian/Manifold hypothesis and the density-vs-mass distinction.md",
+      "x": 220,
+      "y": 4020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_leworldmodel_mpc_latent_planning",
+      "type": "file",
+      "file": "graphify/obsidian/Model-predictive control in latent space.md",
+      "x": 420,
+      "y": 4020,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_to_discover_at_test_time_puct_reuse",
+      "type": "file",
+      "file": "graphify/obsidian/PUCT-inspired reuse for initial-state selection.md",
+      "x": 20,
+      "y": 4100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_leworldmodel_vs_ttt_discover_rationale",
+      "type": "file",
+      "file": "graphify/obsidian/Rationale LeWM and TTT-Discover target different paradigms.md",
+      "x": 220,
+      "y": 4100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_leworldmodel_sigreg_anticollapse",
+      "type": "file",
+      "file": "graphify/obsidian/SIGReg anti-collapse regularizer.md",
+      "x": 420,
+      "y": 4100,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_learning_to_discover_at_test_time_ttt_mechanism",
+      "type": "file",
+      "file": "graphify/obsidian/Test-time training gradient updates to LLM weights while solving one problem.md",
+      "x": 20,
+      "y": 4180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "Binarized NN + XNOR Pipeline (body-extracted)",
+      "x": 1620,
+      "y": 3700,
+      "width": 660,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_binarized_neural_networks_main",
+      "type": "file",
+      "file": "graphify/obsidian/Binarized Neural Networks (Hubara, Courbariaux, Soudry, El-Yaniv, Bengio 2016).md",
+      "x": 1640,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_binarized_neural_networks_gpu_kernel_7x",
+      "type": "file",
+      "file": "graphify/obsidian/Binary matmul GPU kernel 7\u00d7 speedup on MNIST BNN without accuracy loss.md",
+      "x": 1840,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_binarized_neural_networks_sign_binarization",
+      "type": "file",
+      "file": "graphify/obsidian/Deterministic sign() binarization of weights AND activations to {-1,+1}; stochastic variant uses \u03c3(x).md",
+      "x": 2040,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_binarized_neural_networks_real_valued_accumulators",
+      "type": "file",
+      "file": "graphify/obsidian/Real-valued weight accumulators kept during training; clipped to -1,1; binarized only for forwardgradient compute.md",
+      "x": 1640,
+      "y": 3860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_binarized_neural_networks_shift_batchnorm_adamax",
+      "type": "file",
+      "file": "graphify/obsidian/Shift-based BatchNorm and shift-based AdaMax multiplies replaced by power-of-2 bit-shifts (AP2).md",
+      "x": 1840,
+      "y": 3860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_binarized_neural_networks_straight_through_estimator",
+      "type": "file",
+      "file": "graphify/obsidian/Straight-through estimator (STE) gr = gq \u00b7 1_{r\u22641}; gradient of sign() treated as gradient of hard-tanh.md",
+      "x": 2040,
+      "y": 3860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_binarized_neural_networks_xnor_popcount_mac",
+      "type": "file",
+      "file": "graphify/obsidian/XNOR + popcount replaces floating-point MAC {-1,+1}\u00b7{-1,+1} dot product = popcount(xnor(a,W)).md",
+      "x": 1640,
+      "y": 3940,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "Convergence Theory & NTK",
+      "x": 3020,
+      "y": 3700,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
+      "type": "file",
+      "file": "graphify/obsidian/Convergence to Linearity Theorem.md",
+      "x": 3040,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem",
+      "type": "file",
+      "file": "graphify/obsidian/Gaussian Annulus Theorem.md",
+      "x": 3240,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_pdf_ntk",
+      "type": "file",
+      "file": "graphify/obsidian/Neural Tangent Kernel (Jacot et al. 2018).md",
+      "x": 3440,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "label": "Matrix Gaussian ES",
+      "x": 4420,
+      "y": 3700,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_md_gaussian_es",
+      "type": "file",
+      "file": "graphify/obsidian/Gaussian ES.md",
+      "x": 4440,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evolution_strategies_at_the_hyperscale_md_matrix_gaussian_distribution",
+      "type": "file",
+      "file": "graphify/obsidian/Matrix Gaussian Distribution.md",
+      "x": 4640,
+      "y": 3780,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_eggroll_evolution_strategies_at_the_hyperscale_md_evolution_strategies",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_md_evolution_strategies",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_eggroll_evolution_strategies_at_the_hyperscale_md_lora",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_md_lora",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_eggroll_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_eggroll_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_evolution_strategies_evolution_strategies_at_the_hyperscale_md_score_function_gradient",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_evolution_strategies",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_md_score_function_gradient",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_gaussian_es_evolution_strategies_at_the_hyperscale_md_matrix_gaussian_distribution",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_gaussian_es",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_md_matrix_gaussian_distribution",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation_evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_md_rationale_arithmetic_intensity",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation_device_math_mapping_pair_3_memristor_lowrank",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "toNode": "n_device_math_mapping_pair_3_memristor_lowrank",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation_analog_primitive_gaps_gilbert_outer_product_strip",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "toNode": "n_analog_primitive_gaps_gilbert_outer_product_strip",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation_stage2_eggroll_ppca_phase2_combined_forward",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_phase2_combined_forward",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation_stage2_eggroll_ppca_lever2_rank_precision",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_lever2_rank_precision",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation_stage2_eggroll_ppca_rank1_realization_silicon",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_md_low_rank_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_rank1_realization_silicon",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_nand_gate",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_nand_gate",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_exp_log_pair",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_eulers_formula",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_eulers_formula",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_edl_operator",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_edl_operator",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_ternary_operator",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_ternary_operator",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_verify_base_set",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_verify_base_set",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_kan",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_kan",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_relu",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_relu",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_lean4",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_lean4",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_rationale_single_primitive",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_rationale_complex_internally",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_eml_operator_a_primer_on_quantum_machine_learning_variational_quantum_circuit",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_eml_operator",
+      "toNode": "n_a_primer_on_quantum_machine_learning_variational_quantum_circuit",
+      "label": "semantically_similar_to [0.5]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_nand_gate_synaptic_and_neural_behaviours_pdf_mosfet",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_nand_gate",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_binary_tree_grammar",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression_all_elementary_functions_from_a_single_operator_pdf_master_formula",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_master_formula",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression_all_elementary_functions_from_a_single_operator_pdf_adam_optimizer",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_adam_optimizer",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression_all_elementary_functions_from_a_single_operator_pdf_pytorch",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_pytorch",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression_all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_symbolic_regression",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_verify_base_set_all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_verify_base_set",
+      "toNode": "n_all_elementary_functions_from_a_single_operator_pdf_schanuel_conjecture",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_all_elementary_functions_from_a_single_operator_pdf_kan_a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "fromNode": "n_all_elementary_functions_from_a_single_operator_pdf_kan",
+      "toNode": "n_a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions",
+      "label": "semantically_similar_to [0.8]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_evolution_strategies",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_evolution_strategies",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_lora",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_lora",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_openes",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_openes",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_grpo",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_grpo",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_rwkv7",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_rwkv7",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_mezo",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_mezo",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_vllm",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_vllm",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_evolution_strategies_at_the_hyperscale_pdf_counter_based_rng",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_counter_based_rng",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_bit_analog_formulation_v1_stage2_option_score_function_es",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_bit_analog_formulation_v1_stage2_option_score_function_es",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_analog_primitive_gaps_log_domain_role_eggroll",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_analog_primitive_gaps_log_domain_role_eggroll",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_stage2_eggroll_ppca_main",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_stage2_eggroll_ppca_main",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_stage2_eggroll_ppca_k_batch_timescale_identity",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_stage2_eggroll_ppca_k_batch_timescale_identity",
+      "label": "[0.9]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_eggroll_stage2_eggroll_ppca_stage2_commitment_es",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_eggroll",
+      "toNode": "n_stage2_eggroll_ppca_stage2_commitment_es",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation_evolution_strategies_at_the_hyperscale_pdf_central_limit_theorem",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_central_limit_theorem",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation_evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "toNode": "n_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation_analog_primitive_gaps_gaussian_score_realization",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "toNode": "n_analog_primitive_gaps_gaussian_score_realization",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation_stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation",
+      "toNode": "n_stage2_eggroll_ppca_phase5_fitness_subthreshold",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_ntk_evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_ntk",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_edgeworth_expansion",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem_evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_gaussian_annulus_theorem",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_convergence_theorem",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_egg_model_evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_rationale_rnn_for_es",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_egg_model_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_egg_model_stage2_eggroll_ppca_main",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_egg_model",
+      "toNode": "n_stage2_eggroll_ppca_main",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_evolution_strategies_at_the_hyperscale_pdf_rationale_low_rank_for_arithmetic_intensity",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_device_math_mapping_pair_3_memristor_lowrank",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_device_math_mapping_pair_3_memristor_lowrank",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_analog_primitive_gaps_gilbert_outer_product_strip",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_analog_primitive_gaps_gilbert_outer_product_strip",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_analog_primitive_gaps_log_domain_role_eggroll",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_analog_primitive_gaps_log_domain_role_eggroll",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_stage2_eggroll_ppca_phase2_combined_forward",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_phase2_combined_forward",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_stage2_eggroll_ppca_lever2_rank_precision",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_lever2_rank_precision",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_stage2_eggroll_ppca_rank1_realization_silicon",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_rank1_realization_silicon",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation_stage2_eggroll_ppca_stage3_open_problems",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_1_perturbation",
+      "toNode": "n_stage2_eggroll_ppca_stage3_open_problems",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem_stage2_eggroll_ppca_k_batch_timescale_identity",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "toNode": "n_stage2_eggroll_ppca_k_batch_timescale_identity",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem_stage2_eggroll_ppca_convergence_rate_claim",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "toNode": "n_stage2_eggroll_ppca_convergence_rate_claim",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem_stage2_eggroll_ppca_stage3_open_problems",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_rank_convergence_theorem",
+      "toNode": "n_stage2_eggroll_ppca_stage3_open_problems",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_evolution_strategies_at_the_hyperscale_pdf_counter_based_rng_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "fromNode": "n_evolution_strategies_at_the_hyperscale_pdf_counter_based_rng",
+      "toNode": "n_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_synaptic_and_neural_behaviours_pdf_mosfet",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_synaptic_and_neural_behaviours_pdf_neuron",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_neuron",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_synaptic_and_neural_behaviours_pdf_synapse",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_synapse",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_synaptic_and_neural_behaviours_pdf_memristor",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_synaptic_and_neural_behaviours_pdf_tcad_simulation",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_tcad_simulation",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_device_math_mapping_main",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_device_math_mapping_main",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ns_ram_cell_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_beol_memristive_interface",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ns_ram_cell",
+      "toNode": "n_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_beol_memristive_interface",
+      "label": "integrates_with [0.7]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_synaptic_and_neural_behaviours_pdf_punch_through",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_device_math_mapping_main",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_device_math_mapping_main",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_bit_analog_formulation_v1_nonlinearity_n",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_bit_analog_formulation_v1_nonlinearity_n",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_bit_analog_formulation_v1_nonlinearity_option_gamma_saturation_square",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_bit_analog_formulation_v1_nonlinearity_option_gamma_saturation_square",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_bit_analog_formulation_v1_nonlinearity_option_beta_subthreshold_exp",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_bit_analog_formulation_v1_decoder_d",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_bit_analog_formulation_v1_decoder_d",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_bit_analog_formulation_v1_shared_silicon_claim",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_bit_analog_formulation_v1_shared_silicon_claim",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_analog_primitive_gaps_gilbert_cell",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_analog_primitive_gaps_gilbert_cell",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_analog_primitive_gaps_subthreshold_exp",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_analog_primitive_gaps_subthreshold_exp",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_analog_primitive_gaps_n_beta_fills_placeholder",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_analog_primitive_gaps_n_beta_fills_placeholder",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_analog_primitive_gaps_three_regime_unification",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_analog_primitive_gaps_three_regime_unification",
+      "label": "specializes [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_stage2_eggroll_ppca_phase3_nonlinearity",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_stage2_eggroll_ppca_phase3_nonlinearity",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_mosfet_stage2_eggroll_ppca_shared_silicon_dual_role",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_mosfet",
+      "toNode": "n_stage2_eggroll_ppca_shared_silicon_dual_role",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_device_math_mapping_pair_7_kink_relu_polytope",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_device_math_mapping_pair_7_kink_relu_polytope",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_bit_analog_formulation_v1_nonlinearity_n",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_bit_analog_formulation_v1_nonlinearity_n",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_analog_primitive_gaps_subthreshold_exp",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_analog_primitive_gaps_subthreshold_exp",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_analog_primitive_gaps_three_regime_unification",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_analog_primitive_gaps_three_regime_unification",
+      "label": "specializes [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_stage2_eggroll_ppca_phase3_nonlinearity",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_stage2_eggroll_ppca_phase3_nonlinearity",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_punch_through_stage2_eggroll_ppca_lever3_two_timescale",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_punch_through",
+      "toNode": "n_stage2_eggroll_ppca_lever3_two_timescale",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_floating_bulk_device_math_mapping_pair_5_floatingbulk_runstats",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "toNode": "n_device_math_mapping_pair_5_floatingbulk_runstats",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_floating_bulk_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "toNode": "n_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_floating_bulk_stage2_eggroll_ppca_dual_crossbar_topology",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_floating_bulk",
+      "toNode": "n_stage2_eggroll_ppca_dual_crossbar_topology",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ann_synaptic_and_neural_behaviours_pdf_neuron",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ann",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_neuron",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ann_synaptic_and_neural_behaviours_pdf_synapse",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ann",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_synapse",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ann_synaptic_and_neural_behaviours_pdf_loihi2",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ann",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_loihi2",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_ann_synaptic_and_neural_behaviours_pdf_northpole",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_ann",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_northpole",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_neuron_synaptic_and_neural_behaviours_pdf_tonotopic_mapping",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_neuron",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_tonotopic_mapping",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_neuron_analog_primitive_gaps_subthreshold_exp",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_neuron",
+      "toNode": "n_analog_primitive_gaps_subthreshold_exp",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_neuron_analog_primitive_gaps_lif_subthreshold_leakage",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_neuron",
+      "toNode": "n_analog_primitive_gaps_lif_subthreshold_leakage",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_synapse_synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_synapse",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_synapse_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_synapse",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_device_math_mapping_pair_3_memristor_lowrank",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_device_math_mapping_pair_3_memristor_lowrank",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_bit_analog_formulation_v1_linear_combiner_w",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_bit_analog_formulation_v1_linear_combiner_w",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_bit_analog_formulation_v1_canonical_minimal_model",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_bit_analog_formulation_v1_canonical_minimal_model",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_bit_analog_formulation_v1_local_update_constraint_g",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_bit_analog_formulation_v1_local_update_constraint_g",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_stage2_eggroll_ppca_phase2_combined_forward",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_stage2_eggroll_ppca_phase2_combined_forward",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_stage2_eggroll_ppca_lever1_tiling",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_stage2_eggroll_ppca_lever1_tiling",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_stage2_eggroll_ppca_dual_crossbar_topology",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_stage2_eggroll_ppca_dual_crossbar_topology",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_memristor_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_beol_memristive_interface",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_memristor",
+      "toNode": "n_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_beol_memristive_interface",
+      "label": "integrates_with [0.85]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor_synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor_device_math_mapping_pair_5_floatingbulk_runstats",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor",
+      "toNode": "n_device_math_mapping_pair_5_floatingbulk_runstats",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_short_term_plasticity_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "toNode": "n_device_math_mapping_pair_1_punchthrough_es_momentum",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_short_term_plasticity_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "toNode": "n_stage2_eggroll_ppca_phase1_perturbation_draw",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_short_term_plasticity_stage2_eggroll_ppca_lever3_two_timescale",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "toNode": "n_stage2_eggroll_ppca_lever3_two_timescale",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_short_term_plasticity_stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_short_term_plasticity",
+      "toNode": "n_stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_synaptic_and_neural_behaviours_pdf_hot_carrier_injection",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_hot_carrier_injection",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_synaptic_and_neural_behaviours_pdf_flash_memory",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_flash_memory",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_device_math_mapping_pair_2_charge_trap_consolidation",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_device_math_mapping_pair_2_charge_trap_consolidation",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_bit_analog_formulation_v1_encoder_option_b_pulse_density",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_bit_analog_formulation_v1_encoder_option_b_pulse_density",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_bit_analog_formulation_v1_encoder_e",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_bit_analog_formulation_v1_encoder_e",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_stage2_eggroll_ppca_lever3_two_timescale",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_stage2_eggroll_ppca_lever3_two_timescale",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_stage2_eggroll_ppca_ppca_structural_hub_claim",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_long_term_plasticity_stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_long_term_plasticity",
+      "toNode": "n_stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_hot_carrier_injection_device_math_mapping_pair_2_charge_trap_consolidation",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_hot_carrier_injection",
+      "toNode": "n_device_math_mapping_pair_2_charge_trap_consolidation",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_kink_effect_device_math_mapping_pair_7_kink_relu_polytope",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "toNode": "n_device_math_mapping_pair_7_kink_relu_polytope",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_kink_effect_bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "toNode": "n_bit_analog_formulation_v1_nonlinearity_option_alpha_kink",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_kink_effect_bit_analog_formulation_v1_nonlinearity_n",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "toNode": "n_bit_analog_formulation_v1_nonlinearity_n",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_kink_effect_bit_analog_formulation_v1_decoder_d",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "toNode": "n_bit_analog_formulation_v1_decoder_d",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_kink_effect_analog_primitive_gaps_subthreshold_exp",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "toNode": "n_analog_primitive_gaps_subthreshold_exp",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_kink_effect_analog_primitive_gaps_three_regime_unification",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "toNode": "n_analog_primitive_gaps_three_regime_unification",
+      "label": "specializes [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_kink_effect_stage2_eggroll_ppca_phase3_nonlinearity",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_kink_effect",
+      "toNode": "n_stage2_eggroll_ppca_phase3_nonlinearity",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention_device_math_mapping_pair_2_charge_trap_consolidation",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "toNode": "n_device_math_mapping_pair_2_charge_trap_consolidation",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention_stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "toNode": "n_stage2_eggroll_ppca_phase6_consolidation_gilbert",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention_stage2_eggroll_ppca_dual_crossbar_topology",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "toNode": "n_stage2_eggroll_ppca_dual_crossbar_topology",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention_stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "toNode": "n_stage2_eggroll_ppca_analog_lowpass_consolidation",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention_stage2_eggroll_ppca_stage3_open_problems",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_rationale_charge_trapping_retention",
+      "toNode": "n_stage2_eggroll_ppca_stage3_open_problems",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_phase_change_memory_device_math_mapping_pair_3_memristor_lowrank",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "toNode": "n_device_math_mapping_pair_3_memristor_lowrank",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_phase_change_memory_bit_analog_formulation_v1_linear_combiner_w",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "toNode": "n_bit_analog_formulation_v1_linear_combiner_w",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_phase_change_memory_bit_analog_formulation_v1_local_update_constraint_g",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "toNode": "n_bit_analog_formulation_v1_local_update_constraint_g",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_phase_change_memory_stage2_eggroll_ppca_dual_crossbar_topology",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "toNode": "n_stage2_eggroll_ppca_dual_crossbar_topology",
+      "label": "[1.0]"
+    },
+    {
+      "id": "e_synaptic_and_neural_behaviours_pdf_phase_change_memory_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_beol_memristive_interface",
+      "fromNode": "n_synaptic_and_neural_behaviours_pdf_phase_change_memory",
+      "toNode": "n_a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_beol_memristive_interface",
+      "label": "integrates_with [0.75]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_main_semi_passive_physical_neural_devices_transistor_neuron_analogy",
+      "fromNode": "n_semi_passive_physical_neural_devices_main",
+      "toNode": "n_semi_passive_physical_neural_devices_transistor_neuron_analogy",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_main_semi_passive_physical_neural_devices_analog_vlsi_lineage",
+      "fromNode": "n_semi_passive_physical_neural_devices_main",
+      "toNode": "n_semi_passive_physical_neural_devices_analog_vlsi_lineage",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_main_semi_passive_physical_neural_devices_learnable_physical_medium",
+      "fromNode": "n_semi_passive_physical_neural_devices_main",
+      "toNode": "n_semi_passive_physical_neural_devices_learnable_physical_medium",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_main_semi_passive_physical_neural_devices_three_factor_learning",
+      "fromNode": "n_semi_passive_physical_neural_devices_main",
+      "toNode": "n_semi_passive_physical_neural_devices_three_factor_learning",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_main_semi_passive_physical_neural_devices_eggroll_connection",
+      "fromNode": "n_semi_passive_physical_neural_devices_main",
+      "toNode": "n_semi_passive_physical_neural_devices_eggroll_connection",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_main_semi_passive_physical_neural_devices_operation_transition_speed",
+      "fromNode": "n_semi_passive_physical_neural_devices_main",
+      "toNode": "n_semi_passive_physical_neural_devices_operation_transition_speed",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_transistor_neuron_analogy_self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit",
+      "fromNode": "n_semi_passive_physical_neural_devices_transistor_neuron_analogy",
+      "toNode": "n_self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_learnable_physical_medium_semi_passive_physical_neural_devices_memorable_operational_split",
+      "fromNode": "n_semi_passive_physical_neural_devices_learnable_physical_medium",
+      "toNode": "n_semi_passive_physical_neural_devices_memorable_operational_split",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_learnable_physical_medium_a_physical_reinterpretation_of_deep_learning_reactive_medium",
+      "fromNode": "n_semi_passive_physical_neural_devices_learnable_physical_medium",
+      "toNode": "n_a_physical_reinterpretation_of_deep_learning_reactive_medium",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_memorable_operational_split_semi_passive_physical_neural_devices_ram_fast_state",
+      "fromNode": "n_semi_passive_physical_neural_devices_memorable_operational_split",
+      "toNode": "n_semi_passive_physical_neural_devices_ram_fast_state",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_memorable_operational_split_semi_passive_physical_neural_devices_flash_slow_parameter",
+      "fromNode": "n_semi_passive_physical_neural_devices_memorable_operational_split",
+      "toNode": "n_semi_passive_physical_neural_devices_flash_slow_parameter",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_memorable_operational_split_self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "fromNode": "n_semi_passive_physical_neural_devices_memorable_operational_split",
+      "toNode": "n_self_organizing_cmos_memory_architecture_for_representation_learning_time_scale_separation",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_flash_slow_parameter_semi_passive_physical_neural_devices_threshold_shift_update",
+      "fromNode": "n_semi_passive_physical_neural_devices_flash_slow_parameter",
+      "toNode": "n_semi_passive_physical_neural_devices_threshold_shift_update",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_flash_slow_parameter_self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "fromNode": "n_semi_passive_physical_neural_devices_flash_slow_parameter",
+      "toNode": "n_self_organizing_cmos_memory_architecture_for_representation_learning_consolidation_mechanism",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_flash_slow_parameter_device_math_mapping_pair_6_single_cell_two_timescale",
+      "fromNode": "n_semi_passive_physical_neural_devices_flash_slow_parameter",
+      "toNode": "n_device_math_mapping_pair_6_single_cell_two_timescale",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_flash_slow_parameter_bit_analog_formulation_v1_encoder_option_b_pulse_density",
+      "fromNode": "n_semi_passive_physical_neural_devices_flash_slow_parameter",
+      "toNode": "n_bit_analog_formulation_v1_encoder_option_b_pulse_density",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_flash_slow_parameter_bit_analog_formulation_v1_encoder_e",
+      "fromNode": "n_semi_passive_physical_neural_devices_flash_slow_parameter",
+      "toNode": "n_bit_analog_formulation_v1_encoder_e",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_three_factor_learning_self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning",
+      "fromNode": "n_semi_passive_physical_neural_devices_three_factor_learning",
+      "toNode": "n_self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_single_cell_two_timescales_semi_passive_physical_neural_devices_rationale_single_cell",
+      "fromNode": "n_semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "toNode": "n_semi_passive_physical_neural_devices_rationale_single_cell",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_single_cell_two_timescales_device_math_mapping_pair_6_single_cell_two_timescale",
+      "fromNode": "n_semi_passive_physical_neural_devices_single_cell_two_timescales",
+      "toNode": "n_device_math_mapping_pair_6_single_cell_two_timescale",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_semi_passive_physical_neural_devices_rationale_single_cell_device_math_mapping_pair_6_single_cell_two_timescale",
+      "fromNode": "n_semi_passive_physical_neural_devices_rationale_single_cell",
+      "toNode": "n_device_math_mapping_pair_6_single_cell_two_timescale",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_level_operator_framework_for_relu_mlps_relu_gate",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_relu_gate",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_level_operator_framework_for_relu_mlps_liftgrad_pullback",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_liftgrad_pullback",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_level_operator_framework_for_relu_mlps_three_layer_formalization",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_three_layer_formalization",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_level_operator_framework_for_relu_mlps_packed_bitslice",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_packed_bitslice",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_level_operator_framework_for_relu_mlps_bit_parallel_vs_serial",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_bit_parallel_vs_serial",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_level_operator_framework_for_relu_mlps_fixed_point_backward",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_fixed_point_backward",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_level_operator_framework_for_relu_mlps_fpga_asic_target",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_fpga_asic_target",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_analog_formulation_v1_encoder_option_a_bitplane",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_analog_formulation_v1_encoder_option_a_bitplane",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_main_bit_analog_formulation_v1_encoder_e",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_main",
+      "toNode": "n_bit_analog_formulation_v1_encoder_e",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_bit_plane_profile_bit_level_operator_framework_for_relu_mlps_encode_decode",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_encode_decode",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_bit_plane_profile_bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "toNode": "n_bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_bit_plane_profile_a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "toNode": "n_a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_bit_plane_profile_primitive_geometry_of_neural_representation_code_state_encoding",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "toNode": "n_primitive_geometry_of_neural_representation_code_state_encoding",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_bit_level_operator_framework_for_relu_mlps_bit_plane_profile_bit_analog_formulation_v1_encoder_option_a_bitplane",
+      "fromNode": "n_bit_level_operator_framework_for_relu_mlps_bit_plane_profile",
+      "toNode": "n_bit_analog_formulation_v1_encoder_option_a_bitplane",
+      "label": "implements [EXTRACTED]"
+    }
+  ]
+}
