@@ -35,8 +35,15 @@
       "input_tokens": 6200,
       "output_tokens": 8400,
       "files": 1
+    },
+    {
+      "date": "2026-04-22T11:59:46.887205+00:00",
+      "input_tokens": 70000,
+      "output_tokens": 20000,
+      "files": 16,
+      "note": "audit re-extraction"
     }
   ],
-  "total_input_tokens": 157400,
-  "total_output_tokens": 49600
+  "total_input_tokens": 227400,
+  "total_output_tokens": 69600
 }
