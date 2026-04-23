@@ -49,8 +49,15 @@
       "output_tokens": 6800,
       "files": 1,
       "note": "three-tier memory extension"
+    },
+    {
+      "date": "2026-04-23T14:06:56.948809+00:00",
+      "input_tokens": 11000,
+      "output_tokens": 17000,
+      "files": 3,
+      "note": "formulation layer C+D+S + AMBIGUOUS resolution"
     }
   ],
-  "total_input_tokens": 231900,
-  "total_output_tokens": 76400
+  "total_input_tokens": 242900,
+  "total_output_tokens": 93400
 }
