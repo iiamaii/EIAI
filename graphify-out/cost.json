@@ -42,8 +42,15 @@
       "output_tokens": 20000,
       "files": 16,
       "note": "audit re-extraction"
+    },
+    {
+      "date": "2026-04-23T10:31:02.169892+00:00",
+      "input_tokens": 4500,
+      "output_tokens": 6800,
+      "files": 1,
+      "note": "three-tier memory extension"
     }
   ],
-  "total_input_tokens": 227400,
-  "total_output_tokens": 69600
+  "total_input_tokens": 231900,
+  "total_output_tokens": 76400
 }
