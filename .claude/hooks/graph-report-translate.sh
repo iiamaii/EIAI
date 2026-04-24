@@ -9,6 +9,24 @@ set -euo pipefail
 REPORT="graphify-out/GRAPH_REPORT.md"
 KO_REPORT="graphify-out/GRAPH_REPORT.ko.md"
 
+auto_commit_and_push() {
+    # Only operate inside a git repo with an 'origin' remote.
+    git rev-parse --git-dir >/dev/null 2>&1 || return 0
+    git remote get-url origin >/dev/null 2>&1 || return 0
+
+    # Stage graphify-out artifacts if present.
+    [ -d graphify-out ] || return 0
+    git add graphify-out 2>/dev/null || return 0
+
+    # Nothing staged → nothing to do.
+    git diff --cached --quiet && return 0
+
+    local ts
+    ts=$(date +"%Y-%m-%d %H:%M:%S")
+    git commit -m "graphify: auto-update GRAPH_REPORT ($ts)" >/dev/null 2>&1 || return 0
+    git push origin HEAD >/dev/null 2>&1 || true
+}
+
 # No report yet → nothing to do.
 [ -f "$REPORT" ] || exit 0
 
@@ -20,8 +38,9 @@ REPORT_MTIME=$(mtime "$REPORT")
 KO_MTIME=0
 [ -f "$KO_REPORT" ] && KO_MTIME=$(mtime "$KO_REPORT")
 
-# Korean version is up-to-date → allow stop.
+# Korean version is up-to-date → commit/push artifacts, then allow stop.
 if [ "$REPORT_MTIME" -le "$KO_MTIME" ]; then
+    auto_commit_and_push
     exit 0
 fi
 
