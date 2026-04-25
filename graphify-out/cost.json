@@ -63,8 +63,15 @@
       "output_tokens": 14000,
       "files": 5,
       "note": "theory background notes 1-5"
+    },
+    {
+      "date": "2026-04-25T04:34:21.451790+00:00",
+      "input_tokens": 4000,
+      "output_tokens": 5500,
+      "files": 1,
+      "note": "alternative candidate catalog"
     }
   ],
-  "total_input_tokens": 260900,
-  "total_output_tokens": 107400
+  "total_input_tokens": 264900,
+  "total_output_tokens": 112900
 }
