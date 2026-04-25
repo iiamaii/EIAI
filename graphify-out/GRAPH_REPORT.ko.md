@@ -1,85 +1,81 @@
 # 그래프 보고서 (Graph Report) - ./raw  (2026-04-25)
 
 ## 코퍼스 점검 (Corpus Check)
-- 41 파일 · 약 71,500 단어
-- 판정: 코퍼스가 그래프 구조로 가치를 얻을 만한 규모입니다.
+- 42 파일 · 약 76,000 단어
+- 노드 564개 · 엣지 1365개 · 커뮤니티 13개 · AMBIGUOUS 0 유지
 
-## 요약 (Summary)
-- 노드 542개 · 엣지(edge) 1310개 · 커뮤니티(community) 15개
-- 추출 결과: 0% AMBIGUOUS 유지
+## 이번 업데이트 — FPGA 구현 가능성 분석
 
-## 이번 업데이트 — 단계별 이론 전개 (Class Generalization)
+Step 9 verification protocol을 FPGA primitive에 직접 적용. 결과:
 
-대안 카탈로그가 보여준 "PPCA = 한 instance"의 함의를 수학적 일반화로 격상한 9단계 전개:
+### 7개 슬롯 멤버십 결과
+- **Slot 1 W (DSP slice)**: 𝒞_W 조건 (iv) **FAIL** — Kirchhoff sum 아닌 digital MAC
+- **Slot 2 N (LUT)**: 𝒞_N 조건 (v) **FAIL** — transistor I-V 아닌 lookup
+- **Slot 3 S (LUT/arith)**: 형식 PASS, 의미 △
+- **Slot 4 E (Fabric+ADC)**: bypass-digitalization 조건 **FAIL** (ADC 사용)
+- **Slot 5 Update (BRAM/Flash)**: BRAM 휘발성 △, 외부 Flash로 보완 가능
+- **Slot 6 Batch (clock)**: 형식 PASS, but 시정수가 device 아닌 hyperparameter
+- **Slot 7 Power**: ~25W FPGA → semi-passive **FAIL**
 
-| Step | 내용 | 결과물 |
+**결론**: 7개 중 4개 명확히 FAIL — strict한 의미로 FPGA는 𝒮 ∈ ℳ_PPCA의 멤버 **아님**.
+
+### 4개 가능 모드
+
+| 모드 | FPGA 역할 | 살아남는 주장 |
 |---|---|---|
-| 0 | 모티베이션: instance → class | 일반화 필요성 |
-| 1 | 7개 admissible operator class 정의 (𝒞_E, 𝒞_W, 𝒞_N, 𝒞_D, 𝒞_S, 𝒞_R, 𝒞_Σ) | 멤버십 조건 |
-| 2 | Generalized Layer C (parametric) | ℳ_PPCA 정의 |
-| 3 | Theorem 1' (Generalized Well-Posedness) | Picard-Lindelöf의 class-수준 적용 |
-| 4 | Theorem 2' (Generalized Realizability) | 카탈로그 자체가 증명 |
-| 5 | Theorem 3' (Generalized SP Completeness) | Switched Volterra가 모든 𝒞_N 멤버에 적용 |
-| 6 | Theorem 4' (Generalized Convergence) | REINFORCE 일반화로 모든 𝒞_S에 적용 |
-| 7 | Theorem 5' (Generalized Noise Bound) | σ_eff²(𝒮)로 application별 정량 예측 |
-| 8 | Specialization Map: Application → Spec(A) ∈ ℳ_PPCA | 4 application bundle의 수학적 위치 |
-| 9 | Verification Protocol (5단계 체크리스트) | 새 슬롯 후보의 형식 검증 절차 |
+| **M1 Strict Analog** | 사용 안 함 | 모든 주장 (canonical PPCA) |
+| **M2 Behavioral Twin** | 모든 슬롯 | T1', T4' (디지털 의미) — Stage 3a 가속화 용 |
+| **M3 Hybrid** | RNG, snapshot, archive, debug | T1'-T4' 부분, T5' 대부분 — **권장 prototyping** |
+| **M4 Control-Only** | snapshot trigger, flash controller | 거의 모든 주장 — production 적합 |
 
-### 핵심 결과
+### 핵심 새 발견
 
-- **PPCA가 single instance에서 instance-family ℳ_PPCA로 격상**
-- 각 정리(T1'-T5')가 class membership 조건만 검증되면 자동 적용
-- 새 device/circuit 후보 추가가 5단계 protocol로 환원
-- σ_eff²가 application-dependent이므로 정량 예측이 application별로 다름
+`fpga_analysis_new_class_distinction_analog_vs_digital_PPCA` — **`ℳ_PPCA^analog`와 `ℳ_PPCA^digital`이 다른 물리 카테고리의 instance family**. 같은 수학(T1', T3', T4'는 양쪽 적용)이지만 다른 family — T5'와 semi-passive는 family-specific. 이로써 향후 연구의 새 차원: "어느 family의 PPCA를 만드는가"가 명시적 설계 결정.
 
-### REINFORCE 일반화의 의미
+### 권장 — M3 Hybrid 구체 설계
 
-기존 Layer S는 Gaussian S에 의존했지만 Step 6에서 **REINFORCE identity (Williams 1992)**의 일반 형태를 사용:
-```
-∇_W E[S(W; ξ)] = E[S · ∇_W log p(ξ; W)]
-```
-이로써 photon-counting score (Poisson), race logic (delay-coded), PWM duty-cycle 모두 같은 수렴 정리에 포함됨.
+**Analog daughterboard**:
+- W: Memristor crossbar IC 또는 Switched-cap array
+- N: Discrete MOSFET array (kink) 또는 op-amp
+- S: Differential amp + squarer + subthreshold transistor
+- δW: Gilbert cell IC (e.g., AD633)
+
+**FPGA backend**:
+- Counter-RNG (LFSR/Philox)
+- Snapshot trigger state machine
+- Flash controller (SPI)
+- Sensor readout digitization (모니터링)
+- Host PC 통신
+
+**예산**: 1-2k$ FPGA 보드 (Versal VCK190 등) + 50-200$ analog frontend.
 
 ## 갓 노드 (Top 10)
 
 | Rank | Node | Edges |
 |---|---|---|
-| 1 | EGGROLL-PPCA Architecture | 56 (+3) |
+| 1 | EGGROLL-PPCA Architecture | **61** (+5) |
 | 2 | Subthreshold Exponential Regime | 30 |
 | 3 | EGGROLL Algorithm | 27 |
-| 4 | Theorem 4 (Convergence) | 26 (+1) |
+| 4 | Theorem 4 (Convergence) | 26 |
 | 5 | Formulation Layer D | 25 |
-| 6 | Theorem 3 (Switched Volterra) | 25 (+1) |
-| 7 | Theorem 5 (Noise Tolerance) | 23 (+1) |
-| 8 | Physics Correspondence Table | 22 |
-| 9 | Pair 7 (Kink ↔ ReLU Polytope) | 21 |
-| 10 | Log-Domain / Translinear | 21 |
+| 6 | Theorem 3 (Switched Volterra) | 25 |
+| 7 | Theorem 5 (Noise Tolerance) | 23 |
+| 8 | **FPGA Implementation Analysis** | **23** ← **NEW** |
+| 9 | Physics Correspondence Table | 22 |
+| 10 | Pair 7 (Kink ↔ ReLU Polytope) | 21 |
 
-PPCA가 53→56으로 +3 — class 일반화 노드들이 PPCA를 ℳ_PPCA의 한 specialization으로 명시적으로 위치시킴.
-
-T3, T4, T5가 모두 +1씩 — generalized 버전이 각 정리를 강화.
-
-### 새 커뮤니티 — C3 "Class Generalization + Catalog + ℳ_PPCA"
-
-13개의 theory_dev 노드가 카탈로그 노드와 한 클러스터 형성. 이 커뮤니티가 "PPCA design space의 수학적 형식화"를 한 점으로 묶음.
+PPCA 56→61 (+5) — FPGA 분석이 PPCA의 "어떤 부분이 본질적인가"를 슬롯별로 명료하게 함.
 
 ### 구조적 변화
 
 | 지표 | 이전 | 이후 | Δ |
 |---|---|---|---|
-| 노드 | 517 | **542** | +25 |
-| 엣지 | 1243 | **1310** | +67 |
-| 커뮤니티 | 17 | **15** | −2 (theory_dev가 catalog와 흡수) |
-| AMBIGUOUS | 0 | **0** | 유지 |
-| PPCA main 차수 | 53 | **56** | +3 |
+| 노드 | 542 | **564** | +22 |
+| 엣지 | 1310 | **1365** | +55 |
+| PPCA main 차수 | 56 | **61** | +5 |
 
-### 새 master hyperedge
+### 다음 작업 후보
 
-`theory_dev_class_gen_master_unification` [EXTRACTED 0.95] — main + ℳ_PPCA + alternative_candidate_catalog_main + stage2_eggroll_ppca_main + Layer C/D/S main을 한 묶음으로. **"Canonical PPCA = ℳ_PPCA의 한 specialization"**을 그래프가 공리 수준으로 진술.
-
-### 다음 작업
-
-이론 일반화가 완료되었으므로:
-1. **Stage 3a functional simulation** — 4개 application bundle 각각에 대해 generalized T5' bound를 NumPy로 검증
-2. **Verification Protocol 적용** — 새 device 후보(예: VCMA-MRAM, photon counter)에 대해 9단계 protocol 실제로 돌리기
-3. **σ_eff² 매트릭스 작성** — 각 (slot, candidate) 쌍의 노이즈 기여 정량값 표
+1. **M3 Hybrid 보드 구체 설계 노트** — 부품 BoM, 회로 schematic 수준 설계
+2. **M2 Behavioral Twin SystemVerilog 구현** — 알고리즘 검증 가속화
+3. **`ℳ_PPCA^digital` family 별도 형식화** — Layer C/D/S의 디지털 family 버전 정리
