@@ -70,8 +70,15 @@
       "output_tokens": 5500,
       "files": 1,
       "note": "alternative candidate catalog"
+    },
+    {
+      "date": "2026-04-25T08:21:39.925418+00:00",
+      "input_tokens": 5000,
+      "output_tokens": 6500,
+      "files": 1,
+      "note": "class generalization theory development"
     }
   ],
-  "total_input_tokens": 264900,
-  "total_output_tokens": 112900
+  "total_input_tokens": 269900,
+  "total_output_tokens": 119400
 }

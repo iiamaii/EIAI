@@ -4,38 +4,52 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "alternative_candidate_catalog_seven_slots_family",
-        "label": "Seven PPCA slot family",
+        "id": "theory_dev_class_gen_seven_classes",
+        "label": "Seven admissible operator classes",
         "members": [
-          "alternative_candidate_catalog_main",
-          "alternative_candidate_catalog_slot1_W",
-          "alternative_candidate_catalog_slot2_N",
-          "alternative_candidate_catalog_slot3_S",
-          "alternative_candidate_catalog_slot4_E",
-          "alternative_candidate_catalog_slot5_update",
-          "alternative_candidate_catalog_slot6_batch",
-          "alternative_candidate_catalog_slot7_power"
+          "theory_dev_class_gen_main",
+          "theory_dev_class_gen_class_C_E_admissible_encoder",
+          "theory_dev_class_gen_class_C_W_admissible_combiner",
+          "theory_dev_class_gen_class_C_N_admissible_nonlinearity",
+          "theory_dev_class_gen_class_C_D_admissible_decoder",
+          "theory_dev_class_gen_class_C_S_admissible_score",
+          "theory_dev_class_gen_class_C_R_admissible_sensor_readout",
+          "theory_dev_class_gen_class_C_Sigma_admissible_archive"
         ],
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "raw/alternative_candidate_catalog.md",
-        "source_location": null,
-        "weight": 1.0
+        "weight": 1.0,
+        "evidence": "EXTRACTED",
+        "source_file": "raw/theory_development_stepwise_class_generalization.md"
       },
       {
-        "id": "alternative_candidate_catalog_canonical_vs_alternatives",
-        "label": "Canonical PPCA vs alternative-catalog relation",
+        "id": "theory_dev_class_gen_five_generalized_theorems",
+        "label": "Five generalized theorems T1'-T5'",
         "members": [
-          "alternative_candidate_catalog_main",
-          "alternative_candidate_catalog_claim_canonical_is_specialization",
-          "alternative_candidate_catalog_claim_template_invariance",
-          "stage2_eggroll_ppca_main"
+          "theory_dev_class_gen_main",
+          "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+          "theory_dev_class_gen_theorem_2_prime_generalized_realizability",
+          "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+          "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+          "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance"
         ],
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "raw/alternative_candidate_catalog.md",
-        "source_location": null,
-        "weight": 1.0
+        "weight": 1.0,
+        "evidence": "EXTRACTED",
+        "source_file": "raw/theory_development_stepwise_class_generalization.md"
+      },
+      {
+        "id": "theory_dev_class_gen_master_unification",
+        "label": "Master unification: canonical PPCA is one specialization within \u2133_PPCA family",
+        "members": [
+          "theory_dev_class_gen_main",
+          "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+          "alternative_candidate_catalog_main",
+          "stage2_eggroll_ppca_main",
+          "formulation_layer_c_main",
+          "formulation_layer_d_main",
+          "formulation_layer_s_main"
+        ],
+        "weight": 0.95,
+        "evidence": "EXTRACTED",
+        "source_file": "raw/theory_development_stepwise_class_generalization.md"
       }
     ]
   },
@@ -88,7 +102,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 14,
       "norm_label": "gaussian es",
       "id": "evolution_strategies_at_the_hyperscale_md_gaussian_es"
     },
@@ -101,7 +115,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 14,
       "norm_label": "matrix gaussian distribution",
       "id": "evolution_strategies_at_the_hyperscale_md_matrix_gaussian_distribution"
     },
@@ -244,7 +258,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 13,
       "norm_label": "symbolic regression via eml trees",
       "id": "all_elementary_functions_from_a_single_operator_pdf_symbolic_regression"
     },
@@ -257,7 +271,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 13,
       "norm_label": "adam optimizer",
       "id": "all_elementary_functions_from_a_single_operator_pdf_adam_optimizer"
     },
@@ -270,7 +284,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 13,
       "norm_label": "eml master formula (parameterized tree)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_master_formula"
     },
@@ -309,7 +323,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 10,
       "norm_label": "kan kolmogorov-arnold networks (liu et al.)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_kan"
     },
@@ -361,7 +375,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 13,
       "norm_label": "rationale: interpretability via snap to closed-form",
       "id": "all_elementary_functions_from_a_single_operator_pdf_rationale_interpretability"
     },
@@ -374,7 +388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 13,
       "norm_label": "pytorch (paszke et al. 2019)",
       "id": "all_elementary_functions_from_a_single_operator_pdf_pytorch"
     },
@@ -439,7 +453,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 7,
       "norm_label": "gaussian approximate score function",
       "id": "evolution_strategies_at_the_hyperscale_pdf_gaussian_score_approximation"
     },
@@ -452,7 +466,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 7,
       "norm_label": "central limit theorem (justification)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_central_limit_theorem"
     },
@@ -634,7 +648,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 7,
       "norm_label": "rationale: gaussian score choice via clt",
       "id": "evolution_strategies_at_the_hyperscale_pdf_rationale_gaussian_score_choice"
     },
@@ -660,7 +674,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 7,
       "norm_label": "counter-based deterministic rng (salmon 2011)",
       "id": "evolution_strategies_at_the_hyperscale_pdf_counter_based_rng"
     },
@@ -673,7 +687,7 @@
       "captured_at": "2025-03-26",
       "author": "Pazos, Zhu, Villena, Alharbi, Zheng, Shen, Yuan, Ping, Lanza",
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "ns-ram cell (neuro-synaptic ram)",
       "id": "synaptic_and_neural_behaviours_pdf_ns_ram_cell"
     },
@@ -712,7 +726,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 7,
       "norm_label": "floating-bulk configuration",
       "id": "synaptic_and_neural_behaviours_pdf_floating_bulk"
     },
@@ -725,7 +739,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "artificial neural network (ann)",
       "id": "synaptic_and_neural_behaviours_pdf_ann"
     },
@@ -738,7 +752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "electronic neuron (leaky-integrate-and-fire)",
       "id": "synaptic_and_neural_behaviours_pdf_neuron"
     },
@@ -751,7 +765,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "electronic synapse (plasticity)",
       "id": "synaptic_and_neural_behaviours_pdf_synapse"
     },
@@ -777,7 +791,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "intel loihi 2 (orchard et al. 2021)",
       "id": "synaptic_and_neural_behaviours_pdf_loihi2"
     },
@@ -790,7 +804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "ibm northpole (cassidy et al. 2024)",
       "id": "synaptic_and_neural_behaviours_pdf_northpole"
     },
@@ -803,7 +817,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "bulk bias control transistor (2-transistor cell)",
       "id": "synaptic_and_neural_behaviours_pdf_bulk_bias_control_transistor"
     },
@@ -816,7 +830,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 7,
       "norm_label": "short-term plasticity (zucker & regehr 2002)",
       "id": "synaptic_and_neural_behaviours_pdf_short_term_plasticity"
     },
@@ -842,7 +856,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "tcad simulation (sentaurus synopsys)",
       "id": "synaptic_and_neural_behaviours_pdf_tcad_simulation"
     },
@@ -894,7 +908,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "tonotopic mapping (milozzi et al. 2024)",
       "id": "synaptic_and_neural_behaviours_pdf_tonotopic_mapping"
     },
@@ -907,7 +921,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "rationale: cmos compatibility/no alien materials",
       "id": "synaptic_and_neural_behaviours_pdf_rationale_cmos_compatibility"
     },
@@ -920,7 +934,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 7,
       "norm_label": "rationale: 2-transistor for tunability and repeatability",
       "id": "synaptic_and_neural_behaviours_pdf_rationale_2transistor_tunability"
     },
@@ -959,7 +973,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "semi-passive physical neural devices (overview)",
       "id": "semi_passive_physical_neural_devices_main"
     },
@@ -972,7 +986,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "transistor-neuron thresholded transport analogy",
       "id": "semi_passive_physical_neural_devices_transistor_neuron_analogy"
     },
@@ -985,7 +999,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "analog vlsi / neuromorphic engineering lineage",
       "id": "semi_passive_physical_neural_devices_analog_vlsi_lineage"
     },
@@ -998,7 +1012,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "learnable physical medium (not a programmed computer)",
       "id": "semi_passive_physical_neural_devices_learnable_physical_medium"
     },
@@ -1011,7 +1025,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "memorable part / operational part split",
       "id": "semi_passive_physical_neural_devices_memorable_operational_split"
     },
@@ -1024,7 +1038,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "ram-like fast state",
       "id": "semi_passive_physical_neural_devices_ram_fast_state"
     },
@@ -1037,7 +1051,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "flash-like slow parameter memory",
       "id": "semi_passive_physical_neural_devices_flash_slow_parameter"
     },
@@ -1050,7 +1064,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "3-factor learning rule (local eligibility * global reward)",
       "id": "semi_passive_physical_neural_devices_three_factor_learning"
     },
@@ -1063,7 +1077,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "eggroll connection (perturbation-response-fitness)",
       "id": "semi_passive_physical_neural_devices_eggroll_connection"
     },
@@ -1076,7 +1090,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "threshold-shift slow update (trapped charge)",
       "id": "semi_passive_physical_neural_devices_threshold_shift_update"
     },
@@ -1102,7 +1116,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "operation-first: transition speed = compute throughput",
       "id": "semi_passive_physical_neural_devices_operation_transition_speed"
     },
@@ -1128,7 +1142,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "bit-level operator framework for relu mlps (overview)",
       "id": "bit_level_operator_framework_for_relu_mlps_main"
     },
@@ -1141,7 +1155,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "bit-plane profile representation",
       "id": "bit_level_operator_framework_for_relu_mlps_bit_plane_profile"
     },
@@ -1154,7 +1168,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "encode / decode / profile jacobian",
       "id": "bit_level_operator_framework_for_relu_mlps_encode_decode"
     },
@@ -1167,7 +1181,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "outermul / dimsum / fold primitives",
       "id": "bit_level_operator_framework_for_relu_mlps_outermul_dimsum_fold"
     },
@@ -1180,7 +1194,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "relu as sign-test + mask/mux",
       "id": "bit_level_operator_framework_for_relu_mlps_relu_gate"
     },
@@ -1193,7 +1207,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "liftgrad / contract / pullback (backward primitives)",
       "id": "bit_level_operator_framework_for_relu_mlps_liftgrad_pullback"
     },
@@ -1206,7 +1220,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "3-layer formalization: boolean / profile / layer operators",
       "id": "bit_level_operator_framework_for_relu_mlps_three_layer_formalization"
     },
@@ -1219,7 +1233,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "packed bitslice + popcnt + delayed carry",
       "id": "bit_level_operator_framework_for_relu_mlps_packed_bitslice"
     },
@@ -1232,7 +1246,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "carry-save / compressor tree reduction",
       "id": "bit_level_operator_framework_for_relu_mlps_carry_save_tree"
     },
@@ -1245,7 +1259,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "bit-parallel vs bit-serial trade-off",
       "id": "bit_level_operator_framework_for_relu_mlps_bit_parallel_vs_serial"
     },
@@ -1258,7 +1272,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "rationale: carry propagation is the real bottleneck",
       "id": "bit_level_operator_framework_for_relu_mlps_rationale_carry_bottleneck"
     },
@@ -1271,7 +1285,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "fixed-point backward + packed-bit mac",
       "id": "bit_level_operator_framework_for_relu_mlps_fixed_point_backward"
     },
@@ -1284,7 +1298,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "fpga/asic systolic target",
       "id": "bit_level_operator_framework_for_relu_mlps_fpga_asic_target"
     },
@@ -1310,7 +1324,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "rank-1 operator primitive (v_i u_i^t)",
       "id": "neural_networks_as_state_region_dictionaries_rank1_operator_primitive"
     },
@@ -1323,7 +1337,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "piecewise linear region atlas",
       "id": "neural_networks_as_state_region_dictionaries_piecewise_linear_atlas"
     },
@@ -1375,7 +1389,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "residual transition autoencoder block",
       "id": "neural_networks_as_state_region_dictionaries_residual_transition_autoencoder"
     },
@@ -1388,7 +1402,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "mixture of transition autoencoders",
       "id": "neural_networks_as_state_region_dictionaries_mixture_of_autoencoders"
     },
@@ -1427,7 +1441,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "primitive geometry of neural representation (overview)",
       "id": "primitive_geometry_of_neural_representation_main"
     },
@@ -1440,7 +1454,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "four geometry layers (parameter/representation/function/computation)",
       "id": "primitive_geometry_of_neural_representation_four_geometries"
     },
@@ -1453,7 +1467,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "hyperplane partition primitive",
       "id": "primitive_geometry_of_neural_representation_hyperplane_partition"
     },
@@ -1466,7 +1480,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "activation pattern / cell complex",
       "id": "primitive_geometry_of_neural_representation_activation_code"
     },
@@ -1479,7 +1493,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "interaction geometry (state-transition)",
       "id": "primitive_geometry_of_neural_representation_interaction_geometry"
     },
@@ -1492,7 +1506,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "code/state encoding below real numbers",
       "id": "primitive_geometry_of_neural_representation_code_state_encoding"
     },
@@ -1505,7 +1519,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "encoding/interaction/constraint/dynamics layer framework",
       "id": "primitive_geometry_of_neural_representation_four_layer_framework"
     },
@@ -1518,7 +1532,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "integration: vector geometry as macroscopic limit of coded interaction",
       "id": "primitive_geometry_of_neural_representation_integration_claim"
     },
@@ -1531,7 +1545,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "self-organizing cmos-memory architecture (overview)",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_main"
     },
@@ -1544,7 +1558,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "trainable analog circuit with gate-bias parameters",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_trainable_analog_circuit"
     },
@@ -1570,7 +1584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "feeding protocol as part of learning law",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_feeding_protocol_learning"
     },
@@ -1596,7 +1610,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "self-organizing representation space goal",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_representation_space_learning"
     },
@@ -1609,7 +1623,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "cmos-centered + ram-like memory hybrid architecture",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_cmos_memory_hybrid"
     },
@@ -1622,7 +1636,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "rationale: disambiguating 'device' between memory device and transistor primitive",
       "id": "self_organizing_cmos_memory_architecture_for_representation_learning_rationale_terminology_split"
     },
@@ -1635,7 +1649,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "physical reinterpretation of deep learning (overview)",
       "id": "a_physical_reinterpretation_of_deep_learning_main"
     },
@@ -1648,7 +1662,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "signal-particle-energy mapping of nn elements",
       "id": "a_physical_reinterpretation_of_deep_learning_signal_particle_energy_mapping"
     },
@@ -1661,7 +1675,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "bit-plane overlap model for multiplication",
       "id": "a_physical_reinterpretation_of_deep_learning_bit_plane_overlap_model"
     },
@@ -1674,7 +1688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "scattering-kernel interaction model",
       "id": "a_physical_reinterpretation_of_deep_learning_scattering_kernel_model"
     },
@@ -1687,7 +1701,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "event-driven sparse interaction model",
       "id": "a_physical_reinterpretation_of_deep_learning_event_driven_interaction"
     },
@@ -1700,7 +1714,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 8,
       "norm_label": "nn as structured reactive medium",
       "id": "a_physical_reinterpretation_of_deep_learning_reactive_medium"
     },
@@ -1713,7 +1727,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "stateful interaction field formalism",
       "id": "a_physical_reinterpretation_of_deep_learning_stateful_interaction_field"
     },
@@ -1726,7 +1740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "interaction-state layer (multi-channel node, edge-state)",
       "id": "a_physical_reinterpretation_of_deep_learning_interaction_state_layer"
     },
@@ -1739,7 +1753,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "shared-basis low-rank edge interaction",
       "id": "a_physical_reinterpretation_of_deep_learning_shared_basis_interaction"
     },
@@ -1752,7 +1766,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 4,
       "norm_label": "adjoint credit field (backprop reinterpreted)",
       "id": "a_physical_reinterpretation_of_deep_learning_adjoint_credit_field"
     },
@@ -1765,7 +1779,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 8,
       "norm_label": "10-axiom formalization of stateful nn",
       "id": "a_physical_reinterpretation_of_deep_learning_axiomatization"
     },
@@ -1947,7 +1961,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 13,
+      "community": 7,
       "norm_label": "pair 5: floating-bulk drift \u2194 running-stats norm",
       "id": "device_math_mapping_pair_5_floatingbulk_runstats"
     },
@@ -1960,7 +1974,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 13,
+      "community": 7,
       "norm_label": "predicted identity: \u03b1 = \u03b4t/(c_b\u00b7r_leak)",
       "id": "device_math_mapping_pair_5_identity_alpha_rc"
     },
@@ -1973,7 +1987,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 13,
+      "community": 7,
       "norm_label": "rationale: normalization is free in silicon via v_b",
       "id": "device_math_mapping_pair_5_rationale_free_normalization"
     },
@@ -2064,7 +2078,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 10,
       "norm_label": "pair 8: vqc angle \u03b8 \u2194 kan learnable rotation",
       "id": "device_math_mapping_pair_8_vqc_kan_rotation"
     },
@@ -2077,7 +2091,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 10,
       "norm_label": "identity: vqc angle = kan periodic edge activation",
       "id": "device_math_mapping_pair_8_identity_angle_equals_edge_fn"
     },
@@ -2090,7 +2104,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 4,
+      "community": 10,
       "norm_label": "rationale: physics-unitarity \u2194 constraint-unitarity duality",
       "id": "device_math_mapping_pair_8_rationale_unitarity_duality"
     },
@@ -2142,7 +2156,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 0,
       "norm_label": "bit-analog formulation v1 (e,w,n,d quadruple)",
       "id": "bit_analog_formulation_v1_main"
     },
@@ -2155,7 +2169,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 0,
       "norm_label": "state-transition quadruple (e,w,n,d) schema",
       "id": "bit_analog_formulation_v1_quadruple_schema"
     },
@@ -2168,7 +2182,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "component e \u2014 encoder (bits \u2192 analog, linear injection)",
       "id": "bit_analog_formulation_v1_encoder_e"
     },
@@ -2181,7 +2195,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "encoder option a \u2014 bit-plane weighted charge (canonical)",
       "id": "bit_analog_formulation_v1_encoder_option_a_bitplane"
     },
@@ -2194,7 +2208,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "encoder option b \u2014 pulse-density (unary, hamming weight)",
       "id": "bit_analog_formulation_v1_encoder_option_b_pulse_density"
     },
@@ -2207,7 +2221,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "encoder option c \u2014 binarized signed (\u00b11)",
       "id": "bit_analog_formulation_v1_encoder_option_c_binary"
     },
@@ -2285,7 +2299,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 5,
       "norm_label": "component d \u2014 decoder (comparator array)",
       "id": "bit_analog_formulation_v1_decoder_d"
     },
@@ -2298,7 +2312,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 5,
       "norm_label": "shared-silicon dual-read claim (one transistor = n + d)",
       "id": "bit_analog_formulation_v1_shared_silicon_claim"
     },
@@ -2311,7 +2325,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 0,
       "norm_label": "invariant 1 \u2014 e is a linear injection",
       "id": "bit_analog_formulation_v1_invariant_1_e_linear_injection"
     },
@@ -2324,7 +2338,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 0,
       "norm_label": "invariant 2 \u2014 w preserves e's linearity",
       "id": "bit_analog_formulation_v1_invariant_2_w_preserves_linearity"
     },
@@ -2337,7 +2351,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 0,
       "norm_label": "invariant 3 \u2014 n sign-commutes with thresholding (monotone)",
       "id": "bit_analog_formulation_v1_invariant_3_n_sign_commutes"
     },
@@ -2350,7 +2364,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 0,
       "norm_label": "invariant 4 \u2014 d reuses the same transistor as n",
       "id": "bit_analog_formulation_v1_invariant_4_shared_transistor"
     },
@@ -2363,7 +2377,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 0,
       "norm_label": "composition theorem \u2014 (e_binary,w,n_kink|vk=\u221e,d) = xnor-popcount mac",
       "id": "bit_analog_formulation_v1_composition_theorem"
     },
@@ -2376,7 +2390,7 @@
       "captured_at": "2026-04-19",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "composition identity \u2014 (e_bitplane,w,n_kink,d) = relu mlp / carry-save tree",
       "id": "bit_analog_formulation_v1_composition_identity_bitplane_relu_mlp"
     },
@@ -2701,7 +2715,7 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "gaussian-score-native: exp(\u2212r2/2\u03c32) realized by one subthreshold transistor with biased v_gs",
       "id": "analog_primitive_gaps_gaussian_score_realization"
     },
@@ -2740,7 +2754,7 @@
       "captured_at": "2026-04-20",
       "author": "ws",
       "contributor": "ws",
-      "community": 13,
+      "community": 7,
       "norm_label": "lif neuron leakage is subthreshold-native; gaussian score computation is subthreshold-natural",
       "id": "analog_primitive_gaps_lif_subthreshold_leakage"
     },
@@ -2781,7 +2795,7 @@
         "captured_at": "2026-04-22",
         "contributor": "ws"
       },
-      "community": 0,
+      "community": 7,
       "norm_label": "phase 1 \u2014 perturbation draw (counter-rng a,b ~ n(0,\u03c32))",
       "source_file": "raw/stage2_eggroll_ppca_architecture.md",
       "file_type": "document",
@@ -2826,7 +2840,7 @@
         "captured_at": "2026-04-22",
         "contributor": "ws"
       },
-      "community": 8,
+      "community": 5,
       "norm_label": "phase 4 \u2014 inter-layer analog routing (no intermediate digitization)",
       "source_file": "raw/stage2_eggroll_ppca_architecture.md",
       "file_type": "document",
@@ -2841,7 +2855,7 @@
         "captured_at": "2026-04-22",
         "contributor": "ws"
       },
-      "community": 8,
+      "community": 7,
       "norm_label": "phase 5 \u2014 fitness scoring s = exp(\u2212||z\u2212t||2/2\u03c32) (single subthreshold transistor)",
       "source_file": "raw/stage2_eggroll_ppca_architecture.md",
       "file_type": "document",
@@ -3006,7 +3020,7 @@
         "captured_at": "2026-04-22",
         "contributor": "ws"
       },
-      "community": 8,
+      "community": 5,
       "norm_label": "shared-silicon dual role \u2014 final-layer mosfets serve n and d",
       "source_file": "raw/stage2_eggroll_ppca_architecture.md",
       "file_type": "document",
@@ -3449,7 +3463,7 @@
       "captured_at": null,
       "author": "Leroux, Manea, Sudarshan, Finkbeiner, Siegel, Strachan, Neftci (Nature Comp Sci 2025)",
       "contributor": null,
-      "community": 7,
+      "community": 3,
       "norm_label": "analog in-memory computing attention mechanism for fast and energy-efficient llms",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_main"
     },
@@ -3462,7 +3476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 3,
       "norm_label": "gain-cell crossbar arrays store kv cache and perform dot products in-memory (fuse storage + mvm)",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_in_memory_kv"
     },
@@ -3475,7 +3489,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 3,
       "norm_label": "charge-based gain cell: capacitor c1 holds weight; push-pull transistor emits current \u221d input \u00d7 vstore (analog mac)",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_gain_cell"
     },
@@ -3488,7 +3502,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 3,
       "norm_label": "charge-to-pulse circuit implements hardsigmoid activation, avoiding power-hungry adcs and enabling sigmoid-attention",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_charge_to_pulse_hardsigmoid"
     },
@@ -3501,7 +3515,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 3,
       "norm_label": "sliding-window causal attention keeps fixed m kv entries, bounding array size; layer stacking recovers global receptive field",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_sliding_window_attention"
     },
@@ -3514,7 +3528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 3,
       "norm_label": "initialization algorithm adapts pre-trained gpt-2 to non-ideal gain-cell multiplication via per-layer statistics rescaling",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_adaptation_algorithm"
     },
@@ -3527,7 +3541,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 3,
       "norm_label": "up to \u00d710^2 latency and \u00d710^4 energy reduction vs gpu for attention",
       "id": "analog_in_memory_computing_attention_mechanism_for_fast_and_energy_efficient_large_language_models_energy_latency_gains"
     },
@@ -3540,7 +3554,7 @@
       "captured_at": null,
       "author": "Hubara, Courbariaux et al. (NIPS 2016)",
       "contributor": null,
-      "community": 14,
+      "community": 0,
       "norm_label": "binarized neural networks (hubara, courbariaux, soudry, el-yaniv, bengio 2016)",
       "id": "binarized_neural_networks_main"
     },
@@ -3553,7 +3567,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 0,
       "norm_label": "xnor + popcount replaces floating-point mac: {-1,+1}\u00b7{-1,+1} dot product = popcount(xnor(a,w))",
       "id": "binarized_neural_networks_xnor_popcount_mac"
     },
@@ -3566,7 +3580,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 0,
       "norm_label": "deterministic sign() binarization of weights and activations to {-1,+1}; stochastic variant uses \u03c3(x)",
       "id": "binarized_neural_networks_sign_binarization"
     },
@@ -3579,7 +3593,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 0,
       "norm_label": "straight-through estimator (ste): gr = gq \u00b7 1_{|r|\u22641}; gradient of sign() treated as gradient of hard-tanh",
       "id": "binarized_neural_networks_straight_through_estimator"
     },
@@ -3592,7 +3606,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 0,
       "norm_label": "real-valued weight accumulators kept during training; clipped to [-1,1]; binarized only for forward/gradient compute",
       "id": "binarized_neural_networks_real_valued_accumulators"
     },
@@ -3605,7 +3619,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 0,
       "norm_label": "shift-based batchnorm and shift-based adamax: multiplies replaced by power-of-2 bit-shifts (ap2)",
       "id": "binarized_neural_networks_shift_batchnorm_adamax"
     },
@@ -3618,7 +3632,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 0,
       "norm_label": "binary matmul gpu kernel: 7\u00d7 speedup on mnist bnn without accuracy loss",
       "id": "binarized_neural_networks_gpu_kernel_7x"
     },
@@ -3631,7 +3645,7 @@
       "captured_at": null,
       "author": "Li, Teh, Pascanu (CoLLAs 2025)",
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "noprop: training neural networks without full back-propagation or full forward-propagation",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_main"
     },
@@ -3644,7 +3658,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "each block trained independently with only local backprop \u2014 no global forward or backward pass across blocks",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_local_layer_training"
     },
@@ -3657,7 +3671,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "diffusion/flow-matching training signal: block t learns to denoise z_{t-1} toward class embedding u_y (fixed noised target)",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_diffusion_denoise_target"
     },
@@ -3670,7 +3684,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "noprop loss = elbo of variational diffusion: cross-entropy at final block + kl + \u03c3_t snr-weighted l2 denoise loss",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_elbo_objective"
     },
@@ -3683,7 +3697,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "input x and label y broadcast to every block; no hierarchical feature assembly \u2014 non-hierarchical representation claim",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_broadcast_input_label"
     },
@@ -3696,7 +3710,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "blocks trained in parallel (per sampled t) \u2014 no sequential forward/backward dependency; comparable to full bp on mnist/cifar-10/100",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_parallelizable"
     },
@@ -3709,7 +3723,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "flow-matching variant: learn vector field v_\u03b8(z_t,x,t) \u2248 z1-z0 between noise and label embedding",
       "id": "noprop_training_neural_networks_without_full_back_propagation_or_full_forward_propagation_flow_matching_variant"
     },
@@ -3722,7 +3736,7 @@
       "captured_at": null,
       "author": "Hua, Zhao, Leng, Cheng, Ma, Guo (2026)",
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "hebbian learning with global direction (ghl)",
       "id": "hebbian_learning_with_global_direction_main"
     },
@@ -3735,7 +3749,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "ghl update: \u03b4w_ik = \u03b7 \u00b7 sign(\u2202l/\u2202w_ik) \u00b7 |u_k \u00b7 (x_i \u2212 y_k w_ik)| \u2014 local oja+swta magnitude \u00d7 global gradient-sign direction",
       "id": "hebbian_learning_with_global_direction_local_rule_global_signal"
     },
@@ -3748,7 +3762,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "three-factor rule \u03b4w = \u03b7 \u00b7 g(m) \u00b7 h(pre,post); neuromodulator analogue g(m) := sign(m)",
       "id": "hebbian_learning_with_global_direction_three_factor_rule"
     },
@@ -3761,7 +3775,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "local rule: oja (\u03b4w = \u03b7 y(x \u2212 y w)) + soft winner-take-all competition via softmax(y/\u03c4)",
       "id": "hebbian_learning_with_global_direction_oja_swta_local"
     },
@@ -3774,7 +3788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "biological-plausibility claim: dopamine/noradrenaline/acetylcholine modulate (flip polarity of) local plasticity \u2014 abstracted as sign(m)",
       "id": "hebbian_learning_with_global_direction_biological_plausibility"
     },
@@ -3787,7 +3801,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "differs from signsgd: ghl uses local hebbian term for magnitude, sign only for direction; no precise gradient storage",
       "id": "hebbian_learning_with_global_direction_signsgd_distinction"
     },
@@ -3800,7 +3814,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 11,
       "norm_label": "scales to resnet-50 on imagenet (within 4% of bp); also scales to resnet-1202 depth",
       "id": "hebbian_learning_with_global_direction_resnet50_imagenet_scaling"
     },
@@ -3811,7 +3825,7 @@
       "source_file": "raw/Learning with Exact Invariances in Polynomial Time.pdf",
       "source_location": "whole paper; arXiv:2502.19758v1",
       "summary": "Soleymani, Tahmasebi, Jegelka, Jaillet (2025). First polynomial-time algorithm for exactly G-invariant kernel regression on Riemannian manifolds, achieving the same minimax-optimal excess risk O(n^{-s/(s+d/2)}) as unconstrained KRR while running in poly(n, d, log|G|) instead of Omega(n^2|G|).",
-      "community": 4,
+      "community": 10,
       "norm_label": "learning with exact invariances in polynomial time",
       "id": "learning_with_exact_invariances_in_polynomial_time_main"
     },
@@ -3822,7 +3836,7 @@
       "source_file": "raw/Learning with Exact Invariances in Polynomial Time.pdf",
       "source_location": "Section 3 'Learning with invariances', p.3",
       "summary": "Invariance setting is a general finite group G (not just rotations) acting smoothly and isometrically on a compact boundaryless d-dim Riemannian manifold M via theta: G x M -> M. Target regression function f* satisfies f*(gx)=f*(x) for all g in G. Example target: permutation group P_d with |G|=d! which is super-exponential in d and why naive group averaging costs Omega(n^2 |G|).",
-      "community": 4,
+      "community": 10,
       "norm_label": "finite group g acting smoothly and isometrically on manifold m",
       "id": "learning_with_exact_invariances_in_polynomial_time_finite_group_g_action"
     },
@@ -3833,7 +3847,7 @@
       "source_file": "raw/Learning with Exact Invariances in Polynomial Time.pdf",
       "source_location": "Section 4 'Main Result', Theorem 1, p.4",
       "summary": "For f* in Sobolev H^s(M) with s > d/2 and alpha := 2s/d: algorithm runs in O(log^3|G| n^{3/(1+alpha)} + n^{(2+alpha)/(1+alpha)}) time, achieves excess risk R(hat f) = O(n^{-s/(s+d/2)}), requires O(log|G| n^{2/(1+alpha)} + n^{(2+alpha)/(1+alpha)}) oracle calls, and each test-point evaluation costs O(n^{1/(1+alpha)}). First exact-invariance algorithm with polylog dependence on |G|.",
-      "community": 4,
+      "community": 10,
       "norm_label": "theorem 1: poly(n, d, log|g|) algorithm with minimax-optimal risk",
       "id": "learning_with_exact_invariances_in_polynomial_time_theorem_1"
     },
@@ -3844,7 +3858,7 @@
       "source_file": "raw/Learning with Exact Invariances in Polynomial Time.pdf",
       "source_location": "Section 1 pp.1-2, Section 3 oracles, Section 5 proof sketch",
       "summary": "Key technical move: because the Laplace-Beltrami operator commutes with every isometric G-action on M, one can pick a basis of Laplacian eigenfunctions phi_{lambda,ell} so that each g acts on eigenspaces by orthogonal matrices. The nonconvex invariant-kernel-regression problem decomposes into an infinite collection of finite-dimensional convex quadratic programs with linear constraints (one per eigenspace). Truncating the eigen-cut yields the poly-time estimator.",
-      "community": 4,
+      "community": 10,
       "norm_label": "laplace-beltrami eigenbasis reformulation",
       "id": "learning_with_exact_invariances_in_polynomial_time_laplace_beltrami_spectral_reformulation"
     },
@@ -3855,7 +3869,7 @@
       "source_file": "raw/Learning with Exact Invariances in Polynomial Time.pdf",
       "source_location": "Section 3, p.3, K_inv definition and complexity discussion",
       "summary": "Naive solutions (data augmentation, group averaging K_inv(x1,x2) = (1/|G|) sum_g K(gx1,x2), canonicalization, frame averaging) either cost Omega(n |G|) or Omega(n^2 |G|), or suffer discontinuities that break RKHS requirements. This motivates needing an exact-invariance algorithm whose runtime is polylogarithmic in |G|.",
-      "community": 4,
+      "community": 10,
       "norm_label": "group averaging baseline is intractable for large |g|",
       "id": "learning_with_exact_invariances_in_polynomial_time_group_averaging_baseline"
     },
@@ -3866,7 +3880,7 @@
       "source_file": "raw/Learning with Exact Invariances in Polynomial Time.pdf",
       "source_location": "Section 3 'Oracles', p.4",
       "summary": "Algorithm assumes two oracles: (1) point-evaluate any eigenfunction phi_{lambda,ell}(x); (2) compute L2(M) inner products <phi_{lambda,ell}(gx), phi_{lambda,ell'}(x)> for any g in G. Both are free as long as the cumulative eigenfunction count D_lambda is poly(n,d). Natural for spheres S^{d-1} (spherical harmonics), Stiefel manifolds, and tori.",
-      "community": 4,
+      "community": 10,
       "norm_label": "eigenfunction evaluation and shifted inner-product oracles",
       "id": "learning_with_exact_invariances_in_polynomial_time_geometric_oracle"
     },
@@ -3877,7 +3891,7 @@
       "source_file": "raw/Learning with Exact Invariances in Polynomial Time.pdf",
       "source_location": "Section 1 contributions, Section 4 Theorem 1",
       "summary": "The statistical-computational trade-off achieved sits in P: running time is poly(n, d, log|G|). Enumerating G (which can be super-exponential in d, e.g. d!) is provably unnecessary for statistically efficient exact-invariant estimation under Sobolev priors. This is in contrast to Omega(n^2 |G|) group averaging and super-exponential data augmentation.",
-      "community": 4,
+      "community": 10,
       "norm_label": "polynomial-time / polylogarithmic-in-|g| complexity regime",
       "id": "learning_with_exact_invariances_in_polynomial_time_complexity_class"
     },
@@ -3888,7 +3902,7 @@
       "source_file": "raw/A Practitioner's Guide to Kolmogorov-Arnold Networks.pdf",
       "source_location": "whole paper; arXiv:2510.25781v1, Oct 2025",
       "summary": "Noorizadegan, Wang, Ling (2025). Systematic review of KAN architecture: basis function choices (B-splines, Chebyshev, Jacobi, RBF, Fourier, wavelet, sinc), KAT-to-KAN translation, bridging KANs and MLPs, accuracy/efficiency/regularization improvements, a Choose-Your-KAN practical guide.",
-      "community": 4,
+      "community": 10,
       "norm_label": "a practitioner's guide to kolmogorov-arnold networks",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_main"
     },
@@ -3899,7 +3913,7 @@
       "source_file": "raw/A Practitioner's Guide to Kolmogorov-Arnold Networks.pdf",
       "source_location": "Section 3 'KAT and KAN', Eq. (4), pp.5-6",
       "summary": "Every continuous f: [0,1]^n -> R admits f(x_1,...,x_n) = sum_{q=0}^{2n} Phi_q ( sum_{p=1}^n phi_{q,p}(x_p) ) with continuous univariate inner maps phi_{q,p}: [0,1] -> R and outer maps Phi_q: R -> R. Inner maps can be chosen universal (independent of f); outer maps carry f-dependence. Lorentz and Sprecher refinements give simpler forms (single outer Phi, single inner phi with shifts eta_q and offsets c_q).",
-      "community": 4,
+      "community": 10,
       "norm_label": "kolmogorov-arnold representation theorem (kat)",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_kat_theorem"
     },
@@ -3910,7 +3924,7 @@
       "source_file": "raw/A Practitioner's Guide to Kolmogorov-Arnold Networks.pdf",
       "source_location": "Section 3 'From KAT to KAN' Eq. (6), Section 4 'Bridging KANs and MLPs'",
       "summary": "KAN layer: x_q^{(l+1)} = sum_{p=1}^P phi_{q,p}^{(l)}( x_p^{(l)} ). Each edge (p,q) carries its own learnable 1D nonlinearity; no linear mix before activation. MLP is mix-then-activate with fixed sigma; KAN is activate-then-sum. This reversal yields parameter efficiency: KAN depth L width W grid G costs O(G W^2 L) vs equivalent MLP's O(G^2 W^4 L).",
-      "community": 4,
+      "community": 10,
       "norm_label": "learnable univariate activations on edges (vs fixed mlp node activations)",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_learnable_edge_functions"
     },
@@ -3921,7 +3935,7 @@
       "source_file": "raw/A Practitioner's Guide to Kolmogorov-Arnold Networks.pdf",
       "source_location": "Section 3 Eq. (7), Section 6.1 B-spline",
       "summary": "Standard KAN parameterizes each edge as phi_{q,p}^{(l)}(x) = sum_{k=1}^K c_{q,p,k}^{(l)} B_k(x) with learnable coefficients c_{q,p,k} and fixed B-spline basis {B_k}. Spline locality+smoothness gives compact, interpretable per-edge 1D transforms. Other bases (Chebyshev, Jacobi, Gaussian RBF, Fourier, ReLU^k, wavelet, sinc) can be substituted without changing (6).",
-      "community": 4,
+      "community": 10,
       "norm_label": "b-spline basis parameterization per edge",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_bspline_basis"
     },
@@ -3932,7 +3946,7 @@
       "source_file": "raw/A Practitioner's Guide to Kolmogorov-Arnold Networks.pdf",
       "source_location": "Section 3 'Remark' p.6, and Section 3 'Note that the exact inner functions constructed in KAT are often pathological'",
       "summary": "Classical KAT constructions used highly irregular (fractal-like, non-Lipschitz) inner functions, which made the depth-2 width-(2n+1) realization hard to optimize. Modern KANs dodge this by replacing exact KAT maps with smooth learnable parameterizations (splines / polynomials / RBFs), enabling end-to-end gradient training.",
-      "community": 4,
+      "community": 10,
       "norm_label": "trainability via smooth differentiable basis (modernizes pathological kat)",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_trainable_via_smooth_bases"
     },
@@ -3943,7 +3957,7 @@
       "source_file": "raw/A Practitioner's Guide to Kolmogorov-Arnold Networks.pdf",
       "source_location": "Section 4 'Bridging KANs and MLPs' summary p.7, Table 2 pp.3-4",
       "summary": "KAN literature claims: (i) interpretability via inspectable per-edge 1D maps; (ii) parameter count O(GW^2L) vs MLP O(G^2W^4L); (iii) often faster convergence on PDE / regression tasks despite slower per-iteration cost; (iv) better accuracy for symbolic and physics-informed regimes when basis matches problem structure. Authors caution gains depend strongly on basis choice and are not monolithic.",
-      "community": 4,
+      "community": 10,
       "norm_label": "claimed advantages: interpretability, parameter efficiency, sample/convergence gains",
       "id": "a_practitioner_s_guide_to_kolmogorov_arnold_networks_claimed_advantages"
     },
@@ -4020,7 +4034,7 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": "whole paper; Chang & Cerezo (LANL), arXiv:2511.15969v1",
       "summary": "High-level review of QML focusing on settings where the quantum device is the primary learning unit. Covers variational QML, data embeddings, quantum kernels, QNNs, PAC learning separations, barren plateaus, dequantization, and honest accounting of where quantum advantages are real vs conditional vs contrived.",
-      "community": 4,
+      "community": 10,
       "norm_label": "a primer on quantum machine learning",
       "id": "a_primer_on_quantum_machine_learning_main"
     },
@@ -4031,7 +4045,7 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": "Section II.C 'Parametrized quantum circuits and quantum neural networks', p.11; Eq. (7) p.7",
       "summary": "PQC ansatz U(theta) = product of e^{-i theta_l H_l} over gate generators H_l in G = {H_1,...,H_p}. Output: y~_theta(x) = Tr[rho(x,theta) O] where rho(x,theta) is data-encoded state and O is task observable. 'QNN' and 'PQC' are used interchangeably, though unlike classical NNs there is no native nonlinearity or fan-out (no-cloning).",
-      "community": 4,
+      "community": 10,
       "norm_label": "variational quantum circuit (pqc / qnn)",
       "id": "a_primer_on_quantum_machine_learning_variational_quantum_circuit"
     },
@@ -4042,7 +4056,7 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": "Section II.A 'Embedding classical data' pp.7-8; Fig 4(a)",
       "summary": "Features x_j encoded as rotation angles: R_{v_j}(x_j) = e^{-i x_j v_j . sigma / 2} on qubit j, e.g. V_v(x) = tensor_j e^{-i nu_j x_j Y_j}. Trainable gates use angles theta_l similarly: e^{-i theta_l . sigma / 2}. The same angle parameterization serves both data embedding and trainable rotations -- 'theta is the knob.' Care needed: embedding introduces periodicity, scale sensitivity, and bandwidth-dependent inductive bias.",
-      "community": 4,
+      "community": 10,
       "norm_label": "angle-rotation data encoding and theta of rotation gates",
       "id": "a_primer_on_quantum_machine_learning_angle_rotation_encoding"
     },
@@ -4053,7 +4067,7 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": "Section II.D p.12, around ref [249,250]",
       "summary": "To compute d y~_theta(x) / d theta_l, the parameter-shift rule evaluates the SAME circuit used for y~_theta(x) at two angle-shifted points (typically theta_l +- pi/2) and takes a linear combination. Works for generators with two distinct eigenvalues. Cost: one gradient entry per pair of shifted-circuit measurements, so full gradient over T parameters costs O(T) circuit evaluations; genuine quantum backprop is ruled out by quantum constraints (no-cloning, measurement collapse).",
-      "community": 4,
+      "community": 10,
       "norm_label": "parameter-shift rule for vqc gradients",
       "id": "a_primer_on_quantum_machine_learning_parameter_shift_rule"
     },
@@ -4064,7 +4078,7 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": "Section II introduction and II.C, pp.7, 11; Fig. 3",
       "summary": "Pipeline: (1) quantum device prepares rho(x,theta) via angle-encoding + parameterized unitary; (2) measures observable O to produce finite-shot estimate y~_theta(x); (3) classical computer assembles empirical loss hat R_S and chooses next theta via classical optimizer (often using parameter-shift gradients). This outsources heavy optimization to classical side, lowering gate/ancilla burden -- attractive for NISQ hardware.",
-      "community": 4,
+      "community": 10,
       "norm_label": "hybrid classical-quantum training loop",
       "id": "a_primer_on_quantum_machine_learning_hybrid_training_loop"
     },
@@ -4075,7 +4089,7 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": "Abstract, Section III 'Quantum computational learning theory and provable separations'",
       "summary": "What counts as quantum advantage is nuanced. For quantum data: measured improvements in experimental information extraction. For classical data: heuristic gains coexist with no-go theorems; known separations exist for contrived concept classes (Quantum PAC with quantum-example oracles); other once-hopeful advantages have been dequantized. Barren plateaus and local-minima issues plague variational QML; many barren-plateau mitigations themselves dequantize the model. VQC trainability vs classical simulability is in tension.",
-      "community": 4,
+      "community": 10,
       "norm_label": "quantum advantage: provable separations vs dequantized heuristics",
       "id": "a_primer_on_quantum_machine_learning_quantum_advantage_claims"
     },
@@ -4086,7 +4100,7 @@
       "source_file": "raw/A Primer on Quantum Machine Learning.pdf",
       "source_location": "Section II.D 'Challenges and limitations for variational QML' p.11-12",
       "summary": "Loss landscape differences (y~_{theta1}(x) - y~_{theta2}(x)) can vanish as O(1/dim(H)) on average or for all pairs, requiring exponentially many shots with N_s ~ 1/sqrt(N_s) error to distinguish. This curse-of-dimensionality precludes large-scale training. Mitigation techniques that keep trainability typically make the model classically simulable, erasing quantum advantage. Training VQCs is provably NP-hard (Bittel & Kliesch 2021).",
-      "community": 4,
+      "community": 10,
       "norm_label": "barren plateaus and np-hard vqc training",
       "id": "a_primer_on_quantum_machine_learning_barren_plateaus"
     },
@@ -4097,7 +4111,7 @@
       "source_file": "raw/A Practitioner's Guide to Kolmogorov-Arnold Networks.pdf",
       "source_location": "KAN paper: grep for 'invariance'/'equivariance'/'group' returns only Section 5 SPEL-KAN Lie-symmetry extension mention; Invariances paper grep for 'Kolmogorov'/'KAN' returns zero hits",
       "summary": "Body-read resolves the prior AMBIGUOUS KAN<->Invariances edge. The KAN survey is about 1D basis parameterizations on edges (B-splines, Chebyshev, Fourier) of a feedforward decomposition f = sum_q Phi_q(sum_p phi_{qp}(x_p)); it does not address group-invariant function classes (only one passing reference to SPEL-KAN with Lie symmetries). The Invariances paper is about kernel regression on Riemannian manifolds under finite group G-actions via Laplace-Beltrami eigen-decomposition; it never references Kolmogorov-Arnold or KANs. The two methods live on different axes: architecture parameterization vs statistical-computational trade-offs of symmetry.",
-      "community": 4,
+      "community": 10,
       "norm_label": "why kan edge-functions and exact invariances are disjoint topics",
       "id": "chunk_b1_invariances_vs_kan_disjoint_rationale"
     },
@@ -4109,7 +4123,7 @@
       "source_location": "Abstract + Results",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "cmos-integrated organic neuromorphic imagers for dual-modal imaging",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_main"
     },
@@ -4121,7 +4135,7 @@
       "source_location": "Fig. 2 + Results",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "hybrid cmos + organic bhj device stack",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_hybrid_cmos_organic"
     },
@@ -4133,7 +4147,7 @@
       "source_location": "Abstract + Introduction + Fig. 1",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "dual-modal operation: static frame + dynamic synaptic",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_dual_modal_operation"
     },
@@ -4145,7 +4159,7 @@
       "source_location": "Fig. 2 + Supplementary Section 1",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "charge recombination-trapping dynamics as tunable memory mechanism",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_charge_recombination_trapping"
     },
@@ -4157,7 +4171,7 @@
       "source_location": "Introduction + Methods",
       "confidence": 0.95,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "cmos-compatible photocrosslinking patterning for organic bhjs",
       "id": "cmos_integrated_organic_neuromorphic_imagers_for_high_resolution_dual_modal_imaging_photocrosslinking_patterning"
     },
@@ -4277,7 +4291,7 @@
       "source_location": "Abstract + Section 'Results'",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "texel: mixed-signal neuromorphic processor for beyond-cmos integration",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_main"
     },
@@ -4289,7 +4303,7 @@
       "source_location": "Section 'Learning circuits' + Fig. 3",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "bicall on-chip local learning rule (stdp + hebbian/srdp)",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_on_chip_local_learning"
     },
@@ -4301,7 +4315,7 @@
       "source_location": "Section 'Learning circuits' + Fig. 3a",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "bistable binary plastic synapse with analog internal weight",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_bistable_synapse"
     },
@@ -4313,7 +4327,7 @@
       "source_location": "Introduction (TEXEL paragraph) + Results (VCM sim)",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "beol differential interface for two- and three-terminal memristors",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_beol_memristive_interface"
     },
@@ -4325,7 +4339,7 @@
       "source_location": "Introduction + Results power breakdown",
       "confidence": 0.95,
       "provenance": "EXTRACTED",
-      "community": 10,
+      "community": 11,
       "norm_label": "subthreshold analog + event-driven asynchronous architecture",
       "id": "a_neuromorphic_processor_with_on_chip_learning_for_beyond_cmos_device_integration_subthreshold_event_driven"
     },
@@ -4467,7 +4481,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 2,
       "norm_label": "sensor-style readout path (non-destructive scan of g for external observability)",
       "id": "three_tier_memory_sensor_readout_path"
     },
@@ -4480,7 +4494,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 0,
+      "community": 2,
       "norm_label": "row-column address scan (select transistors + decoders + sense amp)",
       "id": "three_tier_memory_row_column_scan"
     },
@@ -4506,7 +4520,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 2,
       "norm_label": "analog vs digital readout \u2014 analog preserves semi-passive architectural purity",
       "id": "three_tier_memory_analog_readout_preserves_purity"
     },
@@ -4532,7 +4546,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 1,
       "norm_label": "snapshot trigger 1 \u2014 learning saturation (variance of s below threshold for \u03c4_stable)",
       "id": "three_tier_memory_trigger_learning_saturation"
     },
@@ -4675,7 +4689,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "formulation layer c \u2014 symbolic foundations (main)",
       "id": "formulation_layer_c_main"
     },
@@ -4688,7 +4702,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "signal space u (input voltage waveform)",
       "id": "formulation_layer_c_signal_space_input"
     },
@@ -4714,7 +4728,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "signal space y_analog (continuous output)",
       "id": "formulation_layer_c_signal_space_output_analog"
     },
@@ -4727,7 +4741,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "signal space y_digital (comparator output)",
       "id": "formulation_layer_c_signal_space_output_digital"
     },
@@ -4740,7 +4754,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "signal space s (fitness drain current)",
       "id": "formulation_layer_c_signal_space_fitness"
     },
@@ -4766,7 +4780,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 0,
+      "community": 7,
       "norm_label": "state space p_r \u2014 tier 1 rank-r perturbation variety",
       "id": "formulation_layer_c_state_tier1_perturbation"
     },
@@ -4792,7 +4806,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 0,
+      "community": 7,
       "norm_label": "state space a\u00d7b \u2014 perturbation parameterization (a,b)",
       "id": "formulation_layer_c_state_perturbation_param"
     },
@@ -4844,7 +4858,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 5,
       "norm_label": "operator d \u2014 decoder comparator array",
       "id": "formulation_layer_c_operator_decoder_d"
     },
@@ -4870,7 +4884,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 2,
       "norm_label": "operator r \u2014 sensor readout from tier 2",
       "id": "formulation_layer_c_operator_sensor_r"
     },
@@ -4896,7 +4910,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 0,
+      "community": 7,
       "norm_label": "operator \u03be \u2014 perturbation event generator (counter rng)",
       "id": "formulation_layer_c_operator_event_xi"
     },
@@ -4935,7 +4949,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 0,
+      "community": 7,
       "norm_label": "time constant \u03c4_\u03b4 \u2014 floating-bulk perturbation decay (~100 ns)",
       "id": "formulation_layer_c_timescale_tau_delta"
     },
@@ -4987,7 +5001,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "physics correspondence table (math \u2194 device realization)",
       "id": "formulation_layer_c_physics_correspondence_table"
     },
@@ -5000,7 +5014,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "design constraint \u2014 physics closure admissibility rule",
       "id": "formulation_layer_c_physics_closure_design_constraint"
     },
@@ -5013,7 +5027,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "graph gap \u2014 rc integrator primitive node missing",
       "id": "formulation_layer_c_rc_integrator_primitive_gap"
     },
@@ -5026,7 +5040,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 8,
+      "community": 7,
       "norm_label": "layer c closure criterion \u2014 checklist for moving to layer d",
       "id": "formulation_layer_c_closure_criterion"
     },
@@ -5299,7 +5313,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 3,
+      "community": 4,
       "norm_label": "theorem 3 remark \u2014 formulation v1 composition theorem is a special case",
       "id": "formulation_layer_d_theorem_3_remark_formulation_v1_special_case"
     },
@@ -5312,7 +5326,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 2,
       "norm_label": "section 5 claim \u2014 euler discretization reduces (d1)\u2013(d3) to nn + eggroll",
       "id": "formulation_layer_d_discretization_to_discrete_nn"
     },
@@ -5338,7 +5352,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 6,
       "norm_label": "ambiguous-resolution edge 2 \u2014 kink effect \u2194 state-region dictionary",
       "id": "formulation_layer_d_ambiguous_resolution_edge_2"
     },
@@ -5377,7 +5391,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 5,
+      "community": 6,
       "norm_label": "open point 3 \u2014 switching-event dynamics at region transitions",
       "id": "formulation_layer_d_open_point_switching_events"
     },
@@ -5663,7 +5677,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 1,
       "norm_label": "corollary \u2014 continual learning via three-tier memory under distribution shift",
       "id": "formulation_layer_s_continual_learning_corollary"
     },
@@ -5702,7 +5716,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 2,
+      "community": 1,
       "norm_label": "prediction 3 \u2014 distribution-shift recovery on timescale \u03c4_w",
       "id": "formulation_layer_s_prediction_3_shift_recovery"
     },
@@ -5754,7 +5768,7 @@
       "captured_at": "2026-04-23",
       "author": "ws",
       "contributor": "ws",
-      "community": 6,
+      "community": 1,
       "norm_label": "formulation-complete check: t1+t2+t3+t4+t5+corollary",
       "id": "formulation_layer_s_completion_criterion"
     },
@@ -6282,9 +6296,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_main",
-      "community": 7,
-      "norm_label": "alternative candidate catalog (ppca design space)"
+      "community": 3,
+      "norm_label": "alternative candidate catalog (ppca design space)",
+      "id": "alternative_candidate_catalog_main"
     },
     {
       "label": "Slot 1: Linear Combiner (W)",
@@ -6295,9 +6309,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_slot1_W",
-      "community": 7,
-      "norm_label": "slot 1: linear combiner (w)"
+      "community": 3,
+      "norm_label": "slot 1: linear combiner (w)",
+      "id": "alternative_candidate_catalog_slot1_W"
     },
     {
       "label": "Slot 2: Non-Linear Activation (N)",
@@ -6308,9 +6322,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_slot2_N",
-      "community": 7,
-      "norm_label": "slot 2: non-linear activation (n)"
+      "community": 3,
+      "norm_label": "slot 2: non-linear activation (n)",
+      "id": "alternative_candidate_catalog_slot2_N"
     },
     {
       "label": "Slot 3: Statistical/Score Operation (S)",
@@ -6321,9 +6335,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_slot3_S",
-      "community": 7,
-      "norm_label": "slot 3: statistical/score operation (s)"
+      "community": 3,
+      "norm_label": "slot 3: statistical/score operation (s)",
+      "id": "alternative_candidate_catalog_slot3_S"
     },
     {
       "label": "Slot 4: Input Signal Encoding (E)",
@@ -6334,9 +6348,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_slot4_E",
-      "community": 7,
-      "norm_label": "slot 4: input signal encoding (e)"
+      "community": 3,
+      "norm_label": "slot 4: input signal encoding (e)",
+      "id": "alternative_candidate_catalog_slot4_E"
     },
     {
       "label": "Slot 5: Slow Memory Update",
@@ -6347,9 +6361,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_slot5_update",
       "community": 2,
-      "norm_label": "slot 5: slow memory update"
+      "norm_label": "slot 5: slow memory update",
+      "id": "alternative_candidate_catalog_slot5_update"
     },
     {
       "label": "Slot 6: Batch Sample Processing",
@@ -6360,9 +6374,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_slot6_batch",
-      "community": 7,
-      "norm_label": "slot 6: batch sample processing"
+      "community": 3,
+      "norm_label": "slot 6: batch sample processing",
+      "id": "alternative_candidate_catalog_slot6_batch"
     },
     {
       "label": "Slot 7: Semi-Passive Power Source",
@@ -6373,9 +6387,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_slot7_power",
-      "community": 7,
-      "norm_label": "slot 7: semi-passive power source"
+      "community": 3,
+      "norm_label": "slot 7: semi-passive power source",
+      "id": "alternative_candidate_catalog_slot7_power"
     },
     {
       "label": "Alt W: PCM crossbar",
@@ -6386,9 +6400,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_W_pcm",
-      "community": 7,
-      "norm_label": "alt w: pcm crossbar"
+      "community": 3,
+      "norm_label": "alt w: pcm crossbar",
+      "id": "alternative_candidate_catalog_alt_W_pcm"
     },
     {
       "label": "Alt W: Charge-based Gain Cell",
@@ -6399,9 +6413,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_W_gain_cell",
-      "community": 7,
-      "norm_label": "alt w: charge-based gain cell"
+      "community": 3,
+      "norm_label": "alt w: charge-based gain cell",
+      "id": "alternative_candidate_catalog_alt_W_gain_cell"
     },
     {
       "label": "Alt W: STT-MRAM crossbar",
@@ -6412,9 +6426,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_W_mram",
       "community": 2,
-      "norm_label": "alt w: stt-mram crossbar"
+      "norm_label": "alt w: stt-mram crossbar",
+      "id": "alternative_candidate_catalog_alt_W_mram"
     },
     {
       "label": "Alt W: Photonic MZI Mesh",
@@ -6425,9 +6439,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_W_photonic_mzi",
-      "community": 7,
-      "norm_label": "alt w: photonic mzi mesh"
+      "community": 3,
+      "norm_label": "alt w: photonic mzi mesh",
+      "id": "alternative_candidate_catalog_alt_W_photonic_mzi"
     },
     {
       "label": "Alt N: LIF Neuron",
@@ -6438,9 +6452,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_N_lif_neuron",
       "community": 7,
-      "norm_label": "alt n: lif neuron"
+      "norm_label": "alt n: lif neuron",
+      "id": "alternative_candidate_catalog_alt_N_lif_neuron"
     },
     {
       "label": "Alt N: Schottky Diode Knee",
@@ -6451,9 +6465,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_N_schottky",
-      "community": 7,
-      "norm_label": "alt n: schottky diode knee"
+      "community": 3,
+      "norm_label": "alt n: schottky diode knee",
+      "id": "alternative_candidate_catalog_alt_N_schottky"
     },
     {
       "label": "Alt N: OpAmp Hard-tanh",
@@ -6464,9 +6478,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_N_opamp_tanh",
-      "community": 7,
-      "norm_label": "alt n: opamp hard-tanh"
+      "community": 3,
+      "norm_label": "alt n: opamp hard-tanh",
+      "id": "alternative_candidate_catalog_alt_N_opamp_tanh"
     },
     {
       "label": "Alt N: CMOS Inverter (Sign + Schmitt)",
@@ -6477,9 +6491,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_N_cmos_inverter",
-      "community": 7,
-      "norm_label": "alt n: cmos inverter (sign + schmitt)"
+      "community": 3,
+      "norm_label": "alt n: cmos inverter (sign + schmitt)",
+      "id": "alternative_candidate_catalog_alt_N_cmos_inverter"
     },
     {
       "label": "Alt S: Photon-Counting Score",
@@ -6490,9 +6504,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_S_photon_counting",
-      "community": 7,
-      "norm_label": "alt s: photon-counting score"
+      "community": 3,
+      "norm_label": "alt s: photon-counting score",
+      "id": "alternative_candidate_catalog_alt_S_photon_counting"
     },
     {
       "label": "Alt S: Delay-Line Race Logic Score",
@@ -6503,9 +6517,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_S_race_logic",
-      "community": 7,
-      "norm_label": "alt s: delay-line race logic score"
+      "community": 3,
+      "norm_label": "alt s: delay-line race logic score",
+      "id": "alternative_candidate_catalog_alt_S_race_logic"
     },
     {
       "label": "Alt S: Pulse-Width Integrator Score",
@@ -6516,9 +6530,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_S_pwm_integrator",
-      "community": 7,
-      "norm_label": "alt s: pulse-width integrator score"
+      "community": 3,
+      "norm_label": "alt s: pulse-width integrator score",
+      "id": "alternative_candidate_catalog_alt_S_pwm_integrator"
     },
     {
       "label": "Alt E: Delta-Sigma 1-bit stream",
@@ -6529,9 +6543,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_E_delta_sigma",
-      "community": 7,
-      "norm_label": "alt e: delta-sigma 1-bit stream"
+      "community": 3,
+      "norm_label": "alt e: delta-sigma 1-bit stream",
+      "id": "alternative_candidate_catalog_alt_E_delta_sigma"
     },
     {
       "label": "Alt E: Pulse-Width Modulation",
@@ -6542,9 +6556,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_E_pwm",
-      "community": 7,
-      "norm_label": "alt e: pulse-width modulation"
+      "community": 3,
+      "norm_label": "alt e: pulse-width modulation",
+      "id": "alternative_candidate_catalog_alt_E_pwm"
     },
     {
       "label": "Alt E: Phase-Shift Encoding",
@@ -6555,9 +6569,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_E_phase_shift",
-      "community": 7,
-      "norm_label": "alt e: phase-shift encoding"
+      "community": 3,
+      "norm_label": "alt e: phase-shift encoding",
+      "id": "alternative_candidate_catalog_alt_E_phase_shift"
     },
     {
       "label": "Alt E: Current-Mode Direct",
@@ -6568,9 +6582,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_E_current_mode",
-      "community": 7,
-      "norm_label": "alt e: current-mode direct"
+      "community": 3,
+      "norm_label": "alt e: current-mode direct",
+      "id": "alternative_candidate_catalog_alt_E_current_mode"
     },
     {
       "label": "Alt Update: VCMA-MRAM Voltage Write",
@@ -6581,9 +6595,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_update_vcma_mram",
       "community": 2,
-      "norm_label": "alt update: vcma-mram voltage write"
+      "norm_label": "alt update: vcma-mram voltage write",
+      "id": "alternative_candidate_catalog_alt_update_vcma_mram"
     },
     {
       "label": "Alt Update: FeRAM Polarization Flip",
@@ -6594,9 +6608,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_update_feram",
       "community": 2,
-      "norm_label": "alt update: feram polarization flip"
+      "norm_label": "alt update: feram polarization flip",
+      "id": "alternative_candidate_catalog_alt_update_feram"
     },
     {
       "label": "Alt Update: CBRAM (Conductive Bridge)",
@@ -6607,9 +6621,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_update_cbram",
       "community": 2,
-      "norm_label": "alt update: cbram (conductive bridge)"
+      "norm_label": "alt update: cbram (conductive bridge)",
+      "id": "alternative_candidate_catalog_alt_update_cbram"
     },
     {
       "label": "Alt Power: Photovoltaic",
@@ -6620,9 +6634,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_power_pv",
-      "community": 7,
-      "norm_label": "alt power: photovoltaic"
+      "community": 3,
+      "norm_label": "alt power: photovoltaic",
+      "id": "alternative_candidate_catalog_alt_power_pv"
     },
     {
       "label": "Alt Power: Thermoelectric (TEG)",
@@ -6633,9 +6647,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_power_thermal",
-      "community": 7,
-      "norm_label": "alt power: thermoelectric (teg)"
+      "community": 3,
+      "norm_label": "alt power: thermoelectric (teg)",
+      "id": "alternative_candidate_catalog_alt_power_thermal"
     },
     {
       "label": "Alt Power: RF Harvesting",
@@ -6646,9 +6660,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_power_rf",
-      "community": 7,
-      "norm_label": "alt power: rf harvesting"
+      "community": 3,
+      "norm_label": "alt power: rf harvesting",
+      "id": "alternative_candidate_catalog_alt_power_rf"
     },
     {
       "label": "Alt Power: Biopotential",
@@ -6659,9 +6673,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_alt_power_biopotential",
-      "community": 7,
-      "norm_label": "alt power: biopotential"
+      "community": 3,
+      "norm_label": "alt power: biopotential",
+      "id": "alternative_candidate_catalog_alt_power_biopotential"
     },
     {
       "label": "Claim: PPCA template invariance under slot substitution",
@@ -6672,9 +6686,9 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_claim_template_invariance",
-      "community": 0,
-      "norm_label": "claim: ppca template invariance under slot substitution"
+      "community": 3,
+      "norm_label": "claim: ppca template invariance under slot substitution",
+      "id": "alternative_candidate_catalog_claim_template_invariance"
     },
     {
       "label": "Claim: canonical PPCA is specialization of catalog",
@@ -6685,9 +6699,334 @@
       "captured_at": "2026-04-25",
       "author": "ws",
       "contributor": "ws",
-      "id": "alternative_candidate_catalog_claim_canonical_is_specialization",
+      "community": 3,
+      "norm_label": "claim: canonical ppca is specialization of catalog",
+      "id": "alternative_candidate_catalog_claim_canonical_is_specialization"
+    },
+    {
+      "label": "Stepwise Class Generalization (main)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "# main",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_main",
+      "community": 3,
+      "norm_label": "stepwise class generalization (main)"
+    },
+    {
+      "label": "Step 0 \u2014 instance to class motivation",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 0",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_step0_motivation_instance_to_class",
+      "community": 3,
+      "norm_label": "step 0 \u2014 instance to class motivation"
+    },
+    {
+      "label": "Class \ud835\udc9e_E (Admissible Encoder)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 1 / Class \ud835\udc9e_E",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_class_C_E_admissible_encoder",
+      "community": 3,
+      "norm_label": "class c_e (admissible encoder)"
+    },
+    {
+      "label": "Class \ud835\udc9e_W (Admissible Linear Combiner)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 1 / Class \ud835\udc9e_W",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_class_C_W_admissible_combiner",
+      "community": 3,
+      "norm_label": "class c_w (admissible linear combiner)"
+    },
+    {
+      "label": "Class \ud835\udc9e_N (Admissible Nonlinearity)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 1 / Class \ud835\udc9e_N",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_class_C_N_admissible_nonlinearity",
+      "community": 3,
+      "norm_label": "class c_n (admissible nonlinearity)"
+    },
+    {
+      "label": "Class \ud835\udc9e_D (Admissible Decoder)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 1 / Class \ud835\udc9e_D",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_class_C_D_admissible_decoder",
+      "community": 3,
+      "norm_label": "class c_d (admissible decoder)"
+    },
+    {
+      "label": "Class \ud835\udc9e_S (Admissible Score)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 1 / Class \ud835\udc9e_S",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_class_C_S_admissible_score",
+      "community": 3,
+      "norm_label": "class c_s (admissible score)"
+    },
+    {
+      "label": "Class \ud835\udc9e_R (Admissible Sensor Readout)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 1 / Class \ud835\udc9e_R",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_class_C_R_admissible_sensor_readout",
+      "community": 3,
+      "norm_label": "class c_r (admissible sensor readout)"
+    },
+    {
+      "label": "Class \ud835\udc9e_\u03a3 (Admissible Archive Operators)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 1 / Class \ud835\udc9e_\u03a3",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_class_C_Sigma_admissible_archive",
+      "community": 3,
+      "norm_label": "class c_\u03c3 (admissible archive operators)"
+    },
+    {
+      "label": "\u2133_PPCA \u2014 admissible space of PPCA tuples",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 2",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "community": 3,
+      "norm_label": "m_ppca \u2014 admissible space of ppca tuples"
+    },
+    {
+      "label": "Theorem 1' \u2014 Generalized Well-Posedness",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 3",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "community": 6,
+      "norm_label": "theorem 1' \u2014 generalized well-posedness"
+    },
+    {
+      "label": "Theorem 2' \u2014 Generalized Realizability",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 4",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_theorem_2_prime_generalized_realizability",
       "community": 7,
-      "norm_label": "claim: canonical ppca is specialization of catalog"
+      "norm_label": "theorem 2' \u2014 generalized realizability"
+    },
+    {
+      "label": "Theorem 3' \u2014 Generalized Signal-Processing Completeness",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 5",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "community": 6,
+      "norm_label": "theorem 3' \u2014 generalized signal-processing completeness"
+    },
+    {
+      "label": "Theorem 4' \u2014 Generalized Convergence",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 6",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "community": 1,
+      "norm_label": "theorem 4' \u2014 generalized convergence"
+    },
+    {
+      "label": "Theorem 5' \u2014 Generalized Noise Tolerance",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 7",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "community": 1,
+      "norm_label": "theorem 5' \u2014 generalized noise tolerance"
+    },
+    {
+      "label": "Specialization Map: Application \u2192 \u2133_PPCA instance",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 8",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_specialization_map_application_to_instance",
+      "community": 3,
+      "norm_label": "specialization map: application \u2192 m_ppca instance"
+    },
+    {
+      "label": "Verification Protocol (5 steps)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 9",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_verification_protocol_5_steps",
+      "community": 6,
+      "norm_label": "verification protocol (5 steps)"
+    },
+    {
+      "label": "Canonical PPCA = HP LLM specialization",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 8",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_application_canonical_is_HP_LLM_instance",
+      "community": 3,
+      "norm_label": "canonical ppca = hp llm specialization"
+    },
+    {
+      "label": "Template Invariance Principle (formalized)",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## \uacb0\ub860",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_generalization_principle_template_invariance",
+      "community": 3,
+      "norm_label": "template invariance principle (formalized)"
+    },
+    {
+      "label": "REINFORCE general score identity",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 6 / REINFORCE \uc77c\ubc18\ud654",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_reinforce_general_score_identity",
+      "community": 1,
+      "norm_label": "reinforce general score identity"
+    },
+    {
+      "label": "\u03c3_eff\u00b2(\ud835\udcae) \u2014 application-dependent noise budget",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 7",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_sigma_eff_squared_application_dependent",
+      "community": 1,
+      "norm_label": "\u03c3_eff2(s) \u2014 application-dependent noise budget"
+    },
+    {
+      "label": "Proof sketch: class Lipschitz \u27f9 Picard-Lindel\u00f6f",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 3 / \uc99d\uba85",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_proof_sketch_class_lipschitz_implies_picard",
+      "community": 6,
+      "norm_label": "proof sketch: class lipschitz \u27f9 picard-lindelof"
+    },
+    {
+      "label": "Proof sketch: Volterra under PWL or analytic N",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 5 / \uc99d\uba85",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_proof_sketch_class_volterra_under_PWL_or_analytic",
+      "community": 6,
+      "norm_label": "proof sketch: volterra under pwl or analytic n"
+    },
+    {
+      "label": "Proof sketch: Lyapunov under monotone score",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 6 / Lyapunov",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_proof_sketch_class_lyapunov_under_monotone_score",
+      "community": 1,
+      "norm_label": "proof sketch: lyapunov under monotone score"
+    },
+    {
+      "label": "Proof sketch: OU stationary with parametrized \u03c3_eff",
+      "file_type": "document",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": "## Step 7 / \uc99d\uba85",
+      "source_url": null,
+      "captured_at": "2026-04-25",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "theory_dev_class_gen_proof_sketch_class_OU_with_parametrized_noise",
+      "community": 1,
+      "norm_label": "proof sketch: ou stationary with parametrized \u03c3_eff"
     }
   ],
   "links": [
@@ -14796,6 +15135,42 @@
       "target": "alternative_candidate_catalog_claim_canonical_is_specialization"
     },
     {
+      "relation": "produces",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "theory_dev_class_gen_specialization_map_application_to_instance",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "theory_dev_class_gen_specialization_map_application_to_instance"
+    },
+    {
+      "relation": "produces",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA"
+    },
+    {
+      "relation": "produces",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "stage2_eggroll_ppca_main",
+      "_tgt": "theory_dev_class_gen_application_canonical_is_HP_LLM_instance",
+      "source": "stage2_eggroll_ppca_main",
+      "target": "theory_dev_class_gen_application_canonical_is_HP_LLM_instance"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": null,
       "confidence_score": 0.7,
@@ -17378,6 +17753,30 @@
       "target": "formulation_layer_s_main"
     },
     {
+      "relation": "generalizes",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "formulation_layer_c_main",
+      "_tgt": "theory_dev_class_gen_theorem_2_prime_generalized_realizability",
+      "source": "formulation_layer_c_main",
+      "target": "theory_dev_class_gen_theorem_2_prime_generalized_realizability"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "formulation_layer_c_main",
+      "_tgt": "theory_dev_class_gen_step0_motivation_instance_to_class",
+      "source": "formulation_layer_c_main",
+      "target": "theory_dev_class_gen_step0_motivation_instance_to_class"
+    },
+    {
       "relation": "conceptually_related_to",
       "provenance": "EXTRACTED",
       "weight": 1.0,
@@ -18312,6 +18711,18 @@
       "target": "math_theory_01_connectivity_chain_summary"
     },
     {
+      "relation": "generalizes",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "formulation_layer_d_theorem_1_well_posedness",
+      "_tgt": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "source": "formulation_layer_d_theorem_1_well_posedness",
+      "target": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness"
+    },
+    {
       "label": "proof_step_of",
       "confidence": 1.0,
       "provenance": "EXTRACTED",
@@ -18492,6 +18903,18 @@
       "_tgt": "math_theory_02_connectivity_triangle",
       "source": "formulation_layer_d_theorem_3_switched_volterra",
       "target": "math_theory_02_connectivity_triangle"
+    },
+    {
+      "relation": "generalizes",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "formulation_layer_d_theorem_3_switched_volterra",
+      "_tgt": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "source": "formulation_layer_d_theorem_3_switched_volterra",
+      "target": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness"
     },
     {
       "label": "concerns",
@@ -19078,6 +19501,18 @@
       "target": "math_theory_04_main"
     },
     {
+      "relation": "extends",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "formulation_layer_s_es_score_estimator_identity",
+      "_tgt": "theory_dev_class_gen_reinforce_general_score_identity",
+      "source": "formulation_layer_s_es_score_estimator_identity",
+      "target": "theory_dev_class_gen_reinforce_general_score_identity"
+    },
+    {
       "relation": "uses",
       "confidence": 1.0,
       "extraction_source": "EXTRACTED",
@@ -19340,6 +19775,18 @@
       "_tgt": "math_theory_04_martingale_convergence_application",
       "source": "formulation_layer_s_theorem_4_convergence",
       "target": "math_theory_04_martingale_convergence_application"
+    },
+    {
+      "relation": "generalizes",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "formulation_layer_s_theorem_4_convergence",
+      "_tgt": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "source": "formulation_layer_s_theorem_4_convergence",
+      "target": "theory_dev_class_gen_theorem_4_prime_generalized_convergence"
     },
     {
       "relation": "supports",
@@ -19650,6 +20097,18 @@
       "target": "math_theory_05_five_theory_notes_supersummary"
     },
     {
+      "relation": "generalizes",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "formulation_layer_s_theorem_5_noise_tolerance",
+      "_tgt": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "source": "formulation_layer_s_theorem_5_noise_tolerance",
+      "target": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance"
+    },
+    {
       "relation": "threatens_assumption_of",
       "confidence": 1.0,
       "extraction_source": "EXTRACTED",
@@ -19887,6 +20346,30 @@
       "target": "math_theory_01_lipschitz_continuity"
     },
     {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_01_picard_lindelof",
+      "_tgt": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "source": "math_theory_01_picard_lindelof",
+      "target": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_01_picard_lindelof",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_lipschitz_implies_picard",
+      "source": "math_theory_01_picard_lindelof",
+      "target": "theory_dev_class_gen_proof_sketch_class_lipschitz_implies_picard"
+    },
+    {
       "relation": "enables",
       "rationale": "Taylor expansion of N is Step 1 of the Volterra series derivation (Rugh 1981 Ch. 1\u20132).",
       "extraction_confidence": 1.0,
@@ -19907,6 +20390,30 @@
       "confidence_score": 1.0,
       "source": "math_theory_01_volterra_series",
       "target": "math_theory_01_switched_volterra_generalization"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_01_volterra_series",
+      "_tgt": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "source": "math_theory_01_volterra_series",
+      "target": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_01_volterra_series",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_volterra_under_PWL_or_analytic",
+      "source": "math_theory_01_volterra_series",
+      "target": "theory_dev_class_gen_proof_sketch_class_volterra_under_PWL_or_analytic"
     },
     {
       "type": "introduces",
@@ -20060,6 +20567,30 @@
       "confidence_score": 1.0,
       "source": "math_theory_02_zaslavsky_theorem",
       "target": "math_theory_02_connectivity_triangle"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_02_zaslavsky_theorem",
+      "_tgt": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "source": "math_theory_02_zaslavsky_theorem",
+      "target": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_02_zaslavsky_theorem",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_volterra_under_PWL_or_analytic",
+      "source": "math_theory_02_zaslavsky_theorem",
+      "target": "theory_dev_class_gen_proof_sketch_class_volterra_under_PWL_or_analytic"
     },
     {
       "type": "bounds_complexity_of",
@@ -20275,6 +20806,30 @@
       "target": "math_theory_03_lyapunov_equation"
     },
     {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_03_ornstein_uhlenbeck_process",
+      "_tgt": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "source": "math_theory_03_ornstein_uhlenbeck_process",
+      "target": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_03_ornstein_uhlenbeck_process",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_OU_with_parametrized_noise",
+      "source": "math_theory_03_ornstein_uhlenbeck_process",
+      "target": "theory_dev_class_gen_proof_sketch_class_OU_with_parametrized_noise"
+    },
+    {
       "relation": "part_of",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -20453,6 +21008,30 @@
       "target": "math_theory_04_connectivity_chain"
     },
     {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_04_borkar_two_timescale",
+      "_tgt": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "source": "math_theory_04_borkar_two_timescale",
+      "target": "theory_dev_class_gen_theorem_4_prime_generalized_convergence"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_04_borkar_two_timescale",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_lyapunov_under_monotone_score",
+      "source": "math_theory_04_borkar_two_timescale",
+      "target": "theory_dev_class_gen_proof_sketch_class_lyapunov_under_monotone_score"
+    },
+    {
       "relation": "extends_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -20511,6 +21090,30 @@
       "_tgt": "math_theory_04_connectivity_chain",
       "source": "math_theory_04_nes_score_function",
       "target": "math_theory_04_connectivity_chain"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_04_nes_score_function",
+      "_tgt": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "source": "math_theory_04_nes_score_function",
+      "target": "theory_dev_class_gen_theorem_4_prime_generalized_convergence"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_04_nes_score_function",
+      "_tgt": "theory_dev_class_gen_reinforce_general_score_identity",
+      "source": "math_theory_04_nes_score_function",
+      "target": "theory_dev_class_gen_reinforce_general_score_identity"
     },
     {
       "relation": "part_of",
@@ -20635,6 +21238,18 @@
       "target": "math_theory_05_score_function_variance_rank"
     },
     {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "math_theory_05_clt_edgeworth_expansion",
+      "_tgt": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "source": "math_theory_05_clt_edgeworth_expansion",
+      "target": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -20731,6 +21346,30 @@
       "target": "alternative_candidate_catalog_claim_canonical_is_specialization"
     },
     {
+      "relation": "produces",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "alternative_candidate_catalog_main",
+      "_tgt": "theory_dev_class_gen_specialization_map_application_to_instance",
+      "source": "alternative_candidate_catalog_main",
+      "target": "theory_dev_class_gen_specialization_map_application_to_instance"
+    },
+    {
+      "relation": "uses_invariantly",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "alternative_candidate_catalog_main",
+      "_tgt": "theory_dev_class_gen_step0_motivation_instance_to_class",
+      "source": "alternative_candidate_catalog_main",
+      "target": "theory_dev_class_gen_step0_motivation_instance_to_class"
+    },
+    {
       "relation": "alternative_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -20777,6 +21416,18 @@
       "_tgt": "alternative_candidate_catalog_alt_W_photonic_mzi",
       "source": "alternative_candidate_catalog_slot1_W",
       "target": "alternative_candidate_catalog_alt_W_photonic_mzi"
+    },
+    {
+      "relation": "is_member_of_class",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "alternative_candidate_catalog_slot1_W",
+      "_tgt": "theory_dev_class_gen_class_C_W_admissible_combiner",
+      "source": "alternative_candidate_catalog_slot1_W",
+      "target": "theory_dev_class_gen_class_C_W_admissible_combiner"
     },
     {
       "relation": "alternative_to",
@@ -20827,6 +21478,18 @@
       "target": "alternative_candidate_catalog_alt_N_cmos_inverter"
     },
     {
+      "relation": "is_member_of_class",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "alternative_candidate_catalog_slot2_N",
+      "_tgt": "theory_dev_class_gen_class_C_N_admissible_nonlinearity",
+      "source": "alternative_candidate_catalog_slot2_N",
+      "target": "theory_dev_class_gen_class_C_N_admissible_nonlinearity"
+    },
+    {
       "relation": "alternative_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -20861,6 +21524,18 @@
       "_tgt": "alternative_candidate_catalog_alt_S_pwm_integrator",
       "source": "alternative_candidate_catalog_slot3_S",
       "target": "alternative_candidate_catalog_alt_S_pwm_integrator"
+    },
+    {
+      "relation": "is_member_of_class",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "alternative_candidate_catalog_slot3_S",
+      "_tgt": "theory_dev_class_gen_class_C_S_admissible_score",
+      "source": "alternative_candidate_catalog_slot3_S",
+      "target": "theory_dev_class_gen_class_C_S_admissible_score"
     },
     {
       "relation": "alternative_to",
@@ -20909,6 +21584,18 @@
       "_tgt": "alternative_candidate_catalog_alt_E_current_mode",
       "source": "alternative_candidate_catalog_slot4_E",
       "target": "alternative_candidate_catalog_alt_E_current_mode"
+    },
+    {
+      "relation": "is_member_of_class",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "alternative_candidate_catalog_slot4_E",
+      "_tgt": "theory_dev_class_gen_class_C_E_admissible_encoder",
+      "source": "alternative_candidate_catalog_slot4_E",
+      "target": "theory_dev_class_gen_class_C_E_admissible_encoder"
     },
     {
       "relation": "alternative_to",
@@ -20993,42 +21680,476 @@
       "_tgt": "alternative_candidate_catalog_alt_power_biopotential",
       "source": "alternative_candidate_catalog_slot7_power",
       "target": "alternative_candidate_catalog_alt_power_biopotential"
+    },
+    {
+      "relation": "formalizes",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "alternative_candidate_catalog_claim_template_invariance",
+      "_tgt": "theory_dev_class_gen_generalization_principle_template_invariance",
+      "source": "alternative_candidate_catalog_claim_template_invariance",
+      "target": "theory_dev_class_gen_generalization_principle_template_invariance"
+    },
+    {
+      "relation": "produces",
+      "confidence": null,
+      "confidence_score": 0.7,
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "alternative_candidate_catalog_claim_canonical_is_specialization",
+      "_tgt": "theory_dev_class_gen_specialization_map_application_to_instance",
+      "source": "alternative_candidate_catalog_claim_canonical_is_specialization",
+      "target": "theory_dev_class_gen_specialization_map_application_to_instance"
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_step0_motivation_instance_to_class",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_step0_motivation_instance_to_class",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_class_C_E_admissible_encoder",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_class_C_E_admissible_encoder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_class_C_W_admissible_combiner",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_class_C_W_admissible_combiner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_class_C_N_admissible_nonlinearity",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_class_C_N_admissible_nonlinearity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_class_C_D_admissible_decoder",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_class_C_D_admissible_decoder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_class_C_S_admissible_score",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_class_C_S_admissible_score",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_class_C_R_admissible_sensor_readout",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_class_C_R_admissible_sensor_readout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_class_C_Sigma_admissible_archive",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_class_C_Sigma_admissible_archive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_theorem_2_prime_generalized_realizability",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_theorem_2_prime_generalized_realizability",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_specialization_map_application_to_instance",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_specialization_map_application_to_instance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_verification_protocol_5_steps",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_verification_protocol_5_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_main",
+      "_tgt": "theory_dev_class_gen_generalization_principle_template_invariance",
+      "source": "theory_dev_class_gen_main",
+      "target": "theory_dev_class_gen_generalization_principle_template_invariance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_step0_motivation_instance_to_class",
+      "_tgt": "theory_dev_class_gen_class_C_E_admissible_encoder",
+      "source": "theory_dev_class_gen_step0_motivation_instance_to_class",
+      "target": "theory_dev_class_gen_class_C_E_admissible_encoder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_class_C_E_admissible_encoder",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "theory_dev_class_gen_class_C_E_admissible_encoder",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_class_C_W_admissible_combiner",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "theory_dev_class_gen_class_C_W_admissible_combiner",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_class_C_N_admissible_nonlinearity",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "theory_dev_class_gen_class_C_N_admissible_nonlinearity",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_class_C_D_admissible_decoder",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "theory_dev_class_gen_class_C_D_admissible_decoder",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_class_C_S_admissible_score",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "theory_dev_class_gen_class_C_S_admissible_score",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_class_C_R_admissible_sensor_readout",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "theory_dev_class_gen_class_C_R_admissible_sensor_readout",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_class_C_Sigma_admissible_archive",
+      "_tgt": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "source": "theory_dev_class_gen_class_C_Sigma_admissible_archive",
+      "target": "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "proven_via",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_lipschitz_implies_picard",
+      "source": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "target": "theory_dev_class_gen_proof_sketch_class_lipschitz_implies_picard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "_tgt": "theory_dev_class_gen_verification_protocol_5_steps",
+      "source": "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+      "target": "theory_dev_class_gen_verification_protocol_5_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "proven_via",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_volterra_under_PWL_or_analytic",
+      "source": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "target": "theory_dev_class_gen_proof_sketch_class_volterra_under_PWL_or_analytic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "_tgt": "theory_dev_class_gen_verification_protocol_5_steps",
+      "source": "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+      "target": "theory_dev_class_gen_verification_protocol_5_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "proven_via",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_lyapunov_under_monotone_score",
+      "source": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "target": "theory_dev_class_gen_proof_sketch_class_lyapunov_under_monotone_score",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "_tgt": "theory_dev_class_gen_reinforce_general_score_identity",
+      "source": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "target": "theory_dev_class_gen_reinforce_general_score_identity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "_tgt": "theory_dev_class_gen_verification_protocol_5_steps",
+      "source": "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+      "target": "theory_dev_class_gen_verification_protocol_5_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "proven_via",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "_tgt": "theory_dev_class_gen_proof_sketch_class_OU_with_parametrized_noise",
+      "source": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "target": "theory_dev_class_gen_proof_sketch_class_OU_with_parametrized_noise",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "parametrizes",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "_tgt": "theory_dev_class_gen_sigma_eff_squared_application_dependent",
+      "source": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "target": "theory_dev_class_gen_sigma_eff_squared_application_dependent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses_invariantly",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "_tgt": "theory_dev_class_gen_verification_protocol_5_steps",
+      "source": "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance",
+      "target": "theory_dev_class_gen_verification_protocol_5_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "produces",
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md",
+      "_src": "theory_dev_class_gen_specialization_map_application_to_instance",
+      "_tgt": "theory_dev_class_gen_application_canonical_is_HP_LLM_instance",
+      "source": "theory_dev_class_gen_specialization_map_application_to_instance",
+      "target": "theory_dev_class_gen_application_canonical_is_HP_LLM_instance",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [
     {
-      "id": "alternative_candidate_catalog_seven_slots_family",
-      "label": "Seven PPCA slot family",
+      "id": "theory_dev_class_gen_seven_classes",
+      "label": "Seven admissible operator classes",
       "members": [
-        "alternative_candidate_catalog_main",
-        "alternative_candidate_catalog_slot1_W",
-        "alternative_candidate_catalog_slot2_N",
-        "alternative_candidate_catalog_slot3_S",
-        "alternative_candidate_catalog_slot4_E",
-        "alternative_candidate_catalog_slot5_update",
-        "alternative_candidate_catalog_slot6_batch",
-        "alternative_candidate_catalog_slot7_power"
+        "theory_dev_class_gen_main",
+        "theory_dev_class_gen_class_C_E_admissible_encoder",
+        "theory_dev_class_gen_class_C_W_admissible_combiner",
+        "theory_dev_class_gen_class_C_N_admissible_nonlinearity",
+        "theory_dev_class_gen_class_C_D_admissible_decoder",
+        "theory_dev_class_gen_class_C_S_admissible_score",
+        "theory_dev_class_gen_class_C_R_admissible_sensor_readout",
+        "theory_dev_class_gen_class_C_Sigma_admissible_archive"
       ],
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/alternative_candidate_catalog.md",
-      "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md"
     },
     {
-      "id": "alternative_candidate_catalog_canonical_vs_alternatives",
-      "label": "Canonical PPCA vs alternative-catalog relation",
+      "id": "theory_dev_class_gen_five_generalized_theorems",
+      "label": "Five generalized theorems T1'-T5'",
       "members": [
-        "alternative_candidate_catalog_main",
-        "alternative_candidate_catalog_claim_canonical_is_specialization",
-        "alternative_candidate_catalog_claim_template_invariance",
-        "stage2_eggroll_ppca_main"
+        "theory_dev_class_gen_main",
+        "theory_dev_class_gen_theorem_1_prime_generalized_well_posedness",
+        "theory_dev_class_gen_theorem_2_prime_generalized_realizability",
+        "theory_dev_class_gen_theorem_3_prime_generalized_sp_completeness",
+        "theory_dev_class_gen_theorem_4_prime_generalized_convergence",
+        "theory_dev_class_gen_theorem_5_prime_generalized_noise_tolerance"
       ],
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "raw/alternative_candidate_catalog.md",
-      "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md"
+    },
+    {
+      "id": "theory_dev_class_gen_master_unification",
+      "label": "Master unification: canonical PPCA is one specialization within \u2133_PPCA family",
+      "members": [
+        "theory_dev_class_gen_main",
+        "theory_dev_class_gen_ppca_admissible_space_M_PPCA",
+        "alternative_candidate_catalog_main",
+        "stage2_eggroll_ppca_main",
+        "formulation_layer_c_main",
+        "formulation_layer_d_main",
+        "formulation_layer_s_main"
+      ],
+      "weight": 0.95,
+      "evidence": "EXTRACTED",
+      "source_file": "raw/theory_development_stepwise_class_generalization.md"
     }
   ]
 }

@@ -1,77 +1,85 @@
 # 그래프 보고서 (Graph Report) - ./raw  (2026-04-25)
 
 ## 코퍼스 점검 (Corpus Check)
-- 40 파일 · 약 66,000 단어
+- 41 파일 · 약 71,500 단어
 - 판정: 코퍼스가 그래프 구조로 가치를 얻을 만한 규모입니다.
 
 ## 요약 (Summary)
-- 노드 517개 · 엣지(edge) 1243개 · 커뮤니티(community) 17개
-- 추출 결과: 40% EXTRACTED · 8% INFERRED · **0% AMBIGUOUS** · INFERRED 엣지 94개 (평균 신뢰도 0.81)
+- 노드 542개 · 엣지(edge) 1310개 · 커뮤니티(community) 15개
+- 추출 결과: 0% AMBIGUOUS 유지
 
-## 이번 업데이트 — 대안 후보 카탈로그 (Slot-level Alternative Candidates)
+## 이번 업데이트 — 단계별 이론 전개 (Class Generalization)
 
-전체 PPCA 흐름은 그대로 유지하면서, 7개 구성요소 슬롯 각각에 대한 대안 물리 구현을 탐색:
+대안 카탈로그가 보여준 "PPCA = 한 instance"의 함의를 수학적 일반화로 격상한 9단계 전개:
 
-| 슬롯 | Canonical | 대안 후보 (이번 카탈로그) |
+| Step | 내용 | 결과물 |
 |---|---|---|
-| **W (Linear Combiner)** | Memristor crossbar | PCM, Gain Cell, MRAM, Photonic MZI |
-| **N (Nonlinearity)** | Kink MOSFET | LIF Neuron, Schottky Knee, OpAmp tanh, CMOS Inverter |
-| **S (Score)** | Subthreshold exp | Photon Counting, Race Logic, PWM Integrator |
-| **E (Encoding)** | Bit-plane / Pulse-density / Binarized | ΣΔ, PWM, Phase-shift, Current-mode |
-| **Update (Slow Memory)** | Charge-trap | VCMA-MRAM, FeRAM, CBRAM |
-| **Batch Processing** | Floating-bulk two-timescale | SC integrator, Event-driven, Photonic delay loop |
-| **Power (Semi-passive)** | Input signal | PV, Thermal, RF, Biopotential |
+| 0 | 모티베이션: instance → class | 일반화 필요성 |
+| 1 | 7개 admissible operator class 정의 (𝒞_E, 𝒞_W, 𝒞_N, 𝒞_D, 𝒞_S, 𝒞_R, 𝒞_Σ) | 멤버십 조건 |
+| 2 | Generalized Layer C (parametric) | ℳ_PPCA 정의 |
+| 3 | Theorem 1' (Generalized Well-Posedness) | Picard-Lindelöf의 class-수준 적용 |
+| 4 | Theorem 2' (Generalized Realizability) | 카탈로그 자체가 증명 |
+| 5 | Theorem 3' (Generalized SP Completeness) | Switched Volterra가 모든 𝒞_N 멤버에 적용 |
+| 6 | Theorem 4' (Generalized Convergence) | REINFORCE 일반화로 모든 𝒞_S에 적용 |
+| 7 | Theorem 5' (Generalized Noise Bound) | σ_eff²(𝒮)로 application별 정량 예측 |
+| 8 | Specialization Map: Application → Spec(A) ∈ ℳ_PPCA | 4 application bundle의 수학적 위치 |
+| 9 | Verification Protocol (5단계 체크리스트) | 새 슬롯 후보의 형식 검증 절차 |
 
-### 4개 응용 묶음 (cross-component bundle)
+### 핵심 결과
 
-- **Biomedical Implant**: Current-mode E + STT-MRAM W + LIF N + Schmidt-trigger S + VCMA-MRAM update + Event-driven batch + Biofuel/Thermal power. 예상 power < 1 μW.
-- **Always-on Keyword**: PWM E + Gain cell W + Schottky N + Charge-packet S + Flash update + SC integrator batch + PV. 예상 power ~10 μW.
-- **RF Backscatter**: Phase-shift E + Switched-cap W + CMOS Inverter N + Race-logic S + MRAM update + Photonic delay batch + RF harvesting. 예상 power ~100 nW.
-- **High-Performance LLM** (canonical PPCA의 specialization): Bit-plane E + PCM W + Kink N + Subthreshold-exp S + Charge-trap update + Floating-bulk batch + 유선 전원.
+- **PPCA가 single instance에서 instance-family ℳ_PPCA로 격상**
+- 각 정리(T1'-T5')가 class membership 조건만 검증되면 자동 적용
+- 새 device/circuit 후보 추가가 5단계 protocol로 환원
+- σ_eff²가 application-dependent이므로 정량 예측이 application별로 다름
 
-### 핵심 주장 (그래프에 명시됨)
+### REINFORCE 일반화의 의미
 
-1. **`claim_template_invariance`** — PPCA 6-phase + 3-tier + forward-only + two-timescale 골격이 슬롯 swap 하에서 보존됨. `preserves` 엣지로 PPCA main에 연결.
-2. **`claim_canonical_is_specialization`** — 현재 canonical PPCA는 application-D (high-performance LLM) 스펙에 최적화된 한 instance. 다른 슬롯 조합으로 다른 application family 진입 가능.
-
-## 커뮤니티 허브 (17개)
-
-이전과 거의 동일하지만 **C7 ("Alternative Candidate Catalog + In-Memory Attention")** 신설 — 26개의 alt-catalog 노드가 In-Memory Attention paper 본문 노드들과 **자연스럽게 결합**. In-Memory Attention 논문의 gain cell·charge-to-pulse hardsigmoid 등이 본 카탈로그의 대안 W·N 후보를 이미 부분 검증한 셈.
+기존 Layer S는 Gaussian S에 의존했지만 Step 6에서 **REINFORCE identity (Williams 1992)**의 일반 형태를 사용:
+```
+∇_W E[S(W; ξ)] = E[S · ∇_W log p(ξ; W)]
+```
+이로써 photon-counting score (Poisson), race logic (delay-coded), PWM duty-cycle 모두 같은 수렴 정리에 포함됨.
 
 ## 갓 노드 (Top 10)
 
 | Rank | Node | Edges |
 |---|---|---|
-| 1 | EGGROLL-PPCA Architecture | 53 (+3) |
+| 1 | EGGROLL-PPCA Architecture | 56 (+3) |
 | 2 | Subthreshold Exponential Regime | 30 |
 | 3 | EGGROLL Algorithm | 27 |
-| 4 | Formulation Layer D | 25 |
-| 5 | Theorem 4 (Learning Convergence) | 25 |
-| 6 | Theorem 3 (Switched Volterra) | 24 |
-| 7 | Physics Correspondence Table | 22 |
-| 8 | Theorem 5 (Noise Tolerance) | 22 |
+| 4 | Theorem 4 (Convergence) | 26 (+1) |
+| 5 | Formulation Layer D | 25 |
+| 6 | Theorem 3 (Switched Volterra) | 25 (+1) |
+| 7 | Theorem 5 (Noise Tolerance) | 23 (+1) |
+| 8 | Physics Correspondence Table | 22 |
 | 9 | Pair 7 (Kink ↔ ReLU Polytope) | 21 |
 | 10 | Log-Domain / Translinear | 21 |
 
-PPCA가 50→53으로 +3 — 7개 슬롯 노드와 직접 또는 간접으로 연결됨.
+PPCA가 53→56으로 +3 — class 일반화 노드들이 PPCA를 ℳ_PPCA의 한 specialization으로 명시적으로 위치시킴.
 
-### 구조적 의미
+T3, T4, T5가 모두 +1씩 — generalized 버전이 각 정리를 강화.
 
-대안 카탈로그가 그래프에 들어오면서 **PPCA가 "특정 설계"가 아닌 "설계 가족(design family)의 대표 sample"**으로 재위치됨. 같은 수학 (Layer C/D/S, 5개 이론 사슬)이 다양한 물리 구현에 적용 가능함을 그래프가 인증.
+### 새 커뮤니티 — C3 "Class Generalization + Catalog + ℳ_PPCA"
 
-### 지표 변화
+13개의 theory_dev 노드가 카탈로그 노드와 한 클러스터 형성. 이 커뮤니티가 "PPCA design space의 수학적 형식화"를 한 점으로 묶음.
+
+### 구조적 변화
 
 | 지표 | 이전 | 이후 | Δ |
 |---|---|---|---|
-| 노드 | 485 | **517** | +32 |
-| 엣지 | 1197 | **1243** | +46 |
-| 커뮤니티 | 13 | **17** | +4 (작은 thin community 분리) |
+| 노드 | 517 | **542** | +25 |
+| 엣지 | 1243 | **1310** | +67 |
+| 커뮤니티 | 17 | **15** | −2 (theory_dev가 catalog와 흡수) |
 | AMBIGUOUS | 0 | **0** | 유지 |
-| PPCA main 차수 | 50 | **53** | +3 |
+| PPCA main 차수 | 53 | **56** | +3 |
 
-### 다음 작업 후보
+### 새 master hyperedge
 
-1. **Application bundle별 정량 simulation** — 4개 응용 (biomedical, keyword, RF, LLM)에 대해 Stage 3a functional simulation을 따로 돌려 power/latency/accuracy 비교
-2. **Slot 호환성 매트릭스 검증** — 노트 §"구성요소 간 호환성 매트릭스"의 ◎/○/△/× 판정을 SPICE-수준에서 검증
-3. **Photonic backend 별도 노트** — MZI mesh + photodiode + photon-counting의 완전 photonic PPCA를 별도 형식화
-4. **저전력 극단 케이스** — Biomedical implant 묶음의 < 1 μW 달성을 위한 device choice 정밀화
+`theory_dev_class_gen_master_unification` [EXTRACTED 0.95] — main + ℳ_PPCA + alternative_candidate_catalog_main + stage2_eggroll_ppca_main + Layer C/D/S main을 한 묶음으로. **"Canonical PPCA = ℳ_PPCA의 한 specialization"**을 그래프가 공리 수준으로 진술.
+
+### 다음 작업
+
+이론 일반화가 완료되었으므로:
+1. **Stage 3a functional simulation** — 4개 application bundle 각각에 대해 generalized T5' bound를 NumPy로 검증
+2. **Verification Protocol 적용** — 새 device 후보(예: VCMA-MRAM, photon counter)에 대해 9단계 protocol 실제로 돌리기
+3. **σ_eff² 매트릭스 작성** — 각 (slot, candidate) 쌍의 노이즈 기여 정량값 표
