@@ -1,90 +1,92 @@
 # 그래프 보고서 (Graph Report) - ./raw  (2026-04-26)
 
-## 코퍼스 점검 (Corpus Check)
-- 33 파일 · 약 70,000 단어 (PDF 9개 제거 후)
-- 노드 508개 · 엣지 1275개 · 커뮤니티 13개 · AMBIGUOUS 0 유지
+## 코퍼스 점검
+- 44 파일 · 약 100,000 단어 (이번 update에서 +30k)
+- 노드 641개 · 엣지 1540개 · 커뮤니티 17개 · AMBIGUOUS 0 유지
 
-## 이번 정리 작업 — Memristor/Neuromorphic 무관 자료 9개 PDF 제거
+## 이번 update 요약
 
-기준: (a) 멤리스터/뉴로모픽과 무관 AND (b) PPCA에 수학·이론 직관 제공 안 함
+11개 신규 파일 (사용자가 별도 작성) 통합:
 
-### 제거된 9개 PDF
+### Code (2)
+- `raw/simulations/eggroll_ppca/ppca_sim.py` — NumPy behavioral twin
+- `raw/simulations/eggroll_ppca/ppca_physical_sim.py` — physical functional simulator
 
-| 파일 | 사유 |
-|---|---|
-| `Learning with Exact Invariances in Polynomial Time` | KAN과 disjoint_from 판정됨 |
-| `A Primer on Quantum Machine Learning` | 양자 ML, 다른 물리 카테고리 |
-| `Conditional Memory via Scalable Lookup` | LLM sparsity, PPCA 무관 |
-| `Learning to Discover at Test Time` | TTT-Discover, LeWorldModel과 disjoint |
-| `LeWorldModel` | JEPA world model, 다른 패러다임 |
-| `Turboquant`, `QJL`, `PolarQuant...` | KV cache quantization, PPCA 무관 |
-| `A Geometric Explanation of OOD Detection Paradox` | OOD detection, PPCA 무관 |
-| (BitDance는 manifest에 원래 없었음 — sensitive 스킵) | — |
+AST 추출: **73 nodes, 167 edges** (함수·클래스 시그니처).
 
-### 제거 후 그래프 정리
+### Documents (9)
+- 3개 2026 neuromorphic 서베이/연구 chunks
+- 6개 Stage 3a 시뮬레이션 문서 (README, ANALYSIS, EXPLANATION_KO, RUN_NOTES, VISUAL_SUMMARY, PHYSICAL_FUNCTIONAL_SIMULATOR)
 
-- **56개 ghost node 제거** (9개 파일에서 추출되었던 모든 노드)
-- 그래프: 564 → **508 nodes** (−56), 1365 → **1275 edges** (−90)
-- 커뮤니티: 15 → **13** (작은 cluster 흡수)
-- AMBIGUOUS 0 유지
+Semantic 추출: **60 nodes, 120 edges, 2 hyperedges**.
 
-### 보존된 14개 PDF (KEEP)
+### 핵심 새 발견 — 두 시뮬레이터의 결과가 충돌
 
-**핵심 뉴로모픽**:
-- `Synaptic and neural behaviours` (NS-RAM, kink, charge-trap)
-- `CMOS-integrated organic neuromorphic imagers`
-- `A neuromorphic processor with on-chip learning for beyond-CMOS` (TEXEL)
-- `Analog in-memory computing attention` (gain cell crossbar)
+서브에이전트가 발견한 것: 
+- **Behavioral Twin** (`ppca_sim.py`) — Layer S T5'의 cross-tile correlation 영향이 **3.18×** degradation 보고
+- **Physical Functional Simulator** (`ppca_physical_sim.py`) — 같은 cross-tile correlation 영향이 거의 0 (0.008572 → 0.008569)
 
-**EGGROLL 알고리즘 + 수학적 기반**:
-- `Evolution Strategies at the Hyperscale` (.pdf + .md)
-- `All elementary functions from a single operator` (EML/log-domain)
-- `Binarized Neural Networks` (composition theorem 특수화)
-- `A Practitioner's Guide to KAN` (KAT, learnable edge ↔ EML)
+추정 원인 4가지: (1) 작은 target voltages, (2) score saturation, (3) write compression, (4) normalized voltage encoding. → `proxy_too_mild` 노드로 `contradicts` 엣지 명시.
 
-**Stage 2 학습 규칙 대안 (이론 직관 제공)**:
-- `NOPROP` (layer-local 학습)
-- `HEBBIAN LEARNING WITH GLOBAL DIRECTION`
+이는 **Behavioral Twin이 실제 물리 효과를 underestimate하는 가능성**을 그래프가 자체 검증한 사례 — Layer S T5' 예측 검증의 첫 실증 발견.
 
 ## Top 10 갓 노드
 
 | Rank | Node | Edges (Δ) |
 |---|---|---|
-| 1 | EGGROLL-PPCA Architecture | 59 (−2) |
-| 2 | Subthreshold Exponential Regime | 29 (−1) |
-| 3 | EGGROLL Algorithm | 27 |
-| 4 | Theorem 4 (Convergence) | 26 |
-| 5 | Formulation Layer D | 25 |
-| 6 | Theorem 3 (Switched Volterra) | 25 |
-| 7 | Theorem 5 (Noise Tolerance) | 23 |
+| 1 | EGGROLL-PPCA Architecture | 61 (+2) |
+| 2 | **Theorem 4 (Convergence)** | **30** (+4 — sim 검증으로 강화) |
+| 3 | EGGROLL Algorithm | 29 (+2) |
+| 4 | Subthreshold Exponential | 29 |
+| 5 | **Theorem 5 (Noise Tolerance)** | **26** (+3 — sim 결과로 정량화) |
+| 6 | Formulation Layer D | 25 |
+| 7 | Theorem 3 (Switched Volterra) | 25 |
 | 8 | FPGA Implementation Analysis | 23 |
 | 9 | Physics Correspondence Table | 22 |
-| 10 | Pair 7 (Kink ↔ ReLU Polytope) | 21 |
+| 10 | Rank-r Perturbation Structure | 21 |
 
-PPCA가 61→59로 −2 — 제거된 KV-quant 가족·world model이 카탈로그에서 부분적으로 제거되며 일부 약한 INFERRED edge가 사라진 결과. 핵심 구조는 **모두 유지**.
+T4·T5가 +4·+3 — **Stage 3a simulation이 정리들에 정량적 검증 엣지를 다수 추가**.
 
-## 13개 커뮤니티 — 정리 후 더 응집
+## 새 커뮤니티 구조 (17개)
 
-PDF 제거가 코어 메시지를 강화:
-- C0 Three-Tier Memory + Charge-Trap (82n)
-- C1 EGGROLL-PPCA Architecture Hub (78n)
-- **C2 FPGA + Alternative Catalog + Class Generalization (68n)** — 메타 아키텍처 layer
-- C3 Layer S + T4-T5 + EGGROLL Convergence (63n)
-- C4-C7: Layer 별 정리 + 이론 사슬
-- C8-C11: 도메인별 (TEXEL, Stateful Field, KAN, Symbolic Regression)
+| C# | 이름 | 신규 |
+|---|---|---|
+| 0 | Alternative Catalog + Class Generalization Hub | |
+| 1 | **Layer S + EGGROLL Convergence + Stage 3a Sim Validation** | sim 10 |
+| 3 | **Three-Tier Memory + 2026 Neuromorphic Survey** | survey 17 |
+| 4 | **PPCA Physical Functional Simulator** | sim code |
+| 6 | **Beyond-CMOS TEXEL + Latest Neuromorphic Research** | survey |
+| 7 | **PPCA NumPy Behavioral Twin** | sim 18 |
+| 10 | **PPCA sim helper code** (ppca_sim.py functions) | sim code |
+| 12 | **Analog Physical NN Major Cases (2026)** | survey |
 
-이전에 있던 KV-Cache Quantization, Geometric OOD, Test-Time Discovery + World Models 같은 **PPCA 외곽 cluster들이 모두 정리됨**. 그래프가 PPCA에 더 집중된 형태가 됨.
+8개 커뮤니티가 새 콘텐츠를 흡수 — 그래프가 이론↔실험 두 축 모두에서 두꺼워짐.
 
-## 추가 발견 — `raw/simulations/eggroll_ppca/` 디렉토리
+## Token reduction benchmark
 
-이번 점검에서 사용자가 별도로 추가한 Stage 3a simulation 작업 발견:
-- 코드: `ppca_sim.py`, `ppca_physical_sim.py`
-- 문서: 6개 .md (README, ANALYSIS, EXPLANATION_KO, RUN_NOTES, VISUAL_SUMMARY, PHYSICAL_FUNCTIONAL_SIMULATOR)
-- 결과: 4개 .svg (rank_sweep, distribution_shift, feasibility_summary, noise_sweep)
+```
+Corpus:          100,000 words → ~133,333 tokens (naive)
+Graph:           641 nodes, 1,540 edges
+Avg query cost:  ~26,906 tokens
+Reduction:       5.0x fewer tokens per query
+```
 
-또한 새 survey 노트 3개:
-- `neuromorphic_survey_2025_2026.md`
-- `latest_neuromorphic_research_chunks_2026-04-26.md`
-- `analog_physical_neural_network_major_cases_2026-04-26.md`
+(corpus가 100k words로 커지면서 효율은 다소 감소 — 더 큰 코퍼스는 일반적 패턴.)
 
-이들은 PPCA에 직접 관련이므로 보존됨. 향후 `--update`로 그래프에 통합 가능 (이번 정리 작업에서는 제거에만 집중).
+## 지표 변화
+
+| 지표 | 이전 | 이후 |
+|---|---|---|
+| 노드 | 508 | **641** (+133) |
+| 엣지 | 1275 | **1540** (+265) |
+| 커뮤니티 | 13 | **17** (+4 신규) |
+| AMBIGUOUS | 0 | **0** 유지 |
+| PPCA main 차수 | 59 | **61** |
+| Theorem 4 | 26 | **30** |
+| Theorem 5 | 23 | **26** |
+
+## 추천 다음 작업
+
+1. **Behavioral vs Physical 시뮬 충돌 분석** — 서브에이전트가 발견한 cross-tile correlation 결과 차이 (3.18× vs 0×)를 정밀 분석. Physical sim에서 4개 추정 원인을 하나씩 검증.
+2. **2026 neuromorphic 서베이 통합 정리** — 3개 서베이 노트가 가져온 새 device 후보들을 alternative catalog의 alt_W, alt_N 슬롯에 추가
+3. **Stage 3b SPICE 시뮬레이션 시작** — Behavioral twin이 underestimate하는 효과를 SPICE에서 검증

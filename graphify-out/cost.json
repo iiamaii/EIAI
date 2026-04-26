@@ -91,8 +91,15 @@
       "output_tokens": 0,
       "files": -9,
       "note": "pruned 9 unrelated PDFs from raw/ + graph cleanup"
+    },
+    {
+      "date": "2026-04-26T11:16:03.380350+00:00",
+      "input_tokens": 6500,
+      "output_tokens": 8500,
+      "files": 11,
+      "note": "incremental update: 9 docs + 2 sim code files"
     }
   ],
-  "total_input_tokens": 274400,
-  "total_output_tokens": 124900
+  "total_input_tokens": 280900,
+  "total_output_tokens": 133400
 }
