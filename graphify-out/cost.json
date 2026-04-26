@@ -84,6 +84,13 @@
       "output_tokens": 5500,
       "files": 1,
       "note": "FPGA implementation feasibility analysis"
+    },
+    {
+      "date": "2026-04-26T10:26:51.554728+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": -9,
+      "note": "pruned 9 unrelated PDFs from raw/ + graph cleanup"
     }
   ],
   "total_input_tokens": 274400,

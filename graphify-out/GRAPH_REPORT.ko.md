@@ -1,81 +1,90 @@
-# 그래프 보고서 (Graph Report) - ./raw  (2026-04-25)
+# 그래프 보고서 (Graph Report) - ./raw  (2026-04-26)
 
 ## 코퍼스 점검 (Corpus Check)
-- 42 파일 · 약 76,000 단어
-- 노드 564개 · 엣지 1365개 · 커뮤니티 13개 · AMBIGUOUS 0 유지
+- 33 파일 · 약 70,000 단어 (PDF 9개 제거 후)
+- 노드 508개 · 엣지 1275개 · 커뮤니티 13개 · AMBIGUOUS 0 유지
 
-## 이번 업데이트 — FPGA 구현 가능성 분석
+## 이번 정리 작업 — Memristor/Neuromorphic 무관 자료 9개 PDF 제거
 
-Step 9 verification protocol을 FPGA primitive에 직접 적용. 결과:
+기준: (a) 멤리스터/뉴로모픽과 무관 AND (b) PPCA에 수학·이론 직관 제공 안 함
 
-### 7개 슬롯 멤버십 결과
-- **Slot 1 W (DSP slice)**: 𝒞_W 조건 (iv) **FAIL** — Kirchhoff sum 아닌 digital MAC
-- **Slot 2 N (LUT)**: 𝒞_N 조건 (v) **FAIL** — transistor I-V 아닌 lookup
-- **Slot 3 S (LUT/arith)**: 형식 PASS, 의미 △
-- **Slot 4 E (Fabric+ADC)**: bypass-digitalization 조건 **FAIL** (ADC 사용)
-- **Slot 5 Update (BRAM/Flash)**: BRAM 휘발성 △, 외부 Flash로 보완 가능
-- **Slot 6 Batch (clock)**: 형식 PASS, but 시정수가 device 아닌 hyperparameter
-- **Slot 7 Power**: ~25W FPGA → semi-passive **FAIL**
+### 제거된 9개 PDF
 
-**결론**: 7개 중 4개 명확히 FAIL — strict한 의미로 FPGA는 𝒮 ∈ ℳ_PPCA의 멤버 **아님**.
+| 파일 | 사유 |
+|---|---|
+| `Learning with Exact Invariances in Polynomial Time` | KAN과 disjoint_from 판정됨 |
+| `A Primer on Quantum Machine Learning` | 양자 ML, 다른 물리 카테고리 |
+| `Conditional Memory via Scalable Lookup` | LLM sparsity, PPCA 무관 |
+| `Learning to Discover at Test Time` | TTT-Discover, LeWorldModel과 disjoint |
+| `LeWorldModel` | JEPA world model, 다른 패러다임 |
+| `Turboquant`, `QJL`, `PolarQuant...` | KV cache quantization, PPCA 무관 |
+| `A Geometric Explanation of OOD Detection Paradox` | OOD detection, PPCA 무관 |
+| (BitDance는 manifest에 원래 없었음 — sensitive 스킵) | — |
 
-### 4개 가능 모드
+### 제거 후 그래프 정리
 
-| 모드 | FPGA 역할 | 살아남는 주장 |
+- **56개 ghost node 제거** (9개 파일에서 추출되었던 모든 노드)
+- 그래프: 564 → **508 nodes** (−56), 1365 → **1275 edges** (−90)
+- 커뮤니티: 15 → **13** (작은 cluster 흡수)
+- AMBIGUOUS 0 유지
+
+### 보존된 14개 PDF (KEEP)
+
+**핵심 뉴로모픽**:
+- `Synaptic and neural behaviours` (NS-RAM, kink, charge-trap)
+- `CMOS-integrated organic neuromorphic imagers`
+- `A neuromorphic processor with on-chip learning for beyond-CMOS` (TEXEL)
+- `Analog in-memory computing attention` (gain cell crossbar)
+
+**EGGROLL 알고리즘 + 수학적 기반**:
+- `Evolution Strategies at the Hyperscale` (.pdf + .md)
+- `All elementary functions from a single operator` (EML/log-domain)
+- `Binarized Neural Networks` (composition theorem 특수화)
+- `A Practitioner's Guide to KAN` (KAT, learnable edge ↔ EML)
+
+**Stage 2 학습 규칙 대안 (이론 직관 제공)**:
+- `NOPROP` (layer-local 학습)
+- `HEBBIAN LEARNING WITH GLOBAL DIRECTION`
+
+## Top 10 갓 노드
+
+| Rank | Node | Edges (Δ) |
 |---|---|---|
-| **M1 Strict Analog** | 사용 안 함 | 모든 주장 (canonical PPCA) |
-| **M2 Behavioral Twin** | 모든 슬롯 | T1', T4' (디지털 의미) — Stage 3a 가속화 용 |
-| **M3 Hybrid** | RNG, snapshot, archive, debug | T1'-T4' 부분, T5' 대부분 — **권장 prototyping** |
-| **M4 Control-Only** | snapshot trigger, flash controller | 거의 모든 주장 — production 적합 |
-
-### 핵심 새 발견
-
-`fpga_analysis_new_class_distinction_analog_vs_digital_PPCA` — **`ℳ_PPCA^analog`와 `ℳ_PPCA^digital`이 다른 물리 카테고리의 instance family**. 같은 수학(T1', T3', T4'는 양쪽 적용)이지만 다른 family — T5'와 semi-passive는 family-specific. 이로써 향후 연구의 새 차원: "어느 family의 PPCA를 만드는가"가 명시적 설계 결정.
-
-### 권장 — M3 Hybrid 구체 설계
-
-**Analog daughterboard**:
-- W: Memristor crossbar IC 또는 Switched-cap array
-- N: Discrete MOSFET array (kink) 또는 op-amp
-- S: Differential amp + squarer + subthreshold transistor
-- δW: Gilbert cell IC (e.g., AD633)
-
-**FPGA backend**:
-- Counter-RNG (LFSR/Philox)
-- Snapshot trigger state machine
-- Flash controller (SPI)
-- Sensor readout digitization (모니터링)
-- Host PC 통신
-
-**예산**: 1-2k$ FPGA 보드 (Versal VCK190 등) + 50-200$ analog frontend.
-
-## 갓 노드 (Top 10)
-
-| Rank | Node | Edges |
-|---|---|---|
-| 1 | EGGROLL-PPCA Architecture | **61** (+5) |
-| 2 | Subthreshold Exponential Regime | 30 |
+| 1 | EGGROLL-PPCA Architecture | 59 (−2) |
+| 2 | Subthreshold Exponential Regime | 29 (−1) |
 | 3 | EGGROLL Algorithm | 27 |
 | 4 | Theorem 4 (Convergence) | 26 |
 | 5 | Formulation Layer D | 25 |
 | 6 | Theorem 3 (Switched Volterra) | 25 |
 | 7 | Theorem 5 (Noise Tolerance) | 23 |
-| 8 | **FPGA Implementation Analysis** | **23** ← **NEW** |
+| 8 | FPGA Implementation Analysis | 23 |
 | 9 | Physics Correspondence Table | 22 |
 | 10 | Pair 7 (Kink ↔ ReLU Polytope) | 21 |
 
-PPCA 56→61 (+5) — FPGA 분석이 PPCA의 "어떤 부분이 본질적인가"를 슬롯별로 명료하게 함.
+PPCA가 61→59로 −2 — 제거된 KV-quant 가족·world model이 카탈로그에서 부분적으로 제거되며 일부 약한 INFERRED edge가 사라진 결과. 핵심 구조는 **모두 유지**.
 
-### 구조적 변화
+## 13개 커뮤니티 — 정리 후 더 응집
 
-| 지표 | 이전 | 이후 | Δ |
-|---|---|---|---|
-| 노드 | 542 | **564** | +22 |
-| 엣지 | 1310 | **1365** | +55 |
-| PPCA main 차수 | 56 | **61** | +5 |
+PDF 제거가 코어 메시지를 강화:
+- C0 Three-Tier Memory + Charge-Trap (82n)
+- C1 EGGROLL-PPCA Architecture Hub (78n)
+- **C2 FPGA + Alternative Catalog + Class Generalization (68n)** — 메타 아키텍처 layer
+- C3 Layer S + T4-T5 + EGGROLL Convergence (63n)
+- C4-C7: Layer 별 정리 + 이론 사슬
+- C8-C11: 도메인별 (TEXEL, Stateful Field, KAN, Symbolic Regression)
 
-### 다음 작업 후보
+이전에 있던 KV-Cache Quantization, Geometric OOD, Test-Time Discovery + World Models 같은 **PPCA 외곽 cluster들이 모두 정리됨**. 그래프가 PPCA에 더 집중된 형태가 됨.
 
-1. **M3 Hybrid 보드 구체 설계 노트** — 부품 BoM, 회로 schematic 수준 설계
-2. **M2 Behavioral Twin SystemVerilog 구현** — 알고리즘 검증 가속화
-3. **`ℳ_PPCA^digital` family 별도 형식화** — Layer C/D/S의 디지털 family 버전 정리
+## 추가 발견 — `raw/simulations/eggroll_ppca/` 디렉토리
+
+이번 점검에서 사용자가 별도로 추가한 Stage 3a simulation 작업 발견:
+- 코드: `ppca_sim.py`, `ppca_physical_sim.py`
+- 문서: 6개 .md (README, ANALYSIS, EXPLANATION_KO, RUN_NOTES, VISUAL_SUMMARY, PHYSICAL_FUNCTIONAL_SIMULATOR)
+- 결과: 4개 .svg (rank_sweep, distribution_shift, feasibility_summary, noise_sweep)
+
+또한 새 survey 노트 3개:
+- `neuromorphic_survey_2025_2026.md`
+- `latest_neuromorphic_research_chunks_2026-04-26.md`
+- `analog_physical_neural_network_major_cases_2026-04-26.md`
+
+이들은 PPCA에 직접 관련이므로 보존됨. 향후 `--update`로 그래프에 통합 가능 (이번 정리 작업에서는 제거에만 집중).
