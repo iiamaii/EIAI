@@ -1,0 +1,13 @@
+{
+  "runs": [
+    {
+      "date": "2026-05-01T19:18:57.947200+00:00",
+      "input_tokens": 6500,
+      "output_tokens": 8500,
+      "files": 19,
+      "note": "fresh start: 18 arxiv + 1 plan, full pipeline + obsidian vault"
+    }
+  ],
+  "total_input_tokens": 6500,
+  "total_output_tokens": 8500
+}

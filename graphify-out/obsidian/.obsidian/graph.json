@@ -1,0 +1,60 @@
+{
+  "colorGroups": [
+    {
+      "query": "tag:#community/Evolution_Strategies_(NES_+_Salimans_+_EGGROLL)",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Forward-only_/_Forward_Gradient",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Feedback_Alignment_(Lillicrap_+_Akrout_+_Liao)",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Direct_Feedback_Alignment_+_DRTP",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/PCM_Neural_Network_Training",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Bio-plausible_Learning_(EquProp,_Bengio)",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/4-Part_Collection_Plan_+_Forward-Pass_Algorithms",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Neuromorphic_2022-2024_Surveys",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    }
+  ]
+}

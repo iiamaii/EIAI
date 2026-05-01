@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "de82f9c9e284badf",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c714b19b932295b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b00bee6309d0ffc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d563b22fa2414831",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c23d54a2bf6fb1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "375eeef0c9cff381",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "0f2dbf6fb99552cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "c8e33330c03e62e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "27ae894af4e21d49",
+    "type": "split",
+    "children": [
+      {
+        "id": "1809268cbbce8c02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27a48bbb1d5cb66c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "9bd45d3aaf6f7ee6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "c3fb1a501f8fab49",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "28122659515e47bc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "684fa81942210a1b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "8b00bee6309d0ffc",
+  "lastOpenFiles": [
+    "graph.canvas",
+    "_COMMUNITY_Neuromorphic 2022-2024 Surveys.md",
+    "_COMMUNITY_4-Part Collection Plan + Forward-Pass Algorithms.md",
+    "_COMMUNITY_Bio-plausible Learning (EquProp, Bengio).md",
+    "_COMMUNITY_PCM Neural Network Training.md",
+    "_COMMUNITY_Direct Feedback Alignment + DRTP.md",
+    "_COMMUNITY_Feedback Alignment (Lillicrap + Akrout + Liao).md",
+    "_COMMUNITY_Forward-only  Forward Gradient.md",
+    "_COMMUNITY_Evolution Strategies (NES + Salimans + EGGROLL).md",
+    "Part 4 Tier 1 Priority List (12 items Williams REINFORCE, NES, Salimans ES, EGGROLL, Lillicrap FA, Nokland DFA, Hinton FF, Eq-Prop, Predictive Coding, Baydin Forward Gradient, Borkar, Robbins-Monro).md",
+    "Part 3 Tier 1 Priority List (12 items Sze, Tsividis, Strukov memristor, Burr PCM, MRAM, Floating-gate, FeRAM, NS-RAM).md",
+    "Part 2 Tier 1 Priority List (8 items Mead, Liu et al., Gilbert, Toumazou, Rugh, Schetzen, Vittoz).md",
+    "Part 1 Tier 1 Priority List (7 items Shannon, Nyquist, Norsworthy, Inose, Razavi, Pelgrom, Roza).md",
+    "Part 4 — Neural Operator + Backprop-Free Optimization.md",
+    "Part 3 — Semiconductor Devices (instances of Part 2 operators).md",
+    "Part 2 — Analog Math Operator vs Physical Operator Correspondence.md",
+    "Part 1 — DigitalAnalog Modulation and Decoding.md",
+    "4-Part Material Collection Plan (ws).md",
+    "Frenkel-Indiveri Tradeoffs Between Bottom-Up Biological and Top-Down ML Approaches.md",
+    "Frenkel-Indiveri AnalogMixed-SignalDigital Circuit Design Style Comparison.md",
+    "Frenkel, Bol, Indiveri Bottom-Up vs Top-Down Neuromorphic Design.md",
+    "Roadmap Algorithms, Applications, and Edge Deployment Perspectives.md",
+    "Roadmap Survey of Materials, Devices and Circuits for Neuromorphic Computing.md",
+    "Christensen et al. 2022 Roadmap on Neuromorphic Computing and Engineering.md",
+    "PCM L2L Rapid Edge Adaptation with Few Parameter Updates.md",
+    "PCM L2L Demonstrated on CNN Image Classification and SNN Robotic Arm Control.md",
+    "무제.canvas"
+  ]
+}

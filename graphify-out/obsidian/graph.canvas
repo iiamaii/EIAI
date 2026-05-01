@@ -1,0 +1,1331 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Evolution Strategies (NES + Salimans + EGGROLL)",
+      "x": 0,
+      "y": 0,
+      "width": 880,
+      "height": 520,
+      "color": "1"
+    },
+    {
+      "id": "n_arxiv_1703_03864_common_random_numbers",
+      "type": "file",
+      "file": "graphify/obsidian/Common random numbers communication (scalar exchange).md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2511_16652_sub_billion_param",
+      "type": "file",
+      "file": "graphify/obsidian/EGGROLL 100x Speedup at Billion-Parameter Scale, 91% Pure-Inference Throughput.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2511_16652_main",
+      "type": "file",
+      "file": "graphify/obsidian/EGGROLL Evolution Strategies at the Hyperscale (Sarkar et al.).md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2511_16652_sub_low_rank",
+      "type": "file",
+      "file": "graphify/obsidian/EGGROLL Rank-r Structured Perturbations for High Arithmetic Intensity.md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2511_16652_sub_consistency_theory",
+      "type": "file",
+      "file": "graphify/obsidian/EGGROLL Theoretical Consistency with Gaussian ES in High Dimensions.md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1703_03864_main",
+      "type": "file",
+      "file": "graphify/obsidian/Evolution Strategies as Scalable RL (Salimans et al. 2017).md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1703_03864_es_rl",
+      "type": "file",
+      "file": "graphify/obsidian/Evolution Strategies for reinforcement learning.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1703_03864_massive_scaling",
+      "type": "file",
+      "file": "graphify/obsidian/Massively parallel scaling to 1000+ workers.md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1106_4487_nes_algorithm",
+      "type": "file",
+      "file": "graphify/obsidian/Natural Evolution Strategies (NES) algorithm.md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1106_4487_main",
+      "type": "file",
+      "file": "graphify/obsidian/Natural Evolution Strategies (Wierstra et al. 2011).md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1106_4487_natural_gradient",
+      "type": "file",
+      "file": "graphify/obsidian/Natural gradient on parameterized search distribution.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1106_4487_blackbox_optimization",
+      "type": "file",
+      "file": "graphify/obsidian/Principled black-box optimization.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Forward-only / Forward Gradient",
+      "x": 960,
+      "y": 0,
+      "width": 880,
+      "height": 520,
+      "color": "2"
+    },
+    {
+      "id": "n_arxiv_2202_08587_forward_gradient",
+      "type": "file",
+      "file": "graphify/obsidian/Forward gradient (directional derivative estimator).md",
+      "x": 980,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2212_13345_sub_layer_objective",
+      "type": "file",
+      "file": "graphify/obsidian/Forward-Forward Local Layer-wise Objective (sum of squared activities).md",
+      "x": 1180,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2212_13345_sub_pipelining",
+      "type": "file",
+      "file": "graphify/obsidian/Forward-Forward Pipelined Video  No Stored Activities.md",
+      "x": 1380,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2212_13345_sub_pos_neg",
+      "type": "file",
+      "file": "graphify/obsidian/Forward-Forward Positive and Negative Data Passes with Per-Layer Goodness.md",
+      "x": 980,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2202_08587_forward_mode_AD",
+      "type": "file",
+      "file": "graphify/obsidian/Forward-mode automatic differentiation.md",
+      "x": 1180,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2202_08587_main",
+      "type": "file",
+      "file": "graphify/obsidian/Gradients without Backpropagation  Forward Gradient (Baydin et al. 2022).md",
+      "x": 1380,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2212_13345_main",
+      "type": "file",
+      "file": "graphify/obsidian/Hinton The Forward-Forward Algorithm \u2014 Two Forward Passes Replace Backprop.md",
+      "x": 980,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2204_01723_main",
+      "type": "file",
+      "file": "graphify/obsidian/Kohan Signal Propagation (sigprop) \u2014 Forward-Pass Learning Framework.md",
+      "x": 1180,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2204_01723_sub_hardware_bio",
+      "type": "file",
+      "file": "graphify/obsidian/Sigprop Compatibility with Hardware and Biological Learning (no weight transport, no feedback).md",
+      "x": 1380,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2204_01723_sub_forward_only",
+      "type": "file",
+      "file": "graphify/obsidian/Sigprop Global Supervised Learning via Forward Path Only.md",
+      "x": 980,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2204_01723_sub_snn_hebbian",
+      "type": "file",
+      "file": "graphify/obsidian/Sigprop Trains Spiking and Continuous-Time Networks with Hebbian Updates.md",
+      "x": 1180,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Feedback Alignment (Lillicrap + Akrout + Liao)",
+      "x": 1920,
+      "y": 0,
+      "width": 880,
+      "height": 520,
+      "color": "3"
+    },
+    {
+      "id": "n_arxiv_1510_05067_batch_manhattan",
+      "type": "file",
+      "file": "graphify/obsidian/Batch Normalization  Batch Manhattan stabilization.md",
+      "x": 1940,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1904_05391_main",
+      "type": "file",
+      "file": "graphify/obsidian/Deep Learning without Weight Transport (Akrout et al. 2019).md",
+      "x": 2140,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1510_05067_magnitudes_irrelevant",
+      "type": "file",
+      "file": "graphify/obsidian/Feedback weight magnitudes irrelevant; only signs matter.md",
+      "x": 2340,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1510_05067_main",
+      "type": "file",
+      "file": "graphify/obsidian/How Important is Weight Symmetry in Backpropagation (Liao et al. 2015).md",
+      "x": 1940,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1904_05391_kolen_pollack",
+      "type": "file",
+      "file": "graphify/obsidian/Modified Kolen-Pollack feedback learning.md",
+      "x": 2140,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1904_05391_imagenet_match",
+      "type": "file",
+      "file": "graphify/obsidian/Near-backprop ImageNet performance without weight transport.md",
+      "x": 2340,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1411_0247_main",
+      "type": "file",
+      "file": "graphify/obsidian/Random Feedback Weights  Feedback Alignment (Lillicrap et al. 2014).md",
+      "x": 1940,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1411_0247_random_feedback_weights",
+      "type": "file",
+      "file": "graphify/obsidian/Random fixed feedback weights for credit assignment.md",
+      "x": 2140,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1510_05067_sign_symmetry",
+      "type": "file",
+      "file": "graphify/obsidian/Sign-symmetric (sign-concordant) feedback weights.md",
+      "x": 2340,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1904_05391_weight_mirror",
+      "type": "file",
+      "file": "graphify/obsidian/Weight mirror neural circuit.md",
+      "x": 1940,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Direct Feedback Alignment + DRTP",
+      "x": 0,
+      "y": 600,
+      "width": 880,
+      "height": 520,
+      "color": "4"
+    },
+    {
+      "id": "n_arxiv_1609_01596_dfa_algorithm",
+      "type": "file",
+      "file": "graphify/obsidian/Direct Feedback Alignment (DFA) algorithm.md",
+      "x": 20,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1609_01596_main",
+      "type": "file",
+      "file": "graphify/obsidian/Direct Feedback Alignment (Nokland 2016).md",
+      "x": 220,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1909_01311_drtp_algorithm",
+      "type": "file",
+      "file": "graphify/obsidian/Direct Random Target Projection (DRTP) algorithm.md",
+      "x": 420,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1909_01311_main",
+      "type": "file",
+      "file": "graphify/obsidian/Direct Random Target Projection  DRTP (Frenkel et al. 2019).md",
+      "x": 20,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1609_01596_direct_random_projection",
+      "type": "file",
+      "file": "graphify/obsidian/Direct random projection from output to each hidden layer.md",
+      "x": 220,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2202_08587_no_backprop_speedup",
+      "type": "file",
+      "file": "graphify/obsidian/Eliminates backprop; up to 2x training speedup.md",
+      "x": 420,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1411_0247_feedback_alignment",
+      "type": "file",
+      "file": "graphify/obsidian/Feedback Alignment algorithm.md",
+      "x": 20,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1609_01596_layer_independent",
+      "type": "file",
+      "file": "graphify/obsidian/Layer-independent training without error backprop.md",
+      "x": 220,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1909_01311_target_as_error_proxy",
+      "type": "file",
+      "file": "graphify/obsidian/One-hot target as proxy for error sign.md",
+      "x": 420,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1909_01311_edge_efficiency",
+      "type": "file",
+      "file": "graphify/obsidian/Solves update locking; suitable for edge devices.md",
+      "x": 20,
+      "y": 920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "PCM Neural Network Training",
+      "x": 960,
+      "y": 600,
+      "width": 880,
+      "height": 520,
+      "color": "5"
+    },
+    {
+      "id": "n_arxiv_1906_03138_main",
+      "type": "file",
+      "file": "graphify/obsidian/Joshi et al. Accurate DNN Inference Using Computational Phase-Change Memory.md",
+      "x": 980,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2405_05141_main",
+      "type": "file",
+      "file": "graphify/obsidian/Ortner et al. Learning-to-Learn with PCM-Based In-Memory Computing.md",
+      "x": 1180,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1906_03138_sub_imagenet_cifar",
+      "type": "file",
+      "file": "graphify/obsidian/PCM Inference 71.6% ImageNet Top-1  93.7% CIFAR-10 on PCM Hardware.md",
+      "x": 1380,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1906_03138_sub_batchnorm_compensation",
+      "type": "file",
+      "file": "graphify/obsidian/PCM Inference Batch-Norm-Based Drift Compensation for Retention.md",
+      "x": 980,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1906_03138_sub_pcm_resnet",
+      "type": "file",
+      "file": "graphify/obsidian/PCM Inference ResNet Training Methodology with No Accuracy Loss after Weight Transfer.md",
+      "x": 1180,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2405_05141_sub_cnn_snn_robot",
+      "type": "file",
+      "file": "graphify/obsidian/PCM L2L Demonstrated on CNN Image Classification and SNN Robotic Arm Control.md",
+      "x": 1380,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2405_05141_sub_l2l_meta",
+      "type": "file",
+      "file": "graphify/obsidian/PCM L2L Meta-Training in Software, Deployment on PCM NMHW.md",
+      "x": 980,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2405_05141_sub_edge_adaptation",
+      "type": "file",
+      "file": "graphify/obsidian/PCM L2L Rapid Edge Adaptation with Few Parameter Updates.md",
+      "x": 1180,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_material_collection_plan_part3_tier1",
+      "type": "file",
+      "file": "graphify/obsidian/Part 3 Tier 1 Priority List (12 items Sze, Tsividis, Strukov memristor, Burr PCM, MRAM, Floating-gate, FeRAM, NS-RAM).md",
+      "x": 1380,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_material_collection_plan_part3_devices",
+      "type": "file",
+      "file": "graphify/obsidian/Part 3 \u2014 Semiconductor Devices (instances of Part 2 operators).md",
+      "x": 980,
+      "y": 920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Bio-plausible Learning (EquProp, Bengio)",
+      "x": 1920,
+      "y": 600,
+      "width": 660,
+      "height": 420,
+      "color": "6"
+    },
+    {
+      "id": "n_arxiv_1502_04156_bio_plausibility",
+      "type": "file",
+      "file": "graphify/obsidian/Biologically plausible deep learning framework.md",
+      "x": 1940,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1602_05179_main",
+      "type": "file",
+      "file": "graphify/obsidian/Equilibrium Propagation (Scellier & Bengio 2016).md",
+      "x": 2140,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1602_05179_eqprop_algorithm",
+      "type": "file",
+      "file": "graphify/obsidian/Equilibrium Propagation algorithm.md",
+      "x": 2340,
+      "y": 680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1411_0247_bio_plausibility",
+      "type": "file",
+      "file": "graphify/obsidian/Removes weight transport requirement (biological plausibility).md",
+      "x": 1940,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1502_04156_stdp_gradient",
+      "type": "file",
+      "file": "graphify/obsidian/STDP-as-gradient-descent learning rule.md",
+      "x": 2140,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1602_05179_single_circuit",
+      "type": "file",
+      "file": "graphify/obsidian/Single neural computation for inference and error backprop.md",
+      "x": 2340,
+      "y": 760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1502_04156_main",
+      "type": "file",
+      "file": "graphify/obsidian/Towards Biologically Plausible Deep Learning (Bengio et al. 2015).md",
+      "x": 1940,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1602_05179_two_phase_nudging",
+      "type": "file",
+      "file": "graphify/obsidian/Two-phase fixed-point nudging at output.md",
+      "x": 2140,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_1502_04156_variational_em",
+      "type": "file",
+      "file": "graphify/obsidian/Variational EM via neural dynamics.md",
+      "x": 2340,
+      "y": 840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "4-Part Collection Plan + Forward-Pass Algorithms",
+      "x": 0,
+      "y": 1200,
+      "width": 660,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "n_material_collection_plan_main",
+      "type": "file",
+      "file": "graphify/obsidian/4-Part Material Collection Plan (ws).md",
+      "x": 20,
+      "y": 1280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2310_00965_main",
+      "type": "file",
+      "file": "graphify/obsidian/DalmHiratani-style Node Perturbation Can Effectively Train Multi-Layer Networks.md",
+      "x": 220,
+      "y": 1280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2310_00965_sub_directional_derivative",
+      "type": "file",
+      "file": "graphify/obsidian/Node Perturbation Alignment with Directional Derivative.md",
+      "x": 420,
+      "y": 1280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2310_00965_sub_input_decorrelation",
+      "type": "file",
+      "file": "graphify/obsidian/Node Perturbation Input Decorrelation per Layer Boosts Convergence.md",
+      "x": 20,
+      "y": 1360,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2310_00965_sub_neuromorphic",
+      "type": "file",
+      "file": "graphify/obsidian/Node Perturbation On-Chip Learning in Noisy Neuromorphic Systems.md",
+      "x": 220,
+      "y": 1360,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_material_collection_plan_part1_tier1",
+      "type": "file",
+      "file": "graphify/obsidian/Part 1 Tier 1 Priority List (7 items Shannon, Nyquist, Norsworthy, Inose, Razavi, Pelgrom, Roza).md",
+      "x": 420,
+      "y": 1360,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_material_collection_plan_part1_modulation",
+      "type": "file",
+      "file": "graphify/obsidian/Part 1 \u2014 DigitalAnalog Modulation and Decoding.md",
+      "x": 20,
+      "y": 1440,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_material_collection_plan_part4_tier1",
+      "type": "file",
+      "file": "graphify/obsidian/Part 4 Tier 1 Priority List (12 items Williams REINFORCE, NES, Salimans ES, EGGROLL, Lillicrap FA, Nokland DFA, Hinton FF, Eq-Prop, Predictive Coding, Baydin Forward Gradient, Borkar, Robbins-Monro).md",
+      "x": 220,
+      "y": 1440,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_material_collection_plan_part4_neural_operator",
+      "type": "file",
+      "file": "graphify/obsidian/Part 4 \u2014 Neural Operator + Backprop-Free Optimization.md",
+      "x": 420,
+      "y": 1440,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Neuromorphic 2022-2024 Surveys",
+      "x": 960,
+      "y": 1200,
+      "width": 660,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_arxiv_2105_05956_main",
+      "type": "file",
+      "file": "graphify/obsidian/Christensen et al. 2022 Roadmap on Neuromorphic Computing and Engineering.md",
+      "x": 980,
+      "y": 1280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2106_01288_main",
+      "type": "file",
+      "file": "graphify/obsidian/Frenkel, Bol, Indiveri Bottom-Up vs Top-Down Neuromorphic Design.md",
+      "x": 1180,
+      "y": 1280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2106_01288_sub_circuit_styles",
+      "type": "file",
+      "file": "graphify/obsidian/Frenkel-Indiveri AnalogMixed-SignalDigital Circuit Design Style Comparison.md",
+      "x": 1380,
+      "y": 1280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2106_01288_sub_bottomup_topdown",
+      "type": "file",
+      "file": "graphify/obsidian/Frenkel-Indiveri Tradeoffs Between Bottom-Up Biological and Top-Down ML Approaches.md",
+      "x": 980,
+      "y": 1360,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_material_collection_plan_part2_tier1",
+      "type": "file",
+      "file": "graphify/obsidian/Part 2 Tier 1 Priority List (8 items Mead, Liu et al., Gilbert, Toumazou, Rugh, Schetzen, Vittoz).md",
+      "x": 1180,
+      "y": 1360,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_material_collection_plan_part2_operator_correspondence",
+      "type": "file",
+      "file": "graphify/obsidian/Part 2 \u2014 Analog Math Operator vs Physical Operator Correspondence.md",
+      "x": 1380,
+      "y": 1360,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2105_05956_sub_algorithms_apps",
+      "type": "file",
+      "file": "graphify/obsidian/Roadmap Algorithms, Applications, and Edge Deployment Perspectives.md",
+      "x": 980,
+      "y": 1440,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arxiv_2105_05956_sub_materials_devices",
+      "type": "file",
+      "file": "graphify/obsidian/Roadmap Survey of Materials, Devices and Circuits for Neuromorphic Computing.md",
+      "x": 1180,
+      "y": 1440,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_arxiv_1106_4487_main_arxiv_1106_4487_nes_algorithm",
+      "fromNode": "n_arxiv_1106_4487_main",
+      "toNode": "n_arxiv_1106_4487_nes_algorithm",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1106_4487_main_arxiv_1106_4487_natural_gradient",
+      "fromNode": "n_arxiv_1106_4487_main",
+      "toNode": "n_arxiv_1106_4487_natural_gradient",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1106_4487_main_arxiv_1106_4487_blackbox_optimization",
+      "fromNode": "n_arxiv_1106_4487_main",
+      "toNode": "n_arxiv_1106_4487_blackbox_optimization",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1106_4487_main_arxiv_1703_03864_main",
+      "fromNode": "n_arxiv_1106_4487_main",
+      "toNode": "n_arxiv_1703_03864_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1106_4487_nes_algorithm_arxiv_1703_03864_es_rl",
+      "fromNode": "n_arxiv_1106_4487_nes_algorithm",
+      "toNode": "n_arxiv_1703_03864_es_rl",
+      "label": "cites_or_extends [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_main_arxiv_1411_0247_feedback_alignment",
+      "fromNode": "n_arxiv_1411_0247_main",
+      "toNode": "n_arxiv_1411_0247_feedback_alignment",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_main_arxiv_1411_0247_random_feedback_weights",
+      "fromNode": "n_arxiv_1411_0247_main",
+      "toNode": "n_arxiv_1411_0247_random_feedback_weights",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_main_arxiv_1411_0247_bio_plausibility",
+      "fromNode": "n_arxiv_1411_0247_main",
+      "toNode": "n_arxiv_1411_0247_bio_plausibility",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_main_arxiv_1609_01596_main",
+      "fromNode": "n_arxiv_1411_0247_main",
+      "toNode": "n_arxiv_1609_01596_main",
+      "label": "cites_or_extends [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_main_arxiv_1904_05391_main",
+      "fromNode": "n_arxiv_1411_0247_main",
+      "toNode": "n_arxiv_1904_05391_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_main_arxiv_1510_05067_main",
+      "fromNode": "n_arxiv_1411_0247_main",
+      "toNode": "n_arxiv_1510_05067_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_main_arxiv_2202_08587_main",
+      "fromNode": "n_arxiv_1411_0247_main",
+      "toNode": "n_arxiv_2202_08587_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_feedback_alignment_arxiv_1609_01596_dfa_algorithm",
+      "fromNode": "n_arxiv_1411_0247_feedback_alignment",
+      "toNode": "n_arxiv_1609_01596_dfa_algorithm",
+      "label": "cites_or_extends [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1411_0247_bio_plausibility_arxiv_1502_04156_bio_plausibility",
+      "fromNode": "n_arxiv_1411_0247_bio_plausibility",
+      "toNode": "n_arxiv_1502_04156_bio_plausibility",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1502_04156_main_arxiv_1502_04156_stdp_gradient",
+      "fromNode": "n_arxiv_1502_04156_main",
+      "toNode": "n_arxiv_1502_04156_stdp_gradient",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1502_04156_main_arxiv_1502_04156_variational_em",
+      "fromNode": "n_arxiv_1502_04156_main",
+      "toNode": "n_arxiv_1502_04156_variational_em",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1502_04156_main_arxiv_1502_04156_bio_plausibility",
+      "fromNode": "n_arxiv_1502_04156_main",
+      "toNode": "n_arxiv_1502_04156_bio_plausibility",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1502_04156_main_arxiv_1602_05179_main",
+      "fromNode": "n_arxiv_1502_04156_main",
+      "toNode": "n_arxiv_1602_05179_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1510_05067_main_arxiv_1510_05067_sign_symmetry",
+      "fromNode": "n_arxiv_1510_05067_main",
+      "toNode": "n_arxiv_1510_05067_sign_symmetry",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1510_05067_main_arxiv_1510_05067_batch_manhattan",
+      "fromNode": "n_arxiv_1510_05067_main",
+      "toNode": "n_arxiv_1510_05067_batch_manhattan",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1510_05067_main_arxiv_1510_05067_magnitudes_irrelevant",
+      "fromNode": "n_arxiv_1510_05067_main",
+      "toNode": "n_arxiv_1510_05067_magnitudes_irrelevant",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1510_05067_sign_symmetry_arxiv_1904_05391_main",
+      "fromNode": "n_arxiv_1510_05067_sign_symmetry",
+      "toNode": "n_arxiv_1904_05391_main",
+      "label": "cites_or_extends [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1602_05179_main_arxiv_1602_05179_eqprop_algorithm",
+      "fromNode": "n_arxiv_1602_05179_main",
+      "toNode": "n_arxiv_1602_05179_eqprop_algorithm",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1602_05179_main_arxiv_1602_05179_two_phase_nudging",
+      "fromNode": "n_arxiv_1602_05179_main",
+      "toNode": "n_arxiv_1602_05179_two_phase_nudging",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1602_05179_main_arxiv_1602_05179_single_circuit",
+      "fromNode": "n_arxiv_1602_05179_main",
+      "toNode": "n_arxiv_1602_05179_single_circuit",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1609_01596_main_arxiv_1609_01596_dfa_algorithm",
+      "fromNode": "n_arxiv_1609_01596_main",
+      "toNode": "n_arxiv_1609_01596_dfa_algorithm",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1609_01596_main_arxiv_1609_01596_direct_random_projection",
+      "fromNode": "n_arxiv_1609_01596_main",
+      "toNode": "n_arxiv_1609_01596_direct_random_projection",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1609_01596_main_arxiv_1609_01596_layer_independent",
+      "fromNode": "n_arxiv_1609_01596_main",
+      "toNode": "n_arxiv_1609_01596_layer_independent",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1609_01596_main_arxiv_1909_01311_main",
+      "fromNode": "n_arxiv_1609_01596_main",
+      "toNode": "n_arxiv_1909_01311_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1609_01596_dfa_algorithm_arxiv_1909_01311_drtp_algorithm",
+      "fromNode": "n_arxiv_1609_01596_dfa_algorithm",
+      "toNode": "n_arxiv_1909_01311_drtp_algorithm",
+      "label": "cites_or_extends [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1609_01596_layer_independent_arxiv_2202_08587_no_backprop_speedup",
+      "fromNode": "n_arxiv_1609_01596_layer_independent",
+      "toNode": "n_arxiv_2202_08587_no_backprop_speedup",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1703_03864_main_arxiv_1703_03864_es_rl",
+      "fromNode": "n_arxiv_1703_03864_main",
+      "toNode": "n_arxiv_1703_03864_es_rl",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1703_03864_main_arxiv_1703_03864_common_random_numbers",
+      "fromNode": "n_arxiv_1703_03864_main",
+      "toNode": "n_arxiv_1703_03864_common_random_numbers",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1703_03864_main_arxiv_1703_03864_massive_scaling",
+      "fromNode": "n_arxiv_1703_03864_main",
+      "toNode": "n_arxiv_1703_03864_massive_scaling",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1703_03864_main_arxiv_2310_00965_main",
+      "fromNode": "n_arxiv_1703_03864_main",
+      "toNode": "n_arxiv_2310_00965_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1703_03864_main_arxiv_2511_16652_main",
+      "fromNode": "n_arxiv_1703_03864_main",
+      "toNode": "n_arxiv_2511_16652_main",
+      "label": "cites_or_extends [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_1904_05391_main_arxiv_1904_05391_weight_mirror",
+      "fromNode": "n_arxiv_1904_05391_main",
+      "toNode": "n_arxiv_1904_05391_weight_mirror",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1904_05391_main_arxiv_1904_05391_kolen_pollack",
+      "fromNode": "n_arxiv_1904_05391_main",
+      "toNode": "n_arxiv_1904_05391_kolen_pollack",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1904_05391_main_arxiv_1904_05391_imagenet_match",
+      "fromNode": "n_arxiv_1904_05391_main",
+      "toNode": "n_arxiv_1904_05391_imagenet_match",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1909_01311_main_arxiv_1909_01311_drtp_algorithm",
+      "fromNode": "n_arxiv_1909_01311_main",
+      "toNode": "n_arxiv_1909_01311_drtp_algorithm",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1909_01311_main_arxiv_1909_01311_target_as_error_proxy",
+      "fromNode": "n_arxiv_1909_01311_main",
+      "toNode": "n_arxiv_1909_01311_target_as_error_proxy",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1909_01311_main_arxiv_1909_01311_edge_efficiency",
+      "fromNode": "n_arxiv_1909_01311_main",
+      "toNode": "n_arxiv_1909_01311_edge_efficiency",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2202_08587_main_arxiv_2202_08587_forward_gradient",
+      "fromNode": "n_arxiv_2202_08587_main",
+      "toNode": "n_arxiv_2202_08587_forward_gradient",
+      "label": "introduces [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2202_08587_main_arxiv_2202_08587_forward_mode_AD",
+      "fromNode": "n_arxiv_2202_08587_main",
+      "toNode": "n_arxiv_2202_08587_forward_mode_AD",
+      "label": "uses_technique [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2202_08587_main_arxiv_2202_08587_no_backprop_speedup",
+      "fromNode": "n_arxiv_2202_08587_main",
+      "toNode": "n_arxiv_2202_08587_no_backprop_speedup",
+      "label": "claims_advantage [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2202_08587_main_arxiv_2212_13345_main",
+      "fromNode": "n_arxiv_2202_08587_main",
+      "toNode": "n_arxiv_2212_13345_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_2204_01723_main_arxiv_2204_01723_sub_forward_only",
+      "fromNode": "n_arxiv_2204_01723_main",
+      "toNode": "n_arxiv_2204_01723_sub_forward_only",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2204_01723_main_arxiv_2204_01723_sub_hardware_bio",
+      "fromNode": "n_arxiv_2204_01723_main",
+      "toNode": "n_arxiv_2204_01723_sub_hardware_bio",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2204_01723_main_arxiv_2204_01723_sub_snn_hebbian",
+      "fromNode": "n_arxiv_2204_01723_main",
+      "toNode": "n_arxiv_2204_01723_sub_snn_hebbian",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2204_01723_main_material_collection_plan_part4_neural_operator",
+      "fromNode": "n_arxiv_2204_01723_main",
+      "toNode": "n_material_collection_plan_part4_neural_operator",
+      "label": "belongs_to_part [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2204_01723_main_arxiv_2212_13345_main",
+      "fromNode": "n_arxiv_2204_01723_main",
+      "toNode": "n_arxiv_2212_13345_main",
+      "label": "cites_or_extends [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_2212_13345_main_arxiv_2212_13345_sub_pos_neg",
+      "fromNode": "n_arxiv_2212_13345_main",
+      "toNode": "n_arxiv_2212_13345_sub_pos_neg",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2212_13345_main_arxiv_2212_13345_sub_layer_objective",
+      "fromNode": "n_arxiv_2212_13345_main",
+      "toNode": "n_arxiv_2212_13345_sub_layer_objective",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2212_13345_main_arxiv_2212_13345_sub_pipelining",
+      "fromNode": "n_arxiv_2212_13345_main",
+      "toNode": "n_arxiv_2212_13345_sub_pipelining",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2212_13345_main_material_collection_plan_part4_neural_operator",
+      "fromNode": "n_arxiv_2212_13345_main",
+      "toNode": "n_material_collection_plan_part4_neural_operator",
+      "label": "belongs_to_part [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2310_00965_main_arxiv_2310_00965_sub_directional_derivative",
+      "fromNode": "n_arxiv_2310_00965_main",
+      "toNode": "n_arxiv_2310_00965_sub_directional_derivative",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2310_00965_main_arxiv_2310_00965_sub_input_decorrelation",
+      "fromNode": "n_arxiv_2310_00965_main",
+      "toNode": "n_arxiv_2310_00965_sub_input_decorrelation",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2310_00965_main_arxiv_2310_00965_sub_neuromorphic",
+      "fromNode": "n_arxiv_2310_00965_main",
+      "toNode": "n_arxiv_2310_00965_sub_neuromorphic",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2310_00965_main_material_collection_plan_part4_neural_operator",
+      "fromNode": "n_arxiv_2310_00965_main",
+      "toNode": "n_material_collection_plan_part4_neural_operator",
+      "label": "belongs_to_part [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2511_16652_main_arxiv_2511_16652_sub_low_rank",
+      "fromNode": "n_arxiv_2511_16652_main",
+      "toNode": "n_arxiv_2511_16652_sub_low_rank",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2511_16652_main_arxiv_2511_16652_sub_billion_param",
+      "fromNode": "n_arxiv_2511_16652_main",
+      "toNode": "n_arxiv_2511_16652_sub_billion_param",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2511_16652_main_arxiv_2511_16652_sub_consistency_theory",
+      "fromNode": "n_arxiv_2511_16652_main",
+      "toNode": "n_arxiv_2511_16652_sub_consistency_theory",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2511_16652_main_material_collection_plan_part4_neural_operator",
+      "fromNode": "n_arxiv_2511_16652_main",
+      "toNode": "n_material_collection_plan_part4_neural_operator",
+      "label": "belongs_to_part [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1906_03138_main_arxiv_1906_03138_sub_pcm_resnet",
+      "fromNode": "n_arxiv_1906_03138_main",
+      "toNode": "n_arxiv_1906_03138_sub_pcm_resnet",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1906_03138_main_arxiv_1906_03138_sub_batchnorm_compensation",
+      "fromNode": "n_arxiv_1906_03138_main",
+      "toNode": "n_arxiv_1906_03138_sub_batchnorm_compensation",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1906_03138_main_arxiv_1906_03138_sub_imagenet_cifar",
+      "fromNode": "n_arxiv_1906_03138_main",
+      "toNode": "n_arxiv_1906_03138_sub_imagenet_cifar",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1906_03138_main_material_collection_plan_part3_devices",
+      "fromNode": "n_arxiv_1906_03138_main",
+      "toNode": "n_material_collection_plan_part3_devices",
+      "label": "belongs_to_part [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_1906_03138_main_arxiv_2405_05141_main",
+      "fromNode": "n_arxiv_1906_03138_main",
+      "toNode": "n_arxiv_2405_05141_main",
+      "label": "cites_or_extends [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_2405_05141_main_arxiv_2405_05141_sub_l2l_meta",
+      "fromNode": "n_arxiv_2405_05141_main",
+      "toNode": "n_arxiv_2405_05141_sub_l2l_meta",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2405_05141_main_arxiv_2405_05141_sub_cnn_snn_robot",
+      "fromNode": "n_arxiv_2405_05141_main",
+      "toNode": "n_arxiv_2405_05141_sub_cnn_snn_robot",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2405_05141_main_arxiv_2405_05141_sub_edge_adaptation",
+      "fromNode": "n_arxiv_2405_05141_main",
+      "toNode": "n_arxiv_2405_05141_sub_edge_adaptation",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2405_05141_main_material_collection_plan_part3_devices",
+      "fromNode": "n_arxiv_2405_05141_main",
+      "toNode": "n_material_collection_plan_part3_devices",
+      "label": "belongs_to_part [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2105_05956_main_arxiv_2105_05956_sub_materials_devices",
+      "fromNode": "n_arxiv_2105_05956_main",
+      "toNode": "n_arxiv_2105_05956_sub_materials_devices",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2105_05956_main_arxiv_2105_05956_sub_algorithms_apps",
+      "fromNode": "n_arxiv_2105_05956_main",
+      "toNode": "n_arxiv_2105_05956_sub_algorithms_apps",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2105_05956_main_material_collection_plan_part3_devices",
+      "fromNode": "n_arxiv_2105_05956_main",
+      "toNode": "n_material_collection_plan_part3_devices",
+      "label": "belongs_to_part [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2105_05956_main_material_collection_plan_part2_operator_correspondence",
+      "fromNode": "n_arxiv_2105_05956_main",
+      "toNode": "n_material_collection_plan_part2_operator_correspondence",
+      "label": "belongs_to_part [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_2105_05956_main_arxiv_2106_01288_main",
+      "fromNode": "n_arxiv_2105_05956_main",
+      "toNode": "n_arxiv_2106_01288_main",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_2106_01288_main_arxiv_2106_01288_sub_circuit_styles",
+      "fromNode": "n_arxiv_2106_01288_main",
+      "toNode": "n_arxiv_2106_01288_sub_circuit_styles",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2106_01288_main_arxiv_2106_01288_sub_bottomup_topdown",
+      "fromNode": "n_arxiv_2106_01288_main",
+      "toNode": "n_arxiv_2106_01288_sub_bottomup_topdown",
+      "label": "has_subtopic [EXTRACTED]"
+    },
+    {
+      "id": "e_arxiv_2106_01288_main_material_collection_plan_part3_devices",
+      "fromNode": "n_arxiv_2106_01288_main",
+      "toNode": "n_material_collection_plan_part3_devices",
+      "label": "belongs_to_part [INFERRED]"
+    },
+    {
+      "id": "e_arxiv_2106_01288_main_material_collection_plan_part2_operator_correspondence",
+      "fromNode": "n_arxiv_2106_01288_main",
+      "toNode": "n_material_collection_plan_part2_operator_correspondence",
+      "label": "belongs_to_part [INFERRED]"
+    },
+    {
+      "id": "e_material_collection_plan_main_material_collection_plan_part1_modulation",
+      "fromNode": "n_material_collection_plan_main",
+      "toNode": "n_material_collection_plan_part1_modulation",
+      "label": "has_part [EXTRACTED]"
+    },
+    {
+      "id": "e_material_collection_plan_main_material_collection_plan_part2_operator_correspondence",
+      "fromNode": "n_material_collection_plan_main",
+      "toNode": "n_material_collection_plan_part2_operator_correspondence",
+      "label": "has_part [EXTRACTED]"
+    },
+    {
+      "id": "e_material_collection_plan_main_material_collection_plan_part3_devices",
+      "fromNode": "n_material_collection_plan_main",
+      "toNode": "n_material_collection_plan_part3_devices",
+      "label": "has_part [EXTRACTED]"
+    },
+    {
+      "id": "e_material_collection_plan_main_material_collection_plan_part4_neural_operator",
+      "fromNode": "n_material_collection_plan_main",
+      "toNode": "n_material_collection_plan_part4_neural_operator",
+      "label": "has_part [EXTRACTED]"
+    },
+    {
+      "id": "e_material_collection_plan_part1_modulation_material_collection_plan_part1_tier1",
+      "fromNode": "n_material_collection_plan_part1_modulation",
+      "toNode": "n_material_collection_plan_part1_tier1",
+      "label": "has_priority_list [EXTRACTED]"
+    },
+    {
+      "id": "e_material_collection_plan_part2_operator_correspondence_material_collection_plan_part2_tier1",
+      "fromNode": "n_material_collection_plan_part2_operator_correspondence",
+      "toNode": "n_material_collection_plan_part2_tier1",
+      "label": "has_priority_list [EXTRACTED]"
+    },
+    {
+      "id": "e_material_collection_plan_part3_devices_material_collection_plan_part3_tier1",
+      "fromNode": "n_material_collection_plan_part3_devices",
+      "toNode": "n_material_collection_plan_part3_tier1",
+      "label": "has_priority_list [EXTRACTED]"
+    },
+    {
+      "id": "e_material_collection_plan_part4_neural_operator_material_collection_plan_part4_tier1",
+      "fromNode": "n_material_collection_plan_part4_neural_operator",
+      "toNode": "n_material_collection_plan_part4_tier1",
+      "label": "has_priority_list [EXTRACTED]"
+    }
+  ]
+}
