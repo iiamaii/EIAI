@@ -1,107 +1,125 @@
-# 그래프 보고서 (Graph Report) - ./raw  (2026-05-02)
+# 그래프 보고서 (Graph Report) - ./raw  (2026-05-03)
 
 ## 코퍼스 점검 (Corpus Check)
-- 코퍼스 규모 약 6,541 단어 — 단일 컨텍스트 윈도우(context window)에 들어갑니다. 그래프가 꼭 필요하지 않을 수 있습니다.
+- 28 파일 · 약 36,500 단어
+- 노드 156개 · 엣지 210개 · 커뮤니티 9개 · AMBIGUOUS 0
 
-## 요약 (Summary)
-- 노드 79개 · 엣지(edge) 89개 · 커뮤니티(community) 8개 검출
-- 추출 결과: 75% EXTRACTED · 25% INFERRED · 0% AMBIGUOUS · INFERRED 엣지 22개 (평균 신뢰도 0.83)
-- 토큰(token) 비용: 입력 0 · 출력 0
+## 이번 update — Part 1·2·3 자료 보강 완료
 
-## 커뮤니티 허브 (Community Hubs, 내비게이션)
-- [[_COMMUNITY_Evolution Strategies (NES + Salimans + EGGROLL)|진화 전략(Evolution Strategies, NES + Salimans + EGGROLL)]]
-- [[_COMMUNITY_Forward-only  Forward Gradient|순전파 전용(Forward-only) / 순전파 기울기(Forward Gradient)]]
-- [[_COMMUNITY_Feedback Alignment (Lillicrap + Akrout + Liao)|피드백 정렬(Feedback Alignment, Lillicrap + Akrout + Liao)]]
-- [[_COMMUNITY_Direct Feedback Alignment + DRTP|직접 피드백 정렬(Direct Feedback Alignment) + DRTP]]
-- [[_COMMUNITY_PCM Neural Network Training|상변화 메모리(PCM) 신경망 학습]]
-- [[_COMMUNITY_Bio-plausible Learning (EquProp, Bengio)|생물학적 타당 학습(Bio-plausible Learning, EquProp, Bengio)]]
-- [[_COMMUNITY_4-Part Collection Plan + Forward-Pass Algorithms|4-Part 수집 계획 + 순전파(Forward-Pass) 알고리즘]]
-- [[_COMMUNITY_Neuromorphic 2022-2024 Surveys|뉴로모픽(Neuromorphic) 2022-2024 서베이]]
+9개 thematic textbook summary 노트 추가:
 
-## 갓 노드 (God Nodes, 가장 많이 연결된 노드 — 핵심 추상(abstraction))
-1. `Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014)` - 엣지 7개
-2. `Evolution Strategies as Scalable RL (Salimans et al. 2017)` - 엣지 6개
-3. `Hinton: The Forward-Forward Algorithm — Two Forward Passes Replace Backprop` - 엣지 6개
-4. `Part 3 — Semiconductor Devices (instances of Part 2 operators)` - 엣지 6개
-5. `Part 4 — Neural Operator + Backprop-Free Optimization` - 엣지 6개
-6. `Direct Feedback Alignment (Nokland 2016)` - 엣지 5개
-7. `Deep Learning without Weight Transport (Akrout et al. 2019)` - 엣지 5개
-8. `Gradients without Backpropagation / Forward Gradient (Baydin et al. 2022)` - 엣지 5개
-9. `Kohan: Signal Propagation (sigprop) — Forward-Pass Learning Framework` - 엣지 5개
-10. `Dalm/Hiratani-style: Node Perturbation Can Effectively Train Multi-Layer Networks` - 엣지 5개
+| 파트 | 추가 노트 |
+|---|---|
+| Part 1 | `part1_information_theory_classics.md` (Shannon, Nyquist, Inose ΣΔ) + `part1_data_conversion_textbooks.md` (Razavi, Pelgrom, ΣΔ, Roza) |
+| Part 2 | `part2_analog_vlsi_neuromorphic.md` (Mead, Liu, Vittoz) + `part2_translinear_principle.md` (Gilbert, Toumazou) + `part2_volterra_wiener_theory.md` (Rugh, Schetzen, Boyd-Chua) |
+| Part 3 | `part3_semiconductor_physics_textbooks.md` (Sze, Tsividis, EKV) + `part3_memristor_pcm.md` (Strukov, Ielmini-Waser, Burr) + `part3_mram.md` (Apalkov STT, Wang VCMA) + `part3_charge_storage_nvm.md` (Pavan flash, Hasler FG, Müller FeRAM, NS-RAM) |
 
-## 놀라운 연결들 (Surprising Connections, 미처 몰랐을 관계)
-- `Gradients without Backpropagation / Forward Gradient (Baydin et al. 2022)` --semantically_similar_to--> `Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014)`  [INFERRED] [의미적 유사성(semantically similar)]
-  raw/arxiv_2202_08587.md → raw/arxiv_1411_0247.md
-- `Dalm/Hiratani-style: Node Perturbation Can Effectively Train Multi-Layer Networks` --semantically_similar_to--> `Evolution Strategies as Scalable RL (Salimans et al. 2017)`  [INFERRED] [의미적 유사성]
-  raw/arxiv_2310_00965.md → raw/arxiv_1703_03864.md
-- `Natural Evolution Strategies (Wierstra et al. 2011)` --semantically_similar_to--> `Evolution Strategies as Scalable RL (Salimans et al. 2017)`  [INFERRED] [의미적 유사성]
-  raw/arxiv_1106_4487.md → raw/arxiv_1703_03864.md
-- `Direct Feedback Alignment (Nokland 2016)` --cites_or_extends--> `Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014)`  [INFERRED]
-  raw/arxiv_1609_01596.md → raw/arxiv_1411_0247.md
-- `Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014)` --semantically_similar_to--> `Deep Learning without Weight Transport (Akrout et al. 2019)`  [INFERRED] [의미적 유사성]
-  raw/arxiv_1411_0247.md → raw/arxiv_1904_05391.md
+총 ~27개 textbook/classic paper 참조가 9개 통합 노트로 정리.
 
-## 하이퍼엣지 (Hyperedges, 그룹 관계)
-- **Feedback Alignment family of bio-plausible learning algorithms** —  [EXTRACTED 0.95]
-- **Evolution Strategies family of black-box optimizers** —  [EXTRACTED 0.95]
-- **Pure Forward-Only Learning Family (Sigprop + Forward-Forward + Forward Gradient)** —  [EXTRACTED 0.90]
-- **PCM Neural Network Hardware Pair (Inference + L2L Adaptation)** —  [EXTRACTED 1.00]
-- **Neuromorphic 2022-2024 Survey Pair (Christensen Roadmap + Frenkel-Bol-Indiveri)** —  [EXTRACTED 1.00]
-- **4-Part Collection Plan Hyperstructure** —  [EXTRACTED 1.00]
+## Top 10 갓 노드
 
-## 커뮤니티들 (Communities)
+| Rank | Node | Edges |
+|---|---|---|
+| 1 | 4-Part Material Collection Plan (ws) | 13 |
+| 2 | Part 3 — Semiconductor Devices | 10 |
+| 3 | Random Feedback Weights / FA (Lillicrap 2014) | 9 |
+| 4 | Part 2 — Volterra/Wiener Theory | 9 |
+| 5 | Hinton: Forward-Forward Algorithm | 8 |
+| 6 | Mead (1989) Analog VLSI | 8 |
+| 7 | Part 3 — Memristor & PCM | 8 |
+| 8 | EGGROLL (Sarkar et al.) | 7 |
+| 9 | Joshi et al. PCM Inference | 7 |
+| 10 | Part 2 — Operator Correspondence | 7 |
 
-### 커뮤니티 0 - "진화 전략(Evolution Strategies, NES + Salimans + EGGROLL)"
-응집도(Cohesion): 0.18
-노드 (12개): Principled black-box optimization, Natural Evolution Strategies (Wierstra et al. 2011), Natural gradient on parameterized search distribution, Natural Evolution Strategies (NES) algorithm, Common random numbers communication (scalar exchange), Evolution Strategies for reinforcement learning, Evolution Strategies as Scalable RL (Salimans et al. 2017), Massively parallel scaling to 1000+ workers (+4 more)
+## 9개 커뮤니티 — 4-Part 구조와의 직접 매핑
 
-### 커뮤니티 1 - "순전파 전용(Forward-only) / 순전파 기울기(Forward Gradient)"
-응집도: 0.18
-노드 (11개): Forward gradient (directional derivative estimator), Forward-mode automatic differentiation, Gradients without Backpropagation / Forward Gradient (Baydin et al. 2022), Kohan: Signal Propagation (sigprop) — Forward-Pass Learning Framework, Sigprop: Global Supervised Learning via Forward Path Only, Sigprop: Compatibility with Hardware and Biological Learning (no weight transport, no feedback), Sigprop: Trains Spiking and Continuous-Time Networks with Hebbian Updates, Hinton: The Forward-Forward Algorithm — Two Forward Passes Replace Backprop (+3 more)
+| C# | 노드 수 | 응집도 | 주제 | 대응 Part |
+|---|---|---|---|---|
+| C0 | 27 | 0.09 | Volterra/Wiener + Hinton FF + EGGROLL + EquProp | **Part 4 핵심 + Part 2 SP-completeness** |
+| C1 | 24 | 0.11 | Part 3 devices + Memristor/PCM + Joshi + Part 2 operator | **Part 2/3 cross-hub** |
+| C2 | 23 | 0.10 | Feedback Alignment + DFA + Akrout + Forward Gradient + Liao | **Part 4 — bio-plausible 학습 가족** |
+| C3 | 19 | 0.13 | 4-Part Plan + Part 1 textbooks + ΣΔ Inose | **Part 1 + Plan hub** |
+| C4 | 18 | 0.15 | Mead 1989 + Gilbert + Liu + Translinear | **Part 2 textbook 정전** |
+| C5 | 18 | 0.14 | NVM/Flash + Sze textbook + NS-RAM | **Part 3 charge-storage** |
+| C6 | 12 | 0.18 | Salimans ES + Hiratani + NES | **Part 4 — ES 가족** |
+| C7 | 10 | 0.27 | Burr PCM + STT/VCMA-MRAM + MTJ | **Part 3 — Memory tier 3** |
+| C8 | 5 | 0.40 | Bengio Bio-plausible + STDP | **Part 4 외곽 — bio-inspired** |
 
-### 커뮤니티 2 - "피드백 정렬(Feedback Alignment, Lillicrap + Akrout + Liao)"
-응집도: 0.22
-노드 (10개): Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014), Random fixed feedback weights for credit assignment, Batch Normalization / Batch Manhattan stabilization, Feedback weight magnitudes irrelevant; only signs matter, How Important is Weight Symmetry in Backpropagation? (Liao et al. 2015), Sign-symmetric (sign-concordant) feedback weights, Near-backprop ImageNet performance without weight transport, Modified Kolen-Pollack feedback learning (+2 more)
+**관찰**: 9개 커뮤니티가 4-Part 구조를 자연스럽게 반영. Part 1 (1개), Part 2 (2개), Part 3 (2개), Part 4 (3개), 하이브리드 (2개). 가장 큰 C0가 "Volterra + 학습 알고리즘"의 cross-cutting hub로 형성된 것이 의미 있음 — 이론과 알고리즘의 자연스런 통합점.
 
-### 커뮤니티 3 - "직접 피드백 정렬(Direct Feedback Alignment) + DRTP"
-응집도: 0.22
-노드 (10개): Feedback Alignment algorithm, Direct Feedback Alignment (DFA) algorithm, Direct random projection from output to each hidden layer, Layer-independent training without error backprop, Direct Feedback Alignment (Nokland 2016), Direct Random Target Projection (DRTP) algorithm, Solves update locking; suitable for edge devices, Direct Random Target Projection / DRTP (Frenkel et al. 2019) (+2 more)
+## 5대 교량 노드 (Top Betweenness)
 
-### 커뮤니티 4 - "상변화 메모리(PCM) 신경망 학습"
-응집도: 0.22
-노드 (10개): Joshi et al.: Accurate DNN Inference Using Computational Phase-Change Memory, PCM Inference: Batch-Norm-Based Drift Compensation for Retention, PCM Inference: 71.6% ImageNet Top-1 / 93.7% CIFAR-10 on PCM Hardware, PCM Inference: ResNet Training Methodology with No Accuracy Loss after Weight Transfer, Ortner et al.: Learning-to-Learn with PCM-Based In-Memory Computing, PCM L2L: Demonstrated on CNN Image Classification and SNN Robotic Arm Control, PCM L2L: Rapid Edge Adaptation with Few Parameter Updates, PCM L2L: Meta-Training in Software, Deployment on PCM NMHW (+2 more)
+| Bet | Deg | Node |
+|---|---|---|
+| 0.593 | 13 | 4-Part Material Collection Plan (ws) |
+| 0.425 | 9 | Volterra/Wiener Theory note |
+| 0.244 | 9 | Lillicrap FA |
+| 0.163 | 6 | Part 4 plan node |
+| 0.133 | 8 | Memristor & PCM note |
 
-### 커뮤니티 5 - "생물학적 타당 학습(Bio-plausible Learning, EquProp, Bengio)"
-응집도: 0.22
-노드 (9개): Removes weight transport requirement (biological plausibility), Biologically plausible deep learning framework, Towards Biologically Plausible Deep Learning (Bengio et al. 2015), STDP-as-gradient-descent learning rule, Variational EM via neural dynamics, Equilibrium Propagation algorithm, Equilibrium Propagation (Scellier & Bengio 2016), Single neural computation for inference and error backprop (+1 more)
+**해석**:
+- **Plan 노드**가 압도적 betweenness — 4 part 모두를 잇는 골격, 의도된 구조임.
+- **Volterra/Wiener**가 두 번째 — Part 2 (operator)와 Part 4 (학습)을 잇는 수학적 다리. SP-completeness 정리가 두 영역을 연결.
+- **Lillicrap FA**가 알고리즘 가족(C2)과 다른 backprop-free 가족 사이의 다리.
+- **Memristor/PCM**이 Part 2/3 cross-hub 안에서 device family를 통합.
 
-### 커뮤니티 6 - "4-Part 수집 계획 + 순전파(Forward-Pass) 알고리즘"
-응집도: 0.22
-노드 (9개): Dalm/Hiratani-style: Node Perturbation Can Effectively Train Multi-Layer Networks, Node Perturbation: Alignment with Directional Derivative, Node Perturbation: Input Decorrelation per Layer Boosts Convergence, Node Perturbation: On-Chip Learning in Noisy Neuromorphic Systems, 4-Part Material Collection Plan (ws), Part 1 — Digital/Analog Modulation and Decoding, Part 1 Tier 1 Priority List (7 items: Shannon, Nyquist, Norsworthy, Inose, Razavi, Pelgrom, Roza), Part 4 — Neural Operator + Backprop-Free Optimization (+1 more)
+## 2 — 그래프 구조 분석 (사용자 요청 항목)
 
-### 커뮤니티 7 - "뉴로모픽(Neuromorphic) 2022-2024 서베이"
-응집도: 0.29
-노드 (8개): Christensen et al.: 2022 Roadmap on Neuromorphic Computing and Engineering, Roadmap: Algorithms, Applications, and Edge Deployment Perspectives, Roadmap: Survey of Materials, Devices and Circuits for Neuromorphic Computing, Frenkel, Bol, Indiveri: Bottom-Up vs Top-Down Neuromorphic Design, Frenkel-Indiveri: Tradeoffs Between Bottom-Up Biological and Top-Down ML Approaches, Frenkel-Indiveri: Analog/Mixed-Signal/Digital Circuit Design Style Comparison, Part 2 — Analog Math Operator vs Physical Operator Correspondence, Part 2 Tier 1 Priority List (8 items: Mead, Liu et al., Gilbert, Toumazou, Rugh, Schetzen, Vittoz)
+### 8개 알고리즘 가족이 그래프에 나타나는 패턴
 
-## 지식 공백 (Knowledge Gaps)
-- **고립 노드 46개:** `Natural gradient on parameterized search distribution`, `Principled black-box optimization`, `Random fixed feedback weights for credit assignment`, `STDP-as-gradient-descent learning rule`, `Variational EM via neural dynamics` (+41 more)
-  연결이 1개 이하 — 누락된 엣지이거나 문서화되지 않은 컴포넌트(component)일 수 있습니다.
+```
+  Backprop-free 가족 분류:
+  
+  Evolution Strategies (C6)         ─ NES, Salimans ES, Hiratani NP, EGGROLL
+  Forward-only / FF (C0 일부)        ─ Hinton FF, Sigprop, Forward Gradient
+  Feedback Alignment (C2)           ─ Lillicrap, DFA, DRTP, Akrout, Liao
+  Bio-plausible (C8 + C0 일부)      ─ EquProp, Bengio, STDP
+```
 
-## 추천 질문 (Suggested Questions)
-_이 그래프가 고유하게 답할 수 있는 질문들:_
+→ **그래프가 알고리즘 가족을 정확히 분리**. 같은 Part 4 안에서도 4개 sub-family가 다른 community.
 
-- **왜 `Part 4 — Neural Operator + Backprop-Free Optimization`이 `4-Part Collection Plan + Forward-Pass Algorithms`를 `Evolution Strategies (NES + Salimans + EGGROLL)`, `Forward-only / Forward Gradient`와 이어주는가?**
-  _높은 매개 중심성(betweenness centrality) 0.633 — 이 노드는 커뮤니티 간 교량(bridge) 역할._
-- **왜 `Hinton: The Forward-Forward Algorithm — Two Forward Passes Replace Backprop`이 `Forward-only / Forward Gradient`를 `4-Part Collection Plan + Forward-Pass Algorithms`와 이어주는가?**
-  _높은 매개 중심성 0.534 — 커뮤니티 간 교량 노드._
-- **왜 `Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014)`가 `Feedback Alignment (Lillicrap + Akrout + Liao)`를 `Forward-only / Forward Gradient`, `Direct Feedback Alignment + DRTP`, `Bio-plausible Learning (EquProp, Bengio)`과 이어주는가?**
-  _높은 매개 중심성 0.526 — 커뮤니티 간 교량 노드._
-- **`Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014)`와 관련된 4개의 추론(INFERRED) 관계 (예: `Direct Feedback Alignment (Nokland 2016)`, `Deep Learning without Weight Transport (Akrout et al. 2019)`와의 연결)가 실제로 맞는가?**
-  _`Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014)`에는 INFERRED 엣지가 4개 있음 — 모델이 추론한 연결이라 검증이 필요._
-- **`Evolution Strategies as Scalable RL (Salimans et al. 2017)`와 관련된 3개의 추론(INFERRED) 관계 (예: `Natural Evolution Strategies (Wierstra et al. 2011)`, `Dalm/Hiratani-style: Node Perturbation Can Effectively Train Multi-Layer Networks`와의 연결)가 실제로 맞는가?**
-  _`Evolution Strategies as Scalable RL (Salimans et al. 2017)`에는 INFERRED 엣지가 3개 있음 — 모델이 추론한 연결이라 검증이 필요._
-- **`Hinton: The Forward-Forward Algorithm — Two Forward Passes Replace Backprop`과 관련된 2개의 추론(INFERRED) 관계 (예: `Kohan: Signal Propagation (sigprop) — Forward-Pass Learning Framework`, `Gradients without Backpropagation / Forward Gradient (Baydin et al. 2022)`와의 연결)가 실제로 맞는가?**
-  _`Hinton: The Forward-Forward Algorithm — Two Forward Passes Replace Backprop`에는 INFERRED 엣지가 2개 있음 — 모델이 추론한 연결이라 검증이 필요._
-- **`Natural gradient on parameterized search distribution`, `Principled black-box optimization`, `Random fixed feedback weights for credit assignment`는 시스템의 나머지와 어떻게 연결되는가?**
-  _약연결(weakly-connected) 노드 46개 검출 — 문서화 공백이거나 누락된 엣지일 가능성._
+### Part별 textbook→arxiv 연결의 직접 가시화
+
+`Mead Analog VLSI (1989)` → 그래프 상에서 다음과 직접 연결:
+- Gilbert translinear (C4 내부 → Part 2 통합)
+- Subthreshold MOSFET (C4 → C5 device 가족)
+- Floating-gate adaptive synapse (C5 charge-storage)
+- Frenkel-Indiveri survey (C0 cross-link, neuromorphic 시초)
+
+→ 60년 textbook이 2024 survey와 직접 path로 연결됨. 구조적으로 입증된 사상의 계승.
+
+### Volterra/Wiener의 hub 위상의 이유
+
+`Volterra/Wiener Theory` 노트가 다음과 동시에 연결:
+- EGGROLL (학습이 Volterra kernel 변경)
+- EquProp (energy minimization → fixed-point 해석이 Volterra와 호환)
+- Forward-Forward (forward-only는 polynomial composition)
+- Mead Analog VLSI (operator algebra의 회로 구현)
+- Translinear (구체 회로가 Volterra polynomial 합성)
+
+→ **Part 2 (operator algebra)와 Part 4 (학습)의 수학적 다리**. 이 노드 없으면 두 영역이 분리됨.
+
+### 수학적 응집도 차이
+
+| Community | Cohesion | 해석 |
+|---|---|---|
+| C8 Bio-plausible | 0.40 | 작은 크기 + tight (Bengio + STDP만) |
+| C7 PCM/MRAM | 0.27 | Memory tier 3 family — narrow 주제 |
+| C6 ES | 0.18 | NES + Salimans + Hiratani 일관 |
+| C4 Mead/Gilbert | 0.15 | Part 2 textbook 가족 |
+| C3 Plan + Part 1 | 0.13 | Plan 노드가 cross-link 많아 응집도 ↓ |
+| C2 FA | 0.10 | 가족 내 변형 다양 |
+| C1 Device cross | 0.11 | 가장 cross-cutting |
+| C0 Volterra + ES + FF | 0.09 | **가장 다양한 cross-link, 골격 hub** |
+
+→ **응집도가 낮은 community = 골격 역할**. C0가 가장 흥미로운 영역 (이론·알고리즘 교차지점).
+
+## 권장 다음 작업 (이번 두 작업 완료 후)
+
+1. **Part 4 통합 outline 작성** — backprop-free 4 가족 (ES, FA, Forward-only, Bio-plausible)이 어떻게 PPCA-class 시스템에서 통합 또는 선택되는지 정리
+2. **Volterra hub 심화 분석** — Part 2 operator를 Part 4 학습에 어떻게 연결하는 정리들 (예: switched-Volterra ↔ ES rank-1 perturbation)
+3. **Tier-1 textbook 36개 → 더 깊은 self-summary** — 현재 ~3 페이지/textbook을 ~7 페이지로 확장
+
+또는 부족한 부분 보강:
+4. **Part 1 textbook 직접 PDF 다운로드** — Shannon, Nyquist, Inose 원전 (IEEE Xplore 무료 영역)
+5. **Mead 1989 챕터별 PDF** — 저자 CalTech 사이트 일부 무료

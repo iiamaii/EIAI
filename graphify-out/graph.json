@@ -4,103 +4,74 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "feedback_alignment_family",
-        "label": "Feedback Alignment family of bio-plausible learning algorithms",
+        "id": "part1_modulation_decoding_textbooks",
+        "label": "Part 1 Modulation/Decoding textbook cluster",
         "members": [
-          "arxiv_1411_0247_main",
-          "arxiv_1411_0247_feedback_alignment",
-          "arxiv_1609_01596_main",
-          "arxiv_1609_01596_dfa_algorithm",
-          "arxiv_1909_01311_main",
-          "arxiv_1909_01311_drtp_algorithm",
-          "arxiv_1904_05391_main",
-          "arxiv_1904_05391_weight_mirror",
-          "arxiv_1510_05067_main",
-          "arxiv_1510_05067_sign_symmetry"
+          "part1_information_theory_classics_main",
+          "part1_data_conversion_textbooks_main",
+          "nyquist_1928_sampling_theorem",
+          "shannon_1948_entropy_capacity",
+          "inose_1962_sigma_delta_origin",
+          "razavi_1995_data_conversion",
+          "pelgrom_2017_adc_textbook",
+          "norsworthy_1996_sigma_delta",
+          "roza_1997_pwm_adc"
         ],
-        "relation": "family_of",
+        "relation": "thematic_cluster_modulation_decoding",
         "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "raw/arxiv_1411_0247.md",
+        "confidence_score": 1.0,
+        "source_file": "raw/part1_information_theory_classics.md",
         "source_location": null,
         "weight": 1.0
       },
       {
-        "id": "evolution_strategies_family",
-        "label": "Evolution Strategies family of black-box optimizers",
+        "id": "part2_operator_correspondence_textbooks",
+        "label": "Part 2 Operator-Correspondence textbook cluster",
         "members": [
-          "arxiv_1106_4487_main",
-          "arxiv_1106_4487_nes_algorithm",
-          "arxiv_1106_4487_natural_gradient",
-          "arxiv_1703_03864_main",
-          "arxiv_1703_03864_es_rl",
-          "arxiv_1703_03864_common_random_numbers"
+          "part2_analog_vlsi_neuromorphic_main",
+          "part2_translinear_principle_main",
+          "part2_volterra_wiener_theory_main",
+          "mead_1989_analog_vlsi",
+          "liu_2002_analog_vlsi",
+          "vittoz_subthreshold_lateral_bjt",
+          "gilbert_1968_four_quadrant_multiplier",
+          "gilbert_1975_translinear_principle",
+          "toumazou_1990_current_mode",
+          "rugh_1981_volterra_wiener",
+          "schetzen_1980_wiener_theory"
         ],
-        "relation": "family_of",
+        "relation": "thematic_cluster_operator_correspondence",
         "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "raw/arxiv_1106_4487.md",
+        "confidence_score": 1.0,
+        "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
         "source_location": null,
         "weight": 1.0
       },
       {
-        "id": "forward_only_learning_pure_family",
-        "label": "Pure Forward-Only Learning Family (Sigprop + Forward-Forward + Forward Gradient)",
+        "id": "part3_device_physics_textbooks",
+        "label": "Part 3 Device Physics textbook cluster",
         "members": [
-          "arxiv_2204_01723_main",
-          "arxiv_2212_13345_main",
-          "arxiv_2202_08587_main"
+          "part3_semiconductor_physics_textbooks_main",
+          "part3_memristor_pcm_main",
+          "part3_mram_main",
+          "part3_charge_storage_nvm_main",
+          "sze_ng_2021_semiconductor_devices",
+          "tsividis_2010_mos_transistor",
+          "strukov_2008_missing_memristor",
+          "ielmini_waser_2016_resistive_switching",
+          "burr_2010_2017_pcm",
+          "apalkov_2016_stt_mram",
+          "wang_2012_vcma_mram",
+          "pavan_1997_flash_overview",
+          "hasler_1996_single_transistor_synapse",
+          "muller_2015_ferroelectric_hfo2",
+          "ns_ram_2t_cell"
         ],
-        "relation": "co_membership_forward_only_learning",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.9,
-        "source_file": "raw/material_collection_plan.md",
-        "source_location": "Part 4 Tier 1 \u2014 Local-only / feedback-alignment \uac00\uc871 + Forward-mode auto-diff",
-        "weight": 1.0
-      },
-      {
-        "id": "pcm_neural_network_pair",
-        "label": "PCM Neural Network Hardware Pair (Inference + L2L Adaptation)",
-        "members": [
-          "arxiv_1906_03138_main",
-          "arxiv_2405_05141_main"
-        ],
-        "relation": "co_membership_pcm_neural_network",
+        "relation": "thematic_cluster_device_physics",
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
-        "source_file": "raw/material_collection_plan.md",
-        "source_location": "Part 3 \u2014 \uc0c1\ubcc0\ud654 \uba54\ubaa8\ub9ac (PCM)",
-        "weight": 1.0
-      },
-      {
-        "id": "neuromorphic_2022_2024_surveys",
-        "label": "Neuromorphic 2022-2024 Survey Pair (Christensen Roadmap + Frenkel-Bol-Indiveri)",
-        "members": [
-          "arxiv_2105_05956_main",
-          "arxiv_2106_01288_main"
-        ],
-        "relation": "co_membership_neuromorphic_survey",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "raw/material_collection_plan.md",
-        "source_location": "Part 3 Tier 2",
-        "weight": 1.0
-      },
-      {
-        "id": "four_part_collection_plan",
-        "label": "4-Part Collection Plan Hyperstructure",
-        "members": [
-          "material_collection_plan_main",
-          "material_collection_plan_part1_modulation",
-          "material_collection_plan_part2_operator_correspondence",
-          "material_collection_plan_part3_devices",
-          "material_collection_plan_part4_neural_operator"
-        ],
-        "relation": "co_membership_collection_plan_structure",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "raw/material_collection_plan.md",
-        "source_location": "Full document",
+        "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+        "source_location": null,
         "weight": 1.0
       }
     ]
@@ -115,9 +86,9 @@
       "captured_at": "2026-05-02",
       "author": "Daan Wierstra, Tom Schaul, Tobias Glasmachers, Yi Sun, J\u00fcrgen Schmidhuber",
       "contributor": null,
-      "id": "arxiv_1106_4487_main",
-      "community": 0,
-      "norm_label": "natural evolution strategies (wierstra et al. 2011)"
+      "community": 6,
+      "norm_label": "natural evolution strategies (wierstra et al. 2011)",
+      "id": "arxiv_1106_4487_main"
     },
     {
       "label": "Natural Evolution Strategies (NES) algorithm",
@@ -128,9 +99,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1106_4487_nes_algorithm",
-      "community": 0,
-      "norm_label": "natural evolution strategies (nes) algorithm"
+      "community": 6,
+      "norm_label": "natural evolution strategies (nes) algorithm",
+      "id": "arxiv_1106_4487_nes_algorithm"
     },
     {
       "label": "Natural gradient on parameterized search distribution",
@@ -141,9 +112,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1106_4487_natural_gradient",
-      "community": 0,
-      "norm_label": "natural gradient on parameterized search distribution"
+      "community": 6,
+      "norm_label": "natural gradient on parameterized search distribution",
+      "id": "arxiv_1106_4487_natural_gradient"
     },
     {
       "label": "Principled black-box optimization",
@@ -154,9 +125,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1106_4487_blackbox_optimization",
-      "community": 0,
-      "norm_label": "principled black-box optimization"
+      "community": 6,
+      "norm_label": "principled black-box optimization",
+      "id": "arxiv_1106_4487_blackbox_optimization"
     },
     {
       "label": "Random Feedback Weights / Feedback Alignment (Lillicrap et al. 2014)",
@@ -167,9 +138,9 @@
       "captured_at": "2026-05-02",
       "author": "Timothy P. Lillicrap, Daniel Cownden, Douglas B. Tweed, Colin J. Akerman",
       "contributor": null,
-      "id": "arxiv_1411_0247_main",
       "community": 2,
-      "norm_label": "random feedback weights / feedback alignment (lillicrap et al. 2014)"
+      "norm_label": "random feedback weights / feedback alignment (lillicrap et al. 2014)",
+      "id": "arxiv_1411_0247_main"
     },
     {
       "label": "Feedback Alignment algorithm",
@@ -180,9 +151,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1411_0247_feedback_alignment",
-      "community": 3,
-      "norm_label": "feedback alignment algorithm"
+      "community": 2,
+      "norm_label": "feedback alignment algorithm",
+      "id": "arxiv_1411_0247_feedback_alignment"
     },
     {
       "label": "Random fixed feedback weights for credit assignment",
@@ -193,9 +164,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1411_0247_random_feedback_weights",
       "community": 2,
-      "norm_label": "random fixed feedback weights for credit assignment"
+      "norm_label": "random fixed feedback weights for credit assignment",
+      "id": "arxiv_1411_0247_random_feedback_weights"
     },
     {
       "label": "Removes weight transport requirement (biological plausibility)",
@@ -206,9 +177,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1411_0247_bio_plausibility",
-      "community": 5,
-      "norm_label": "removes weight transport requirement (biological plausibility)"
+      "community": 8,
+      "norm_label": "removes weight transport requirement (biological plausibility)",
+      "id": "arxiv_1411_0247_bio_plausibility"
     },
     {
       "label": "Towards Biologically Plausible Deep Learning (Bengio et al. 2015)",
@@ -220,9 +191,9 @@
       "author": "Yoshua Bengio, Dong-Hyun Lee, Jorg Bornschein, Thomas Mesnard, Zhouhan Lin",
       "captured_at_dup": null,
       "contributor": null,
-      "id": "arxiv_1502_04156_main",
-      "community": 5,
-      "norm_label": "towards biologically plausible deep learning (bengio et al. 2015)"
+      "community": 8,
+      "norm_label": "towards biologically plausible deep learning (bengio et al. 2015)",
+      "id": "arxiv_1502_04156_main"
     },
     {
       "label": "STDP-as-gradient-descent learning rule",
@@ -233,9 +204,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1502_04156_stdp_gradient",
-      "community": 5,
-      "norm_label": "stdp-as-gradient-descent learning rule"
+      "community": 8,
+      "norm_label": "stdp-as-gradient-descent learning rule",
+      "id": "arxiv_1502_04156_stdp_gradient"
     },
     {
       "label": "Variational EM via neural dynamics",
@@ -246,9 +217,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1502_04156_variational_em",
-      "community": 5,
-      "norm_label": "variational em via neural dynamics"
+      "community": 8,
+      "norm_label": "variational em via neural dynamics",
+      "id": "arxiv_1502_04156_variational_em"
     },
     {
       "label": "Biologically plausible deep learning framework",
@@ -259,9 +230,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1502_04156_bio_plausibility",
-      "community": 5,
-      "norm_label": "biologically plausible deep learning framework"
+      "community": 8,
+      "norm_label": "biologically plausible deep learning framework",
+      "id": "arxiv_1502_04156_bio_plausibility"
     },
     {
       "label": "How Important is Weight Symmetry in Backpropagation? (Liao et al. 2015)",
@@ -272,9 +243,9 @@
       "captured_at": "2026-05-02",
       "author": "Qianli Liao, Joel Z. Leibo, Tomaso Poggio",
       "contributor": null,
-      "id": "arxiv_1510_05067_main",
       "community": 2,
-      "norm_label": "how important is weight symmetry in backpropagation? (liao et al. 2015)"
+      "norm_label": "how important is weight symmetry in backpropagation? (liao et al. 2015)",
+      "id": "arxiv_1510_05067_main"
     },
     {
       "label": "Sign-symmetric (sign-concordant) feedback weights",
@@ -285,9 +256,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1510_05067_sign_symmetry",
       "community": 2,
-      "norm_label": "sign-symmetric (sign-concordant) feedback weights"
+      "norm_label": "sign-symmetric (sign-concordant) feedback weights",
+      "id": "arxiv_1510_05067_sign_symmetry"
     },
     {
       "label": "Batch Normalization / Batch Manhattan stabilization",
@@ -298,9 +269,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1510_05067_batch_manhattan",
       "community": 2,
-      "norm_label": "batch normalization / batch manhattan stabilization"
+      "norm_label": "batch normalization / batch manhattan stabilization",
+      "id": "arxiv_1510_05067_batch_manhattan"
     },
     {
       "label": "Feedback weight magnitudes irrelevant; only signs matter",
@@ -311,9 +282,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1510_05067_magnitudes_irrelevant",
       "community": 2,
-      "norm_label": "feedback weight magnitudes irrelevant; only signs matter"
+      "norm_label": "feedback weight magnitudes irrelevant; only signs matter",
+      "id": "arxiv_1510_05067_magnitudes_irrelevant"
     },
     {
       "label": "Equilibrium Propagation (Scellier & Bengio 2016)",
@@ -324,9 +295,9 @@
       "captured_at": "2026-05-02",
       "author": "Benjamin Scellier, Yoshua Bengio",
       "contributor": null,
-      "id": "arxiv_1602_05179_main",
-      "community": 5,
-      "norm_label": "equilibrium propagation (scellier & bengio 2016)"
+      "community": 0,
+      "norm_label": "equilibrium propagation (scellier & bengio 2016)",
+      "id": "arxiv_1602_05179_main"
     },
     {
       "label": "Equilibrium Propagation algorithm",
@@ -337,9 +308,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1602_05179_eqprop_algorithm",
-      "community": 5,
-      "norm_label": "equilibrium propagation algorithm"
+      "community": 0,
+      "norm_label": "equilibrium propagation algorithm",
+      "id": "arxiv_1602_05179_eqprop_algorithm"
     },
     {
       "label": "Two-phase fixed-point nudging at output",
@@ -350,9 +321,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1602_05179_two_phase_nudging",
-      "community": 5,
-      "norm_label": "two-phase fixed-point nudging at output"
+      "community": 0,
+      "norm_label": "two-phase fixed-point nudging at output",
+      "id": "arxiv_1602_05179_two_phase_nudging"
     },
     {
       "label": "Single neural computation for inference and error backprop",
@@ -363,9 +334,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1602_05179_single_circuit",
-      "community": 5,
-      "norm_label": "single neural computation for inference and error backprop"
+      "community": 0,
+      "norm_label": "single neural computation for inference and error backprop",
+      "id": "arxiv_1602_05179_single_circuit"
     },
     {
       "label": "Direct Feedback Alignment (Nokland 2016)",
@@ -376,9 +347,9 @@
       "captured_at": "2026-05-02",
       "author": "Arild N\u00f8kland",
       "contributor": null,
-      "id": "arxiv_1609_01596_main",
-      "community": 3,
-      "norm_label": "direct feedback alignment (nokland 2016)"
+      "community": 2,
+      "norm_label": "direct feedback alignment (nokland 2016)",
+      "id": "arxiv_1609_01596_main"
     },
     {
       "label": "Direct Feedback Alignment (DFA) algorithm",
@@ -389,9 +360,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1609_01596_dfa_algorithm",
-      "community": 3,
-      "norm_label": "direct feedback alignment (dfa) algorithm"
+      "community": 2,
+      "norm_label": "direct feedback alignment (dfa) algorithm",
+      "id": "arxiv_1609_01596_dfa_algorithm"
     },
     {
       "label": "Direct random projection from output to each hidden layer",
@@ -402,9 +373,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1609_01596_direct_random_projection",
-      "community": 3,
-      "norm_label": "direct random projection from output to each hidden layer"
+      "community": 2,
+      "norm_label": "direct random projection from output to each hidden layer",
+      "id": "arxiv_1609_01596_direct_random_projection"
     },
     {
       "label": "Layer-independent training without error backprop",
@@ -415,9 +386,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1609_01596_layer_independent",
-      "community": 3,
-      "norm_label": "layer-independent training without error backprop"
+      "community": 2,
+      "norm_label": "layer-independent training without error backprop",
+      "id": "arxiv_1609_01596_layer_independent"
     },
     {
       "label": "Evolution Strategies as Scalable RL (Salimans et al. 2017)",
@@ -428,9 +399,9 @@
       "captured_at": "2026-05-02",
       "author": "Tim Salimans, Jonathan Ho, Xi Chen, Szymon Sidor, Ilya Sutskever",
       "contributor": null,
-      "id": "arxiv_1703_03864_main",
-      "community": 0,
-      "norm_label": "evolution strategies as scalable rl (salimans et al. 2017)"
+      "community": 6,
+      "norm_label": "evolution strategies as scalable rl (salimans et al. 2017)",
+      "id": "arxiv_1703_03864_main"
     },
     {
       "label": "Evolution Strategies for reinforcement learning",
@@ -441,9 +412,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1703_03864_es_rl",
-      "community": 0,
-      "norm_label": "evolution strategies for reinforcement learning"
+      "community": 6,
+      "norm_label": "evolution strategies for reinforcement learning",
+      "id": "arxiv_1703_03864_es_rl"
     },
     {
       "label": "Common random numbers communication (scalar exchange)",
@@ -454,9 +425,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1703_03864_common_random_numbers",
-      "community": 0,
-      "norm_label": "common random numbers communication (scalar exchange)"
+      "community": 6,
+      "norm_label": "common random numbers communication (scalar exchange)",
+      "id": "arxiv_1703_03864_common_random_numbers"
     },
     {
       "label": "Massively parallel scaling to 1000+ workers",
@@ -467,9 +438,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1703_03864_massive_scaling",
-      "community": 0,
-      "norm_label": "massively parallel scaling to 1000+ workers"
+      "community": 6,
+      "norm_label": "massively parallel scaling to 1000+ workers",
+      "id": "arxiv_1703_03864_massive_scaling"
     },
     {
       "label": "Deep Learning without Weight Transport (Akrout et al. 2019)",
@@ -480,9 +451,9 @@
       "captured_at": "2026-05-02",
       "author": "Mohamed Akrout, Collin Wilson, Peter C. Humphreys, Timothy Lillicrap, Douglas Tweed",
       "contributor": null,
-      "id": "arxiv_1904_05391_main",
       "community": 2,
-      "norm_label": "deep learning without weight transport (akrout et al. 2019)"
+      "norm_label": "deep learning without weight transport (akrout et al. 2019)",
+      "id": "arxiv_1904_05391_main"
     },
     {
       "label": "Weight mirror neural circuit",
@@ -493,9 +464,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1904_05391_weight_mirror",
       "community": 2,
-      "norm_label": "weight mirror neural circuit"
+      "norm_label": "weight mirror neural circuit",
+      "id": "arxiv_1904_05391_weight_mirror"
     },
     {
       "label": "Modified Kolen-Pollack feedback learning",
@@ -506,9 +477,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1904_05391_kolen_pollack",
       "community": 2,
-      "norm_label": "modified kolen-pollack feedback learning"
+      "norm_label": "modified kolen-pollack feedback learning",
+      "id": "arxiv_1904_05391_kolen_pollack"
     },
     {
       "label": "Near-backprop ImageNet performance without weight transport",
@@ -519,9 +490,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1904_05391_imagenet_match",
       "community": 2,
-      "norm_label": "near-backprop imagenet performance without weight transport"
+      "norm_label": "near-backprop imagenet performance without weight transport",
+      "id": "arxiv_1904_05391_imagenet_match"
     },
     {
       "label": "Direct Random Target Projection / DRTP (Frenkel et al. 2019)",
@@ -532,9 +503,9 @@
       "captured_at": "2026-05-02",
       "author": "Charlotte Frenkel, Martin Lefebvre, David Bol",
       "contributor": null,
-      "id": "arxiv_1909_01311_main",
-      "community": 3,
-      "norm_label": "direct random target projection / drtp (frenkel et al. 2019)"
+      "community": 2,
+      "norm_label": "direct random target projection / drtp (frenkel et al. 2019)",
+      "id": "arxiv_1909_01311_main"
     },
     {
       "label": "Direct Random Target Projection (DRTP) algorithm",
@@ -545,9 +516,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1909_01311_drtp_algorithm",
-      "community": 3,
-      "norm_label": "direct random target projection (drtp) algorithm"
+      "community": 2,
+      "norm_label": "direct random target projection (drtp) algorithm",
+      "id": "arxiv_1909_01311_drtp_algorithm"
     },
     {
       "label": "One-hot target as proxy for error sign",
@@ -558,9 +529,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1909_01311_target_as_error_proxy",
-      "community": 3,
-      "norm_label": "one-hot target as proxy for error sign"
+      "community": 2,
+      "norm_label": "one-hot target as proxy for error sign",
+      "id": "arxiv_1909_01311_target_as_error_proxy"
     },
     {
       "label": "Solves update locking; suitable for edge devices",
@@ -571,9 +542,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1909_01311_edge_efficiency",
-      "community": 3,
-      "norm_label": "solves update locking; suitable for edge devices"
+      "community": 2,
+      "norm_label": "solves update locking; suitable for edge devices",
+      "id": "arxiv_1909_01311_edge_efficiency"
     },
     {
       "label": "Gradients without Backpropagation / Forward Gradient (Baydin et al. 2022)",
@@ -584,9 +555,9 @@
       "captured_at": "2026-05-02",
       "author": "At\u0131l\u0131m G\u00fcne\u015f Baydin, Barak A. Pearlmutter, Don Syme, Frank Wood, Philip Torr",
       "contributor": null,
-      "id": "arxiv_2202_08587_main",
-      "community": 1,
-      "norm_label": "gradients without backpropagation / forward gradient (baydin et al. 2022)"
+      "community": 2,
+      "norm_label": "gradients without backpropagation / forward gradient (baydin et al. 2022)",
+      "id": "arxiv_2202_08587_main"
     },
     {
       "label": "Forward gradient (directional derivative estimator)",
@@ -597,9 +568,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2202_08587_forward_gradient",
-      "community": 1,
-      "norm_label": "forward gradient (directional derivative estimator)"
+      "community": 2,
+      "norm_label": "forward gradient (directional derivative estimator)",
+      "id": "arxiv_2202_08587_forward_gradient"
     },
     {
       "label": "Forward-mode automatic differentiation",
@@ -610,9 +581,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2202_08587_forward_mode_AD",
-      "community": 1,
-      "norm_label": "forward-mode automatic differentiation"
+      "community": 2,
+      "norm_label": "forward-mode automatic differentiation",
+      "id": "arxiv_2202_08587_forward_mode_AD"
     },
     {
       "label": "Eliminates backprop; up to 2x training speedup",
@@ -623,9 +594,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2202_08587_no_backprop_speedup",
-      "community": 3,
-      "norm_label": "eliminates backprop; up to 2x training speedup"
+      "community": 2,
+      "norm_label": "eliminates backprop; up to 2x training speedup",
+      "id": "arxiv_2202_08587_no_backprop_speedup"
     },
     {
       "label": "Kohan: Signal Propagation (sigprop) \u2014 Forward-Pass Learning Framework",
@@ -636,9 +607,9 @@
       "captured_at": "2026-05-02",
       "author": "Adam Kohan, Edward A. Rietman, Hava T. Siegelmann",
       "contributor": "unknown",
-      "id": "arxiv_2204_01723_main",
-      "community": 1,
-      "norm_label": "kohan: signal propagation (sigprop) \u2014 forward-pass learning framework"
+      "community": 0,
+      "norm_label": "kohan: signal propagation (sigprop) \u2014 forward-pass learning framework",
+      "id": "arxiv_2204_01723_main"
     },
     {
       "label": "Sigprop: Global Supervised Learning via Forward Path Only",
@@ -649,9 +620,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2204_01723_sub_forward_only",
-      "community": 1,
-      "norm_label": "sigprop: global supervised learning via forward path only"
+      "community": 0,
+      "norm_label": "sigprop: global supervised learning via forward path only",
+      "id": "arxiv_2204_01723_sub_forward_only"
     },
     {
       "label": "Sigprop: Compatibility with Hardware and Biological Learning (no weight transport, no feedback)",
@@ -662,9 +633,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2204_01723_sub_hardware_bio",
-      "community": 1,
-      "norm_label": "sigprop: compatibility with hardware and biological learning (no weight transport, no feedback)"
+      "community": 0,
+      "norm_label": "sigprop: compatibility with hardware and biological learning (no weight transport, no feedback)",
+      "id": "arxiv_2204_01723_sub_hardware_bio"
     },
     {
       "label": "Sigprop: Trains Spiking and Continuous-Time Networks with Hebbian Updates",
@@ -675,9 +646,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2204_01723_sub_snn_hebbian",
-      "community": 1,
-      "norm_label": "sigprop: trains spiking and continuous-time networks with hebbian updates"
+      "community": 0,
+      "norm_label": "sigprop: trains spiking and continuous-time networks with hebbian updates",
+      "id": "arxiv_2204_01723_sub_snn_hebbian"
     },
     {
       "label": "Hinton: The Forward-Forward Algorithm \u2014 Two Forward Passes Replace Backprop",
@@ -688,9 +659,9 @@
       "captured_at": "2026-05-02",
       "author": "Geoffrey Hinton",
       "contributor": "unknown",
-      "id": "arxiv_2212_13345_main",
-      "community": 1,
-      "norm_label": "hinton: the forward-forward algorithm \u2014 two forward passes replace backprop"
+      "community": 0,
+      "norm_label": "hinton: the forward-forward algorithm \u2014 two forward passes replace backprop",
+      "id": "arxiv_2212_13345_main"
     },
     {
       "label": "Forward-Forward: Positive and Negative Data Passes with Per-Layer Goodness",
@@ -701,9 +672,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2212_13345_sub_pos_neg",
-      "community": 1,
-      "norm_label": "forward-forward: positive and negative data passes with per-layer goodness"
+      "community": 0,
+      "norm_label": "forward-forward: positive and negative data passes with per-layer goodness",
+      "id": "arxiv_2212_13345_sub_pos_neg"
     },
     {
       "label": "Forward-Forward: Local Layer-wise Objective (sum of squared activities)",
@@ -714,9 +685,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2212_13345_sub_layer_objective",
-      "community": 1,
-      "norm_label": "forward-forward: local layer-wise objective (sum of squared activities)"
+      "community": 0,
+      "norm_label": "forward-forward: local layer-wise objective (sum of squared activities)",
+      "id": "arxiv_2212_13345_sub_layer_objective"
     },
     {
       "label": "Forward-Forward: Pipelined Video / No Stored Activities",
@@ -727,9 +698,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2212_13345_sub_pipelining",
-      "community": 1,
-      "norm_label": "forward-forward: pipelined video / no stored activities"
+      "community": 0,
+      "norm_label": "forward-forward: pipelined video / no stored activities",
+      "id": "arxiv_2212_13345_sub_pipelining"
     },
     {
       "label": "Dalm/Hiratani-style: Node Perturbation Can Effectively Train Multi-Layer Networks",
@@ -740,9 +711,9 @@
       "captured_at": "2026-05-02",
       "author": "Sander Dalm, Marcel van Gerven, Nasir Ahmad",
       "contributor": "unknown",
-      "id": "arxiv_2310_00965_main",
       "community": 6,
-      "norm_label": "dalm/hiratani-style: node perturbation can effectively train multi-layer networks"
+      "norm_label": "dalm/hiratani-style: node perturbation can effectively train multi-layer networks",
+      "id": "arxiv_2310_00965_main"
     },
     {
       "label": "Node Perturbation: Alignment with Directional Derivative",
@@ -753,9 +724,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2310_00965_sub_directional_derivative",
       "community": 6,
-      "norm_label": "node perturbation: alignment with directional derivative"
+      "norm_label": "node perturbation: alignment with directional derivative",
+      "id": "arxiv_2310_00965_sub_directional_derivative"
     },
     {
       "label": "Node Perturbation: Input Decorrelation per Layer Boosts Convergence",
@@ -766,9 +737,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2310_00965_sub_input_decorrelation",
       "community": 6,
-      "norm_label": "node perturbation: input decorrelation per layer boosts convergence"
+      "norm_label": "node perturbation: input decorrelation per layer boosts convergence",
+      "id": "arxiv_2310_00965_sub_input_decorrelation"
     },
     {
       "label": "Node Perturbation: On-Chip Learning in Noisy Neuromorphic Systems",
@@ -779,9 +750,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2310_00965_sub_neuromorphic",
       "community": 6,
-      "norm_label": "node perturbation: on-chip learning in noisy neuromorphic systems"
+      "norm_label": "node perturbation: on-chip learning in noisy neuromorphic systems",
+      "id": "arxiv_2310_00965_sub_neuromorphic"
     },
     {
       "label": "EGGROLL: Evolution Strategies at the Hyperscale (Sarkar et al.)",
@@ -792,9 +763,9 @@
       "captured_at": "2026-05-02",
       "author": "Sarkar, Fellows, Duque, Letcher, et al.",
       "contributor": "unknown",
-      "id": "arxiv_2511_16652_main",
       "community": 0,
-      "norm_label": "eggroll: evolution strategies at the hyperscale (sarkar et al.)"
+      "norm_label": "eggroll: evolution strategies at the hyperscale (sarkar et al.)",
+      "id": "arxiv_2511_16652_main"
     },
     {
       "label": "EGGROLL: Rank-r Structured Perturbations for High Arithmetic Intensity",
@@ -805,9 +776,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2511_16652_sub_low_rank",
       "community": 0,
-      "norm_label": "eggroll: rank-r structured perturbations for high arithmetic intensity"
+      "norm_label": "eggroll: rank-r structured perturbations for high arithmetic intensity",
+      "id": "arxiv_2511_16652_sub_low_rank"
     },
     {
       "label": "EGGROLL: 100x Speedup at Billion-Parameter Scale, 91% Pure-Inference Throughput",
@@ -818,9 +789,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2511_16652_sub_billion_param",
       "community": 0,
-      "norm_label": "eggroll: 100x speedup at billion-parameter scale, 91% pure-inference throughput"
+      "norm_label": "eggroll: 100x speedup at billion-parameter scale, 91% pure-inference throughput",
+      "id": "arxiv_2511_16652_sub_billion_param"
     },
     {
       "label": "EGGROLL: Theoretical Consistency with Gaussian ES in High Dimensions",
@@ -831,9 +802,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2511_16652_sub_consistency_theory",
       "community": 0,
-      "norm_label": "eggroll: theoretical consistency with gaussian es in high dimensions"
+      "norm_label": "eggroll: theoretical consistency with gaussian es in high dimensions",
+      "id": "arxiv_2511_16652_sub_consistency_theory"
     },
     {
       "label": "Joshi et al.: Accurate DNN Inference Using Computational Phase-Change Memory",
@@ -844,9 +815,9 @@
       "captured_at": "2026-05-02",
       "author": "Vinay Joshi, Manuel Le Gallo, Abu Sebastian, et al.",
       "contributor": "unknown",
-      "id": "arxiv_1906_03138_main",
-      "community": 4,
-      "norm_label": "joshi et al.: accurate dnn inference using computational phase-change memory"
+      "community": 1,
+      "norm_label": "joshi et al.: accurate dnn inference using computational phase-change memory",
+      "id": "arxiv_1906_03138_main"
     },
     {
       "label": "PCM Inference: ResNet Training Methodology with No Accuracy Loss after Weight Transfer",
@@ -857,9 +828,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1906_03138_sub_pcm_resnet",
-      "community": 4,
-      "norm_label": "pcm inference: resnet training methodology with no accuracy loss after weight transfer"
+      "community": 1,
+      "norm_label": "pcm inference: resnet training methodology with no accuracy loss after weight transfer",
+      "id": "arxiv_1906_03138_sub_pcm_resnet"
     },
     {
       "label": "PCM Inference: Batch-Norm-Based Drift Compensation for Retention",
@@ -870,9 +841,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1906_03138_sub_batchnorm_compensation",
-      "community": 4,
-      "norm_label": "pcm inference: batch-norm-based drift compensation for retention"
+      "community": 1,
+      "norm_label": "pcm inference: batch-norm-based drift compensation for retention",
+      "id": "arxiv_1906_03138_sub_batchnorm_compensation"
     },
     {
       "label": "PCM Inference: 71.6% ImageNet Top-1 / 93.7% CIFAR-10 on PCM Hardware",
@@ -883,9 +854,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_1906_03138_sub_imagenet_cifar",
-      "community": 4,
-      "norm_label": "pcm inference: 71.6% imagenet top-1 / 93.7% cifar-10 on pcm hardware"
+      "community": 1,
+      "norm_label": "pcm inference: 71.6% imagenet top-1 / 93.7% cifar-10 on pcm hardware",
+      "id": "arxiv_1906_03138_sub_imagenet_cifar"
     },
     {
       "label": "Ortner et al.: Learning-to-Learn with PCM-Based In-Memory Computing",
@@ -896,9 +867,9 @@
       "captured_at": "2026-05-02",
       "author": "Thomas Ortner, Horst Petschenig, Athanasios Vasilopoulos, et al.",
       "contributor": "unknown",
-      "id": "arxiv_2405_05141_main",
-      "community": 4,
-      "norm_label": "ortner et al.: learning-to-learn with pcm-based in-memory computing"
+      "community": 1,
+      "norm_label": "ortner et al.: learning-to-learn with pcm-based in-memory computing",
+      "id": "arxiv_2405_05141_main"
     },
     {
       "label": "PCM L2L: Meta-Training in Software, Deployment on PCM NMHW",
@@ -909,9 +880,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2405_05141_sub_l2l_meta",
-      "community": 4,
-      "norm_label": "pcm l2l: meta-training in software, deployment on pcm nmhw"
+      "community": 1,
+      "norm_label": "pcm l2l: meta-training in software, deployment on pcm nmhw",
+      "id": "arxiv_2405_05141_sub_l2l_meta"
     },
     {
       "label": "PCM L2L: Demonstrated on CNN Image Classification and SNN Robotic Arm Control",
@@ -922,9 +893,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2405_05141_sub_cnn_snn_robot",
-      "community": 4,
-      "norm_label": "pcm l2l: demonstrated on cnn image classification and snn robotic arm control"
+      "community": 1,
+      "norm_label": "pcm l2l: demonstrated on cnn image classification and snn robotic arm control",
+      "id": "arxiv_2405_05141_sub_cnn_snn_robot"
     },
     {
       "label": "PCM L2L: Rapid Edge Adaptation with Few Parameter Updates",
@@ -935,9 +906,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2405_05141_sub_edge_adaptation",
-      "community": 4,
-      "norm_label": "pcm l2l: rapid edge adaptation with few parameter updates"
+      "community": 1,
+      "norm_label": "pcm l2l: rapid edge adaptation with few parameter updates",
+      "id": "arxiv_2405_05141_sub_edge_adaptation"
     },
     {
       "label": "Christensen et al.: 2022 Roadmap on Neuromorphic Computing and Engineering",
@@ -948,9 +919,9 @@
       "captured_at": "2026-05-02",
       "author": "Christensen, Dittmann, Linares-Barranco, Sebastian, Le Gallo, et al.",
       "contributor": "unknown",
-      "id": "arxiv_2105_05956_main",
-      "community": 7,
-      "norm_label": "christensen et al.: 2022 roadmap on neuromorphic computing and engineering"
+      "community": 1,
+      "norm_label": "christensen et al.: 2022 roadmap on neuromorphic computing and engineering",
+      "id": "arxiv_2105_05956_main"
     },
     {
       "label": "Roadmap: Survey of Materials, Devices and Circuits for Neuromorphic Computing",
@@ -961,9 +932,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2105_05956_sub_materials_devices",
-      "community": 7,
-      "norm_label": "roadmap: survey of materials, devices and circuits for neuromorphic computing"
+      "community": 1,
+      "norm_label": "roadmap: survey of materials, devices and circuits for neuromorphic computing",
+      "id": "arxiv_2105_05956_sub_materials_devices"
     },
     {
       "label": "Roadmap: Algorithms, Applications, and Edge Deployment Perspectives",
@@ -974,9 +945,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2105_05956_sub_algorithms_apps",
-      "community": 7,
-      "norm_label": "roadmap: algorithms, applications, and edge deployment perspectives"
+      "community": 1,
+      "norm_label": "roadmap: algorithms, applications, and edge deployment perspectives",
+      "id": "arxiv_2105_05956_sub_algorithms_apps"
     },
     {
       "label": "Frenkel, Bol, Indiveri: Bottom-Up vs Top-Down Neuromorphic Design",
@@ -987,9 +958,9 @@
       "captured_at": "2026-05-02",
       "author": "Charlotte Frenkel, David Bol, Giacomo Indiveri",
       "contributor": "unknown",
-      "id": "arxiv_2106_01288_main",
-      "community": 7,
-      "norm_label": "frenkel, bol, indiveri: bottom-up vs top-down neuromorphic design"
+      "community": 1,
+      "norm_label": "frenkel, bol, indiveri: bottom-up vs top-down neuromorphic design",
+      "id": "arxiv_2106_01288_main"
     },
     {
       "label": "Frenkel-Indiveri: Analog/Mixed-Signal/Digital Circuit Design Style Comparison",
@@ -1000,9 +971,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2106_01288_sub_circuit_styles",
-      "community": 7,
-      "norm_label": "frenkel-indiveri: analog/mixed-signal/digital circuit design style comparison"
+      "community": 1,
+      "norm_label": "frenkel-indiveri: analog/mixed-signal/digital circuit design style comparison",
+      "id": "arxiv_2106_01288_sub_circuit_styles"
     },
     {
       "label": "Frenkel-Indiveri: Tradeoffs Between Bottom-Up Biological and Top-Down ML Approaches",
@@ -1013,9 +984,9 @@
       "captured_at": "2026-05-02",
       "author": null,
       "contributor": null,
-      "id": "arxiv_2106_01288_sub_bottomup_topdown",
-      "community": 7,
-      "norm_label": "frenkel-indiveri: tradeoffs between bottom-up biological and top-down ml approaches"
+      "community": 1,
+      "norm_label": "frenkel-indiveri: tradeoffs between bottom-up biological and top-down ml approaches",
+      "id": "arxiv_2106_01288_sub_bottomup_topdown"
     },
     {
       "label": "4-Part Material Collection Plan (ws)",
@@ -1026,9 +997,9 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_main",
-      "community": 6,
-      "norm_label": "4-part material collection plan (ws)"
+      "community": 3,
+      "norm_label": "4-part material collection plan (ws)",
+      "id": "material_collection_plan_main"
     },
     {
       "label": "Part 1 \u2014 Digital/Analog Modulation and Decoding",
@@ -1039,9 +1010,9 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_part1_modulation",
-      "community": 6,
-      "norm_label": "part 1 \u2014 digital/analog modulation and decoding"
+      "community": 3,
+      "norm_label": "part 1 \u2014 digital/analog modulation and decoding",
+      "id": "material_collection_plan_part1_modulation"
     },
     {
       "label": "Part 2 \u2014 Analog Math Operator vs Physical Operator Correspondence",
@@ -1052,9 +1023,9 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_part2_operator_correspondence",
-      "community": 7,
-      "norm_label": "part 2 \u2014 analog math operator vs physical operator correspondence"
+      "community": 1,
+      "norm_label": "part 2 \u2014 analog math operator vs physical operator correspondence",
+      "id": "material_collection_plan_part2_operator_correspondence"
     },
     {
       "label": "Part 3 \u2014 Semiconductor Devices (instances of Part 2 operators)",
@@ -1065,9 +1036,9 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_part3_devices",
-      "community": 4,
-      "norm_label": "part 3 \u2014 semiconductor devices (instances of part 2 operators)"
+      "community": 1,
+      "norm_label": "part 3 \u2014 semiconductor devices (instances of part 2 operators)",
+      "id": "material_collection_plan_part3_devices"
     },
     {
       "label": "Part 4 \u2014 Neural Operator + Backprop-Free Optimization",
@@ -1078,9 +1049,9 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_part4_neural_operator",
-      "community": 6,
-      "norm_label": "part 4 \u2014 neural operator + backprop-free optimization"
+      "community": 0,
+      "norm_label": "part 4 \u2014 neural operator + backprop-free optimization",
+      "id": "material_collection_plan_part4_neural_operator"
     },
     {
       "label": "Part 1 Tier 1 Priority List (7 items: Shannon, Nyquist, Norsworthy, Inose, Razavi, Pelgrom, Roza)",
@@ -1091,9 +1062,9 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_part1_tier1",
-      "community": 6,
-      "norm_label": "part 1 tier 1 priority list (7 items: shannon, nyquist, norsworthy, inose, razavi, pelgrom, roza)"
+      "community": 3,
+      "norm_label": "part 1 tier 1 priority list (7 items: shannon, nyquist, norsworthy, inose, razavi, pelgrom, roza)",
+      "id": "material_collection_plan_part1_tier1"
     },
     {
       "label": "Part 2 Tier 1 Priority List (8 items: Mead, Liu et al., Gilbert, Toumazou, Rugh, Schetzen, Vittoz)",
@@ -1104,9 +1075,9 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_part2_tier1",
-      "community": 7,
-      "norm_label": "part 2 tier 1 priority list (8 items: mead, liu et al., gilbert, toumazou, rugh, schetzen, vittoz)"
+      "community": 1,
+      "norm_label": "part 2 tier 1 priority list (8 items: mead, liu et al., gilbert, toumazou, rugh, schetzen, vittoz)",
+      "id": "material_collection_plan_part2_tier1"
     },
     {
       "label": "Part 3 Tier 1 Priority List (12 items: Sze, Tsividis, Strukov memristor, Burr PCM, MRAM, Floating-gate, FeRAM, NS-RAM)",
@@ -1117,9 +1088,9 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_part3_tier1",
-      "community": 4,
-      "norm_label": "part 3 tier 1 priority list (12 items: sze, tsividis, strukov memristor, burr pcm, mram, floating-gate, feram, ns-ram)"
+      "community": 1,
+      "norm_label": "part 3 tier 1 priority list (12 items: sze, tsividis, strukov memristor, burr pcm, mram, floating-gate, feram, ns-ram)",
+      "id": "material_collection_plan_part3_tier1"
     },
     {
       "label": "Part 4 Tier 1 Priority List (12 items: Williams REINFORCE, NES, Salimans ES, EGGROLL, Lillicrap FA, Nokland DFA, Hinton FF, Eq-Prop, Predictive Coding, Baydin Forward Gradient, Borkar, Robbins-Monro)",
@@ -1130,9 +1101,1010 @@
       "captured_at": "2026-05-02",
       "author": "ws",
       "contributor": "ws",
-      "id": "material_collection_plan_part4_tier1",
-      "community": 6,
-      "norm_label": "part 4 tier 1 priority list (12 items: williams reinforce, nes, salimans es, eggroll, lillicrap fa, nokland dfa, hinton ff, eq-prop, predictive coding, baydin forward gradient, borkar, robbins-monro)"
+      "community": 0,
+      "norm_label": "part 4 tier 1 priority list (12 items: williams reinforce, nes, salimans es, eggroll, lillicrap fa, nokland dfa, hinton ff, eq-prop, predictive coding, baydin forward gradient, borkar, robbins-monro)",
+      "id": "material_collection_plan_part4_tier1"
+    },
+    {
+      "label": "Part 1 \u2014 Information Theory & Sampling Classics (Shannon, Nyquist, Inose)",
+      "file_type": "document",
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": "# Part 1 \u2014 \uc815\ubcf4 \uc774\ub860\uacfc \ud45c\ubcf8\ud654 \uc815\ub9ac",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part1_information_theory_classics_main",
+      "community": 3,
+      "norm_label": "part 1 \u2014 information theory & sampling classics (shannon, nyquist, inose)"
+    },
+    {
+      "label": "Nyquist (1928) Sampling Theorem",
+      "file_type": "document",
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": "## 1. Nyquist (1928)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "nyquist_1928_sampling_theorem",
+      "community": 3,
+      "norm_label": "nyquist (1928) sampling theorem"
+    },
+    {
+      "label": "Shannon (1948) Entropy & Channel Capacity",
+      "file_type": "document",
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": "## 2. Shannon (1948)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "shannon_1948_entropy_capacity",
+      "community": 3,
+      "norm_label": "shannon (1948) entropy & channel capacity"
+    },
+    {
+      "label": "Shannon Channel Capacity C = B\u00b7log2(1+S/N)",
+      "file_type": "document",
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": "### 2.3 \ucc44\ub110 \uc6a9\ub7c9 \uc815\ub9ac",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "shannon_capacity_formula",
+      "community": 3,
+      "norm_label": "shannon channel capacity c = b\u00b7log2(1+s/n)"
+    },
+    {
+      "label": "Inose, Yasuda, Murakami (1962) \u03a3\u0394 Modulation Origin",
+      "file_type": "document",
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": "## 3. \u03a3\u0394 \ubcc0\uc870\uc758 \uae30\uc6d0",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "inose_1962_sigma_delta_origin",
+      "community": 3,
+      "norm_label": "inose, yasuda, murakami (1962) \u03c3\u03b4 modulation origin"
+    },
+    {
+      "label": "Noise Shaping (1-z\u207b\u00b9 high-pass)",
+      "file_type": "document",
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": "### 1\ucc28 \u03a3\u0394 \uad6c\uc870",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "noise_shaping_principle",
+      "community": 3,
+      "norm_label": "noise shaping (1-z\u22121 high-pass)"
+    },
+    {
+      "label": "Oversampling Ratio (OSR) gain",
+      "file_type": "document",
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": "### Oversampling \uc774\ub4dd",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "oversampling_osr_gain",
+      "community": 3,
+      "norm_label": "oversampling ratio (osr) gain"
+    },
+    {
+      "label": "Part 1 \u2014 Data Conversion Textbooks (Razavi, Pelgrom, Norsworthy, Roza)",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "# Part 1 \u2014 \ub370\uc774\ud130 \ubcc0\ud658 textbook \uc694\uc57d",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part1_data_conversion_textbooks_main",
+      "community": 3,
+      "norm_label": "part 1 \u2014 data conversion textbooks (razavi, pelgrom, norsworthy, roza)"
+    },
+    {
+      "label": "Razavi (1995) Principles of Data Conversion System Design",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "## 1. Razavi (1995)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "razavi_1995_data_conversion",
+      "community": 3,
+      "norm_label": "razavi (1995) principles of data conversion system design"
+    },
+    {
+      "label": "ADC Taxonomy (Flash/Pipelined/SAR/\u03a3\u0394/Integrating)",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "### 1.1 ADC \ubd84\ub958\uc640 \ud2b8\ub808\uc774\ub4dc\uc624\ud504",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "adc_taxonomy_flash_sar_sigma_delta",
+      "community": 3,
+      "norm_label": "adc taxonomy (flash/pipelined/sar/\u03c3\u03b4/integrating)"
+    },
+    {
+      "label": "ENOB / FoM dynamic performance metrics",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "### 1.3 \ub3d9\uc801 \uc131\ub2a5 \uba54\ud2b8\ub9ad",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "enob_fom_metrics",
+      "community": 3,
+      "norm_label": "enob / fom dynamic performance metrics"
+    },
+    {
+      "label": "Pelgrom (2017) Analog-to-Digital Conversion 3rd ed.",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "## 2. Pelgrom (2017)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "pelgrom_2017_adc_textbook",
+      "community": 3,
+      "norm_label": "pelgrom (2017) analog-to-digital conversion 3rd ed."
+    },
+    {
+      "label": "Pelgrom Mismatch Law \u03c3_\u0394VT = A_VT/\u221a(WL)",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "### 2.2 Pelgrom\uc758 mismatch law",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "pelgrom_mismatch_law",
+      "community": 3,
+      "norm_label": "pelgrom mismatch law \u03c3_\u03b4vt = a_vt/\u221a(wl)"
+    },
+    {
+      "label": "Norsworthy/Schreier/Temes (1996) Delta-Sigma Data Converters",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "## 3. Norsworthy, Schreier, Temes (1996)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "norsworthy_1996_sigma_delta",
+      "community": 3,
+      "norm_label": "norsworthy/schreier/temes (1996) delta-sigma data converters"
+    },
+    {
+      "label": "NTF/STF separation (Sigma-Delta)",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "### 3.1 \u03a3\u0394 NTF/STF \ubd84\ub9ac",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "ntf_stf_separation",
+      "community": 3,
+      "norm_label": "ntf/stf separation (sigma-delta)"
+    },
+    {
+      "label": "Roza (1997) PWM / Duty-Cycle ADC",
+      "file_type": "document",
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": "## 4. Roza (1997)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "roza_1997_pwm_adc",
+      "community": 3,
+      "norm_label": "roza (1997) pwm / duty-cycle adc"
+    },
+    {
+      "label": "Part 2 \u2014 Analog VLSI Neuromorphic Classics (Mead, Liu, Vittoz)",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "# Part 2 \u2014 Analog VLSI \uc815\uc804",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part2_analog_vlsi_neuromorphic_main",
+      "community": 4,
+      "norm_label": "part 2 \u2014 analog vlsi neuromorphic classics (mead, liu, vittoz)"
+    },
+    {
+      "label": "Mead (1989) Analog VLSI and Neural Systems",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "## 1. Mead (1989)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "mead_1989_analog_vlsi",
+      "community": 4,
+      "norm_label": "mead (1989) analog vlsi and neural systems"
+    },
+    {
+      "label": "Subthreshold MOSFET exponential I-V",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "### 1.1 \ud575\uc2ec \ud1b5\ucc30",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "subthreshold_mosfet_exp_iv",
+      "community": 5,
+      "norm_label": "subthreshold mosfet exponential i-v"
+    },
+    {
+      "label": "Mead Translinear Loop (Ch. 5)",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "### 1.2 Translinear Loop",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "mead_translinear_loop",
+      "community": 4,
+      "norm_label": "mead translinear loop (ch. 5)"
+    },
+    {
+      "label": "Silicon Retina (Mead Ch. 15)",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "### 1.3 \uc2dc\uac01 \uc2dc\uc2a4\ud15c \ud68c\ub85c",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "silicon_retina_mead",
+      "community": 4,
+      "norm_label": "silicon retina (mead ch. 15)"
+    },
+    {
+      "label": "Mead Floating-gate Adaptive Synapse (Ch. 12)",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "### 1.4 Mead\uc758 5\uac00\uc9c0 \uc124\uacc4 \uc6d0\uce59",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "mead_floating_gate_adaptive_synapse",
+      "community": 5,
+      "norm_label": "mead floating-gate adaptive synapse (ch. 12)"
+    },
+    {
+      "label": "Liu et al. (2002) Analog VLSI: Circuits and Principles",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "## 2. Liu, Kramer, Indiveri, Delbruck, Douglas (2002)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "liu_2002_analog_vlsi",
+      "community": 4,
+      "norm_label": "liu et al. (2002) analog vlsi: circuits and principles"
+    },
+    {
+      "label": "LIF Neuron Circuit (~10 transistors)",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "### 2.2 LIF \ub274\ub7f0 \ud68c\ub85c",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "lif_neuron_circuit",
+      "community": 4,
+      "norm_label": "lif neuron circuit (~10 transistors)"
+    },
+    {
+      "label": "AER (Address Event Representation)",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "### 2.3 AER",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "aer_address_event_representation",
+      "community": 4,
+      "norm_label": "aer (address event representation)"
+    },
+    {
+      "label": "Vittoz Subthreshold / Lateral BJT mode",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "## 3. Vittoz",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "vittoz_subthreshold_lateral_bjt",
+      "community": 4,
+      "norm_label": "vittoz subthreshold / lateral bjt mode"
+    },
+    {
+      "label": "kT/C thermal noise (Vittoz/Pelgrom)",
+      "file_type": "document",
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": "### 3.2 Vittoz\uc758 \uc11c\ube0c\uc784\uacc4 \ub178\uc774\uc988 \ubd84\uc11d",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "kt_over_c_thermal_noise",
+      "community": 4,
+      "norm_label": "kt/c thermal noise (vittoz/pelgrom)"
+    },
+    {
+      "label": "Part 2 \u2014 Translinear Principle & Current-Mode (Gilbert, Toumazou)",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "# Part 2 \u2014 Translinear Principle",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part2_translinear_principle_main",
+      "community": 4,
+      "norm_label": "part 2 \u2014 translinear principle & current-mode (gilbert, toumazou)"
+    },
+    {
+      "label": "Gilbert (1968) Four-Quadrant Multiplier (Gilbert cell)",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "## 1. Gilbert (1968)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "gilbert_1968_four_quadrant_multiplier",
+      "community": 4,
+      "norm_label": "gilbert (1968) four-quadrant multiplier (gilbert cell)"
+    },
+    {
+      "label": "Gilbert (1975) Translinear Principle Classification",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "## 2. Gilbert (1975)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "gilbert_1975_translinear_principle",
+      "community": 4,
+      "norm_label": "gilbert (1975) translinear principle classification"
+    },
+    {
+      "label": "Translinear Loop Identity \u220fI_CW = \u220fI_CCW",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "### Translinear Principle",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "translinear_loop_identity",
+      "community": 4,
+      "norm_label": "translinear loop identity \u220fi_cw = \u220fi_ccw"
+    },
+    {
+      "label": "Translinear primitives (squarer, geo-mean, vector mag, mult-div)",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "### 4\uac00\uc9c0 \uae30\ubcf8 \ud328\ud134",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "translinear_primitives_squarer_geomean",
+      "community": 4,
+      "norm_label": "translinear primitives (squarer, geo-mean, vector mag, mult-div)"
+    },
+    {
+      "label": "Toumazou/Lidgey/Haigh (1990) Current-Mode IC Design",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "## 3. Toumazou",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "toumazou_1990_current_mode",
+      "community": 4,
+      "norm_label": "toumazou/lidgey/haigh (1990) current-mode ic design"
+    },
+    {
+      "label": "Current Conveyor (CCII) building block",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "### \ud575\uc2ec \ube4c\ub529\ube14\ub85d",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "current_conveyor_ccii",
+      "community": 4,
+      "norm_label": "current conveyor (ccii) building block"
+    },
+    {
+      "label": "Gm-C Filter (current-mode)",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "### Gm-C Filters",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "gm_c_filter",
+      "community": 4,
+      "norm_label": "gm-c filter (current-mode)"
+    },
+    {
+      "label": "EML operator = exp(x) \u2212 ln(y) (log-domain algebra)",
+      "file_type": "document",
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": "### \uc6b0\ub9ac formulation EML \uc5f0\uc0b0\uc790\uc640\uc758 \uad00\uacc4",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "eml_operator_log_domain",
+      "community": 4,
+      "norm_label": "eml operator = exp(x) \u2212 ln(y) (log-domain algebra)"
+    },
+    {
+      "label": "Part 2 \u2014 Volterra/Wiener Nonlinear System Theory (Rugh, Schetzen, Boyd-Chua)",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "# Part 2 \u2014 Volterra/Wiener",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part2_volterra_wiener_theory_main",
+      "community": 0,
+      "norm_label": "part 2 \u2014 volterra/wiener nonlinear system theory (rugh, schetzen, boyd-chua)"
+    },
+    {
+      "label": "Volterra Series (multi-dim convolution kernel)",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "## 1. Volterra \uc2dc\ub9ac\uc988",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "volterra_series_definition",
+      "community": 0,
+      "norm_label": "volterra series (multi-dim convolution kernel)"
+    },
+    {
+      "label": "Rugh (1981) Nonlinear System Theory: Volterra/Wiener",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "## 2. Rugh (1981)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "rugh_1981_volterra_wiener",
+      "community": 0,
+      "norm_label": "rugh (1981) nonlinear system theory: volterra/wiener"
+    },
+    {
+      "label": "Boyd-Chua (1985) Fading Memory & Volterra Approximation",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "### 2.2 Volterra \uc2dc\ub9ac\uc988\uc758 \uc218\ub834 \uc870\uac74",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "boyd_chua_1985_fading_memory",
+      "community": 0,
+      "norm_label": "boyd-chua (1985) fading memory & volterra approximation"
+    },
+    {
+      "label": "Hammerstein / Wiener system decomposition",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "### 2.3 Hammerstein\uacfc Wiener",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "hammerstein_wiener_decomposition",
+      "community": 0,
+      "norm_label": "hammerstein / wiener system decomposition"
+    },
+    {
+      "label": "Switched Volterra (PWL N polytope partition)",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "### 2.5 Switched Volterra",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "switched_volterra_pwl",
+      "community": 0,
+      "norm_label": "switched volterra (pwl n polytope partition)"
+    },
+    {
+      "label": "Schetzen (1980) Volterra and Wiener Theories of Nonlinear Systems",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "## 3. Schetzen (1980)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "schetzen_1980_wiener_theory",
+      "community": 0,
+      "norm_label": "schetzen (1980) volterra and wiener theories of nonlinear systems"
+    },
+    {
+      "label": "Wiener G-functional orthogonalization (white-noise)",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "### 3.1 Wiener Functional Series",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "wiener_g_functional_orthogonalization",
+      "community": 0,
+      "norm_label": "wiener g-functional orthogonalization (white-noise)"
+    },
+    {
+      "label": "Cross-correlation kernel identification",
+      "file_type": "document",
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": "### 3.2 Cross-correlation \uae30\ubc18 kernel \uc2dd\ubcc4",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "cross_correlation_kernel_identification",
+      "community": 0,
+      "norm_label": "cross-correlation kernel identification"
+    },
+    {
+      "label": "Part 3 \u2014 Semiconductor Device Physics (Sze, Tsividis, EKV)",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "# Part 3 \u2014 \ubc18\ub3c4\uccb4 \uc18c\uc790 \ubb3c\ub9ac \uc815\uc804",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part3_semiconductor_physics_textbooks_main",
+      "community": 5,
+      "norm_label": "part 3 \u2014 semiconductor device physics (sze, tsividis, ekv)"
+    },
+    {
+      "label": "Sze & Ng (2021) Physics of Semiconductor Devices 4th ed.",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "## 1. Sze & Ng (2021)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "sze_ng_2021_semiconductor_devices",
+      "community": 5,
+      "norm_label": "sze & ng (2021) physics of semiconductor devices 4th ed."
+    },
+    {
+      "label": "PN junction / ideal diode I = I_S[exp(qV/kT)\u22121]",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "### 1.1 PN \uc811\ud569\uacfc Diode",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "pn_junction_diode_iv",
+      "community": 5,
+      "norm_label": "pn junction / ideal diode i = i_s[exp(qv/kt)\u22121]"
+    },
+    {
+      "label": "MOSFET three regimes (subthreshold/triode/saturation)",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "### 1.2 MOSFET \ub3d9\uc791 \uc601\uc5ed",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "mosfet_three_regimes",
+      "community": 5,
+      "norm_label": "mosfet three regimes (subthreshold/triode/saturation)"
+    },
+    {
+      "label": "Punch-through impact ionization (kink effect)",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "### 1.3 Punch-through impact ionization",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "punch_through_impact_ionization",
+      "community": 5,
+      "norm_label": "punch-through impact ionization (kink effect)"
+    },
+    {
+      "label": "SONOS charge-trap layer (NVM physics)",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "### 1.4 Charge-trap layer",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "sonos_charge_trap_layer",
+      "community": 5,
+      "norm_label": "sonos charge-trap layer (nvm physics)"
+    },
+    {
+      "label": "Tsividis (2010) Operation and Modeling of the MOS Transistor 3rd ed.",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "## 2. Tsividis (2010)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "tsividis_2010_mos_transistor",
+      "community": 5,
+      "norm_label": "tsividis (2010) operation and modeling of the mos transistor 3rd ed."
+    },
+    {
+      "label": "EKV (Enz-Krummenacher-Vittoz) unified MOS model",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "### 2.2 EKV \ubaa8\ub378",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "ekv_unified_mos_model",
+      "community": 5,
+      "norm_label": "ekv (enz-krummenacher-vittoz) unified mos model"
+    },
+    {
+      "label": "Short-channel effects (DIBL, hot-electron, velocity sat)",
+      "file_type": "document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": "### 2.4 \ub2e8\ucc44\ub110 \ud6a8\uacfc",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "short_channel_effects_dibl",
+      "community": 5,
+      "norm_label": "short-channel effects (dibl, hot-electron, velocity sat)"
+    },
+    {
+      "label": "Part 3 \u2014 Memristor & PCM (Strukov, Ielmini-Waser, Burr)",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "# Part 3 \u2014 \uba64\ub9ac\uc2a4\ud130\uc640 PCM",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part3_memristor_pcm_main",
+      "community": 1,
+      "norm_label": "part 3 \u2014 memristor & pcm (strukov, ielmini-waser, burr)"
+    },
+    {
+      "label": "Strukov et al. (2008) The Missing Memristor Found (HP TiO\u2082)",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "## 1. Strukov, Snider, Stewart, Williams (2008)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "strukov_2008_missing_memristor",
+      "community": 1,
+      "norm_label": "strukov et al. (2008) the missing memristor found (hp tio2)"
+    },
+    {
+      "label": "Chua (1971) Memristor 4th element definition",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "### 1.1 Memristor \uc815\uc758",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "chua_memristor_definition",
+      "community": 1,
+      "norm_label": "chua (1971) memristor 4th element definition"
+    },
+    {
+      "label": "Ielmini & Waser (2016) Resistive Switching (Wiley-VCH)",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "## 2. Ielmini & Waser (2016)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "ielmini_waser_2016_resistive_switching",
+      "community": 1,
+      "norm_label": "ielmini & waser (2016) resistive switching (wiley-vch)"
+    },
+    {
+      "label": "RRAM switching mechanisms (filament/vacancy/Mott/PCM)",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "### 2.1 Resistive switching \uba54\ucee4\ub2c8\uc998 \ubd84\ub958",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "rram_switching_mechanisms",
+      "community": 1,
+      "norm_label": "rram switching mechanisms (filament/vacancy/mott/pcm)"
+    },
+    {
+      "label": "1S1R cell + OTS selector",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "### 2.2 1S1R cell \uad6c\uc870",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "ots_selector_1s1r",
+      "community": 1,
+      "norm_label": "1s1r cell + ots selector"
+    },
+    {
+      "label": "Burr et al. (2010, 2017) PCM technology & neuromorphic NVM",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "## 3. Burr et al. (2010, 2017)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "burr_2010_2017_pcm",
+      "community": 7,
+      "norm_label": "burr et al. (2010, 2017) pcm technology & neuromorphic nvm"
+    },
+    {
+      "label": "PCM SET/RESET (chalcogenide GST amorphous\u2194crystalline)",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "### 3.1 PCM \uc791\ub3d9 \uc6d0\ub9ac",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "pcm_set_reset_chalcogenide",
+      "community": 7,
+      "norm_label": "pcm set/reset (chalcogenide gst amorphous\u2194crystalline)"
+    },
+    {
+      "label": "PCM drift R(t)=R_0(t/t_0)^\u03bd compensation",
+      "file_type": "document",
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": "### 3.3 Drift \ubb38\uc81c",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "pcm_drift_compensation",
+      "community": 7,
+      "norm_label": "pcm drift r(t)=r_0(t/t_0)^\u03bd compensation"
+    },
+    {
+      "label": "Part 3 \u2014 MRAM (STT, VCMA, MTJ)",
+      "file_type": "document",
+      "source_file": "raw/part3_mram.md",
+      "source_location": "# Part 3 \u2014 MRAM",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part3_mram_main",
+      "community": 7,
+      "norm_label": "part 3 \u2014 mram (stt, vcma, mtj)"
+    },
+    {
+      "label": "MTJ structure & TMR ratio",
+      "file_type": "document",
+      "source_file": "raw/part3_mram.md",
+      "source_location": "## 1. MTJ \uae30\ubcf8 \uad6c\uc870",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "mtj_tmr_basics",
+      "community": 7,
+      "norm_label": "mtj structure & tmr ratio"
+    },
+    {
+      "label": "Apalkov, Dieny, Slaughter (2016) STT-MRAM (Proc. IEEE)",
+      "file_type": "document",
+      "source_file": "raw/part3_mram.md",
+      "source_location": "## 2. STT-MRAM",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "apalkov_2016_stt_mram",
+      "community": 7,
+      "norm_label": "apalkov, dieny, slaughter (2016) stt-mram (proc. ieee)"
+    },
+    {
+      "label": "STT critical current density J_c",
+      "file_type": "document",
+      "source_file": "raw/part3_mram.md",
+      "source_location": "### 2.1 \uc791\ub3d9 \uc6d0\ub9ac",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "stt_critical_current",
+      "community": 7,
+      "norm_label": "stt critical current density j_c"
+    },
+    {
+      "label": "Wang & Khalili Amiri (2012) VCMA-MRAM",
+      "file_type": "document",
+      "source_file": "raw/part3_mram.md",
+      "source_location": "## 3. VCMA-MRAM",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "wang_2012_vcma_mram",
+      "community": 7,
+      "norm_label": "wang & khalili amiri (2012) vcma-mram"
+    },
+    {
+      "label": "VCMA voltage-controlled anisotropy \u0394K_u = \u03b2\u00b7E",
+      "file_type": "document",
+      "source_file": "raw/part3_mram.md",
+      "source_location": "### 3.1 \uc791\ub3d9 \uc6d0\ub9ac",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "vcma_voltage_anisotropy",
+      "community": 7,
+      "norm_label": "vcma voltage-controlled anisotropy \u03b4k_u = \u03b2\u00b7e"
+    },
+    {
+      "label": "MRAM BEOL 3D integration (logic-on-MRAM)",
+      "file_type": "document",
+      "source_file": "raw/part3_mram.md",
+      "source_location": "### 4.3 BEOL \ud638\ud658\uc131",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "mram_beol_3d_integration",
+      "community": 7,
+      "norm_label": "mram beol 3d integration (logic-on-mram)"
+    },
+    {
+      "label": "Part 3 \u2014 Charge-storage NVM (Flash, FG, FeRAM, NS-RAM)",
+      "file_type": "document",
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": "# Part 3 \u2014 Charge-storage NVM",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "part3_charge_storage_nvm_main",
+      "community": 5,
+      "norm_label": "part 3 \u2014 charge-storage nvm (flash, fg, feram, ns-ram)"
+    },
+    {
+      "label": "Pavan, Bez, Olivo, Zanoni (1997) Flash Memory Cells Overview",
+      "file_type": "document",
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": "## 1. Pavan et al. (1997)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "pavan_1997_flash_overview",
+      "community": 5,
+      "norm_label": "pavan, bez, olivo, zanoni (1997) flash memory cells overview"
+    },
+    {
+      "label": "Floating-gate cell (NAND/NOR Flash, CHE/F-N programming)",
+      "file_type": "document",
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": "### 1.1 Floating-gate cell",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "floating_gate_nand_nor",
+      "community": 5,
+      "norm_label": "floating-gate cell (nand/nor flash, che/f-n programming)"
+    },
+    {
+      "label": "Hasler, Diorio, Minch, Mead (1996) Single-Transistor Silicon Synapse",
+      "file_type": "document",
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": "## 2. Hasler, Diorio, Minch, Mead (1996)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "hasler_1996_single_transistor_synapse",
+      "community": 5,
+      "norm_label": "hasler, diorio, minch, mead (1996) single-transistor silicon synapse"
+    },
+    {
+      "label": "M\u00fcller et al. (2015) Ferroelectric HfO\u2082 FeRAM/FeFET",
+      "file_type": "document",
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": "## 3. M\u00fcller et al. (2015)",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "muller_2015_ferroelectric_hfo2",
+      "community": 5,
+      "norm_label": "muller et al. (2015) ferroelectric hfo2 feram/fefet"
+    },
+    {
+      "label": "FeFET multi-level V_T(P) gate dielectric polarization",
+      "file_type": "document",
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": "### 3.3 FeFET",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "fefet_multilevel_vt",
+      "community": 5,
+      "norm_label": "fefet multi-level v_t(p) gate dielectric polarization"
+    },
+    {
+      "label": "NS-RAM 2T cell (floating-bulk + charge-trap, short+long plasticity)",
+      "file_type": "document",
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": "## 4. NS-RAM",
+      "source_url": null,
+      "captured_at": "2026-05-03",
+      "author": "ws",
+      "contributor": "ws",
+      "id": "ns_ram_2t_cell",
+      "community": 5,
+      "norm_label": "ns-ram 2t cell (floating-bulk + charge-trap, short+long plasticity)"
     }
   ],
   "links": [
@@ -1191,8 +2163,8 @@
       "source_file": "raw/arxiv_1703_03864.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_1703_03864_es_rl",
-      "_tgt": "arxiv_1106_4487_nes_algorithm",
+      "_src": "arxiv_1106_4487_nes_algorithm",
+      "_tgt": "arxiv_1703_03864_es_rl",
       "source": "arxiv_1106_4487_nes_algorithm",
       "target": "arxiv_1703_03864_es_rl"
     },
@@ -1239,8 +2211,8 @@
       "source_file": "raw/arxiv_1609_01596.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_1609_01596_main",
-      "_tgt": "arxiv_1411_0247_main",
+      "_src": "arxiv_1411_0247_main",
+      "_tgt": "arxiv_1609_01596_main",
       "source": "arxiv_1411_0247_main",
       "target": "arxiv_1609_01596_main"
     },
@@ -1275,10 +2247,34 @@
       "source_file": "raw/arxiv_2202_08587.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_2202_08587_main",
-      "_tgt": "arxiv_1411_0247_main",
+      "_src": "arxiv_1411_0247_main",
+      "_tgt": "arxiv_2202_08587_main",
       "source": "arxiv_1411_0247_main",
       "target": "arxiv_2202_08587_main"
+    },
+    {
+      "relation": "provides_intuition_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_1411_0247_main",
+      "_tgt": "part2_volterra_wiener_theory_main",
+      "source": "arxiv_1411_0247_main",
+      "target": "part2_volterra_wiener_theory_main"
+    },
+    {
+      "relation": "volterra_to_neural_op",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_1411_0247_main",
+      "_tgt": "rugh_1981_volterra_wiener",
+      "source": "arxiv_1411_0247_main",
+      "target": "rugh_1981_volterra_wiener"
     },
     {
       "relation": "cites_or_extends",
@@ -1287,8 +2283,8 @@
       "source_file": "raw/arxiv_1609_01596.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_1609_01596_dfa_algorithm",
-      "_tgt": "arxiv_1411_0247_feedback_alignment",
+      "_src": "arxiv_1411_0247_feedback_alignment",
+      "_tgt": "arxiv_1609_01596_dfa_algorithm",
       "source": "arxiv_1411_0247_feedback_alignment",
       "target": "arxiv_1609_01596_dfa_algorithm"
     },
@@ -1395,8 +2391,8 @@
       "source_file": "raw/arxiv_1904_05391.md",
       "source_location": "Abstract",
       "weight": 1.0,
-      "_src": "arxiv_1904_05391_main",
-      "_tgt": "arxiv_1510_05067_sign_symmetry",
+      "_src": "arxiv_1510_05067_sign_symmetry",
+      "_tgt": "arxiv_1904_05391_main",
       "source": "arxiv_1510_05067_sign_symmetry",
       "target": "arxiv_1904_05391_main"
     },
@@ -1435,6 +2431,30 @@
       "_tgt": "arxiv_1602_05179_single_circuit",
       "source": "arxiv_1602_05179_main",
       "target": "arxiv_1602_05179_single_circuit"
+    },
+    {
+      "relation": "provides_intuition_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_1602_05179_main",
+      "_tgt": "part2_volterra_wiener_theory_main",
+      "source": "arxiv_1602_05179_main",
+      "target": "part2_volterra_wiener_theory_main"
+    },
+    {
+      "relation": "volterra_to_neural_op",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_1602_05179_main",
+      "_tgt": "rugh_1981_volterra_wiener",
+      "source": "arxiv_1602_05179_main",
+      "target": "rugh_1981_volterra_wiener"
     },
     {
       "relation": "introduces",
@@ -1491,8 +2511,8 @@
       "source_file": "raw/arxiv_1909_01311.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_1909_01311_drtp_algorithm",
-      "_tgt": "arxiv_1609_01596_dfa_algorithm",
+      "_src": "arxiv_1609_01596_dfa_algorithm",
+      "_tgt": "arxiv_1909_01311_drtp_algorithm",
       "source": "arxiv_1609_01596_dfa_algorithm",
       "target": "arxiv_1909_01311_drtp_algorithm"
     },
@@ -1503,8 +2523,8 @@
       "source_file": "raw/arxiv_2202_08587.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_2202_08587_no_backprop_speedup",
-      "_tgt": "arxiv_1609_01596_layer_independent",
+      "_src": "arxiv_1609_01596_layer_independent",
+      "_tgt": "arxiv_2202_08587_no_backprop_speedup",
       "source": "arxiv_1609_01596_layer_independent",
       "target": "arxiv_2202_08587_no_backprop_speedup"
     },
@@ -1551,8 +2571,8 @@
       "source_file": "raw/arxiv_2310_00965.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_2310_00965_main",
-      "_tgt": "arxiv_1703_03864_main",
+      "_src": "arxiv_1703_03864_main",
+      "_tgt": "arxiv_2310_00965_main",
       "source": "arxiv_1703_03864_main",
       "target": "arxiv_2310_00965_main"
     },
@@ -1563,8 +2583,8 @@
       "source_file": "raw/arxiv_2511_16652.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_2511_16652_main",
-      "_tgt": "arxiv_1703_03864_main",
+      "_src": "arxiv_1703_03864_main",
+      "_tgt": "arxiv_2511_16652_main",
       "source": "arxiv_1703_03864_main",
       "target": "arxiv_2511_16652_main"
     },
@@ -1683,8 +2703,8 @@
       "source_file": "raw/arxiv_2212_13345.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_2212_13345_main",
-      "_tgt": "arxiv_2202_08587_main",
+      "_src": "arxiv_2202_08587_main",
+      "_tgt": "arxiv_2212_13345_main",
       "source": "arxiv_2202_08587_main",
       "target": "arxiv_2212_13345_main"
     },
@@ -1797,6 +2817,30 @@
       "target": "material_collection_plan_part4_neural_operator"
     },
     {
+      "relation": "provides_intuition_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_2212_13345_main",
+      "_tgt": "part2_volterra_wiener_theory_main",
+      "source": "arxiv_2212_13345_main",
+      "target": "part2_volterra_wiener_theory_main"
+    },
+    {
+      "relation": "volterra_to_neural_op",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_2212_13345_main",
+      "_tgt": "rugh_1981_volterra_wiener",
+      "source": "arxiv_2212_13345_main",
+      "target": "rugh_1981_volterra_wiener"
+    },
+    {
       "relation": "has_subtopic",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -1893,6 +2937,30 @@
       "target": "material_collection_plan_part4_neural_operator"
     },
     {
+      "relation": "provides_intuition_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_2511_16652_main",
+      "_tgt": "part2_volterra_wiener_theory_main",
+      "source": "arxiv_2511_16652_main",
+      "target": "part2_volterra_wiener_theory_main"
+    },
+    {
+      "relation": "volterra_to_neural_op",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_2511_16652_main",
+      "_tgt": "schetzen_1980_wiener_theory",
+      "source": "arxiv_2511_16652_main",
+      "target": "schetzen_1980_wiener_theory"
+    },
+    {
       "relation": "has_subtopic",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -1947,10 +3015,34 @@
       "source_file": "raw/arxiv_2405_05141.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "arxiv_2405_05141_main",
-      "_tgt": "arxiv_1906_03138_main",
+      "_src": "arxiv_1906_03138_main",
+      "_tgt": "arxiv_2405_05141_main",
       "source": "arxiv_1906_03138_main",
       "target": "arxiv_2405_05141_main"
+    },
+    {
+      "relation": "deepens",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_1906_03138_main",
+      "_tgt": "burr_2010_2017_pcm",
+      "source": "arxiv_1906_03138_main",
+      "target": "burr_2010_2017_pcm"
+    },
+    {
+      "relation": "provides_intuition_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_1906_03138_main",
+      "_tgt": "part3_memristor_pcm_main",
+      "source": "arxiv_1906_03138_main",
+      "target": "part3_memristor_pcm_main"
     },
     {
       "relation": "has_subtopic",
@@ -1999,6 +3091,18 @@
       "_tgt": "material_collection_plan_part3_devices",
       "source": "arxiv_2405_05141_main",
       "target": "material_collection_plan_part3_devices"
+    },
+    {
+      "relation": "provides_intuition_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_2405_05141_main",
+      "_tgt": "part3_memristor_pcm_main",
+      "source": "arxiv_2405_05141_main",
+      "target": "part3_memristor_pcm_main"
     },
     {
       "relation": "has_subtopic",
@@ -2061,6 +3165,18 @@
       "target": "arxiv_2106_01288_main"
     },
     {
+      "relation": "provides_intuition_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_2105_05956_main",
+      "_tgt": "part3_memristor_pcm_main",
+      "source": "arxiv_2105_05956_main",
+      "target": "part3_memristor_pcm_main"
+    },
+    {
       "relation": "has_subtopic",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -2107,6 +3223,18 @@
       "_tgt": "material_collection_plan_part2_operator_correspondence",
       "source": "arxiv_2106_01288_main",
       "target": "material_collection_plan_part2_operator_correspondence"
+    },
+    {
+      "relation": "provides_intuition_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "arxiv_2106_01288_main",
+      "_tgt": "part2_analog_vlsi_neuromorphic_main",
+      "source": "arxiv_2106_01288_main",
+      "target": "part2_analog_vlsi_neuromorphic_main"
     },
     {
       "relation": "has_part",
@@ -2157,6 +3285,114 @@
       "target": "material_collection_plan_part4_neural_operator"
     },
     {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part1_information_theory_classics_main",
+      "source": "material_collection_plan_main",
+      "target": "part1_information_theory_classics_main"
+    },
+    {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part1_data_conversion_textbooks_main",
+      "source": "material_collection_plan_main",
+      "target": "part1_data_conversion_textbooks_main"
+    },
+    {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part2_analog_vlsi_neuromorphic_main",
+      "source": "material_collection_plan_main",
+      "target": "part2_analog_vlsi_neuromorphic_main"
+    },
+    {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part2_translinear_principle_main",
+      "source": "material_collection_plan_main",
+      "target": "part2_translinear_principle_main"
+    },
+    {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part2_volterra_wiener_theory_main",
+      "source": "material_collection_plan_main",
+      "target": "part2_volterra_wiener_theory_main"
+    },
+    {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part3_semiconductor_physics_textbooks_main",
+      "source": "material_collection_plan_main",
+      "target": "part3_semiconductor_physics_textbooks_main"
+    },
+    {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part3_memristor_pcm_main",
+      "source": "material_collection_plan_main",
+      "target": "part3_memristor_pcm_main"
+    },
+    {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part3_mram_main",
+      "source": "material_collection_plan_main",
+      "target": "part3_mram_main"
+    },
+    {
+      "relation": "supports_plan",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_main",
+      "_tgt": "part3_charge_storage_nvm_main",
+      "source": "material_collection_plan_main",
+      "target": "part3_charge_storage_nvm_main"
+    },
+    {
       "relation": "has_priority_list",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -2167,6 +3403,30 @@
       "_tgt": "material_collection_plan_part1_tier1",
       "source": "material_collection_plan_part1_modulation",
       "target": "material_collection_plan_part1_tier1"
+    },
+    {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part1_modulation",
+      "_tgt": "part1_information_theory_classics_main",
+      "source": "material_collection_plan_part1_modulation",
+      "target": "part1_information_theory_classics_main"
+    },
+    {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part1_modulation",
+      "_tgt": "part1_data_conversion_textbooks_main",
+      "source": "material_collection_plan_part1_modulation",
+      "target": "part1_data_conversion_textbooks_main"
     },
     {
       "relation": "has_priority_list",
@@ -2181,6 +3441,42 @@
       "target": "material_collection_plan_part2_tier1"
     },
     {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part2_operator_correspondence",
+      "_tgt": "part2_analog_vlsi_neuromorphic_main",
+      "source": "material_collection_plan_part2_operator_correspondence",
+      "target": "part2_analog_vlsi_neuromorphic_main"
+    },
+    {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part2_operator_correspondence",
+      "_tgt": "part2_translinear_principle_main",
+      "source": "material_collection_plan_part2_operator_correspondence",
+      "target": "part2_translinear_principle_main"
+    },
+    {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part2_operator_correspondence",
+      "_tgt": "part2_volterra_wiener_theory_main",
+      "source": "material_collection_plan_part2_operator_correspondence",
+      "target": "part2_volterra_wiener_theory_main"
+    },
+    {
       "relation": "has_priority_list",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -2193,6 +3489,54 @@
       "target": "material_collection_plan_part3_tier1"
     },
     {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part3_devices",
+      "_tgt": "part3_semiconductor_physics_textbooks_main",
+      "source": "material_collection_plan_part3_devices",
+      "target": "part3_semiconductor_physics_textbooks_main"
+    },
+    {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part3_devices",
+      "_tgt": "part3_memristor_pcm_main",
+      "source": "material_collection_plan_part3_devices",
+      "target": "part3_memristor_pcm_main"
+    },
+    {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part3_devices",
+      "_tgt": "part3_mram_main",
+      "source": "material_collection_plan_part3_devices",
+      "target": "part3_mram_main"
+    },
+    {
+      "relation": "summarizes_textbook",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "material_collection_plan_part3_devices",
+      "_tgt": "part3_charge_storage_nvm_main",
+      "source": "material_collection_plan_part3_devices",
+      "target": "part3_charge_storage_nvm_main"
+    },
+    {
       "relation": "has_priority_list",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -2203,107 +3547,1158 @@
       "_tgt": "material_collection_plan_part4_tier1",
       "source": "material_collection_plan_part4_neural_operator",
       "target": "material_collection_plan_part4_tier1"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part1_information_theory_classics_main",
+      "_tgt": "nyquist_1928_sampling_theorem",
+      "source": "part1_information_theory_classics_main",
+      "target": "nyquist_1928_sampling_theorem"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part1_information_theory_classics_main",
+      "_tgt": "shannon_1948_entropy_capacity",
+      "source": "part1_information_theory_classics_main",
+      "target": "shannon_1948_entropy_capacity"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part1_information_theory_classics_main",
+      "_tgt": "inose_1962_sigma_delta_origin",
+      "source": "part1_information_theory_classics_main",
+      "target": "inose_1962_sigma_delta_origin"
+    },
+    {
+      "relation": "generalized_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "nyquist_1928_sampling_theorem",
+      "_tgt": "shannon_1948_entropy_capacity",
+      "source": "nyquist_1928_sampling_theorem",
+      "target": "shannon_1948_entropy_capacity"
+    },
+    {
+      "relation": "states_theorem",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "shannon_1948_entropy_capacity",
+      "_tgt": "shannon_capacity_formula",
+      "source": "shannon_1948_entropy_capacity",
+      "target": "shannon_capacity_formula"
+    },
+    {
+      "relation": "sigma_delta_to_pulse_density",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "inose_1962_sigma_delta_origin",
+      "_tgt": "noise_shaping_principle",
+      "source": "inose_1962_sigma_delta_origin",
+      "target": "noise_shaping_principle"
+    },
+    {
+      "relation": "introduces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_information_theory_classics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "inose_1962_sigma_delta_origin",
+      "_tgt": "oversampling_osr_gain",
+      "source": "inose_1962_sigma_delta_origin",
+      "target": "oversampling_osr_gain"
+    },
+    {
+      "relation": "deepens",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "inose_1962_sigma_delta_origin",
+      "_tgt": "norsworthy_1996_sigma_delta",
+      "source": "inose_1962_sigma_delta_origin",
+      "target": "norsworthy_1996_sigma_delta"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part1_data_conversion_textbooks_main",
+      "_tgt": "razavi_1995_data_conversion",
+      "source": "part1_data_conversion_textbooks_main",
+      "target": "razavi_1995_data_conversion"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part1_data_conversion_textbooks_main",
+      "_tgt": "pelgrom_2017_adc_textbook",
+      "source": "part1_data_conversion_textbooks_main",
+      "target": "pelgrom_2017_adc_textbook"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part1_data_conversion_textbooks_main",
+      "_tgt": "norsworthy_1996_sigma_delta",
+      "source": "part1_data_conversion_textbooks_main",
+      "target": "norsworthy_1996_sigma_delta"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part1_data_conversion_textbooks_main",
+      "_tgt": "roza_1997_pwm_adc",
+      "source": "part1_data_conversion_textbooks_main",
+      "target": "roza_1997_pwm_adc"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "razavi_1995_data_conversion",
+      "_tgt": "adc_taxonomy_flash_sar_sigma_delta",
+      "source": "razavi_1995_data_conversion",
+      "target": "adc_taxonomy_flash_sar_sigma_delta"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "razavi_1995_data_conversion",
+      "_tgt": "enob_fom_metrics",
+      "source": "razavi_1995_data_conversion",
+      "target": "enob_fom_metrics"
+    },
+    {
+      "relation": "states_theorem",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "pelgrom_2017_adc_textbook",
+      "_tgt": "pelgrom_mismatch_law",
+      "source": "pelgrom_2017_adc_textbook",
+      "target": "pelgrom_mismatch_law"
+    },
+    {
+      "relation": "sigma_delta_to_pulse_density",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part1_data_conversion_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "norsworthy_1996_sigma_delta",
+      "_tgt": "ntf_stf_separation",
+      "source": "norsworthy_1996_sigma_delta",
+      "target": "ntf_stf_separation"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_analog_vlsi_neuromorphic_main",
+      "_tgt": "mead_1989_analog_vlsi",
+      "source": "part2_analog_vlsi_neuromorphic_main",
+      "target": "mead_1989_analog_vlsi"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_analog_vlsi_neuromorphic_main",
+      "_tgt": "liu_2002_analog_vlsi",
+      "source": "part2_analog_vlsi_neuromorphic_main",
+      "target": "liu_2002_analog_vlsi"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_analog_vlsi_neuromorphic_main",
+      "_tgt": "vittoz_subthreshold_lateral_bjt",
+      "source": "part2_analog_vlsi_neuromorphic_main",
+      "target": "vittoz_subthreshold_lateral_bjt"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_1989_analog_vlsi",
+      "_tgt": "subthreshold_mosfet_exp_iv",
+      "source": "mead_1989_analog_vlsi",
+      "target": "subthreshold_mosfet_exp_iv"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_1989_analog_vlsi",
+      "_tgt": "mead_translinear_loop",
+      "source": "mead_1989_analog_vlsi",
+      "target": "mead_translinear_loop"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_1989_analog_vlsi",
+      "_tgt": "silicon_retina_mead",
+      "source": "mead_1989_analog_vlsi",
+      "target": "silicon_retina_mead"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_1989_analog_vlsi",
+      "_tgt": "mead_floating_gate_adaptive_synapse",
+      "source": "mead_1989_analog_vlsi",
+      "target": "mead_floating_gate_adaptive_synapse"
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_1989_analog_vlsi",
+      "_tgt": "liu_2002_analog_vlsi",
+      "source": "mead_1989_analog_vlsi",
+      "target": "liu_2002_analog_vlsi"
+    },
+    {
+      "relation": "industrializes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_1989_analog_vlsi",
+      "_tgt": "vittoz_subthreshold_lateral_bjt",
+      "source": "mead_1989_analog_vlsi",
+      "target": "vittoz_subthreshold_lateral_bjt"
+    },
+    {
+      "relation": "applies",
+      "confidence": "INFERRED",
+      "confidence_score": 0.92,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_1989_analog_vlsi",
+      "_tgt": "gilbert_1975_translinear_principle",
+      "source": "mead_1989_analog_vlsi",
+      "target": "gilbert_1975_translinear_principle"
+    },
+    {
+      "relation": "is_regime_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "subthreshold_mosfet_exp_iv",
+      "_tgt": "mosfet_three_regimes",
+      "source": "subthreshold_mosfet_exp_iv",
+      "target": "mosfet_three_regimes"
+    },
+    {
+      "relation": "tsividis_ekv_to_subthreshold_three_regimes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "subthreshold_mosfet_exp_iv",
+      "_tgt": "ekv_unified_mos_model",
+      "source": "subthreshold_mosfet_exp_iv",
+      "target": "ekv_unified_mos_model"
+    },
+    {
+      "relation": "mead_translinear_to_gilbert",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_translinear_loop",
+      "_tgt": "gilbert_1975_translinear_principle",
+      "source": "mead_translinear_loop",
+      "target": "gilbert_1975_translinear_principle"
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_floating_gate_adaptive_synapse",
+      "_tgt": "hasler_1996_single_transistor_synapse",
+      "source": "mead_floating_gate_adaptive_synapse",
+      "target": "hasler_1996_single_transistor_synapse"
+    },
+    {
+      "relation": "nsram_to_translinear",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mead_floating_gate_adaptive_synapse",
+      "_tgt": "ns_ram_2t_cell",
+      "source": "mead_floating_gate_adaptive_synapse",
+      "target": "ns_ram_2t_cell"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "liu_2002_analog_vlsi",
+      "_tgt": "lif_neuron_circuit",
+      "source": "liu_2002_analog_vlsi",
+      "target": "lif_neuron_circuit"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "liu_2002_analog_vlsi",
+      "_tgt": "aer_address_event_representation",
+      "source": "liu_2002_analog_vlsi",
+      "target": "aer_address_event_representation"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "vittoz_subthreshold_lateral_bjt",
+      "_tgt": "kt_over_c_thermal_noise",
+      "source": "vittoz_subthreshold_lateral_bjt",
+      "target": "kt_over_c_thermal_noise"
+    },
+    {
+      "relation": "enables_in_cmos",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "vittoz_subthreshold_lateral_bjt",
+      "_tgt": "gilbert_1975_translinear_principle",
+      "source": "vittoz_subthreshold_lateral_bjt",
+      "target": "gilbert_1975_translinear_principle"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_translinear_principle_main",
+      "_tgt": "gilbert_1968_four_quadrant_multiplier",
+      "source": "part2_translinear_principle_main",
+      "target": "gilbert_1968_four_quadrant_multiplier"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_translinear_principle_main",
+      "_tgt": "gilbert_1975_translinear_principle",
+      "source": "part2_translinear_principle_main",
+      "target": "gilbert_1975_translinear_principle"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_translinear_principle_main",
+      "_tgt": "toumazou_1990_current_mode",
+      "source": "part2_translinear_principle_main",
+      "target": "toumazou_1990_current_mode"
+    },
+    {
+      "relation": "instance_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "gilbert_1968_four_quadrant_multiplier",
+      "_tgt": "translinear_loop_identity",
+      "source": "gilbert_1968_four_quadrant_multiplier",
+      "target": "translinear_loop_identity"
+    },
+    {
+      "relation": "states_theorem",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "gilbert_1975_translinear_principle",
+      "_tgt": "translinear_loop_identity",
+      "source": "gilbert_1975_translinear_principle",
+      "target": "translinear_loop_identity"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "gilbert_1975_translinear_principle",
+      "_tgt": "translinear_primitives_squarer_geomean",
+      "source": "gilbert_1975_translinear_principle",
+      "target": "translinear_primitives_squarer_geomean"
+    },
+    {
+      "relation": "gilbert_to_eml",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "gilbert_1975_translinear_principle",
+      "_tgt": "eml_operator_log_domain",
+      "source": "gilbert_1975_translinear_principle",
+      "target": "eml_operator_log_domain"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "translinear_loop_identity",
+      "_tgt": "eml_operator_log_domain",
+      "source": "translinear_loop_identity",
+      "target": "eml_operator_log_domain"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "toumazou_1990_current_mode",
+      "_tgt": "current_conveyor_ccii",
+      "source": "toumazou_1990_current_mode",
+      "target": "current_conveyor_ccii"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_translinear_principle.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "toumazou_1990_current_mode",
+      "_tgt": "gm_c_filter",
+      "source": "toumazou_1990_current_mode",
+      "target": "gm_c_filter"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_volterra_wiener_theory_main",
+      "_tgt": "volterra_series_definition",
+      "source": "part2_volterra_wiener_theory_main",
+      "target": "volterra_series_definition"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_volterra_wiener_theory_main",
+      "_tgt": "rugh_1981_volterra_wiener",
+      "source": "part2_volterra_wiener_theory_main",
+      "target": "rugh_1981_volterra_wiener"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part2_volterra_wiener_theory_main",
+      "_tgt": "schetzen_1980_wiener_theory",
+      "source": "part2_volterra_wiener_theory_main",
+      "target": "schetzen_1980_wiener_theory"
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "volterra_series_definition",
+      "_tgt": "boyd_chua_1985_fading_memory",
+      "source": "volterra_series_definition",
+      "target": "boyd_chua_1985_fading_memory"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "rugh_1981_volterra_wiener",
+      "_tgt": "boyd_chua_1985_fading_memory",
+      "source": "rugh_1981_volterra_wiener",
+      "target": "boyd_chua_1985_fading_memory"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "rugh_1981_volterra_wiener",
+      "_tgt": "hammerstein_wiener_decomposition",
+      "source": "rugh_1981_volterra_wiener",
+      "target": "hammerstein_wiener_decomposition"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "rugh_1981_volterra_wiener",
+      "_tgt": "switched_volterra_pwl",
+      "source": "rugh_1981_volterra_wiener",
+      "target": "switched_volterra_pwl"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "schetzen_1980_wiener_theory",
+      "_tgt": "wiener_g_functional_orthogonalization",
+      "source": "schetzen_1980_wiener_theory",
+      "target": "wiener_g_functional_orthogonalization"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_volterra_wiener_theory.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "schetzen_1980_wiener_theory",
+      "_tgt": "cross_correlation_kernel_identification",
+      "source": "schetzen_1980_wiener_theory",
+      "target": "cross_correlation_kernel_identification"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_semiconductor_physics_textbooks_main",
+      "_tgt": "sze_ng_2021_semiconductor_devices",
+      "source": "part3_semiconductor_physics_textbooks_main",
+      "target": "sze_ng_2021_semiconductor_devices"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_semiconductor_physics_textbooks_main",
+      "_tgt": "tsividis_2010_mos_transistor",
+      "source": "part3_semiconductor_physics_textbooks_main",
+      "target": "tsividis_2010_mos_transistor"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "sze_ng_2021_semiconductor_devices",
+      "_tgt": "pn_junction_diode_iv",
+      "source": "sze_ng_2021_semiconductor_devices",
+      "target": "pn_junction_diode_iv"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "sze_ng_2021_semiconductor_devices",
+      "_tgt": "mosfet_three_regimes",
+      "source": "sze_ng_2021_semiconductor_devices",
+      "target": "mosfet_three_regimes"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "sze_ng_2021_semiconductor_devices",
+      "_tgt": "punch_through_impact_ionization",
+      "source": "sze_ng_2021_semiconductor_devices",
+      "target": "punch_through_impact_ionization"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "sze_ng_2021_semiconductor_devices",
+      "_tgt": "sonos_charge_trap_layer",
+      "source": "sze_ng_2021_semiconductor_devices",
+      "target": "sonos_charge_trap_layer"
+    },
+    {
+      "relation": "tsividis_ekv_to_subthreshold_three_regimes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mosfet_three_regimes",
+      "_tgt": "ekv_unified_mos_model",
+      "source": "mosfet_three_regimes",
+      "target": "ekv_unified_mos_model"
+    },
+    {
+      "relation": "physical_basis_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "punch_through_impact_ionization",
+      "_tgt": "ns_ram_2t_cell",
+      "source": "punch_through_impact_ionization",
+      "target": "ns_ram_2t_cell"
+    },
+    {
+      "relation": "physical_basis_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "sonos_charge_trap_layer",
+      "_tgt": "ns_ram_2t_cell",
+      "source": "sonos_charge_trap_layer",
+      "target": "ns_ram_2t_cell"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "tsividis_2010_mos_transistor",
+      "_tgt": "ekv_unified_mos_model",
+      "source": "tsividis_2010_mos_transistor",
+      "target": "ekv_unified_mos_model"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "tsividis_2010_mos_transistor",
+      "_tgt": "short_channel_effects_dibl",
+      "source": "tsividis_2010_mos_transistor",
+      "target": "short_channel_effects_dibl"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_memristor_pcm_main",
+      "_tgt": "strukov_2008_missing_memristor",
+      "source": "part3_memristor_pcm_main",
+      "target": "strukov_2008_missing_memristor"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_memristor_pcm_main",
+      "_tgt": "ielmini_waser_2016_resistive_switching",
+      "source": "part3_memristor_pcm_main",
+      "target": "ielmini_waser_2016_resistive_switching"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_memristor_pcm_main",
+      "_tgt": "burr_2010_2017_pcm",
+      "source": "part3_memristor_pcm_main",
+      "target": "burr_2010_2017_pcm"
+    },
+    {
+      "relation": "realizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "strukov_2008_missing_memristor",
+      "_tgt": "chua_memristor_definition",
+      "source": "strukov_2008_missing_memristor",
+      "target": "chua_memristor_definition"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "ielmini_waser_2016_resistive_switching",
+      "_tgt": "rram_switching_mechanisms",
+      "source": "ielmini_waser_2016_resistive_switching",
+      "target": "rram_switching_mechanisms"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "ielmini_waser_2016_resistive_switching",
+      "_tgt": "ots_selector_1s1r",
+      "source": "ielmini_waser_2016_resistive_switching",
+      "target": "ots_selector_1s1r"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "burr_2010_2017_pcm",
+      "_tgt": "pcm_set_reset_chalcogenide",
+      "source": "burr_2010_2017_pcm",
+      "target": "pcm_set_reset_chalcogenide"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_memristor_pcm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "burr_2010_2017_pcm",
+      "_tgt": "pcm_drift_compensation",
+      "source": "burr_2010_2017_pcm",
+      "target": "pcm_drift_compensation"
+    },
+    {
+      "relation": "mram_to_pcm",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "burr_2010_2017_pcm",
+      "_tgt": "apalkov_2016_stt_mram",
+      "source": "burr_2010_2017_pcm",
+      "target": "apalkov_2016_stt_mram"
+    },
+    {
+      "relation": "mram_to_pcm",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "burr_2010_2017_pcm",
+      "_tgt": "wang_2012_vcma_mram",
+      "source": "burr_2010_2017_pcm",
+      "target": "wang_2012_vcma_mram"
+    },
+    {
+      "relation": "flash_to_pcm",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "burr_2010_2017_pcm",
+      "_tgt": "pavan_1997_flash_overview",
+      "source": "burr_2010_2017_pcm",
+      "target": "pavan_1997_flash_overview"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_mram_main",
+      "_tgt": "mtj_tmr_basics",
+      "source": "part3_mram_main",
+      "target": "mtj_tmr_basics"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_mram_main",
+      "_tgt": "apalkov_2016_stt_mram",
+      "source": "part3_mram_main",
+      "target": "apalkov_2016_stt_mram"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_mram_main",
+      "_tgt": "wang_2012_vcma_mram",
+      "source": "part3_mram_main",
+      "target": "wang_2012_vcma_mram"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_mram_main",
+      "_tgt": "mram_beol_3d_integration",
+      "source": "part3_mram_main",
+      "target": "mram_beol_3d_integration"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mtj_tmr_basics",
+      "_tgt": "apalkov_2016_stt_mram",
+      "source": "mtj_tmr_basics",
+      "target": "apalkov_2016_stt_mram"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "mtj_tmr_basics",
+      "_tgt": "wang_2012_vcma_mram",
+      "source": "mtj_tmr_basics",
+      "target": "wang_2012_vcma_mram"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "apalkov_2016_stt_mram",
+      "_tgt": "stt_critical_current",
+      "source": "apalkov_2016_stt_mram",
+      "target": "stt_critical_current"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_mram.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "wang_2012_vcma_mram",
+      "_tgt": "vcma_voltage_anisotropy",
+      "source": "wang_2012_vcma_mram",
+      "target": "vcma_voltage_anisotropy"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_charge_storage_nvm_main",
+      "_tgt": "pavan_1997_flash_overview",
+      "source": "part3_charge_storage_nvm_main",
+      "target": "pavan_1997_flash_overview"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_charge_storage_nvm_main",
+      "_tgt": "hasler_1996_single_transistor_synapse",
+      "source": "part3_charge_storage_nvm_main",
+      "target": "hasler_1996_single_transistor_synapse"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_charge_storage_nvm_main",
+      "_tgt": "muller_2015_ferroelectric_hfo2",
+      "source": "part3_charge_storage_nvm_main",
+      "target": "muller_2015_ferroelectric_hfo2"
+    },
+    {
+      "relation": "contains_section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "part3_charge_storage_nvm_main",
+      "_tgt": "ns_ram_2t_cell",
+      "source": "part3_charge_storage_nvm_main",
+      "target": "ns_ram_2t_cell"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "pavan_1997_flash_overview",
+      "_tgt": "floating_gate_nand_nor",
+      "source": "pavan_1997_flash_overview",
+      "target": "floating_gate_nand_nor"
+    },
+    {
+      "relation": "presents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/part3_charge_storage_nvm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "muller_2015_ferroelectric_hfo2",
+      "_tgt": "fefet_multilevel_vt",
+      "source": "muller_2015_ferroelectric_hfo2",
+      "target": "fefet_multilevel_vt"
     }
   ],
   "hyperedges": [
     {
-      "id": "feedback_alignment_family",
-      "label": "Feedback Alignment family of bio-plausible learning algorithms",
+      "id": "part1_modulation_decoding_textbooks",
+      "label": "Part 1 Modulation/Decoding textbook cluster",
       "members": [
-        "arxiv_1411_0247_main",
-        "arxiv_1411_0247_feedback_alignment",
-        "arxiv_1609_01596_main",
-        "arxiv_1609_01596_dfa_algorithm",
-        "arxiv_1909_01311_main",
-        "arxiv_1909_01311_drtp_algorithm",
-        "arxiv_1904_05391_main",
-        "arxiv_1904_05391_weight_mirror",
-        "arxiv_1510_05067_main",
-        "arxiv_1510_05067_sign_symmetry"
+        "part1_information_theory_classics_main",
+        "part1_data_conversion_textbooks_main",
+        "nyquist_1928_sampling_theorem",
+        "shannon_1948_entropy_capacity",
+        "inose_1962_sigma_delta_origin",
+        "razavi_1995_data_conversion",
+        "pelgrom_2017_adc_textbook",
+        "norsworthy_1996_sigma_delta",
+        "roza_1997_pwm_adc"
       ],
-      "relation": "family_of",
+      "relation": "thematic_cluster_modulation_decoding",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "raw/arxiv_1411_0247.md",
+      "confidence_score": 1.0,
+      "source_file": "raw/part1_information_theory_classics.md",
       "source_location": null,
       "weight": 1.0
     },
     {
-      "id": "evolution_strategies_family",
-      "label": "Evolution Strategies family of black-box optimizers",
+      "id": "part2_operator_correspondence_textbooks",
+      "label": "Part 2 Operator-Correspondence textbook cluster",
       "members": [
-        "arxiv_1106_4487_main",
-        "arxiv_1106_4487_nes_algorithm",
-        "arxiv_1106_4487_natural_gradient",
-        "arxiv_1703_03864_main",
-        "arxiv_1703_03864_es_rl",
-        "arxiv_1703_03864_common_random_numbers"
+        "part2_analog_vlsi_neuromorphic_main",
+        "part2_translinear_principle_main",
+        "part2_volterra_wiener_theory_main",
+        "mead_1989_analog_vlsi",
+        "liu_2002_analog_vlsi",
+        "vittoz_subthreshold_lateral_bjt",
+        "gilbert_1968_four_quadrant_multiplier",
+        "gilbert_1975_translinear_principle",
+        "toumazou_1990_current_mode",
+        "rugh_1981_volterra_wiener",
+        "schetzen_1980_wiener_theory"
       ],
-      "relation": "family_of",
+      "relation": "thematic_cluster_operator_correspondence",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "raw/arxiv_1106_4487.md",
+      "confidence_score": 1.0,
+      "source_file": "raw/part2_analog_vlsi_neuromorphic.md",
       "source_location": null,
       "weight": 1.0
     },
     {
-      "id": "forward_only_learning_pure_family",
-      "label": "Pure Forward-Only Learning Family (Sigprop + Forward-Forward + Forward Gradient)",
+      "id": "part3_device_physics_textbooks",
+      "label": "Part 3 Device Physics textbook cluster",
       "members": [
-        "arxiv_2204_01723_main",
-        "arxiv_2212_13345_main",
-        "arxiv_2202_08587_main"
+        "part3_semiconductor_physics_textbooks_main",
+        "part3_memristor_pcm_main",
+        "part3_mram_main",
+        "part3_charge_storage_nvm_main",
+        "sze_ng_2021_semiconductor_devices",
+        "tsividis_2010_mos_transistor",
+        "strukov_2008_missing_memristor",
+        "ielmini_waser_2016_resistive_switching",
+        "burr_2010_2017_pcm",
+        "apalkov_2016_stt_mram",
+        "wang_2012_vcma_mram",
+        "pavan_1997_flash_overview",
+        "hasler_1996_single_transistor_synapse",
+        "muller_2015_ferroelectric_hfo2",
+        "ns_ram_2t_cell"
       ],
-      "relation": "co_membership_forward_only_learning",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "raw/material_collection_plan.md",
-      "source_location": "Part 4 Tier 1 \u2014 Local-only / feedback-alignment \uac00\uc871 + Forward-mode auto-diff",
-      "weight": 1.0
-    },
-    {
-      "id": "pcm_neural_network_pair",
-      "label": "PCM Neural Network Hardware Pair (Inference + L2L Adaptation)",
-      "members": [
-        "arxiv_1906_03138_main",
-        "arxiv_2405_05141_main"
-      ],
-      "relation": "co_membership_pcm_neural_network",
+      "relation": "thematic_cluster_device_physics",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "raw/material_collection_plan.md",
-      "source_location": "Part 3 \u2014 \uc0c1\ubcc0\ud654 \uba54\ubaa8\ub9ac (PCM)",
-      "weight": 1.0
-    },
-    {
-      "id": "neuromorphic_2022_2024_surveys",
-      "label": "Neuromorphic 2022-2024 Survey Pair (Christensen Roadmap + Frenkel-Bol-Indiveri)",
-      "members": [
-        "arxiv_2105_05956_main",
-        "arxiv_2106_01288_main"
-      ],
-      "relation": "co_membership_neuromorphic_survey",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/material_collection_plan.md",
-      "source_location": "Part 3 Tier 2",
-      "weight": 1.0
-    },
-    {
-      "id": "four_part_collection_plan",
-      "label": "4-Part Collection Plan Hyperstructure",
-      "members": [
-        "material_collection_plan_main",
-        "material_collection_plan_part1_modulation",
-        "material_collection_plan_part2_operator_correspondence",
-        "material_collection_plan_part3_devices",
-        "material_collection_plan_part4_neural_operator"
-      ],
-      "relation": "co_membership_collection_plan_structure",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/material_collection_plan.md",
-      "source_location": "Full document",
+      "source_file": "raw/part3_semiconductor_physics_textbooks.md",
+      "source_location": null,
       "weight": 1.0
     }
   ]

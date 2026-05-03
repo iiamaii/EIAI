@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_1411_0247.md"
 type: "paper"
-community: "Bio-plausible Learning (EquProp, Bengio)"
+community: "Hiratani Node Perturbation + Stage 2 Tier 1"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Bio-plausible_Learning_(EquProp,_Bengio)
+  - community/Hiratani_Node_Perturbation_+_Stage_2_Tier_1
 ---
 
 # Removes weight transport requirement (biological plausibility)
@@ -15,4 +15,4 @@ tags:
 - [[Biologically plausible deep learning framework]] - `semantically_similar_to` [INFERRED]
 - [[Random Feedback Weights  Feedback Alignment (Lillicrap et al. 2014)]] - `claims_advantage` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Bio-plausible_Learning_(EquProp,_Bengio)
+#graphify/paper #graphify/EXTRACTED #community/Hiratani_Node_Perturbation_+_Stage_2_Tier_1

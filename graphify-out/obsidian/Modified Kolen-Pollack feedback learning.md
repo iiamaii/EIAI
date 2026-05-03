@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_1904_05391.md"
 type: "paper"
-community: "Feedback Alignment (Lillicrap + Akrout + Liao)"
+community: "Forward-only / DFA / Feedback Alignment"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Feedback_Alignment_(Lillicrap_+_Akrout_+_Liao)
+  - community/Forward-only_/_DFA_/_Feedback_Alignment
 ---
 
 # Modified Kolen-Pollack feedback learning
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Deep Learning without Weight Transport (Akrout et al. 2019)]] - `uses_technique` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Feedback_Alignment_(Lillicrap_+_Akrout_+_Liao)
+#graphify/paper #graphify/EXTRACTED #community/Forward-only_/_DFA_/_Feedback_Alignment

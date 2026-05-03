@@ -1,59 +1,66 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/Evolution_Strategies_(NES_+_Salimans_+_EGGROLL)",
+      "query": "tag:#community/ES_+_EML_+_Backprop-free_Algorithms_(Part_4_hub)",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Forward-only_/_Forward_Gradient",
+      "query": "tag:#community/Translinear_+_Volterra_+_PCM_Devices_(Part_2/3_cross)",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Feedback_Alignment_(Lillicrap_+_Akrout_+_Liao)",
+      "query": "tag:#community/Forward-only_/_DFA_/_Feedback_Alignment",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Direct_Feedback_Alignment_+_DRTP",
+      "query": "tag:#community/Part_1_Modulation_+_4-Part_Collection_Plan",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/PCM_Neural_Network_Training",
+      "query": "tag:#community/Mead/Liu/Vittoz_Analog_VLSI_(Part_2_textbooks)",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Bio-plausible_Learning_(EquProp,_Bengio)",
+      "query": "tag:#community/Charge-storage_NVM_+_MRAM_(Part_3_devices)",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/4-Part_Collection_Plan_+_Forward-Pass_Algorithms",
+      "query": "tag:#community/Bio-plausible_Learning_+_Neuromorphic_Surveys",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Neuromorphic_2022-2024_Surveys",
+      "query": "tag:#community/Semiconductor_Physics_(Sze/Tsividis/EKV)",
       "color": {
         "a": 1,
         "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Hiratani_Node_Perturbation_+_Stage_2_Tier_1",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
       }
     }
   ]

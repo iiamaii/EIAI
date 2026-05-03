@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_1609_01596.md"
 type: "paper"
-community: "Direct Feedback Alignment + DRTP"
+community: "Forward-only / DFA / Feedback Alignment"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Direct_Feedback_Alignment_+_DRTP
+  - community/Forward-only_/_DFA_/_Feedback_Alignment
 ---
 
 # Direct Feedback Alignment (Nokland 2016)
@@ -18,4 +18,4 @@ tags:
 - [[Layer-independent training without error backprop]] - `claims_advantage` [EXTRACTED]
 - [[Random Feedback Weights  Feedback Alignment (Lillicrap et al. 2014)]] - `cites_or_extends` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Direct_Feedback_Alignment_+_DRTP
+#graphify/paper #graphify/EXTRACTED #community/Forward-only_/_DFA_/_Feedback_Alignment

@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_1106_4487.md"
 type: "paper"
-community: "Evolution Strategies (NES + Salimans + EGGROLL)"
+community: "Bio-plausible Learning + Neuromorphic Surveys"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Evolution_Strategies_(NES_+_Salimans_+_EGGROLL)
+  - community/Bio-plausible_Learning_+_Neuromorphic_Surveys
 ---
 
 # Natural Evolution Strategies (Wierstra et al. 2011)
@@ -17,4 +17,4 @@ tags:
 - [[Natural gradient on parameterized search distribution]] - `uses_technique` [EXTRACTED]
 - [[Principled black-box optimization]] - `claims_advantage` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Evolution_Strategies_(NES_+_Salimans_+_EGGROLL)
+#graphify/paper #graphify/EXTRACTED #community/Bio-plausible_Learning_+_Neuromorphic_Surveys

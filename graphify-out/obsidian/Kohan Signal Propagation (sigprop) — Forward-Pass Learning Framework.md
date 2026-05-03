@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_2204_01723.md"
 type: "paper"
-community: "Forward-only / Forward Gradient"
+community: "ES + EML + Backprop-free Algorithms (Part 4 hub)"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Forward-only_/_Forward_Gradient
+  - community/ES_+_EML_+_Backprop-free_Algorithms_(Part_4_hub)
 ---
 
 # Kohan: Signal Propagation (sigprop) — Forward-Pass Learning Framework
@@ -18,4 +18,4 @@ tags:
 - [[Sigprop Global Supervised Learning via Forward Path Only]] - `has_subtopic` [EXTRACTED]
 - [[Sigprop Trains Spiking and Continuous-Time Networks with Hebbian Updates]] - `has_subtopic` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Forward-only_/_Forward_Gradient
+#graphify/paper #graphify/EXTRACTED #community/ES_+_EML_+_Backprop-free_Algorithms_(Part_4_hub)

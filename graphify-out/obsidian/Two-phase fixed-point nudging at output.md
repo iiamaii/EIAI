@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_1602_05179.md"
 type: "paper"
-community: "Bio-plausible Learning (EquProp, Bengio)"
+community: "ES + EML + Backprop-free Algorithms (Part 4 hub)"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Bio-plausible_Learning_(EquProp,_Bengio)
+  - community/ES_+_EML_+_Backprop-free_Algorithms_(Part_4_hub)
 ---
 
 # Two-phase fixed-point nudging at output
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Equilibrium Propagation (Scellier & Bengio 2016)]] - `uses_technique` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Bio-plausible_Learning_(EquProp,_Bengio)
+#graphify/paper #graphify/EXTRACTED #community/ES_+_EML_+_Backprop-free_Algorithms_(Part_4_hub)

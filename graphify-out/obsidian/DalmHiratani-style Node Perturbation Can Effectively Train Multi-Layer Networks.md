@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_2310_00965.md"
 type: "paper"
-community: "4-Part Collection Plan + Forward-Pass Algorithms"
+community: "Bio-plausible Learning + Neuromorphic Surveys"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/4-Part_Collection_Plan_+_Forward-Pass_Algorithms
+  - community/Bio-plausible_Learning_+_Neuromorphic_Surveys
 ---
 
 # Dalm/Hiratani-style: Node Perturbation Can Effectively Train Multi-Layer Networks
@@ -18,4 +18,4 @@ tags:
 - [[Node Perturbation On-Chip Learning in Noisy Neuromorphic Systems]] - `has_subtopic` [EXTRACTED]
 - [[Part 4 — Neural Operator + Backprop-Free Optimization]] - `belongs_to_part` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/4-Part_Collection_Plan_+_Forward-Pass_Algorithms
+#graphify/paper #graphify/EXTRACTED #community/Bio-plausible_Learning_+_Neuromorphic_Surveys

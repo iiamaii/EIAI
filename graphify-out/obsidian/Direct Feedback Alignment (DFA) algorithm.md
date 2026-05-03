@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_1609_01596.md"
 type: "paper"
-community: "Direct Feedback Alignment + DRTP"
+community: "Forward-only / DFA / Feedback Alignment"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Direct_Feedback_Alignment_+_DRTP
+  - community/Forward-only_/_DFA_/_Feedback_Alignment
 ---
 
 # Direct Feedback Alignment (DFA) algorithm
@@ -16,4 +16,4 @@ tags:
 - [[Direct Random Target Projection (DRTP) algorithm]] - `cites_or_extends` [INFERRED]
 - [[Feedback Alignment algorithm]] - `cites_or_extends` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Direct_Feedback_Alignment_+_DRTP
+#graphify/paper #graphify/INFERRED #community/Forward-only_/_DFA_/_Feedback_Alignment

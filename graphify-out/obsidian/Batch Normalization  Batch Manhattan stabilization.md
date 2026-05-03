@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_1510_05067.md"
 type: "paper"
-community: "Feedback Alignment (Lillicrap + Akrout + Liao)"
+community: "Forward-only / DFA / Feedback Alignment"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Feedback_Alignment_(Lillicrap_+_Akrout_+_Liao)
+  - community/Forward-only_/_DFA_/_Feedback_Alignment
 ---
 
 # Batch Normalization / Batch Manhattan stabilization
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[How Important is Weight Symmetry in Backpropagation (Liao et al. 2015)]] - `uses_technique` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Feedback_Alignment_(Lillicrap_+_Akrout_+_Liao)
+#graphify/paper #graphify/EXTRACTED #community/Forward-only_/_DFA_/_Feedback_Alignment

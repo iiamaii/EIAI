@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_2105_05956.md"
 type: "paper"
-community: "Neuromorphic 2022-2024 Surveys"
+community: "Translinear + Volterra + PCM Devices (Part 2/3 cross)"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Neuromorphic_2022-2024_Surveys
+  - community/Translinear_+_Volterra_+_PCM_Devices_(Part_2/3_cross)
 ---
 
 # Roadmap: Survey of Materials, Devices and Circuits for Neuromorphic Computing
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Christensen et al. 2022 Roadmap on Neuromorphic Computing and Engineering]] - `has_subtopic` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Neuromorphic_2022-2024_Surveys
+#graphify/paper #graphify/EXTRACTED #community/Translinear_+_Volterra_+_PCM_Devices_(Part_2/3_cross)

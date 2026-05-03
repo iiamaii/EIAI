@@ -6,8 +6,15 @@
       "output_tokens": 8500,
       "files": 19,
       "note": "fresh start: 18 arxiv + 1 plan, full pipeline + obsidian vault"
+    },
+    {
+      "date": "2026-05-03T09:52:38.719065+00:00",
+      "input_tokens": 7000,
+      "output_tokens": 9000,
+      "files": 9,
+      "note": "Part 1/2/3 textbook summary notes (9 thematic)"
     }
   ],
-  "total_input_tokens": 6500,
-  "total_output_tokens": 8500
+  "total_input_tokens": 13500,
+  "total_output_tokens": 17500
 }

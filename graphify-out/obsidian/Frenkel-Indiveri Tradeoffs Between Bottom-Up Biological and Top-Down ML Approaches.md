@@ -1,12 +1,12 @@
 ---
 source_file: "raw/arxiv_2106_01288.md"
 type: "paper"
-community: "Neuromorphic 2022-2024 Surveys"
+community: "Translinear + Volterra + PCM Devices (Part 2/3 cross)"
 location: "Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Neuromorphic_2022-2024_Surveys
+  - community/Translinear_+_Volterra_+_PCM_Devices_(Part_2/3_cross)
 ---
 
 # Frenkel-Indiveri: Tradeoffs Between Bottom-Up Biological and Top-Down ML Approaches
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Frenkel, Bol, Indiveri Bottom-Up vs Top-Down Neuromorphic Design]] - `has_subtopic` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Neuromorphic_2022-2024_Surveys
+#graphify/paper #graphify/EXTRACTED #community/Translinear_+_Volterra_+_PCM_Devices_(Part_2/3_cross)
